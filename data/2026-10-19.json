@@ -1,0 +1,760 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Kuala_Lumpur",
+  "built_at_local": "2026-10-19 23:15:00 +0800",
+  "schema_note": "Interim fields. Claude Code may redefine. Required per item: date, section (marketing|product), title, url, source, summary, tags.",
+  "counts": {
+    "marketing": 20,
+    "product": 26,
+    "total": 46
+  },
+  "items": [
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "怎么选一双“有支撑”的鞋",
+      "url": "https://www.youtube.com/watch?v=mycE-mthAq8",
+      "source": "YouTube 长视频",
+      "summary": "买鞋只看好看或软，结果走久了累；不知道支撑、鞋跟稳定、鞋头空间怎么判断。 | 钩子: 选鞋 3 个动作测试：扭、压、按。 | 合规: 对比“鞋型/结构”而非点名贬低品牌；不承诺功效。",
+      "tags": [
+        "OT",
+        "RISING",
+        "comparison",
+        "flatfeet",
+        "best walking shoes",
+        "best shoes for standing all day",
+        "walking shoes for flat feet",
+        "best running shoes for flat feet"
+      ],
+      "brand": "OT",
+      "id": "ot-supportive_footwear"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "脚与姿势的常见误区",
+      "url": "https://www.youtube.com/watch?v=wVZ5DynU_FE",
+      "source": "YouTube 长视频",
+      "summary": "网上说法很多，家长和上班族不知道哪些是真的。 | 钩子: 孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。 | 合规: 误区内容需有可靠来源；不得以恐吓式说法促销。",
+      "tags": [
+        "OT",
+        "RISING",
+        "expert_explainer",
+        "kakirata",
+        "flatfeet",
+        "flat feet correction",
+        "扁平足",
+        "orthotics"
+      ],
+      "brand": "OT",
+      "id": "ot-myth_education"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "孩子的脚：扁平足 / 足弓的家长科普",
+      "url": "https://www.instagram.com/p/DemQ_I8sjqz/",
+      "source": "Instagram Reels",
+      "summary": "家长发现孩子走路容易累、鞋子外侧磨得快、常说脚酸，不知道要不要担心、该怎么选鞋和鞋垫。 | 钩子: 孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。 | 合规: 只做观察与选鞋建议；不说“治好/矫正扁平足”；提醒有疑虑请咨询专业人士；未成年人出镜需家长同意。",
+      "tags": [
+        "OT",
+        "保留",
+        "expert_explainer",
+        "flatfeet",
+        "flatfoot",
+        "kakirata",
+        "flat feet",
+        "pes planus"
+      ],
+      "brand": "OT",
+      "id": "ot-kids_feet_growth"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "鞋垫 / 书包 / 姿势产品真实测评",
+      "url": "https://www.youtube.com/watch?v=pdbFJCrkpyI",
+      "source": "YouTube 长视频",
+      "summary": "市面产品太多，担心买到没用的。 | 钩子: RM 几十和几百的鞋垫，差在哪里？ | 合规: 不点名贬低竞品；测评结论只写个人感受；不复刻竞品视频的画面与文案。",
+      "tags": [
+        "OT",
+        "保留",
+        "review",
+        "orthotic insoles",
+        "orthotics",
+        "custom orthotics",
+        "posture corrector review",
+        "customorthotics"
+      ],
+      "brand": "OT",
+      "id": "ot-product_review_comparison"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "久站 / 久走上班族的脚部舒适",
+      "url": "https://www.instagram.com/p/DeAkExgNp4W/",
+      "source": "Instagram Reels",
+      "summary": "护士、柜台、老师、餐饮业整天站着，下班脚底和小腿又酸又累。 | 钩子: 久站族的 3 个小习惯，让脚没那么累。 | 合规: 说“更舒适、分散压力的支撑感”；不说“治疗足底筋膜炎”；疼痛持续请就医。",
+      "tags": [
+        "OT",
+        "保留",
+        "comparison",
+        "insoles",
+        "archsupport",
+        "footpain",
+        "footcomfort",
+        "襪子"
+      ],
+      "brand": "OT",
+      "id": "ot-standing_work_comfort"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "定制鞋垫是怎么做出来的（扫描→建模→成品）",
+      "url": "https://www.youtube.com/watch?v=vbM9BoZKe5A",
+      "source": "YouTube 长视频",
+      "summary": "对定制鞋垫好奇但觉得神秘、怕贵、怕是智商税，想知道流程和适不适合自己。 | 钩子: 一双鞋垫为什么要先扫描你的脚？ | 合规: 展示流程与舒适感；“足弓检测”称评估而非诊断；不承诺矫正效果；价格/活动以实际为准。",
+      "tags": [
+        "OT",
+        "保留",
+        "expert_explainer",
+        "orthotics",
+        "custominsoles",
+        "insoles",
+        "flatfeet",
+        "kakirata"
+      ],
+      "brand": "OT",
+      "id": "ot-custom_insole_process"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "运动 / 跑步时的足部支撑",
+      "url": "https://www.instagram.com/p/DeEzk3xCrOA/",
+      "source": "Instagram Reels",
+      "summary": "跑步、打球后脚底累或脚踝不稳，想知道鞋垫和鞋能不能帮上忙。 | 钩子: 跑完 5 公里，你的脚底还好吗？ | 合规: 不宣称提升成绩或预防运动伤害。",
+      "tags": [
+        "OT",
+        "保留",
+        "expert_explainer",
+        "insoles",
+        "best running shoes for flat feet",
+        "running shoes for flat feet",
+        "stability running shoes",
+        "best running shoes"
+      ],
+      "brand": "OT",
+      "id": "ot-sports_active_support"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "姿势小习惯：低头族 / 久坐 / 驼背感",
+      "url": "https://www.instagram.com/p/DdFEq9sCtqN/",
+      "source": "Instagram Reels",
+      "summary": "长时间低头看手机、久坐办公，肩颈紧、站姿不好看，想改善但不知道从哪开始。 | 钩子: 你现在是不是正在低头看这条视频？ | 合规: 讲习惯与舒适；矫姿带类产品不说“矫正驼背/脊柱”；运动建议保持温和并提示量力而行。",
+      "tags": [
+        "OT",
+        "保留",
+        "review",
+        "posturecorrection",
+        "posture corrector",
+        "posture corrector brace",
+        "posture",
+        "neckpain"
+      ],
+      "brand": "OT",
+      "id": "ot-posture_back_neck"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "书包太重？护脊书包与背书包习惯",
+      "url": "https://www.youtube.com/watch?v=HE7DAfUTFUk",
+      "source": "YouTube Shorts",
+      "summary": "孩子每天背很重的书包，肩膀勒红、身体前倾，家长心疼却不知道书包该怎么选、怎么背。 | 钩子: 你孩子的书包有多重？拿家里的秤称一下。 | 合规: 说“分担负重 / 背得更舒适 / 帮助保持好姿势习惯”；不说“预防/矫正脊柱侧弯、驼背”。",
+      "tags": [
+        "OT",
+        "观察",
+        "review",
+        "school bags",
+        "teemi",
+        "beg sekolah",
+        "ergonomic school bag",
+        "travel bag"
+      ],
+      "brand": "OT",
+      "id": "ot-school_bag_posture"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "解压清洁：泡沫 + 前后对比",
+      "url": "https://www.youtube.com/watch?v=SRCOazNKltM",
+      "source": "YouTube 长视频",
+      "summary": "观众爱看“脏→干净”的解压过程，这也是展示泡沫质感最自然的方式。 | 钩子: 你能看完这 15 秒不觉得解压吗？ | 合规: 真实拍摄、不加速造假、不美颜滤镜；结尾给产品信息即可。",
+      "tags": [
+        "FF",
+        "RISING",
+        "satisfying_demo",
+        "cleantok",
+        "satisfyingcleaning",
+        "asmr",
+        "cleaning",
+        "cleanwithme"
+      ],
+      "brand": "FF",
+      "id": "ff-satisfying_asmr"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "车内清洁：座椅 / 脚垫 / 方向盘",
+      "url": "https://www.youtube.com/watch?v=7afmCJNTvHk",
+      "source": "YouTube 长视频",
+      "summary": "车里吃东西、孩子弄脏座椅、脚垫泥沙，拿去洗车店又贵。 | 钩子: 你的车座椅，多久没洗了？ | 合规: 注明适用材质（织物/皮革）；不示范危险化学品。",
+      "tags": [
+        "FF",
+        "RISING",
+        "tutorial",
+        "car cleaning",
+        "car wash",
+        "auto detailing",
+        "car interior cleaning",
+        "interior car cleaning"
+      ],
+      "brand": "FF",
+      "id": "ff-car_interior"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "厨房油污：抽油烟机 / 炉台快速清洁",
+      "url": "https://www.youtube.com/watch?v=jYGsRupMask",
+      "source": "YouTube 长视频",
+      "summary": "马来西亚家庭常爆炒，油烟机和墙面黏腻难清。 | 钩子: 你家抽油烟机，上一次清是什么时候？ | 合规: 不示范混用不同清洁剂；提示戴手套、通风；按产品标签用途使用。",
+      "tags": [
+        "FF",
+        "RISING",
+        "tutorial",
+        "cleaninghacks",
+        "kitchencleaning",
+        "grease",
+        "how to clean",
+        "diy"
+      ],
+      "brand": "FF",
+      "id": "ff-kitchen_grease"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "小白鞋 / 校鞋 3 分钟免水洗翻新",
+      "url": "https://www.instagram.com/p/DeY3RTuIfTw/",
+      "source": "Instagram Reels",
+      "summary": "白鞋一穿就黄、校鞋每周都脏，手洗费时又怕洗坏、晒不干。 | 钩子: 一只洗、一只不洗，3 分钟后对比。 | 合规: 前后对比真实同一双鞋；不同材质先局部测试；不夸大“永久洁白”。",
+      "tags": [
+        "FF",
+        "RISING",
+        "tutorial",
+        "sneakercleaning",
+        "shoecleaning",
+        "whiteshoes",
+        "cucikasut",
+        "cleaninghacks"
+      ],
+      "brand": "FF",
+      "id": "ff-sneaker_white_shoes"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "懒人清洁 routine / 小技巧",
+      "url": "https://www.instagram.com/p/Del6a4Wpps-/",
+      "source": "Instagram Reels",
+      "summary": "工作忙没时间大扫除，想要 5–10 分钟就能完成的清洁节奏。 | 钩子: 大扫除一次，不如每天做这件小事。 | 合规: “偏方”只用安全、常见做法；绝不混用清洁剂。",
+      "tags": [
+        "FF",
+        "保留",
+        "tutorial",
+        "cleaninghacks",
+        "cleaning",
+        "cleanwithme",
+        "cleaningtips",
+        "stainremoval"
+      ],
+      "brand": "FF",
+      "id": "ff-hacks_routine"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "浴室霉斑 / 水垢清洁",
+      "url": "https://www.youtube.com/watch?v=ExEDcKK8u4E",
+      "source": "YouTube 长视频",
+      "summary": "潮湿气候导致瓷砖缝发黑、玻璃水垢，刷了又长。 | 钩子: 瓷砖缝发黑，是脏还是霉？ | 合规: 严禁漂白水混醋/洁厕剂的“偏方”；标注通风；不说“杀灭霉菌 99.9%”。",
+      "tags": [
+        "FF",
+        "保留",
+        "tutorial",
+        "bathroom cleaning",
+        "cleaning hacks",
+        "cleaning tips",
+        "how to",
+        "homehacks"
+      ],
+      "brand": "FF",
+      "id": "ff-bathroom_mold"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "衣物 / 沙发污渍急救",
+      "url": "https://www.instagram.com/p/DenZUHhjIed/",
+      "source": "Instagram Reels",
+      "summary": "咖喱、酱油、口红、奶渍沾上衣服或沙发，不知道先做什么。 | 钩子: 咖喱沾到白衣服，第一步千万别做什么？ | 合规: 先在不显眼处测试；不承诺所有污渍都能去除。",
+      "tags": [
+        "FF",
+        "保留",
+        "tutorial",
+        "stainremoval",
+        "stain removal",
+        "laundrytips",
+        "clothingcare",
+        "clothes"
+      ],
+      "brand": "FF",
+      "id": "ff-stain_laundry"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "清洁产品真实测评 / 对比",
+      "url": "https://www.youtube.com/watch?v=QetxI5kZ9H4",
+      "source": "YouTube 长视频",
+      "summary": "网上清洁好物太多，怕买到没用的。 | 钩子: 3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。 | 合规: 对比“方法”而非点名贬低品牌；同条件测试；不复刻竞品视频。",
+      "tags": [
+        "FF",
+        "观察",
+        "review",
+        "sneaker cleaner foam",
+        "fz150",
+        "fz150 review",
+        "fz150 shoe cleaner guy",
+        "foam zone 150 shoe cleaner"
+      ],
+      "brand": "FF",
+      "id": "ff-product_review_comparison"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "下雨天的鞋子保护：防水 & 皮革护理",
+      "url": "https://www.instagram.com/p/Db7vnFGTGt7/",
+      "source": "Instagram Reels",
+      "summary": "马来西亚雨季多，新鞋一踩水就脏、皮鞋发霉起皱。 | 钩子: 雨季来了，你的鞋准备好了吗？ | 合规: 防水效果按实测展示，不承诺“永久防水”；注明适用材质。",
+      "tags": [
+        "FF",
+        "观察",
+        "tutorial",
+        "shoe care routine",
+        "shoe care",
+        "leather shoe maintenance",
+        "premium dress shoes",
+        "leather shoe care"
+      ],
+      "brand": "FF",
+      "id": "ff-shoe_protect_leather"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "鞋子臭？除臭的正确顺序",
+      "url": "https://www.youtube.com/watch?v=gpfnFvSd2X8",
+      "source": "YouTube 长视频",
+      "summary": "球鞋、校鞋、工作鞋一脱就尴尬，喷香水只能盖味道。 | 钩子: 鞋子除臭 3 步：先干、再洗、后喷。 | 合规: 说“去除异味 / 清新”；“抗菌”仅在有报告时使用；不涉及足部疾病。",
+      "tags": [
+        "FF",
+        "观察",
+        "tutorial",
+        "smelly shoes",
+        "stinky shoes",
+        "how to remove smell from shoes",
+        "shoes",
+        "sepatu bau"
+      ],
+      "brand": "FF",
+      "id": "ff-shoe_odor"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "marketing",
+      "title": "地板 / 多用途清洁：有孩子和宠物的家",
+      "url": "https://www.instagram.com/p/DeMeIGiNGpa/",
+      "source": "Instagram Reels",
+      "summary": "孩子在地上爬、宠物满屋跑，想要好闻又放心的日常拖地方案。 | 钩子: 宝宝在地上爬，你用什么拖地？ | 合规: “家庭/宠物安全”仅在有检测报告时使用；否则说“成分温和 / 按指示稀释使用”。",
+      "tags": [
+        "FF",
+        "观察",
+        "myth_busting",
+        "tilecleaner",
+        "floorcleanerindia",
+        "amazonfinds",
+        "cleaninghacks",
+        "homecareindia"
+      ],
+      "brand": "FF",
+      "id": "ff-floor_surfaces"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 泡沫清洁剂",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 100 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 厨房除油喷雾",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 92 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 洗衣机槽清洁",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 88 (flat)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 地板清洁电解水",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 81 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 浴室防霉喷雾",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 76 (down)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 洗衣凝珠",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 71 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 马桶泡泡慕斯",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 64 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 洗碗机专用粉",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 58 (flat)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 羽绒服干洗喷雾",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 49 (down)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "China Trends: 玻璃水垢去除",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 42 (up)",
+      "tags": [
+        "trends",
+        "cn"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: kitchen degreaser",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 100 (up)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: bathroom mould spray",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 87 (up)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: laundry beads",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 82 (flat)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: floor cleaner spray",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 74 (up)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: toilet foam cleaner",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 69 (up)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: dishwash liquid",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 61 (down)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: multipurpose cleaner",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 55 (flat)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: fabric softener",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 48 (down)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: glass cleaner",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 41 (up)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "Malaysia Trends: antibacterial wipe",
+      "url": "",
+      "source": "google_trends",
+      "summary": "relative interest 36 (flat)",
+      "tags": [
+        "trends",
+        "my"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "柑橘酵素厨房除油喷雾 500ml",
+      "url": "https://shopee.com.my/",
+      "source": "Shopee",
+      "summary": "本地卖家主打「免刷锅」短视频，转化率明显高于普通洗洁精。 | idea: Foamfresh 可做双效：除油 + 微泡沫留香，走厨房场景包。",
+      "tags": [
+        [
+          "厨房",
+          "马来西亚同行"
+        ],
+        "Shopee",
+        "sample"
+      ],
+      "priceMYR": 18.9,
+      "id": "ff-demo-001"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "防霉浴室玻璃净 柠檬清香",
+      "url": "https://www.lazada.com.my/",
+      "source": "Lazada",
+      "summary": "雨季浴室霉斑痛点强，带「30 秒可见」的 demo 易出单。 | idea: 搭配 Foamfresh 泡沫刷头周边，做浴室焕新组合装。",
+      "tags": [
+        [
+          "浴室"
+        ],
+        "Lazada",
+        "sample"
+      ],
+      "priceMYR": 24.5,
+      "id": "ff-demo-002"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "浓缩洗衣凝珠 草木清香 30 颗",
+      "url": "https://www.tiktok.com/",
+      "source": "TikTok",
+      "summary": "TikTok 直播以「一颗搞定」钩子带货，客单高于瓶装液。 | idea: Foamfresh 可推旅行装小袋 + 主推香型本地化（pandan / citrus）。",
+      "tags": [
+        [
+          "衣物",
+          "全球新品"
+        ],
+        "TikTok",
+        "sample"
+      ],
+      "priceMYR": 32.0,
+      "id": "ff-demo-003"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "木地板免洗护理喷雾",
+      "url": "https://shopee.com.my/",
+      "source": "Shopee",
+      "summary": "公寓木地板用户多，免洗护理减少拖地频次，复购稳定。 | idea: 用 Foamfresh 泡沫膜概念做「轻擦即净」短视频脚本。",
+      "tags": [
+        [
+          "地板",
+          "马来西亚同行"
+        ],
+        "Shopee",
+        "sample"
+      ],
+      "priceMYR": 29.9,
+      "id": "ff-demo-004"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "多酶洗碗粉（洗碗机专用）1kg",
+      "url": "https://www.amazon.com/",
+      "source": "Amazon",
+      "summary": "洗碗机渗透率上升，多酶配方在海外评论里口碑突出。 | idea: 观察马来西亚中产厨房趋势；可先做试用装测价带。",
+      "tags": [
+        [
+          "厨房",
+          "全球新品"
+        ],
+        "Amazon",
+        "sample"
+      ],
+      "priceMYR": 45.0,
+      "id": "ff-demo-005"
+    },
+    {
+      "date": "2026-10-19",
+      "section": "product",
+      "title": "泡沫马桶清洁慕斯 薰衣草",
+      "url": "https://www.lazada.com.my/",
+      "source": "Lazada",
+      "summary": "慕斯形态视觉强，适合 UGC；薰衣草香型在本地搜索上升。 | idea: 与 Foamfresh 品牌调性高度重合，可对标规格与香型矩阵。",
+      "tags": [
+        [
+          "浴室",
+          "马来西亚同行"
+        ],
+        "Lazada",
+        "sample"
+      ],
+      "priceMYR": 16.8,
+      "id": "ff-demo-006"
+    }
+  ]
+}

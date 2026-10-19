@@ -1,0 +1,232 @@
+{
+  "biz_date": "2026-10-19",
+  "built_at_local": "2026-10-19 15:53:09 +0800",
+  "timezone": "Asia/Kuala_Lumpur",
+  "sample": true,
+  "source": "/workspace/foamfresh-radar/index.html",
+  "trends": {
+    "date": "2026-10-18",
+    "sample": true,
+    "cn": [
+      {
+        "rank": 1,
+        "keyword": "泡沫清洁剂",
+        "interest": 100,
+        "trend": "up"
+      },
+      {
+        "rank": 2,
+        "keyword": "厨房除油喷雾",
+        "interest": 92,
+        "trend": "up"
+      },
+      {
+        "rank": 3,
+        "keyword": "洗衣机槽清洁",
+        "interest": 88,
+        "trend": "flat"
+      },
+      {
+        "rank": 4,
+        "keyword": "地板清洁电解水",
+        "interest": 81,
+        "trend": "up"
+      },
+      {
+        "rank": 5,
+        "keyword": "浴室防霉喷雾",
+        "interest": 76,
+        "trend": "down"
+      },
+      {
+        "rank": 6,
+        "keyword": "洗衣凝珠",
+        "interest": 71,
+        "trend": "up"
+      },
+      {
+        "rank": 7,
+        "keyword": "马桶泡泡慕斯",
+        "interest": 64,
+        "trend": "up"
+      },
+      {
+        "rank": 8,
+        "keyword": "洗碗机专用粉",
+        "interest": 58,
+        "trend": "flat"
+      },
+      {
+        "rank": 9,
+        "keyword": "羽绒服干洗喷雾",
+        "interest": 49,
+        "trend": "down"
+      },
+      {
+        "rank": 10,
+        "keyword": "玻璃水垢去除",
+        "interest": 42,
+        "trend": "up"
+      }
+    ],
+    "my": [
+      {
+        "rank": 1,
+        "keyword": "kitchen degreaser",
+        "interest": 100,
+        "trend": "up"
+      },
+      {
+        "rank": 2,
+        "keyword": "bathroom mould spray",
+        "interest": 87,
+        "trend": "up"
+      },
+      {
+        "rank": 3,
+        "keyword": "laundry beads",
+        "interest": 82,
+        "trend": "flat"
+      },
+      {
+        "rank": 4,
+        "keyword": "floor cleaner spray",
+        "interest": 74,
+        "trend": "up"
+      },
+      {
+        "rank": 5,
+        "keyword": "toilet foam cleaner",
+        "interest": 69,
+        "trend": "up"
+      },
+      {
+        "rank": 6,
+        "keyword": "dishwash liquid",
+        "interest": 61,
+        "trend": "down"
+      },
+      {
+        "rank": 7,
+        "keyword": "multipurpose cleaner",
+        "interest": 55,
+        "trend": "flat"
+      },
+      {
+        "rank": 8,
+        "keyword": "fabric softener",
+        "interest": 48,
+        "trend": "down"
+      },
+      {
+        "rank": 9,
+        "keyword": "glass cleaner",
+        "interest": 41,
+        "trend": "up"
+      },
+      {
+        "rank": 10,
+        "keyword": "antibacterial wipe",
+        "interest": 36,
+        "trend": "flat"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "ff-demo-001",
+      "name": "柑橘酵素厨房除油喷雾 500ml",
+      "priceMYR": 18.9,
+      "platform": "Shopee",
+      "category": [
+        "厨房",
+        "马来西亚同行"
+      ],
+      "why": "本地卖家主打「免刷锅」短视频，转化率明显高于普通洗洁精。",
+      "idea": "Foamfresh 可做双效：除油 + 微泡沫留香，走厨房场景包。",
+      "date": "2026-10-16",
+      "url": "https://shopee.com.my/",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=640&q=80",
+      "sample": true
+    },
+    {
+      "id": "ff-demo-002",
+      "name": "防霉浴室玻璃净 柠檬清香",
+      "priceMYR": 24.5,
+      "platform": "Lazada",
+      "category": [
+        "浴室"
+      ],
+      "why": "雨季浴室霉斑痛点强，带「30 秒可见」的 demo 易出单。",
+      "idea": "搭配 Foamfresh 泡沫刷头周边，做浴室焕新组合装。",
+      "date": "2026-10-15",
+      "url": "https://www.lazada.com.my/",
+      "image": "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=640&q=80",
+      "sample": true
+    },
+    {
+      "id": "ff-demo-003",
+      "name": "浓缩洗衣凝珠 草木清香 30 颗",
+      "priceMYR": 32.0,
+      "platform": "TikTok",
+      "category": [
+        "衣物",
+        "全球新品"
+      ],
+      "why": "TikTok 直播以「一颗搞定」钩子带货，客单高于瓶装液。",
+      "idea": "Foamfresh 可推旅行装小袋 + 主推香型本地化（pandan / citrus）。",
+      "date": "2026-10-17",
+      "url": "https://www.tiktok.com/",
+      "image": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=640&q=80",
+      "sample": true
+    },
+    {
+      "id": "ff-demo-004",
+      "name": "木地板免洗护理喷雾",
+      "priceMYR": 29.9,
+      "platform": "Shopee",
+      "category": [
+        "地板",
+        "马来西亚同行"
+      ],
+      "why": "公寓木地板用户多，免洗护理减少拖地频次，复购稳定。",
+      "idea": "用 Foamfresh 泡沫膜概念做「轻擦即净」短视频脚本。",
+      "date": "2026-10-14",
+      "url": "https://shopee.com.my/",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=640&q=80",
+      "sample": true
+    },
+    {
+      "id": "ff-demo-005",
+      "name": "多酶洗碗粉（洗碗机专用）1kg",
+      "priceMYR": 45.0,
+      "platform": "Amazon",
+      "category": [
+        "厨房",
+        "全球新品"
+      ],
+      "why": "洗碗机渗透率上升，多酶配方在海外评论里口碑突出。",
+      "idea": "观察马来西亚中产厨房趋势；可先做试用装测价带。",
+      "date": "2026-10-13",
+      "url": "https://www.amazon.com/",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dce?w=640&q=80",
+      "sample": true
+    },
+    {
+      "id": "ff-demo-006",
+      "name": "泡沫马桶清洁慕斯 薰衣草",
+      "priceMYR": 16.8,
+      "platform": "Lazada",
+      "category": [
+        "浴室",
+        "马来西亚同行"
+      ],
+      "why": "慕斯形态视觉强，适合 UGC；薰衣草香型在本地搜索上升。",
+      "idea": "与 Foamfresh 品牌调性高度重合，可对标规格与香型矩阵。",
+      "date": "2026-10-18",
+      "url": "https://www.lazada.com.my/",
+      "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=640&q=80",
+      "sample": true
+    }
+  ]
+}

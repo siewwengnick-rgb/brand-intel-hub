@@ -1,0 +1,1976 @@
+{
+  "generated_at_local": "2026-10-19 09:34:53 +0800",
+  "built_at_local": "2026-10-19 15:44:06 +0800",
+  "timezone": "Asia/Kuala_Lumpur",
+  "sources": {
+    "orthotech": "/workspace/viral-research-diy/pipeline/out/orthotech/content_angles.json",
+    "foamfresh": "/workspace/viral-research-diy/pipeline/out/foamfresh/content_angles.json",
+    "orthotech_meta": {
+      "generated_at_local": "2026-10-19 09:28:38 +0800",
+      "n_passed": 164,
+      "platforms_in_data": {
+        "youtube": 82,
+        "instagram": 82
+      },
+      "n_angles": 9
+    },
+    "foamfresh_meta": {
+      "generated_at_local": "2026-10-19 09:34:53 +0800",
+      "n_passed": 187,
+      "platforms_in_data": {
+        "youtube": 78,
+        "instagram": 109
+      },
+      "n_angles": 11
+    }
+  },
+  "counts": {
+    "ot": 9,
+    "ff": 11,
+    "total": 20
+  },
+  "weekly_md": "/workspace/content_angles_test_weekly_2026-10-19.md",
+  "ff_radar_pages": "https://siewwengnick-rgb.github.io/ff-radar-/",
+  "angles": [
+    {
+      "id": "ot-supportive_footwear",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "supportive_footwear",
+      "title": "怎么选一双“有支撑”的鞋",
+      "pain_point": "买鞋只看好看或软，结果走久了累；不知道支撑、鞋跟稳定、鞋头空间怎么判断。",
+      "hooks": [
+        {
+          "line": "选鞋 3 个动作测试：扭、压、按。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "你的鞋，能被轻易扭成麻花吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "越软的鞋不一定越舒服。",
+          "hook_type": "contrarian_wrong",
+          "hook_type_zh": "反常识/我错了"
+        }
+      ],
+      "top_hook": "选鞋 3 个动作测试：扭、压、按。",
+      "format_name": "对比测评",
+      "format_execution": "分屏/并排对比，同条件测试，15–30秒",
+      "format_key": "comparison",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 12/164 条通过筛选的视频属于此角度（占 7%）。",
+        "平台内表现百分位中位数 P72；50% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 176。",
+        "表现较好的视频最常用「清单数字」钩子（5 条）。"
+      ],
+      "compliance": "对比“鞋型/结构”而非点名贬低品牌；不承诺功效。",
+      "priority_score": 0.329,
+      "n": 12,
+      "median_perf_pct": 72.5,
+      "top_quartile_share": 0.5,
+      "status": "RISING",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "mycE-mthAq8",
+        "url": "https://i.ytimg.com/vi/mycE-mthAq8/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "Best Walking Shoes By Foot Type: Flat Feet, High Arches, Pronation & Supination (Podiatrist 2026)",
+        "ref_url": "https://www.youtube.com/watch?v=mycE-mthAq8",
+        "views": 84879
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "Best Walking Shoes By Foot Type: Flat Feet, High Arches, Pronation & Supination (Podiatrist 2026)",
+          "url": "https://www.youtube.com/watch?v=mycE-mthAq8",
+          "views": 84879,
+          "views_per_day": 663.1172,
+          "post_date": "2026-06-13",
+          "perf_pct": 97.0,
+          "youtube_id": "mycE-mthAq8"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "The Best Summer Walking Shoes for Every Foot Type (Podiatrist Recommends)",
+          "url": "https://www.youtube.com/watch?v=bX5ra1RTM58",
+          "views": 52653,
+          "views_per_day": 492.0841,
+          "post_date": "2026-07-04",
+          "perf_pct": 94.5,
+          "youtube_id": "bX5ra1RTM58"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "5 Best Shoes for Flat Feet 2026 (Podiatrist Approved)",
+          "url": "https://www.youtube.com/watch?v=wZVjMnyLSmA",
+          "views": 96214,
+          "views_per_day": 469.3366,
+          "post_date": "2026-03-28",
+          "perf_pct": 93.3,
+          "youtube_id": "wZVjMnyLSmA"
+        }
+      ],
+      "keywords_observed": [
+        "flatfeet",
+        "best walking shoes",
+        "best shoes for standing all day",
+        "walking shoes for flat feet",
+        "best running shoes for flat feet",
+        "flat feet shoes",
+        "shoes",
+        "best shoes for walking all day"
+      ]
+    },
+    {
+      "id": "ot-myth_education",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "myth_education",
+      "title": "脚与姿势的常见误区",
+      "pain_point": "网上说法很多，家长和上班族不知道哪些是真的。",
+      "hooks": [
+        {
+          "line": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
+          "hook_type": "contrarian_wrong",
+          "hook_type_zh": "反常识/我错了"
+        },
+        {
+          "line": "鞋垫越硬支撑越好，对吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "关于鞋垫的 3 个常见误区。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
+      "format_name": "专业讲解（需有资质者出镜）",
+      "format_execution": "持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”",
+      "format_key": "expert_explainer",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 26/164 条通过筛选的视频属于此角度（占 16%）。",
+        "平台内表现百分位中位数 P43；35% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 53。",
+        "表现较好的视频最常用「反常识/我错了」钩子（4 条）。"
+      ],
+      "compliance": "误区内容需有可靠来源；不得以恐吓式说法促销。",
+      "priority_score": 0.273,
+      "n": 26,
+      "median_perf_pct": 43.3,
+      "top_quartile_share": 0.35,
+      "status": "RISING",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "wVZ5DynU_FE",
+        "url": "https://i.ytimg.com/vi/wVZ5DynU_FE/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "5 Biggest Lies About Orthotics Everyone Still Believes",
+        "ref_url": "https://www.youtube.com/watch?v=wVZ5DynU_FE",
+        "views": 491521
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "5 Biggest Lies About Orthotics Everyone Still Believes",
+          "url": "https://www.youtube.com/watch?v=wVZ5DynU_FE",
+          "views": 491521,
+          "views_per_day": 1114.5601,
+          "post_date": "2025-08-04",
+          "perf_pct": 99.4,
+          "youtube_id": "wVZ5DynU_FE"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Flat feet cause overpronation, leading to back pain, knee pain, heel pain, and poor posture. Shapecrunch makes arch supp",
+          "url": "https://www.instagram.com/p/DJbbXf8yx6v/",
+          "views": 33545782,
+          "views_per_day": 63533.678,
+          "post_date": "2025-05-09",
+          "perf_pct": 98.2,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Everyone throws arch support at flat feet. You were born with your own. Let’s train it.",
+          "url": "https://www.instagram.com/p/Dbqont1h1Ek/",
+          "views": 576442,
+          "views_per_day": 7685.8933,
+          "post_date": "2026-08-05",
+          "perf_pct": 90.9,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "kakirata",
+        "flatfeet",
+        "flat feet correction",
+        "扁平足",
+        "orthotics",
+        "foothealth",
+        "flatfoot",
+        "custom orthotics"
+      ]
+    },
+    {
+      "id": "ot-kids_feet_growth",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "kids_feet_growth",
+      "title": "孩子的脚：扁平足 / 足弓的家长科普",
+      "pain_point": "家长发现孩子走路容易累、鞋子外侧磨得快、常说脚酸，不知道要不要担心、该怎么选鞋和鞋垫。",
+      "hooks": [
+        {
+          "line": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "（持证人士出镜）足科/物理治疗师：家长最常问的 3 个问题。",
+          "hook_type": "expert_authority",
+          "hook_type_zh": "专业背书"
+        },
+        {
+          "line": "不是鞋越软越好——孩子的鞋，这个地方要够稳。",
+          "hook_type": "contrarian_wrong",
+          "hook_type_zh": "反常识/我错了"
+        }
+      ],
+      "top_hook": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
+      "format_name": "专业讲解（需有资质者出镜）",
+      "format_execution": "持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”",
+      "format_key": "expert_explainer",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 24/164 条通过筛选的视频属于此角度（占 15%）。",
+        "平台内表现百分位中位数 P64；29% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 148。",
+        "表现较好的视频最常用「提问式」钩子（6 条）。"
+      ],
+      "compliance": "只做观察与选鞋建议；不说“治好/矫正扁平足”；提醒有疑虑请咨询专业人士；未成年人出镜需家长同意。",
+      "priority_score": 0.233,
+      "n": 24,
+      "median_perf_pct": 64.0,
+      "top_quartile_share": 0.29,
+      "status": "保留",
+      "thumb": {
+        "type": "instagram",
+        "youtube_id": null,
+        "url": null,
+        "platform": "Instagram",
+        "ref_title": "Slouching? Flat feet? Knock knees? Poor balance? Weak core?",
+        "ref_url": "https://www.instagram.com/p/DemQ_I8sjqz/",
+        "views": 82734
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Slouching? Flat feet? Knock knees? Poor balance? Weak core?",
+          "url": "https://www.instagram.com/p/DemQ_I8sjqz/",
+          "views": 82734,
+          "views_per_day": 41367.0,
+          "post_date": "2026-10-17",
+          "perf_pct": 97.0,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "You won’t believe it… but it works!",
+          "url": "https://www.instagram.com/p/DePC6GwRRqE/",
+          "views": 274098,
+          "views_per_day": 24918.0,
+          "post_date": "2026-10-08",
+          "perf_pct": 95.7,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "‼️Tired legs. 🚫Flat feet. 🔥Evening tension.",
+          "url": "https://www.instagram.com/p/DeUOgGjxv5d/",
+          "views": 89392,
+          "views_per_day": 9932.4444,
+          "post_date": "2026-10-10",
+          "perf_pct": 92.1,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "flatfeet",
+        "flatfoot",
+        "kakirata",
+        "flat feet",
+        "pes planus",
+        "kneepain",
+        "hippain",
+        "flat feet in kids"
+      ]
+    },
+    {
+      "id": "ot-product_review_comparison",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "product_review_comparison",
+      "title": "鞋垫 / 书包 / 姿势产品真实测评",
+      "pain_point": "市面产品太多，担心买到没用的。",
+      "hooks": [
+        {
+          "line": "RM 几十和几百的鞋垫，差在哪里？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "我试了 4 种鞋垫，差别在这 3 个地方。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "现成鞋垫 vs 定制鞋垫，穿一周对比。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        }
+      ],
+      "top_hook": "RM 几十和几百的鞋垫，差在哪里？",
+      "format_name": "真实测评",
+      "format_execution": "一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒",
+      "format_key": "review",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 14/164 条通过筛选的视频属于此角度（占 9%）。",
+        "平台内表现百分位中位数 P49；29% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 27。",
+        "表现较好的视频最常用「提问式」钩子（2 条）。"
+      ],
+      "compliance": "不点名贬低竞品；测评结论只写个人感受；不复刻竞品视频的画面与文案。",
+      "priority_score": 0.208,
+      "n": 14,
+      "median_perf_pct": 48.8,
+      "top_quartile_share": 0.29,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "pdbFJCrkpyI",
+        "url": "https://i.ytimg.com/vi/pdbFJCrkpyI/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "New Balance Just Filled A Giant Gap In The Orthotic Market",
+        "ref_url": "https://www.youtube.com/watch?v=pdbFJCrkpyI",
+        "views": 148421
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "New Balance Just Filled A Giant Gap In The Orthotic Market",
+          "url": "https://www.youtube.com/watch?v=pdbFJCrkpyI",
+          "views": 148421,
+          "views_per_day": 591.3187,
+          "post_date": "2026-02-10",
+          "perf_pct": 95.7,
+          "youtube_id": "pdbFJCrkpyI"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Should You Trust Amazon’s #1 Orthotic?",
+          "url": "https://www.youtube.com/watch?v=sLV05z5Fx_c",
+          "views": 66129,
+          "views_per_day": 275.5375,
+          "post_date": "2026-02-21",
+          "perf_pct": 90.9,
+          "youtube_id": "sLV05z5Fx_c"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Physical Therapist Reviews 4 Posture Correction Braces",
+          "url": "https://www.youtube.com/watch?v=Wqk7ZwbEOGg",
+          "views": 417751,
+          "views_per_day": 207.9398,
+          "post_date": "2021-04-19",
+          "perf_pct": 88.4,
+          "youtube_id": "Wqk7ZwbEOGg"
+        }
+      ],
+      "keywords_observed": [
+        "orthotic insoles",
+        "orthotics",
+        "custom orthotics",
+        "posture corrector review",
+        "customorthotics",
+        "amazon reviews",
+        "amazon finds",
+        "watch before you buy"
+      ]
+    },
+    {
+      "id": "ot-standing_work_comfort",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "standing_work_comfort",
+      "title": "久站 / 久走上班族的脚部舒适",
+      "pain_point": "护士、柜台、老师、餐饮业整天站着，下班脚底和小腿又酸又累。",
+      "hooks": [
+        {
+          "line": "久站族的 3 个小习惯，让脚没那么累。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "同一双鞋，加/不加足弓支撑鞋垫，走一天的感受对比。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "一天站 8 小时的人，下班第一件事是不是脱鞋？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        }
+      ],
+      "top_hook": "久站族的 3 个小习惯，让脚没那么累。",
+      "format_name": "对比测评",
+      "format_execution": "分屏/并排对比，同条件测试，15–30秒",
+      "format_key": "comparison",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 15/164 条通过筛选的视频属于此角度（占 9%）。",
+        "平台内表现百分位中位数 P46；27% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 35。",
+        "表现较好的视频最常用「其他」钩子（2 条）。"
+      ],
+      "compliance": "说“更舒适、分散压力的支撑感”；不说“治疗足底筋膜炎”；疼痛持续请就医。",
+      "priority_score": 0.199,
+      "n": 15,
+      "median_perf_pct": 45.7,
+      "top_quartile_share": 0.27,
+      "status": "保留",
+      "thumb": {
+        "type": "instagram",
+        "youtube_id": null,
+        "url": null,
+        "platform": "Instagram",
+        "ref_title": "If you stand all day, just try them. You’ll get it. #insoles #archsupport #footpain",
+        "ref_url": "https://www.instagram.com/p/DeAkExgNp4W/",
+        "views": 1869634
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "If you stand all day, just try them. You’ll get it. #insoles #archsupport #footpain",
+          "url": "https://www.instagram.com/p/DeAkExgNp4W/",
+          "views": 1869634,
+          "views_per_day": 109978.4706,
+          "post_date": "2026-10-02",
+          "perf_pct": 99.4,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "These insoles have cushioned arch support + a soft, bouncy feel that takes the pounding off your feet #footpain #archsup",
+          "url": "https://www.instagram.com/p/Dd_-lE5tSCO/",
+          "views": 204620,
+          "views_per_day": 12036.4706,
+          "post_date": "2026-10-02",
+          "perf_pct": 94.5,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Step Higher, Feel Lighter! 👟✨ Our Comfortable Insoles with Air Cushion and Height-Increasing Effect provide all-day supp",
+          "url": "https://www.instagram.com/p/DaGCrXmxGAM/",
+          "views": 761853,
+          "views_per_day": 6682.9211,
+          "post_date": "2026-06-27",
+          "perf_pct": 88.4,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "insoles",
+        "archsupport",
+        "footpain",
+        "footcomfort",
+        "襪子",
+        "除臭襪",
+        "除臭機能襪",
+        "footer"
+      ]
+    },
+    {
+      "id": "ot-custom_insole_process",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "custom_insole_process",
+      "title": "定制鞋垫是怎么做出来的（扫描→建模→成品）",
+      "pain_point": "对定制鞋垫好奇但觉得神秘、怕贵、怕是智商税，想知道流程和适不适合自己。",
+      "hooks": [
+        {
+          "line": "一双鞋垫为什么要先扫描你的脚？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "做定制鞋垫前，你应该问店家的 3 个问题。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "现成鞋垫和定制鞋垫，差别不在“软硬”，而在这里。",
+          "hook_type": "contrarian_wrong",
+          "hook_type_zh": "反常识/我错了"
+        }
+      ],
+      "top_hook": "一双鞋垫为什么要先扫描你的脚？",
+      "format_name": "专业讲解（需有资质者出镜）",
+      "format_execution": "持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”",
+      "format_key": "expert_explainer",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 22/164 条通过筛选的视频属于此角度（占 13%）。",
+        "平台内表现百分位中位数 P42；18% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 37。",
+        "表现较好的视频最常用「其他」钩子（6 条）。"
+      ],
+      "compliance": "展示流程与舒适感；“足弓检测”称评估而非诊断；不承诺矫正效果；价格/活动以实际为准。",
+      "priority_score": 0.162,
+      "n": 22,
+      "median_perf_pct": 41.5,
+      "top_quartile_share": 0.18,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "vbM9BoZKe5A",
+        "url": "https://i.ytimg.com/vi/vbM9BoZKe5A/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "How to Scan Your Feet at Home for Custom Insoles | ME3D",
+        "ref_url": "https://www.youtube.com/watch?v=vbM9BoZKe5A",
+        "views": 92068
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "How to Scan Your Feet at Home for Custom Insoles | ME3D",
+          "url": "https://www.youtube.com/watch?v=vbM9BoZKe5A",
+          "views": 92068,
+          "views_per_day": 672.0292,
+          "post_date": "2026-06-04",
+          "perf_pct": 98.2,
+          "youtube_id": "vbM9BoZKe5A"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Custom insoles❄️",
+          "url": "https://www.instagram.com/p/CmRIScQNIa-/",
+          "views": 7682898,
+          "views_per_day": 5479.9558,
+          "post_date": "2022-12-17",
+          "perf_pct": 86.0,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "FS B003  |3D Smart Foot Scanner for Custom Insoles & Foot Care Solutions",
+          "url": "https://www.youtube.com/watch?v=rwtLrwtfTwY",
+          "views": 82480,
+          "views_per_day": 184.519,
+          "post_date": "2025-07-29",
+          "perf_pct": 84.8,
+          "youtube_id": "rwtLrwtfTwY"
+        }
+      ],
+      "keywords_observed": [
+        "orthotics",
+        "custominsoles",
+        "insoles",
+        "flatfeet",
+        "kakirata",
+        "heelpain",
+        "orthotic",
+        "footcare"
+      ]
+    },
+    {
+      "id": "ot-sports_active_support",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "sports_active_support",
+      "title": "运动 / 跑步时的足部支撑",
+      "pain_point": "跑步、打球后脚底累或脚踝不稳，想知道鞋垫和鞋能不能帮上忙。",
+      "hooks": [
+        {
+          "line": "跑完 5 公里，你的脚底还好吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "运动族选鞋垫看 3 点。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "运动鞋加上足弓支撑鞋垫，跑一周的感受记录。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        }
+      ],
+      "top_hook": "跑完 5 公里，你的脚底还好吗？",
+      "format_name": "专业讲解（需有资质者出镜）",
+      "format_execution": "持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”",
+      "format_key": "expert_explainer",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
+        "平台内表现百分位中位数 P47；22% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 53。",
+        "表现较好的视频最常用「其他」钩子（2 条）。"
+      ],
+      "compliance": "不宣称提升成绩或预防运动伤害。",
+      "priority_score": 0.154,
+      "n": 9,
+      "median_perf_pct": 47.0,
+      "top_quartile_share": 0.22,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "jbWNtmABda4",
+        "url": "https://i.ytimg.com/vi/jbWNtmABda4/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "What on earth is Arch Support? - CYCLING SHOE GUIDE - Part 2",
+        "ref_url": "https://www.youtube.com/watch?v=jbWNtmABda4",
+        "views": 38017
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Custom orthotic insoles designed for a high-level runner.",
+          "url": "https://www.instagram.com/p/DeEzk3xCrOA/",
+          "views": 34043,
+          "views_per_day": 2269.5333,
+          "post_date": "2026-10-04",
+          "perf_pct": 78.7,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "What on earth is Arch Support? - CYCLING SHOE GUIDE - Part 2",
+          "url": "https://www.youtube.com/watch?v=jbWNtmABda4",
+          "views": 38017,
+          "views_per_day": 50.8249,
+          "post_date": "2024-10-01",
+          "perf_pct": 75.0,
+          "youtube_id": "jbWNtmABda4"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Don’t be the homie in the court with broken ankles 😂 #flatfeet #anklestability #mobility #plantar #feet",
+          "url": "https://www.instagram.com/p/DW6tkDqAWbH/",
+          "views": 164075,
+          "views_per_day": 850.1295,
+          "post_date": "2026-04-09",
+          "perf_pct": 71.3,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "insoles",
+        "best running shoes for flat feet",
+        "running shoes for flat feet",
+        "stability running shoes",
+        "best running shoes",
+        "running shoes",
+        "flat feet shoes",
+        "flat feet"
+      ]
+    },
+    {
+      "id": "ot-posture_back_neck",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "posture_back_neck",
+      "title": "姿势小习惯：低头族 / 久坐 / 驼背感",
+      "pain_point": "长时间低头看手机、久坐办公，肩颈紧、站姿不好看，想改善但不知道从哪开始。",
+      "hooks": [
+        {
+          "line": "你现在是不是正在低头看这条视频？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "贴墙站 30 秒小测试：你的后脑、肩、臀能同时贴墙吗？",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "办公室 3 个 30 秒姿势提醒。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "你现在是不是正在低头看这条视频？",
+      "format_name": "真实测评",
+      "format_execution": "一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒",
+      "format_key": "review",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
+        "平台内表现百分位中位数 P66；22% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 42。",
+        "表现较好的视频最常用「提问式」钩子（2 条）。"
+      ],
+      "compliance": "讲习惯与舒适；矫姿带类产品不说“矫正驼背/脊柱”；运动建议保持温和并提示量力而行。",
+      "priority_score": 0.154,
+      "n": 9,
+      "median_perf_pct": 66.5,
+      "top_quartile_share": 0.22,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "1sfn9zPkZNU",
+        "url": "https://i.ytimg.com/vi/1sfn9zPkZNU/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "I tried a Posture Corrector for 100 days",
+        "ref_url": "https://www.youtube.com/watch?v=1sfn9zPkZNU",
+        "views": 401837
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Physical therapist's 3 favorite moves for posture #posture #posturefix #posturecorrection ",
+          "url": "https://www.instagram.com/p/DdFEq9sCtqN/",
+          "views": 414402,
+          "views_per_day": 10360.05,
+          "post_date": "2026-09-09",
+          "perf_pct": 93.3,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "I tried a Posture Corrector for 100 days",
+          "url": "https://www.youtube.com/watch?v=1sfn9zPkZNU",
+          "views": 401837,
+          "views_per_day": 207.5604,
+          "post_date": "2021-07-01",
+          "perf_pct": 87.2,
+          "youtube_id": "1sfn9zPkZNU"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Such a subtle habit teaches you the discipline of keeping your neck and shoulders in healthy posture as your muscles slo",
+          "url": "https://www.instagram.com/p/Dcu5gDWM7oA/",
+          "views": 43476,
+          "views_per_day": 905.75,
+          "post_date": "2026-09-01",
+          "perf_pct": 72.6,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "posturecorrection",
+        "posture corrector",
+        "posture corrector brace",
+        "posture",
+        "neckpain",
+        "how to use posture corrector",
+        "do posture correctors work",
+        "how to fix rolled in shoulders"
+      ]
+    },
+    {
+      "id": "ot-school_bag_posture",
+      "brand": "OT",
+      "brand_name": "Orthotech",
+      "angle_key": "school_bag_posture",
+      "title": "书包太重？护脊书包与背书包习惯",
+      "pain_point": "孩子每天背很重的书包，肩膀勒红、身体前倾，家长心疼却不知道书包该怎么选、怎么背。",
+      "hooks": [
+        {
+          "line": "你孩子的书包有多重？拿家里的秤称一下。",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "护脊书包要看这 4 个细节：肩带、背垫、胸扣、重心。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "开学第一周，我帮孩子换了书包后发现的变化。",
+          "hook_type": "personal_journey",
+          "hook_type_zh": "亲身经历"
+        }
+      ],
+      "top_hook": "你孩子的书包有多重？拿家里的秤称一下。",
+      "format_name": "真实测评",
+      "format_execution": "一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒",
+      "format_key": "review",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 27/164 条通过筛选的视频属于此角度（占 16%）。",
+        "平台内表现百分位中位数 P26；11% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 1.9。",
+        "表现较好的视频最常用「提问式」钩子（2 条）。"
+      ],
+      "compliance": "说“分担负重 / 背得更舒适 / 帮助保持好姿势习惯”；不说“预防/矫正脊柱侧弯、驼背”。",
+      "priority_score": 0.132,
+      "n": 27,
+      "median_perf_pct": 26.2,
+      "top_quartile_share": 0.11,
+      "status": "观察",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "HE7DAfUTFUk",
+        "url": "https://i.ytimg.com/vi/HE7DAfUTFUk/hqdefault.jpg",
+        "platform": "YouTube Shorts",
+        "ref_title": "【IMPACT 怡寶】一個護脊書包這麼貴?怎麼背才有效達到護脊效果",
+        "ref_url": "https://www.youtube.com/watch?v=HE7DAfUTFUk",
+        "views": 296548
+      },
+      "references": [
+        {
+          "platform": "YouTube Shorts",
+          "title": "【IMPACT 怡寶】一個護脊書包這麼貴?怎麼背才有效達到護脊效果",
+          "url": "https://www.youtube.com/watch?v=HE7DAfUTFUk",
+          "views": 296548,
+          "views_per_day": 445.9368,
+          "post_date": "2024-12-23",
+          "perf_pct": 92.1,
+          "youtube_id": "HE7DAfUTFUk"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "స్కూల్ బ్యాగ్ ఎంత బరువు ఉండాలంటే | Heavy School Bags Effects On Children? Health Risks Every Parent Must Know | Zee Telu",
+          "url": "https://www.instagram.com/p/DaNKc6Zkg50/",
+          "views": 338488,
+          "views_per_day": 3049.4414,
+          "post_date": "2026-06-30",
+          "perf_pct": 84.8,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Купили нашему будущему первокласснику первый школьный рюкзак 🎒🤍",
+          "url": "https://www.instagram.com/p/Db-83LbMXRT/",
+          "views": 132234,
+          "views_per_day": 1973.6418,
+          "post_date": "2026-08-13",
+          "perf_pct": 77.4,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "school bags",
+        "teemi",
+        "beg sekolah",
+        "ergonomic school bag",
+        "travel bag",
+        "women's bag",
+        "cabin luggage",
+        "schoolbag"
+      ]
+    },
+    {
+      "id": "ff-satisfying_asmr",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "satisfying_asmr",
+      "title": "解压清洁：泡沫 + 前后对比",
+      "pain_point": "观众爱看“脏→干净”的解压过程，这也是展示泡沫质感最自然的方式。",
+      "hooks": [
+        {
+          "line": "你能看完这 15 秒不觉得解压吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "最脏的一双鞋，看泡沫把它变回来。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "3 个很多人都做错的清洁习惯。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "你能看完这 15 秒不觉得解压吗？",
+      "format_name": "解压过程演示",
+      "format_execution": "无/少口播，近景收音 + 慢动作关键一刻，10–25秒",
+      "format_key": "satisfying_demo",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 30/187 条通过筛选的视频属于此角度（占 16%）。",
+        "平台内表现百分位中位数 P70；43% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 4,914。",
+        "表现较好的视频最常用「其他」钩子（10 条）。"
+      ],
+      "compliance": "真实拍摄、不加速造假、不美颜滤镜；结尾给产品信息即可。",
+      "priority_score": 0.322,
+      "n": 30,
+      "median_perf_pct": 70.2,
+      "top_quartile_share": 0.43,
+      "status": "RISING",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "SRCOazNKltM",
+        "url": "https://i.ytimg.com/vi/SRCOazNKltM/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "Shoe Cleaning ASMR - Nike Air Force 1",
+        "ref_url": "https://www.youtube.com/watch?v=SRCOazNKltM",
+        "views": 4106635
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "Shoe Cleaning ASMR - Nike Air Force 1",
+          "url": "https://www.youtube.com/watch?v=SRCOazNKltM",
+          "views": 4106635,
+          "views_per_day": 2772.8798,
+          "post_date": "2022-09-29",
+          "perf_pct": 96.8,
+          "youtube_id": "SRCOazNKltM"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Better Than Before!😱🤢",
+          "url": "https://www.instagram.com/p/DekV8IchxCM/",
+          "views": 364809,
+          "views_per_day": 121603.0,
+          "post_date": "2026-10-16",
+          "perf_pct": 95.9,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Special MEGA Video for 600,000 Subs! (Originally a Members-Only Video)",
+          "url": "https://www.youtube.com/watch?v=fwFgEIK6BFQ",
+          "views": 1490895,
+          "views_per_day": 1899.2293,
+          "post_date": "2024-08-25",
+          "perf_pct": 94.2,
+          "youtube_id": "fwFgEIK6BFQ"
+        }
+      ],
+      "keywords_observed": [
+        "cleantok",
+        "satisfyingcleaning",
+        "asmr",
+        "cleaning",
+        "cleanwithme",
+        "spongesqueezing",
+        "cleaningasmr",
+        "satisfying"
+      ]
+    },
+    {
+      "id": "ff-car_interior",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "car_interior",
+      "title": "车内清洁：座椅 / 脚垫 / 方向盘",
+      "pain_point": "车里吃东西、孩子弄脏座椅、脚垫泥沙，拿去洗车店又贵。",
+      "hooks": [
+        {
+          "line": "你的车座椅，多久没洗了？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "座椅一半清洁一半不洗，差别有多大？",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "10 分钟车内快速清洁 3 步。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "你的车座椅，多久没洗了？",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
+        "平台内表现百分位中位数 P76；50% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 913。",
+        "表现较好的视频最常用「其他」钩子（2 条）。"
+      ],
+      "compliance": "注明适用材质（织物/皮革）；不示范危险化学品。",
+      "priority_score": 0.304,
+      "n": 2,
+      "median_perf_pct": 76.3,
+      "top_quartile_share": 0.5,
+      "status": "RISING",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "7afmCJNTvHk",
+        "url": "https://i.ytimg.com/vi/7afmCJNTvHk/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "Do THIS To Keep Your Car Clean",
+        "ref_url": "https://www.youtube.com/watch?v=7afmCJNTvHk",
+        "views": 1156996
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "Do THIS To Keep Your Car Clean",
+          "url": "https://www.youtube.com/watch?v=7afmCJNTvHk",
+          "views": 1156996,
+          "views_per_day": 1498.6995,
+          "post_date": "2024-09-07",
+          "perf_pct": 90.4,
+          "youtube_id": "7afmCJNTvHk"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How To Clean A Car Interior",
+          "url": "https://www.youtube.com/watch?v=-gXKql0AYh4",
+          "views": 74799,
+          "views_per_day": 328.0658,
+          "post_date": "2026-03-05",
+          "perf_pct": 62.2,
+          "youtube_id": "-gXKql0AYh4"
+        }
+      ],
+      "keywords_observed": [
+        "car cleaning",
+        "car wash",
+        "auto detailing",
+        "car interior cleaning",
+        "interior car cleaning",
+        "interior cleaning",
+        "interior detailing",
+        "how to clean a car interior from top to bottom"
+      ]
+    },
+    {
+      "id": "ff-kitchen_grease",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "kitchen_grease",
+      "title": "厨房油污：抽油烟机 / 炉台快速清洁",
+      "pain_point": "马来西亚家庭常爆炒，油烟机和墙面黏腻难清。",
+      "hooks": [
+        {
+          "line": "你家抽油烟机，上一次清是什么时候？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "喷上去等 1 分钟，一擦就……",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "厨房去油 3 个不伤手的小方法。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "你家抽油烟机，上一次清是什么时候？",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 9/187 条通过筛选的视频属于此角度（占 5%）。",
+        "平台内表现百分位中位数 P73；44% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 2,326。",
+        "表现较好的视频最常用「其他」钩子（2 条）。"
+      ],
+      "compliance": "不示范混用不同清洁剂；提示戴手套、通风；按产品标签用途使用。",
+      "priority_score": 0.283,
+      "n": 9,
+      "median_perf_pct": 72.9,
+      "top_quartile_share": 0.44,
+      "status": "RISING",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "jYGsRupMask",
+        "url": "https://i.ytimg.com/vi/jYGsRupMask/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "The Best Way To Clean Your Oven Like A Pro!",
+        "ref_url": "https://www.youtube.com/watch?v=jYGsRupMask",
+        "views": 5299284
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "The Best Way To Clean Your Oven Like A Pro!",
+          "url": "https://www.youtube.com/watch?v=jYGsRupMask",
+          "views": 5299284,
+          "views_per_day": 8203.226,
+          "post_date": "2025-01-11",
+          "perf_pct": 99.4,
+          "youtube_id": "jYGsRupMask"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "The Best Way to Clean Kitchen Cabinets!",
+          "url": "https://www.youtube.com/watch?v=IEwmXfohjXE",
+          "views": 1519229,
+          "views_per_day": 2326.5375,
+          "post_date": "2025-01-04",
+          "perf_pct": 95.5,
+          "youtube_id": "IEwmXfohjXE"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "How to: clean your glass stove 🧽",
+          "url": "https://www.instagram.com/p/DecZajbBYRh/",
+          "views": 196063,
+          "views_per_day": 32677.1667,
+          "post_date": "2026-10-13",
+          "perf_pct": 88.5,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "cleaninghacks",
+        "kitchencleaning",
+        "grease",
+        "how to clean",
+        "diy",
+        "clean with me",
+        "remove thick grease from kitchen cabinets",
+        "angela brown"
+      ]
+    },
+    {
+      "id": "ff-sneaker_white_shoes",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "sneaker_white_shoes",
+      "title": "小白鞋 / 校鞋 3 分钟免水洗翻新",
+      "pain_point": "白鞋一穿就黄、校鞋每周都脏，手洗费时又怕洗坏、晒不干。",
+      "hooks": [
+        {
+          "line": "一只洗、一只不洗，3 分钟后对比。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "小白鞋脏了，你还在用牙刷+洗衣粉泡一晚上？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "洗白鞋 3 个常见错误，最后一个很多人都做过。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "一只洗、一只不洗，3 分钟后对比。",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 68/187 条通过筛选的视频属于此角度（占 36%）。",
+        "平台内表现百分位中位数 P36；19% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 320。",
+        "表现较好的视频最常用「其他」钩子（7 条）。"
+      ],
+      "compliance": "前后对比真实同一双鞋；不同材质先局部测试；不夸大“永久洁白”。",
+      "priority_score": 0.259,
+      "n": 68,
+      "median_perf_pct": 35.8,
+      "top_quartile_share": 0.19,
+      "status": "RISING",
+      "thumb": {
+        "type": "instagram",
+        "youtube_id": null,
+        "url": null,
+        "platform": "Instagram",
+        "ref_title": "Your kicks deserve a second life 👟✨",
+        "ref_url": "https://www.instagram.com/p/DeY3RTuIfTw/",
+        "views": 2524934
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Your kicks deserve a second life 👟✨",
+          "url": "https://www.instagram.com/p/DeY3RTuIfTw/",
+          "views": 2524934,
+          "views_per_day": 360704.8571,
+          "post_date": "2026-10-12",
+          "perf_pct": 99.5,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "Your kicks deserve a second life 👟✨",
+          "url": "https://www.instagram.com/p/Ded-quSonxw/",
+          "views": 910794,
+          "views_per_day": 182158.8,
+          "post_date": "2026-10-14",
+          "perf_pct": 97.7,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "From dirty to fresh again 👟✨ We don’t just clean shoes — we bring them back to life! 🔥",
+          "url": "https://www.instagram.com/p/DdJH2OsoTHm/",
+          "views": 2138745,
+          "views_per_day": 56282.7632,
+          "post_date": "2026-09-11",
+          "perf_pct": 94.0,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "sneakercleaning",
+        "shoecleaning",
+        "whiteshoes",
+        "cucikasut",
+        "cleaninghacks",
+        "sneakercare",
+        "how to clean white shoes",
+        "sneakers"
+      ]
+    },
+    {
+      "id": "ff-hacks_routine",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "hacks_routine",
+      "title": "懒人清洁 routine / 小技巧",
+      "pain_point": "工作忙没时间大扫除，想要 5–10 分钟就能完成的清洁节奏。",
+      "hooks": [
+        {
+          "line": "大扫除一次，不如每天做这件小事。",
+          "hook_type": "contrarian_wrong",
+          "hook_type_zh": "反常识/我错了"
+        },
+        {
+          "line": "每天 10 分钟，让家保持干净的 3 个习惯。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "一半清洁一半不洗，直接对比。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        }
+      ],
+      "top_hook": "大扫除一次，不如每天做这件小事。",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
+        "平台内表现百分位中位数 P61；30% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 4,888。",
+        "表现较好的视频最常用「其他」钩子（4 条）。"
+      ],
+      "compliance": "“偏方”只用安全、常见做法；绝不混用清洁剂。",
+      "priority_score": 0.229,
+      "n": 23,
+      "median_perf_pct": 61.0,
+      "top_quartile_share": 0.3,
+      "status": "保留",
+      "thumb": {
+        "type": "instagram",
+        "youtube_id": null,
+        "url": null,
+        "platform": "Instagram",
+        "ref_title": "Kitchen cleaning made easier! 🧽🫧",
+        "ref_url": "https://www.instagram.com/p/Del6a4Wpps-/",
+        "views": 288377
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Kitchen cleaning made easier! 🧽🫧",
+          "url": "https://www.instagram.com/p/Del6a4Wpps-/",
+          "views": 288377,
+          "views_per_day": 144188.5,
+          "post_date": "2026-10-17",
+          "perf_pct": 96.8,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "My bathtub drain was fully blocked and barely draining at all. Boiling water and a wire hanger didn’t touch it.",
+          "url": "https://www.instagram.com/p/Dem5865or6m/",
+          "views": 123910,
+          "views_per_day": 61955.0,
+          "post_date": "2026-10-17",
+          "perf_pct": 95.0,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "#miamicleaning #miamicleaningcompany #miamicleaningservice #homecleaningservice #cleaninghacks",
+          "url": "https://www.instagram.com/p/DeoxJUMAUUy/",
+          "views": 45136,
+          "views_per_day": 45136.0,
+          "post_date": "2026-10-18",
+          "perf_pct": 91.3,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "cleaninghacks",
+        "cleaning",
+        "cleanwithme",
+        "cleaningtips",
+        "stainremoval",
+        "cleantok",
+        "cleaningmotivation",
+        "clean with me"
+      ]
+    },
+    {
+      "id": "ff-bathroom_mold",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "bathroom_mold",
+      "title": "浴室霉斑 / 水垢清洁",
+      "pain_point": "潮湿气候导致瓷砖缝发黑、玻璃水垢，刷了又长。",
+      "hooks": [
+        {
+          "line": "瓷砖缝发黑，是脏还是霉？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "瓷砖缝左右对比实测。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "浴室不再长霉的 3 个日常习惯。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "瓷砖缝发黑，是脏还是霉？",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 6/187 条通过筛选的视频属于此角度（占 3%）。",
+        "平台内表现百分位中位数 P60；33% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 304。",
+        "表现较好的视频最常用「其他」钩子（3 条）。"
+      ],
+      "compliance": "严禁漂白水混醋/洁厕剂的“偏方”；标注通风；不说“杀灭霉菌 99.9%”。",
+      "priority_score": 0.211,
+      "n": 6,
+      "median_perf_pct": 60.2,
+      "top_quartile_share": 0.33,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "ExEDcKK8u4E",
+        "url": "https://i.ytimg.com/vi/ExEDcKK8u4E/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "The Best Way to Clean Your Shower and Tub",
+        "ref_url": "https://www.youtube.com/watch?v=ExEDcKK8u4E",
+        "views": 2106975
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "The Best Way to Clean Your Shower and Tub",
+          "url": "https://www.youtube.com/watch?v=ExEDcKK8u4E",
+          "views": 2106975,
+          "views_per_day": 3614.0223,
+          "post_date": "2025-03-15",
+          "perf_pct": 98.1,
+          "youtube_id": "ExEDcKK8u4E"
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "🚿✨ Your showerhead needs this simple cleaning hack!",
+          "url": "https://www.instagram.com/p/DeaVPXQgh8S/",
+          "views": 156189,
+          "views_per_day": 22312.7143,
+          "post_date": "2026-10-12",
+          "perf_pct": 82.1,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "All The BATHROOM CLEANING TIPS You Will Ever Need!",
+          "url": "https://www.youtube.com/watch?v=JgDWC9khN24",
+          "views": 516592,
+          "views_per_day": 408.6962,
+          "post_date": "2023-05-04",
+          "perf_pct": 67.3,
+          "youtube_id": "JgDWC9khN24"
+        }
+      ],
+      "keywords_observed": [
+        "bathroom cleaning",
+        "cleaning hacks",
+        "cleaning tips",
+        "how to",
+        "homehacks",
+        "clean my space",
+        "melissa maker",
+        "cleaning motivation"
+      ]
+    },
+    {
+      "id": "ff-stain_laundry",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "stain_laundry",
+      "title": "衣物 / 沙发污渍急救",
+      "pain_point": "咖喱、酱油、口红、奶渍沾上衣服或沙发，不知道先做什么。",
+      "hooks": [
+        {
+          "line": "咖喱沾到白衣服，第一步千万别做什么？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "3 种常见污渍，同一瓶喷雾实测。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "污渍急救 3 步口诀。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "咖喱沾到白衣服，第一步千万别做什么？",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
+        "平台内表现百分位中位数 P45；17% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 1,082。",
+        "表现较好的视频最常用「专业背书」钩子（2 条）。"
+      ],
+      "compliance": "先在不显眼处测试；不承诺所有污渍都能去除。",
+      "priority_score": 0.151,
+      "n": 23,
+      "median_perf_pct": 45.4,
+      "top_quartile_share": 0.17,
+      "status": "保留",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "dfJi49umT6U",
+        "url": "https://i.ytimg.com/vi/dfJi49umT6U/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "How to Get (Almost) Every Kind of Stain Out of Your Clothes",
+        "ref_url": "https://www.youtube.com/watch?v=dfJi49umT6U",
+        "views": 5265059
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Professional Sofa Cleaning in Oakville, Ontario ",
+          "url": "https://www.instagram.com/p/DenZUHhjIed/",
+          "views": 222831,
+          "views_per_day": 222831.0,
+          "post_date": "2026-10-18",
+          "perf_pct": 98.6,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How to Get (Almost) Every Kind of Stain Out of Your Clothes",
+          "url": "https://www.youtube.com/watch?v=dfJi49umT6U",
+          "views": 5265059,
+          "views_per_day": 1686.4379,
+          "post_date": "2018-04-02",
+          "perf_pct": 91.7,
+          "youtube_id": "dfJi49umT6U"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How to Remove Stains From Clothes At Home Better Than The Dry Cleaner",
+          "url": "https://www.youtube.com/watch?v=CHzLckkSATI",
+          "views": 2804291,
+          "views_per_day": 1019.3715,
+          "post_date": "2019-04-08",
+          "perf_pct": 85.3,
+          "youtube_id": "CHzLckkSATI"
+        }
+      ],
+      "keywords_observed": [
+        "stainremoval",
+        "stain removal",
+        "laundrytips",
+        "clothingcare",
+        "clothes",
+        "hacks",
+        "laundry",
+        "laundryhack"
+      ]
+    },
+    {
+      "id": "ff-product_review_comparison",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "product_review_comparison",
+      "title": "清洁产品真实测评 / 对比",
+      "pain_point": "网上清洁好物太多，怕买到没用的。",
+      "hooks": [
+        {
+          "line": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "RM 50 的洗鞋喷雾，值得吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "我试了 5 种小白鞋清洁法，排名如下。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
+      "format_name": "真实测评",
+      "format_execution": "一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒",
+      "format_key": "review",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 5/187 条通过筛选的视频属于此角度（占 3%）。",
+        "平台内表现百分位中位数 P39；20% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 80。",
+        "表现较好的视频最常用「实测挑战」钩子（1 条）。"
+      ],
+      "compliance": "对比“方法”而非点名贬低品牌；同条件测试；不复刻竞品视频。",
+      "priority_score": 0.131,
+      "n": 5,
+      "median_perf_pct": 39.1,
+      "top_quartile_share": 0.2,
+      "status": "观察",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "QetxI5kZ9H4",
+        "url": "https://i.ytimg.com/vi/QetxI5kZ9H4/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "Are Sneaker Cleaners A Scam?",
+        "ref_url": "https://www.youtube.com/watch?v=QetxI5kZ9H4",
+        "views": 976183
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "Are Sneaker Cleaners A Scam?",
+          "url": "https://www.youtube.com/watch?v=QetxI5kZ9H4",
+          "views": 976183,
+          "views_per_day": 915.7439,
+          "post_date": "2023-11-18",
+          "perf_pct": 81.4,
+          "youtube_id": "QetxI5kZ9H4"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Testing Viral Sneaker Cleaning Products (Fz150) Is It A Scam?",
+          "url": "https://www.youtube.com/watch?v=Wo_dAXyUuck",
+          "views": 481344,
+          "views_per_day": 462.8308,
+          "post_date": "2023-12-14",
+          "perf_pct": 71.2,
+          "youtube_id": "Wo_dAXyUuck"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Amazon's MOST Recommended Shoe Cleaner | Full Review",
+          "url": "https://www.youtube.com/watch?v=bVhfDL-jT_Y",
+          "views": 27158,
+          "views_per_day": 80.3491,
+          "post_date": "2025-11-15",
+          "perf_pct": 39.1,
+          "youtube_id": "bVhfDL-jT_Y"
+        }
+      ],
+      "keywords_observed": [
+        "sneaker cleaner foam",
+        "fz150",
+        "fz150 review",
+        "fz150 shoe cleaner guy",
+        "foam zone 150 shoe cleaner",
+        "best shoe cleaner",
+        "sneaker cleaning kit",
+        "fz150 shoe cleaner review"
+      ]
+    },
+    {
+      "id": "ff-shoe_protect_leather",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "shoe_protect_leather",
+      "title": "下雨天的鞋子保护：防水 & 皮革护理",
+      "pain_point": "马来西亚雨季多，新鞋一踩水就脏、皮鞋发霉起皱。",
+      "hooks": [
+        {
+          "line": "雨季来了，你的鞋准备好了吗？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "一只喷防水、一只不喷，直接倒水。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "皮鞋不发霉的 3 个保存习惯。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "雨季来了，你的鞋准备好了吗？",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 7/187 条通过筛选的视频属于此角度（占 4%）。",
+        "平台内表现百分位中位数 P51；14% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 157。",
+        "表现较好的视频最常用「其他」钩子（1 条）。"
+      ],
+      "compliance": "防水效果按实测展示，不承诺“永久防水”；注明适用材质。",
+      "priority_score": 0.099,
+      "n": 7,
+      "median_perf_pct": 50.6,
+      "top_quartile_share": 0.14,
+      "status": "观察",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "9OYGuzpFhVM",
+        "url": "https://i.ytimg.com/vi/9OYGuzpFhVM/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "How To CLEAN & POLISH Your Dress Shoes (And Save Money Doing It)",
+        "ref_url": "https://www.youtube.com/watch?v=9OYGuzpFhVM",
+        "views": 206083
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "Caring for your suede sneaker like this Puma Speedcat is easier and safer with the right tools 👟🫧🌱.",
+          "url": "https://www.instagram.com/p/Db7vnFGTGt7/",
+          "views": 1910031,
+          "views_per_day": 28088.6912,
+          "post_date": "2026-08-12",
+          "perf_pct": 87.6,
+          "youtube_id": null
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How To CLEAN & POLISH Your Dress Shoes (And Save Money Doing It)",
+          "url": "https://www.youtube.com/watch?v=9OYGuzpFhVM",
+          "views": 206083,
+          "views_per_day": 206.2893,
+          "post_date": "2024-01-24",
+          "perf_pct": 54.5,
+          "youtube_id": "9OYGuzpFhVM"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "Leather Shoe Care FULL GUIDE - From Beginner to Luxury",
+          "url": "https://www.youtube.com/watch?v=t8qi6v4wVWA",
+          "views": 182920,
+          "views_per_day": 165.3888,
+          "post_date": "2023-10-09",
+          "perf_pct": 51.9,
+          "youtube_id": "t8qi6v4wVWA"
+        }
+      ],
+      "keywords_observed": [
+        "shoe care routine",
+        "shoe care",
+        "leather shoe maintenance",
+        "premium dress shoes",
+        "leather shoe care",
+        "shoe care tips",
+        "dress shoe care",
+        "shoe care guide"
+      ]
+    },
+    {
+      "id": "ff-shoe_odor",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "shoe_odor",
+      "title": "鞋子臭？除臭的正确顺序",
+      "pain_point": "球鞋、校鞋、工作鞋一脱就尴尬，喷香水只能盖味道。",
+      "hooks": [
+        {
+          "line": "鞋子除臭 3 步：先干、再洗、后喷。",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        },
+        {
+          "line": "跑步鞋除臭前后，请家人盲闻。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "你家门口那排鞋，是不是一打开鞋柜就有味道？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        }
+      ],
+      "top_hook": "鞋子除臭 3 步：先干、再洗、后喷。",
+      "format_name": "教程 / 选购指南",
+      "format_execution": "步骤式字幕（1-2-3），每步一个画面，30–45秒",
+      "format_key": "tutorial",
+      "recommended_platforms": [
+        "小红书",
+        "YouTube Shorts",
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "why_trending": [
+        "样本内 11/187 条通过筛选的视频属于此角度（占 6%）。",
+        "平台内表现百分位中位数 P33；9% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 67。",
+        "表现较好的视频最常用「强断言」钩子（1 条）。"
+      ],
+      "compliance": "说“去除异味 / 清新”；“抗菌”仅在有报告时使用；不涉及足部疾病。",
+      "priority_score": 0.078,
+      "n": 11,
+      "median_perf_pct": 32.7,
+      "top_quartile_share": 0.09,
+      "status": "观察",
+      "thumb": {
+        "type": "youtube",
+        "youtube_id": "gpfnFvSd2X8",
+        "url": "https://i.ytimg.com/vi/gpfnFvSd2X8/hqdefault.jpg",
+        "platform": "YouTube 长视频",
+        "ref_title": "10 Ways to Stop Shoe Odor!",
+        "ref_url": "https://www.youtube.com/watch?v=gpfnFvSd2X8",
+        "views": 2273410
+      },
+      "references": [
+        {
+          "platform": "YouTube 长视频",
+          "title": "10 Ways to Stop Shoe Odor!",
+          "url": "https://www.youtube.com/watch?v=gpfnFvSd2X8",
+          "views": 2273410,
+          "views_per_day": 537.0683,
+          "post_date": "2015-03-18",
+          "perf_pct": 75.0,
+          "youtube_id": "gpfnFvSd2X8"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How to Get Rid of Stinky Shoe and Sneaker Stench",
+          "url": "https://www.youtube.com/watch?v=sTc_yhpfAjc",
+          "views": 955432,
+          "views_per_day": 330.7137,
+          "post_date": "2018-11-21",
+          "perf_pct": 63.5,
+          "youtube_id": "sTc_yhpfAjc"
+        },
+        {
+          "platform": "YouTube 长视频",
+          "title": "How to Remove Odor From Shoes PERMANENTLY",
+          "url": "https://www.youtube.com/watch?v=eTuYY9udZ4k",
+          "views": 739459,
+          "views_per_day": 323.7561,
+          "post_date": "2020-07-18",
+          "perf_pct": 60.9,
+          "youtube_id": "eTuYY9udZ4k"
+        }
+      ],
+      "keywords_observed": [
+        "smelly shoes",
+        "stinky shoes",
+        "how to remove smell from shoes",
+        "shoes",
+        "sepatu bau",
+        "menghilangkan bau sepatu",
+        "yazidane shah",
+        "yazidaneshah"
+      ]
+    },
+    {
+      "id": "ff-floor_surfaces",
+      "brand": "FF",
+      "brand_name": "Foamfresh",
+      "angle_key": "floor_surfaces",
+      "title": "地板 / 多用途清洁：有孩子和宠物的家",
+      "pain_point": "孩子在地上爬、宠物满屋跑，想要好闻又放心的日常拖地方案。",
+      "hooks": [
+        {
+          "line": "宝宝在地上爬，你用什么拖地？",
+          "hook_type": "question",
+          "hook_type_zh": "提问式"
+        },
+        {
+          "line": "一半清洁一半不洗，直接对比。",
+          "hook_type": "challenge_test",
+          "hook_type_zh": "实测挑战"
+        },
+        {
+          "line": "拖地 3 个误区：水越多越干净？",
+          "hook_type": "list_number",
+          "hook_type_zh": "清单数字"
+        }
+      ],
+      "top_hook": "宝宝在地上爬，你用什么拖地？",
+      "format_name": "误区破解",
+      "format_execution": "“你以为…其实…”结构，3个误区连击，20–40秒",
+      "format_key": "myth_busting",
+      "recommended_platforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "小红书"
+      ],
+      "why_trending": [
+        "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
+        "平台内表现百分位中位数 P64；0% 落在前 25%（均匀分布基线为 25%）。",
+        "views/day 中位数 ≈ 7,268。",
+        "表现较好的视频最常用「反常识/我错了」钩子（1 条）。"
+      ],
+      "compliance": "“家庭/宠物安全”仅在有检测报告时使用；否则说“成分温和 / 按指示稀释使用”。",
+      "priority_score": 0.004,
+      "n": 2,
+      "median_perf_pct": 63.8,
+      "top_quartile_share": 0.0,
+      "status": "观察",
+      "thumb": {
+        "type": "instagram",
+        "youtube_id": null,
+        "url": null,
+        "platform": "Instagram",
+        "ref_title": "\"Comment for link 🔗 ",
+        "ref_url": "https://www.instagram.com/p/DeMeIGiNGpa/",
+        "views": 120426
+      },
+      "references": [
+        {
+          "platform": "Instagram Reels",
+          "title": "\"Comment for link 🔗 ",
+          "url": "https://www.instagram.com/p/DeMeIGiNGpa/",
+          "views": 120426,
+          "views_per_day": 10035.5,
+          "post_date": "2026-10-07",
+          "perf_pct": 71.1,
+          "youtube_id": null
+        },
+        {
+          "platform": "Instagram Reels",
+          "title": "#SwifferPartner I thought my floors were clean @swiffer",
+          "url": "https://www.instagram.com/p/DeIdmLCIxj6/",
+          "views": 58510,
+          "views_per_day": 4500.7692,
+          "post_date": "2026-10-06",
+          "perf_pct": 56.4,
+          "youtube_id": null
+        }
+      ],
+      "keywords_observed": [
+        "tilecleaner",
+        "floorcleanerindia",
+        "amazonfinds",
+        "cleaninghacks",
+        "homecareindia",
+        "swifferpartner"
+      ]
+    }
+  ],
+  "biz_date": "2026-10-19",
+  "snapshot_built_at_local": "2026-10-19 15:53:09 +0800"
+}
