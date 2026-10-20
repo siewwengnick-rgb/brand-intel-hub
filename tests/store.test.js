@@ -255,3 +255,61 @@ test("Export：从 store 读出来的 views（addView 存的）原样导得出�
   assert.deepEqual(out.views, [{ id: "ot-fake", date: "2026-01-01", who: "Nick", seconds: 7 }]);
   assert.equal(out.decisions[0].decision, "shoot");
 });
+
+// app.js 是 DOM 代码不能 require：把「你是谁」那段原文切出来，用假的下拉 / store 在 vm 里跑，测的是 app.js 本身
+function runWhoBlock(store) {
+  const src = require("fs").readFileSync(require("path").join(__dirname, "../js/app.js"), "utf8").replace(/\r\n/g, "\n");
+  const END_MARK = "\n  })();";
+  const start = src.indexOf("// 你是谁（左栏底部）");
+  const end = src.indexOf(END_MARK, start);
+  assert.ok(start >= 0 && end > start, "app.js 里找不到「你是谁」那段");
+  const cls = new Set();
+  const sel = {
+    innerHTML: "", value: "", handlers: {},
+    classList: { toggle: (c, on) => (on ? cls.add(c) : cls.delete(c)), contains: (c) => cls.has(c) },
+    addEventListener(t, fn) { this.handlers[t] = fn; }
+  };
+  const log = { toasts: [], rerenders: 0 };
+  const ctx = {
+    $: (id) => (id === "who" ? sel : null), store,
+    esc: (s) => String(s), toast: (m) => log.toasts.push(m), rerender: () => log.rerenders++
+  };
+  require("vm").runInNewContext(src.slice(start, end + END_MARK.length), ctx);
+  return { sel, log };
+}
+
+test("「你是谁」下拉：存成功就换名字；存失败退回原来的名字，unset 跟着退回值走", () => {
+  const storage = memStorage({ [S.KEYS.who]: "Nick" });
+  const st = S.createStore({ storage, config: { team: ["Nick", "假同事"] } });
+  const { sel, log } = runWhoBlock(st);
+  assert.equal(sel.value, "Nick");
+  assert.equal(sel.classList.contains("unset"), false);
+
+  sel.value = "假同事";
+  sel.handlers.change();
+  assert.equal(st.getWho(), "假同事");
+  assert.equal(sel.value, "假同事");
+  assert.equal(log.toasts.length, 0);
+  assert.equal(log.rerenders, 1);
+
+  storage.setItem = () => { throw new Error("QuotaExceededError"); };
+  sel.value = "Nick";
+  sel.handlers.change();
+  assert.equal(st.getWho(), "假同事", "实际还存着旧名字");
+  assert.equal(sel.value, "假同事", "下拉退回旧名字，不停在没存进去的新名字");
+  assert.equal(log.toasts.length, 1);
+  assert.equal(log.rerenders, 2);
+
+  // 原来没选（空）→ 想选 Nick 但存失败：退回空，unset 要加回去
+  const empty = memStorage();
+  const st2 = S.createStore({ storage: empty, config: { team: ["Nick"] } });
+  const r2 = runWhoBlock(st2);
+  assert.equal(r2.sel.classList.contains("unset"), true);
+  empty.setItem = () => { throw new Error("QuotaExceededError"); };
+  r2.sel.value = "Nick";
+  r2.sel.handlers.change();
+  assert.equal(r2.sel.value, "");
+  assert.equal(r2.sel.classList.contains("unset"), true);
+  assert.equal(r2.log.toasts.length, 1);
+  assert.equal(r2.log.rerenders, 1);
+});

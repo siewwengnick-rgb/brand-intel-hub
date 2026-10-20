@@ -299,6 +299,17 @@ test("Trends 来源但没有名次 / 热度信号 → note（不当产品）；�
   assert.equal(out[1].rank, 2);
 });
 
+test("Trends 来源只有 prev_rank 或非空 history 也算名次信号 → keyword；history 空数组又没别的信号 → 仍 note", () => {
+  const out = D.normalizeItems([
+    { section: "product", title: "假词戊", source: "Google Trends", prev_rank: "4" },
+    { section: "product", title: "假词己", source: "google_trends", history: [{ date: "2026-01-01", rank: 3, interest: 40 }] },
+    { section: "product", title: "MY：假说明 近周兴趣抬升", source: "Google Trends", history: [] }
+  ]);
+  assert.deepEqual(out.map((x) => x.kind), ["keyword", "keyword", "note"]);
+  assert.equal(out[0].prev_rank, 4);
+  assert.deepEqual(out[1].history, [{ date: "2026-01-01", rank: 3, interest: 40 }]);
+});
+
 test("真资料 data/2026-10-20.json：「MY：foam cleaner …」那条是 note，不在产品里；其余 Trends 都是 keyword", () => {
   const file = D.normalizeFile(require("../data/2026-10-20.json"), "2026-10-20");
   const mine = file.items.filter((it) => /^MY：foam cleaner/.test(it.title));

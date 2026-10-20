@@ -109,9 +109,10 @@
     return sourceKey(src).indexOf("trends") >= 0;
   }
 
-  // Trends 来源的关键字至少有一个名次 / 热度信号：rank / interest 字段、「X Trends:」标题、「interest N (up)」
+  // Trends 来源的关键字至少有一个名次 / 热度信号：rank / prev_rank / interest 字段、非空 history、「X Trends:」标题、「interest N (up)」
   function hasRankSignal(it) {
-    return toNum(it.rank) !== null || toNum(it.interest) !== null ||
+    return toNum(it.rank) !== null || toNum(it.prev_rank) !== null || toNum(it.interest) !== null ||
+      (Array.isArray(it.history) && it.history.length > 0) ||
       (typeof it.title === "string" && TRENDS_PREFIX.test(it.title)) ||
       (typeof it.summary === "string" && INTEREST_RE.test(it.summary));
   }

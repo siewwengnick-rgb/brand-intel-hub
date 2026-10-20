@@ -74,6 +74,7 @@ Grok Bot 每天抓完只做两件事，**不改任何网站文件**：
 `decision`：`shoot`（安排拍）/ `new_product`（出新品）/ `ad_keyword`（投广告）/ `skip`（跳过）。
 `reason`：很好 / 看过了 / 不适合我们 / 太难拍 / 没新意 / 不合规。
 `views`：谁打开过哪条简报，一次打开一行；`seconds` = 看了几秒，`null` = 没正常关掉（例如直接关了分页）。
+**Grok 读 `views` 要容忍 `seconds` 是 `null`**：别当 0 算进平均，也别因此报错或跳过整份文件；统计「看了几秒」只算有数字的行，「打开过几次」两种行都算。
 
 Grok Bot 每天抓之前先读 repo 里的 `decisions.json`（最近 14 天）：`skip` 原因多的方向少抓，`shoot` / `new_product` 多的方向多抓；没人看的 section 在 `note_from_ai` 里提一句。
 

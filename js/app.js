@@ -647,7 +647,7 @@
     // 今天先看这 5 条
     var briefs = D.sortAngles(angles.filter(undecided)).slice(0, 5);
     var topKw = I.topKeywords(kws.filter(undecided), 5);
-    html += '<div class="sec-head"><h2 class="sec">今天先看这 5 条 <small>简报</small></h2>' +
+    html += '<div class="sec-head"><h2 class="sec">今天先看这 ' + (briefs.length || 5) + ' 条 <small>简报</small></h2>' +
       '<a class="more" href="' + R.href("briefs", dp) + '">全部简报 →</a></div>' +
       (briefs.length ? '<div class="grid five">' + briefs.map(function (it) { return angleCard(it, seen); }).join("") + "</div>"
         : emptyBox(angles.length ? "今天的简报都决定好了" : "没有符合筛选的简报"));
@@ -1282,7 +1282,11 @@
     sel.value = cur;
     sel.classList.toggle("unset", !cur);
     sel.addEventListener("change", function () {
-      if (!store.setWho(sel.value)) toast("「你是谁」没存进去，下次打开要再选");
+      // 存不进去：下拉退回实际存着的名字，免得显示新名字、记录却署旧名
+      if (!store.setWho(sel.value)) {
+        sel.value = store.getWho();
+        toast("「你是谁」没存进去，还是用原来的名字");
+      }
       sel.classList.toggle("unset", !sel.value);
       rerender();
     });
