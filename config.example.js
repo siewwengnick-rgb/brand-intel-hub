@@ -1,9 +1,6 @@
-// Copy to config.js and fill in. config.js is gitignored.
+// 复制成 config.js 再改（config.js 已在 .gitignore，不进 repo）。
+// 不放 config.js 也能用：名单就是 Nick + 团队。
 window.BRAND_INTEL_CONFIG = {
-  supabaseUrl: "",           // e.g. https://xxxx.supabase.co
-  supabaseAnonKey: "",       // anon public key (or leave empty to stay local-only)
-  userKey: "nick",
-  // REST paths used by BrandIntel.saveFavorite / removeFavorite
-  favoritesTable: "favorites",
-  eventsTable: "feedback_events"
+  // 「你是谁」下拉的名单
+  team: ["Nick", "团队"]
 };

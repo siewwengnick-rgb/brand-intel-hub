@@ -1,55 +1,57 @@
-# OT / FF 品牌情报台 (Brand Intel Hub)
+# OT / FF 品牌情报台
 
-一个链接、两个分栏、按日期留存、可收藏。
+一个链接、一套系统：左栏 6 个模块，每个模块一页（网址带 `#/today` 这类 hash，刷新留在同一页）。每个决定都要选原因，存起来给 AI 学口味。纯静态（HTML + CSS + JS，不用框架、不用 build），可直接挂 GitHub Pages / Vercel。
 
-| 分栏 | 内容 |
-|------|------|
-| **营销内容** | Orthotech + Foamfresh 内容角度（来自 content-angles-radar） |
-| **产品 / Trending** | 清洁热搜榜 + 新品卡片（来自 foamfresh-radar） |
-| **已收藏** | ★ 收藏列表（localStorage；可选同步 Supabase） |
+## 怎么看
 
-## 本地预览
+左栏（手机上变成顶部可横向滑的菜单条）；最下面选 **你是谁**（第一次选一下，之后记住；没选记成「未署名」）。每页最上面是标题 + 日期 + 一行说明，下面一行 ◀ 日期 ▶｜品牌 全部 / OT / FF｜搜索，往下滑会钉在顶上。
 
-```bash
-cd /workspace/brand-intel-hub
-python3 -m http.server 8765
-# 打开 http://127.0.0.1:8765/
+- 每天
+  - **🏠 今日总览**（`#/today`，默认页）：AI 的话、4 个数字（待决定需求、待看简报、团队今天看了、新进榜）、今天变了什么、今天先看这 5 条简报 + 需求榜前 5。点哪个就跳到对应模块。
+  - **📈 新品决策**（`#/products`）：需求榜（名次、热度、7 天走势、较昨天、需求、**出新品 / 投广告 / 跳过**），点关键字展开相关产品；下面是全部 trending 产品。左栏红数字 = 还没决定的条数。
+  - **🎬 拍摄简报**（`#/briefs`）：带封面的卡片。点开是一份简报：3 个关键 point、为什么推荐、模式拆解、用到我们 brand、原片合规；底部一直有 **安排拍 / 跳过 / 打开原片 ↗**。
+- 结果
+  - **✅ 待办**（`#/todo`）：新品候选｜广告词｜待拍清单，全部日期，每行可以取消。
+  - **🗂 历史**（`#/history`）：每天一行（简报、需求、产品、已决定、看了），点一行看那天的今日总览。
+- 设置
+  - **🔗 资料与反馈**（`#/data`）：Grok 最后推送时间、这天文件几条、**Export decisions.json**、Clear、团队名单。
+
+**按任何决定都会弹一行原因**：很好 / 看过了 / 不适合我们 / 太难拍 / 没新意 / 不合规，可加一句话，按 Confirm 才记。跳过也要原因。打开简报会记一笔「看过」，顶部显示「团队今天看了 N / M 条简报」。
+
+Grok 还没给的字段（`need`、`why`、`pattern`、`apply`、`key_points` …）页面会写「Grok 还没提供」。
+
+本地预览：
+
+```
+python -m http.server 8765
 ```
 
-或直接用浏览器打开 `index.html`（部分环境 `fetch` 本地 JSON 需 http server）。
+打开 http://127.0.0.1:8765/ （直接双击 index.html 读不到资料，要用 http server）。
 
-## 每日快照
+## 名单（你是谁）
 
-```bash
-python3 build_snapshot.py              # 今天（Asia/Kuala_Lumpur）
-python3 build_snapshot.py --date 2026-10-19
+复制 `config.example.js` 成 `config.js`，改 `team`。没有 `config.js` 就是 Nick + 团队。`config.js` 不进 repo。
+
+## Grok Bot 每天推什么
+
+只推两样，不改网站文件，格式见 [DATA.md](./DATA.md)：
+
+1. `data/YYYY-MM-DD.json`
+2. `data/manifest.json`（日期加进 `dates`，`latest` 改成今天）
+
+旧字段的文件（如 `data/2026-10-19.json`）网站加载时会自动转换（`js/normalize.js`），不用改源文件。
+
+## 反馈存在哪、怎么交给 Grok
+
+现在只存在这个浏览器里（`localStorage`：`brand-intel-feedback`、`brand-intel-views`），换浏览器或清缓存会不见；「团队今天看了」也只算这台机。
+
+1. 「资料与反馈」页 → **Export decisions.json**，下载 `decisions.json`（每条现在有效的决定：`id, section, kind, brand, title, url, date, decision, decided_at, reason, note, who`，跳过的也在里面）
+2. 交给 Grok Bot（放进 repo 根目录或直接贴给它）
+
+**Clear** 会清空这个浏览器里的全部决定记录（要再按 Confirm）。v1/v2 的旧收藏第一次打开时会自动转成决定（营销 → 安排拍，产品 → 出新品）。
+
+## 测试
+
 ```
-
-写出：
-
-- `data/YYYY-MM-DD/content.json`
-- `data/YYYY-MM-DD/products.json`
-- `data/manifest.json`（日期列表）
-
-## 收藏 / Supabase
-
-1. 复制 `config.example.js` → `config.js`，填入 `supabaseUrl` + `supabaseAnonKey`
-2. 在 Supabase SQL 编辑器跑 `supabase/schema.sql`
-3. 未配置时：收藏只写 `localStorage` 键 `brand-intel-favorites`，toast「已收藏（本地）」
-
-Agent 读收藏：见 `supabase/README.md`。
-
-## 架构说明
-
-- **静态展示 + 按天 JSON**：适合 GitHub Pages
-- **收藏 / 反馈写回**：需要 Supabase（或 Railway 后端）；纯 Pages 做不到让助手看见你的 ★
-- **不迁移 CRM**：本仓只服务情报浏览与 Nick 反馈
-
-## 合规提醒
-
-- OT：支撑 / 舒适 / 分散压力；禁治疗矫正脊柱侧弯话术
-- FF：禁 99.9% / 未验证抗菌 / 混剂示范
-
-## Daily data (handoff)
-
-See [DATA.md](./DATA.md). After the initial push, website UI is maintained by Claude Code; Grok Bot only pushes `data/YYYY-MM-DD.json`.
+node --test tests/
+```

@@ -1,0 +1,151 @@
+"use strict";
+const test = require("node:test");
+const assert = require("node:assert/strict");
+const I = require("../js/insights.js");
+
+const kw = (title, rank, interest, extra = {}) => ({ kind: "keyword", region: "cn", title, rank, interest, ...extra });
+
+// 假资料：7 天窗口（01-09 ~ 01-15）里有 4 天的文件，01-09 那天之前的不算
+const DAYS = {
+  "2026-01-08": [kw("旧日子", 1, 99)], // 窗口外，不算
+  "2026-01-10": [kw("甲", 5, 40), kw("乙", 1, 90), kw("丙", 3, 60)],
+  "2026-01-11": [kw("甲", 4, 50), kw("乙", 1, 92), kw("丙", 2, 70)],
+  "2026-01-13": [kw("甲", 3, 60), kw("乙", 2, 85), kw("丙", 2, 75)],
+  "2026-01-15": [kw("甲", 1, 100), kw("乙", 4, 70), kw("丁", 2, 80), kw("丙", 3, 72)]
+};
+const TODAY = "2026-01-15";
+
+test("windowDates：today 往前 7 天，manifest 没有的日期跳过", () => {
+  const dates = ["2026-01-16", "2026-01-15", "2026-01-13", "2026-01-11", "2026-01-10", "2026-01-09", "2026-01-08"];
+  assert.deepEqual(I.windowDates(TODAY, dates), ["2026-01-15", "2026-01-13", "2026-01-11", "2026-01-10", "2026-01-09"]);
+  assert.equal(I.addDays("2026-03-01", -1), "2026-02-28");
+  assert.equal(I.addDays("bad", 1), "");
+});
+
+test("buildHistory：按 region+关键字串起来，旧→新，窗口外丢掉", () => {
+  const h = I.buildHistory(DAYS, TODAY);
+  assert.deepEqual(h["cn|甲"].map((p) => p.rank), [5, 4, 3, 1]);
+  assert.deepEqual(h["cn|丁"].map((p) => p.date), ["2026-01-15"]);
+  assert.equal(h["cn|旧日子"], undefined, "01-08 在 7 天以外");
+  // 不同 region 同名不混
+  const h2 = I.buildHistory({ [TODAY]: [kw("x", 1, 1), { ...kw("x", 2, 2), region: "my" }] }, TODAY);
+  assert.equal(Object.keys(h2).length, 2);
+});
+
+test("buildHistory：条目自带 history 就用它（同一天以 history 为准）", () => {
+  const today = [kw("戊", 1, 100, { history: [
+    { date: "2026-01-12", rank: 6, interest: 30 },
+    { date: "2026-01-13", rank: 9, interest: 20 },
+    { date: "2026-01-01", rank: 1, interest: 1 } // 窗口外
+  ] })];
+  const h = I.buildHistory({ "2026-01-13": [kw("戊", 4, 50)], [TODAY]: today }, TODAY);
+  assert.deepEqual(h["cn|戊"], [
+    { date: "2026-01-12", rank: 6, interest: 30 },
+    { date: "2026-01-13", rank: 9, interest: 20 },
+    { date: TODAY, rank: 1, interest: 100 }
+  ]);
+});
+
+test("较昨天：prev_rank 优先，没有就看历史；upStreak 连续上升天数", () => {
+  const h = I.buildHistory(DAYS, TODAY);
+  assert.equal(I.rankDelta(kw("甲", 1, 100), h["cn|甲"], TODAY), 2);
+  assert.equal(I.rankDelta(kw("甲", 1, 100, { prev_rank: 7 }), h["cn|甲"], TODAY), 6);
+  assert.equal(I.rankDelta(kw("丁", 2, 80), h["cn|丁"], TODAY), null);
+  assert.equal(I.upStreak(h["cn|甲"], TODAY), 3, "5→4→3→1");
+  assert.equal(I.upStreak(h["cn|丙"], TODAY), 0, "2→3 掉了");
+  // 名次一样但热度涨也算上升
+  assert.equal(I.upStreak([{ date: "2026-01-14", rank: 2, interest: 10 }, { date: TODAY, rank: 2, interest: 20 }], TODAY), 1);
+  assert.equal(I.upStreak(h["cn|乙"], "2026-01-16"), 0, "今天没点就是 0");
+});
+
+test("changeSummary：新进榜 / 升最快 / 连续 ≥3 天 / 掉最多", () => {
+  const h = I.buildHistory(DAYS, TODAY);
+  const s = I.changeSummary(DAYS[TODAY], h, TODAY);
+  assert.equal(s.newCount, 1, "丁");
+  assert.deepEqual([s.topRise.title, s.topRise.delta], ["甲", 2]);
+  assert.deepEqual([s.streak.title, s.streak.days], ["甲", 3]);
+  assert.deepEqual([s.topDrop.title, s.topDrop.delta], ["乙", 2]);
+});
+
+test("changeSummary：只有 1 天资料、没 prev_rank → 四格全空（页面隐藏）", () => {
+  const today = [kw("甲", 1, 100), kw("乙", 2, 90)];
+  const s = I.changeSummary(today, I.buildHistory({ [TODAY]: today }, TODAY), TODAY);
+  assert.deepEqual(s, { newCount: null, topRise: null, streak: null, topDrop: null });
+  assert.equal(I.sparkValues(I.buildHistory({ [TODAY]: today }, TODAY)["cn|甲"]), null, "只有 1 天不画 sparkline");
+});
+
+test("changeSummary：只靠 prev_rank 也能算；没 prev_rank 的算新进榜", () => {
+  const today = [kw("甲", 1, 100, { prev_rank: 4 }), kw("乙", 2, 90, { prev_rank: 1 }), kw("丙", 3, 50)];
+  const s = I.changeSummary(today, I.buildHistory({ [TODAY]: today }, TODAY), TODAY);
+  assert.equal(s.newCount, 1);
+  assert.equal(s.topRise.delta, 3);
+  assert.equal(s.topDrop.title, "乙");
+  assert.equal(s.streak, null);
+});
+
+test("sparkValues：有 interest 用 interest，缺了用名次（反向）", () => {
+  assert.deepEqual(I.sparkValues([{ rank: 3, interest: 10 }, { rank: 1, interest: 30 }]), [10, 30]);
+  assert.deepEqual(I.sparkValues([{ rank: 3, interest: null }, { rank: 1, interest: 30 }]), [-3, -1]);
+});
+
+test("matchProducts：need_keys / related_keywords / tags 精确对上；没有就按名称相近；都没有回空", () => {
+  const P = [
+    { id: "a", title: "柑橘厨房除油喷雾", need_keys: ["厨房除油"], tags: [] },
+    { id: "b", title: "浴室防霉喷雾", tags: ["浴室防霉"] },
+    { id: "c", title: "洗衣凝珠", related_keywords: ["Laundry Beads"] },
+    { id: "d", title: "地板清洁剂", summary: "电解水 拖地", tags: [], category: ["地板"] }
+  ];
+  assert.deepEqual(I.matchProducts({ title: "厨房除油" }, P), { items: [P[0]], how: "exact" });
+  assert.deepEqual(I.matchProducts({ title: "浴室防霉" }, P).items.map((x) => x.id), ["b"]);
+  assert.deepEqual(I.matchProducts("laundry beads", P).items.map((x) => x.id), ["c"], "不分大小写");
+  assert.deepEqual(I.matchProducts({ title: "电解水" }, P), { items: [P[3]], how: "loose" });
+  assert.deepEqual(I.matchProducts({ title: "玻璃水垢" }, P), { items: [], how: "none" });
+  assert.deepEqual(I.matchProducts({ title: "" }, P), { items: [], how: "none" });
+});
+
+test("briefPoints：key_points 优先（最多 3 个）；没有就从 why / pattern / apply 各取第一句", () => {
+  const kp = I.briefPoints({ key_points: [{ head: "前后对比", body: "3 秒见效" }, "只有标题", { head: "c", body: "d" }, { head: "第四个", body: "不要" }] });
+  assert.equal(kp.from, "key_points");
+  assert.deepEqual(kp.points, [{ head: "前后对比", body: "3 秒见效" }, { head: "只有标题", body: "" }, { head: "c", body: "d" }]);
+  const fb = I.briefPoints({ why: "3 天 18 万观看。评论区都在问。", pattern: "提问式钩子！然后对比", apply: { OT: { hook: "你的鞋垫几年没换了？", how: "手拿旧鞋垫对镜头" } } });
+  assert.equal(fb.from, "fallback");
+  assert.deepEqual(fb.points.map((p) => p.body), ["3 天 18 万观看。", "提问式钩子！", "你的鞋垫几年没换了？"]);
+  const old = I.briefPoints({ summary: "旧摘要一句。第二句", hook: "旧钩子" });
+  assert.deepEqual(old.points.map((p) => p.body), ["旧摘要一句。", "钩子：旧钩子", ""], "旧样本：summary / hook 顶上，apply 没有就空");
+  assert.equal(I.firstSentence("没有标点的一句"), "没有标点的一句");
+  assert.equal(I.firstSentence(""), "");
+});
+
+test("dayStats：历史页一行（简报/需求/产品/已决定/看了），跳过也算已决定", () => {
+  const D = "2026-01-15";
+  const items = [
+    { id: "a1", kind: "angle" }, { id: "a2", kind: "angle" },
+    { id: "k1", kind: "keyword" }, { id: "k2", kind: "keyword" }, { id: "k3", kind: "keyword" },
+    { id: "p1", kind: "product" }
+  ];
+  const dec = {
+    ["a1|" + D]: { shoot: {} },
+    ["k1|" + D]: { skip: {} },
+    ["k2|" + D]: {},                    // 空的不算
+    ["p1|2026-01-14"]: { new_product: {} } // 别天的不算
+  };
+  const views = [
+    { item_id: "a1", date: D }, { item_id: "a1", date: D, seconds: 5 }, // 同一条去重
+    { item_id: "a2", date: "2026-01-14" },                            // 别天
+    { item_id: "gone", date: D },                                     // 文件里没有这条
+    null
+  ];
+  assert.deepEqual(I.dayStats(items, dec, views, D), { total: 6, briefs: 2, keywords: 3, products: 1, decided: 2, viewed: 1 });
+  assert.deepEqual(I.dayStats([], {}, [], D), { total: 0, briefs: 0, keywords: 0, products: 0, decided: 0, viewed: 0 });
+  assert.deepEqual(I.dayStats(null, null, null, D).total, 0);
+});
+
+test("topKeywords：跨 region 按热度取前 n，热度一样看名次，没热度排后面", () => {
+  const list = [
+    kw("甲", 3, 60), { ...kw("乙", 1, 90), region: "my" }, kw("丙", 1, 90), kw("丁", 2, null), kw("戊", 5, 75), kw("己", 4, 10)
+  ];
+  assert.deepEqual(I.topKeywords(list, 5).map((k) => k.title), ["乙", "丙", "戊", "甲", "己"]);
+  assert.deepEqual(I.topKeywords(list, 2).map((k) => k.title), ["乙", "丙"]);
+  assert.equal(I.topKeywords(list, 10).length, 6);
+  assert.deepEqual(I.topKeywords(null, 5), []);
+});
