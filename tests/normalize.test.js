@@ -270,3 +270,81 @@ test("normalizeFile：带出文件顶层 note_from_ai（没有就空字符串）
   assert.equal(D.normalizeFile({ items: [] }).note_from_ai, "");
   assert.equal(D.normalizeFile({ note_from_ai: 3, items: [] }).note_from_ai, "");
 });
+
+// ---------- Codex 复审 2026-10-21：source 写法 / 字符串数字 / 需求分析说明 ----------
+
+test("source 不分大小写、去空格 / 下划线 / 连字符：Google Trends 也认成 keyword", () => {
+  ["google_trends", "Google Trends", "GOOGLE-TRENDS", " google trends ", "GoogleTrends", "Trends"].forEach((source) => {
+    const [k] = D.normalizeItems([{ section: "product", title: "Malaysia Trends: fake spray", source, summary: "relative interest 40 (up)", tags: ["trends", "my"] }]);
+    assert.equal(k.kind, "keyword", source);
+    assert.equal(k.title, "fake spray", source);
+    assert.equal(k.interest, 40, source);
+  });
+  // 不是 Trends 来源的照旧是产品
+  ["Shopee", "TikTok", "Amazon"].forEach((source) => {
+    assert.equal(D.normalizeItems([{ section: "product", title: "假产品", source }])[0].kind, "product", source);
+  });
+  assert.equal(D.isTrendsSource("Google  Trends"), true);
+  assert.equal(D.isTrendsSource("Lazada"), false);
+});
+
+test("Trends 来源但没有名次 / 热度信号 → note（不当产品）；有 rank 字段的还是 keyword", () => {
+  const out = D.normalizeItems([
+    { section: "product", title: "MY：假词甲 / 假词乙 近周兴趣抬升", source: "Google Trends", summary: "假词甲 近7日均约 37 vs 前7日约 15 | idea: 假点子", url: "https://example.com/t" },
+    { section: "product", title: "假词丙", source: "Google Trends", rank: "2" },
+    { section: "product", title: "假词丁", source: "google_trends", interest: 30 }
+  ]);
+  assert.deepEqual(out.map((x) => x.kind), ["note", "keyword", "keyword"]);
+  assert.equal(out[0].title, "MY：假词甲 / 假词乙 近周兴趣抬升");
+  assert.equal(out[1].rank, 2);
+});
+
+test("真资料 data/2026-10-20.json：「MY：foam cleaner …」那条是 note，不在产品里；其余 Trends 都是 keyword", () => {
+  const file = D.normalizeFile(require("../data/2026-10-20.json"), "2026-10-20");
+  const mine = file.items.filter((it) => /^MY：foam cleaner/.test(it.title));
+  assert.equal(mine.length, 1);
+  assert.equal(mine[0].kind, "note");
+  assert.equal(file.items.filter((it) => it.kind === "product" && D.isTrendsSource(it.source)).length, 0, "Trends 来源一条都不当产品");
+  const raw = require("../data/2026-10-20.json").items;
+  const trendsRaw = raw.filter((it) => D.isTrendsSource(it.source)).length;
+  assert.equal(file.items.filter((it) => it.kind === "keyword").length, trendsRaw - 1);
+});
+
+test("字符串 rank / prev_rank / interest 转数字，转不了就省略（rank 省略后按顺序补）", () => {
+  const input = [
+    { section: "product", kind: "keyword", title: "甲", source: "google_trends", region: "cn", rank: "3", prev_rank: " 5 ", interest: "88.5", trend: "up" },
+    { section: "product", kind: "keyword", title: "乙", source: "google_trends", region: "cn", rank: "abc", prev_rank: "", interest: "高", trend: "up" },
+    { section: "product", kind: "keyword", title: "丙", source: "google_trends", region: "cn", rank: 1, interest: 50, trend: "up",
+      history: [{ date: "2026-01-01", rank: "4", interest: "x" }, { date: "2026-01-02", rank: 2, interest: 60 }] }
+  ];
+  const copy = JSON.parse(JSON.stringify(input));
+  const [a, b, c] = D.normalizeItems(input);
+  assert.equal(a.rank, 3);
+  assert.equal(a.prev_rank, 5);
+  assert.equal(a.interest, 88.5);
+  assert.equal(b.rank, 2, "转不了 → 当作没给，按文件顺序补名次");
+  assert.equal("prev_rank" in b, false);
+  assert.equal("interest" in b, false);
+  assert.deepEqual(c.history, [{ date: "2026-01-01", rank: 4 }, { date: "2026-01-02", rank: 2, interest: 60 }]);
+  assert.deepEqual(input, copy, "不改传入的对象");
+  assert.equal(D.rankDelta({ rank: "1", prev_rank: "3" }), 2);
+  assert.equal(D.rankDelta({ rank: "", prev_rank: 3 }), null);
+});
+
+test("同类数字字段：views / priceMYR 空字符串不当 0", () => {
+  const [ang, prod] = D.normalizeItems([
+    { section: "marketing", title: "a", source: "TikTok", views: "" },
+    { section: "product", title: "p", source: "Shopee", priceMYR: "" }
+  ]);
+  assert.equal("views" in ang, false);
+  assert.equal("priceMYR" in prod, false);
+  const [ang2, prod2] = D.normalizeItems([
+    { section: "marketing", title: "a", source: "TikTok", views: "1200" },
+    { section: "product", title: "p", source: "Shopee", priceMYR: "18.90" }
+  ]);
+  assert.equal(ang2.views, 1200);
+  assert.equal(prod2.priceMYR, 18.9);
+  assert.equal(D.toNum("  "), null);
+  assert.equal(D.toNum("0"), 0);
+  assert.equal(D.toNum(true), null);
+});

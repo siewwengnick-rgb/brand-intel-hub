@@ -6,7 +6,9 @@
   var I = window.BIHInsights;
   var S = window.BIHStore;
   var R = window.BIHRouter;
-  var store = S.createStore({ config: window.BRAND_INTEL_CONFIG, storage: window.localStorage });
+  // window.localStorage 本身可能抛错（Safari 隐私模式等）：pickStorage 包在 try 里，拿不到就用内存
+  var picked = S.pickStorage(function () { return window.localStorage; });
+  var store = S.createStore({ config: window.BRAND_INTEL_CONFIG, storage: picked.storage, persistent: picked.persistent });
 
   var state = {
     dates: [],
@@ -112,6 +114,34 @@
 
   function who() { return store.getWho() || S.UNSIGNED; }
 
+  // 底部一行小提示，几秒后自己消失
+  var toastTimer = 0;
+  function toast(msg) {
+    var el = $("toast");
+    if (!el) {
+      el = document.createElement("div");
+      el.id = "toast";
+      el.className = "toast";
+      el.setAttribute("role", "status");
+      el.setAttribute("aria-live", "polite");
+      document.body.appendChild(el);
+    }
+    el.textContent = msg;
+    el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.hidden = true; }, 3500);
+  }
+
+  // 页面顶部的存储提示（存不了 / 旧记录读不出来）
+  function storageWarnings() {
+    var h = store.health();
+    var out = [];
+    if (!h.persistent) out.push("这个浏览器存不了记录，决定不会保留");
+    if (h.readFailed.feedback) out.push("这台机上的旧决定读不出来，先不存新的，免得盖掉");
+    if (h.readFailed.views) out.push("看过记录读不出来，先不记「已看」");
+    return out;
+  }
+
   // ---------- 决定（由 feedback 算出来） ----------
 
   function decOf(id, date) { return state.dec[key(id, date)] || {}; }
@@ -183,6 +213,10 @@
     return store.listFeedback().then(function (rows) {
       state.feedback = rows;
       state.dec = S.deriveDecisions(rows);
+    }, function () {
+      // 读坏了：页面照常用，顶部提示（storageWarnings），store 不会再写这个键
+      state.feedback = [];
+      state.dec = {};
     });
   }
 
@@ -489,7 +523,11 @@
     var kws = filtered("keyword");
     var prods = filtered("product");
     var allProds = state.items.filter(function (it) { return it.kind === "product"; });
-    if (!kws.length && !prods.length) return line("没有符合筛选的内容");
+    // Grok 的需求分析说明（Trends 来源、没有名次）：需求榜底下一行灰字，不当产品
+    var notes = filtered("note").map(function (it) {
+      return '<p class="note kw-note"' + (it.summary ? ' title="' + esc(it.summary) + '"' : "") + ">" + esc(it.title || it.summary) + "</p>";
+    }).join("");
+    if (!kws.length && !prods.length) return notes ? notes : line("没有符合筛选的内容");
     var kwAct = kws.filter(function (it) { return !folded(it.id, d); });
     var kwOld = kws.filter(function (it) { return folded(it.id, d); });
     var pAct = prods.filter(function (it) { return !folded(it.id, d); });
@@ -501,6 +539,7 @@
       html += groups.length ? '<div class="kwwrap">' + groups.map(function (g) { return keywordBlock(g, allProds); }).join("") + "</div>"
         : line("今天的关键字都决定好了");
     }
+    html += notes;
     if (prods.length) {
       html += '<div class="gap"></div><h2 class="sec">全部 trending 产品 <small>' + pAct.length + "</small></h2>";
       html += pAct.length ? '<div class="grid">' + pAct.map(productCard).join("") + "</div>" : line("今天的产品都决定好了");
@@ -742,7 +781,8 @@
     renderShell();
     var r = state.route;
     var needsDay = r === "today" || r === "products" || r === "briefs" || r === "history";
-    var top = state.syncError ? '<p class="note warn">' + esc(state.syncError) + "</p>" : "";
+    var top = storageWarnings().map(function (w) { return '<p class="note warn store-warn">' + esc(w) + "</p>"; }).join("") +
+      (state.syncError ? '<p class="note warn">' + esc(state.syncError) + "</p>" : "");
     if (state.error && needsDay) { main.innerHTML = top + emptyBox(state.error); return; }
     if (!state.ready && needsDay) { main.innerHTML = top + emptyBox("读取中…"); return; }
     var body = r === "today" ? renderToday() :
@@ -773,13 +813,16 @@
     var item = itemFor(row.item_id, row.date);
     if (!item) return Promise.resolve();
     var full = Object.assign(item, { decision: row.decision, reason: row.reason || "", note: row.note || "", who: who() });
-    state.fresh[key(full.item_id, full.date)] = true;
     return store.addFeedback(full).then(function (saved) {
+      state.fresh[key(full.item_id, full.date)] = true;
       state.feedback = state.feedback.concat([saved]);
       state.dec = S.deriveDecisions(state.feedback);
+      state.syncError = "";
       rerender();
-    }).catch(function () {
-      state.syncError = "这一下没存进去，再按一次";
+    }).catch(function (e) {
+      // 没存进去：不改界面上的决定
+      state.syncError = e && e.code === "read_failed" ? "旧决定读不出来，这一下没存（免得盖掉）" : "这一下没存进去，再按一次";
+      toast(state.syncError);
       rerender();
     });
   }
@@ -1007,9 +1050,15 @@
     var it = findItem(id, date);
     if (!it || it.kind !== "angle") return;
     viewing = { item_id: id, date: date, t0: Date.now() };
+    var me = viewing;
     store.addView({ item_id: id, date: date, who: who() }).then(function (v) {
       if (date === state.date) { state.views = state.views.concat([v]); render(); }
-    }).catch(function () { /* 记不到就算了 */ });
+    }).catch(function () {
+      // 没记到：不显示「已看」，关掉时也不补秒数
+      if (viewing === me) viewing = null;
+      toast("「已看」没记到");
+      render();
+    });
   }
 
   function endView() {
@@ -1018,7 +1067,7 @@
     viewing = null;
     store.addView({ item_id: v.item_id, date: v.date, who: who(), seconds: (Date.now() - v.t0) / 1000 })
       .then(function (row) { if (v.date === state.date) state.views = state.views.concat([row]); })
-      .catch(function () { /* ignore */ });
+      .catch(function () { toast("看了几秒没记到"); });
   }
 
   function openSheet(id, date) {
@@ -1141,6 +1190,16 @@
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
   }
 
+  // decisions.json = 决定 + 看过记录（DATA.md「反馈怎么回到 Grok」）；任何一边读不出来就不导，免得交出不完整的文件
+  function exportFile() {
+    Promise.all([store.listFeedback(), store.listViews()]).then(function (r) {
+      download("decisions.json", S.exportJSON(r[0], r[1]));
+    }, function () {
+      toast("记录读不出来，没导出");
+      render();
+    });
+  }
+
   // 今日总览 / 今天变了什么 → 新品决策，展开那个关键字并滚到它
   function gotoKeyword(id) {
     state.open[id] = true;
@@ -1168,12 +1227,16 @@
       addFeedback({ item_id: t.getAttribute("data-id"), date: t.getAttribute("data-date"), decision: "cancel_" + t.getAttribute("data-undo") });
     } else if (t && t.hasAttribute("data-act")) {
       var act = t.getAttribute("data-act");
-      if (act === "export") download("decisions.json", S.exportJSON(state.feedback));
+      if (act === "export") { exportFile(); return; }
       else if (act === "clear") state.confirmClear = true;
       else if (act === "cancel") state.confirmClear = false;
       else if (act === "confirm") {
         state.confirmClear = false;
-        store.clear().then(loadFeedback).then(render, render);
+        store.clear().then(function () {
+          toast("清空了");
+        }, function () {
+          toast("没清掉：这个浏览器写不进去");
+        }).then(loadFeedback).then(render, render);
         return;
       }
       render();
@@ -1219,7 +1282,7 @@
     sel.value = cur;
     sel.classList.toggle("unset", !cur);
     sel.addEventListener("change", function () {
-      store.setWho(sel.value);
+      if (!store.setWho(sel.value)) toast("「你是谁」没存进去，下次打开要再选");
       sel.classList.toggle("unset", !sel.value);
       rerender();
     });
@@ -1250,6 +1313,11 @@
     if (changed && !state.scrollKw) window.scrollTo(0, 0);
     if (!state.booted) { render(); return; }
     var d = p.date && state.dates.indexOf(p.date) >= 0 ? p.date : latest();
+    if (p.date && d !== p.date && d) {
+      // 地址栏的日期没有资料：改成实际显示的那天，并说一声
+      try { history.replaceState(history.state, "", R.href(p.route, d)); } catch (e) { /* file:// 等环境 */ }
+      toast("没有 " + p.date + " 的资料，显示最新一天");
+    }
     if (d && d !== state.date) loadDay(d);
     else render();
   }

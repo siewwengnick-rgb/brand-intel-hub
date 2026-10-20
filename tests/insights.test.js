@@ -46,9 +46,17 @@ test("buildHistory：条目自带 history 就用它（同一天以 history 为�
   ]);
 });
 
-test("较昨天：prev_rank 优先，没有就看历史；upStreak 连续上升天数", () => {
-  const h = I.buildHistory(DAYS, TODAY);
-  assert.equal(I.rankDelta(kw("甲", 1, 100), h["cn|甲"], TODAY), 2);
+// 一天接一天的假资料（01-12 ~ 01-15），用来算「较昨天」「连续上升」
+const DAYS_C = {
+  "2026-01-12": [kw("甲", 5, 40), kw("乙", 1, 90), kw("丙", 3, 60)],
+  "2026-01-13": [kw("甲", 4, 50), kw("乙", 1, 92), kw("丙", 2, 70)],
+  "2026-01-14": [kw("甲", 3, 60), kw("乙", 2, 85), kw("丙", 2, 75)],
+  "2026-01-15": [kw("甲", 1, 100), kw("乙", 4, 70), kw("丁", 2, 80), kw("丙", 3, 72)]
+};
+
+test("较昨天：prev_rank 优先，没有就看历史里真正的昨天；upStreak 连续上升天数", () => {
+  const h = I.buildHistory(DAYS_C, TODAY);
+  assert.equal(I.rankDelta(kw("甲", 1, 100), h["cn|甲"], TODAY), 2, "昨天 01-14 第 3 → 今天第 1");
   assert.equal(I.rankDelta(kw("甲", 1, 100, { prev_rank: 7 }), h["cn|甲"], TODAY), 6);
   assert.equal(I.rankDelta(kw("丁", 2, 80), h["cn|丁"], TODAY), null);
   assert.equal(I.upStreak(h["cn|甲"], TODAY), 3, "5→4→3→1");
@@ -58,9 +66,30 @@ test("较昨天：prev_rank 优先，没有就看历史；upStreak 连续上升�
   assert.equal(I.upStreak(h["cn|乙"], "2026-01-16"), 0, "今天没点就是 0");
 });
 
-test("changeSummary：新进榜 / 升最快 / 连续 ≥3 天 / 掉最多", () => {
+test("日期断档：昨天没资料就没有「较昨天」；连续上升到断档就停", () => {
+  // DAYS 只有 01-10 / 01-11 / 01-13 / 01-15：01-14 没有
   const h = I.buildHistory(DAYS, TODAY);
+  assert.equal(I.yesterdayPoint(h["cn|甲"], TODAY), null);
+  assert.equal(I.rankDelta(kw("甲", 1, 100), h["cn|甲"], TODAY), null, "01-13 不是昨天，不拿来比");
+  assert.equal(I.rankDelta(kw("甲", 1, 100, { prev_rank: 7 }), h["cn|甲"], TODAY), 6, "Grok 给的 prev_rank 照用");
+  assert.equal(I.upStreak(h["cn|甲"], TODAY), 0, "01-13 → 01-15 隔了一天，不算连续");
+  // 中间断一天：只算断档之后的
+  const gap = [
+    { date: "2026-01-11", rank: 9, interest: null }, { date: "2026-01-12", rank: 7, interest: null },
+    { date: "2026-01-14", rank: 5, interest: null }, { date: TODAY, rank: 3, interest: null }
+  ];
+  assert.equal(I.upStreak(gap, TODAY), 1);
+  // 跨月也算相邻
+  assert.equal(I.upStreak([{ date: "2026-02-28", rank: 3, interest: null }, { date: "2026-03-01", rank: 1, interest: null }], "2026-03-01"), 1);
+  assert.equal(I.rankDelta(kw("x", 1, null), [{ date: "2026-02-28", rank: 4, interest: null }], "2026-03-01"), 3);
   const s = I.changeSummary(DAYS[TODAY], h, TODAY);
+  assert.equal(s.newCount, 1, "新进榜看 7 天窗口：丁前几天都没有");
+  assert.deepEqual([s.topRise, s.streak, s.topDrop], [null, null, null], "昨天没资料：升最快 / 连续 / 掉最多都不算");
+});
+
+test("changeSummary：新进榜 / 升最快 / 连续 ≥3 天 / 掉最多", () => {
+  const h = I.buildHistory(DAYS_C, TODAY);
+  const s = I.changeSummary(DAYS_C[TODAY], h, TODAY);
   assert.equal(s.newCount, 1, "丁");
   assert.deepEqual([s.topRise.title, s.topRise.delta], ["甲", 2]);
   assert.deepEqual([s.streak.title, s.streak.days], ["甲", 3]);
@@ -148,4 +177,20 @@ test("topKeywords：跨 region 按热度取前 n，热度一样看名次，没�
   assert.deepEqual(I.topKeywords(list, 2).map((k) => k.title), ["乙", "丙"]);
   assert.equal(I.topKeywords(list, 10).length, 6);
   assert.deepEqual(I.topKeywords(null, 5), []);
+});
+
+test("字符串名次 / 热度（没 normalize 过的 history）也当数字；转不了是 null", () => {
+  assert.equal(I.num("12"), 12);
+  assert.equal(I.num(" 0.5 "), 0.5);
+  assert.equal(I.num(""), null);
+  assert.equal(I.num("高"), null);
+  assert.equal(I.num(null), null);
+  const h = I.buildHistory({ [TODAY]: [kw("戊", "1", "90", { history: [{ date: "2026-01-14", rank: "3", interest: "x" }] })] }, TODAY);
+  assert.deepEqual(h["cn|戊"], [{ date: "2026-01-14", rank: 3, interest: null }, { date: TODAY, rank: 1, interest: 90 }]);
+  assert.equal(I.rankDelta(kw("戊", "1", "90"), h["cn|戊"], TODAY), 2);
+});
+
+test("dayStats：note（需求分析说明）不算条数", () => {
+  const items = [{ id: "k1", kind: "keyword" }, { id: "n1", kind: "note" }, { id: "x", kind: "" }];
+  assert.deepEqual(I.dayStats(items, {}, [], TODAY), { total: 1, briefs: 0, keywords: 1, products: 0, decided: 0, viewed: 0 });
 });

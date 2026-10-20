@@ -60,15 +60,20 @@ Grok Bot 每天抓完只做两件事，**不改任何网站文件**：
 网站的决定存在看的人的浏览器里，按「Export」会下载 `decisions.json`，放到 repo 根目录（覆盖）。格式：
 
 ```json
-[{"id":"ot-supportive_footwear","section":"marketing","kind":"angle","brand":"OT","title":"…","url":"…",
-  "date":"2026-10-20","decision":"shoot","reason":"很好","note":"","who":"Nick","decided_at":"2026-10-20T09:12:00+08:00"},
- {"id":"kw-cn-泡沫清洁剂","section":"product","kind":"keyword","brand":"FF","title":"泡沫清洁剂",
-  "date":"2026-10-20","decision":"new_product","reason":"","note":"看看能不能做 500ml 版","who":"Nick","decided_at":"…"}]
+{"decisions": [
+  {"id":"ot-supportive_footwear","section":"marketing","kind":"angle","brand":"OT","title":"…","url":"…",
+   "date":"2026-10-20","decision":"shoot","decided_at":"2026-10-20T09:12:00+08:00","reason":"很好","note":"","who":"Nick"},
+  {"id":"kw-cn-泡沫清洁剂","section":"product","kind":"keyword","brand":"FF","title":"泡沫清洁剂","url":"",
+   "date":"2026-10-20","decision":"new_product","decided_at":"…","reason":"","note":"看看能不能做 500ml 版","who":"Nick"}],
+ "views": [
+  {"id":"ot-supportive_footwear","date":"2026-10-20","who":"Nick","seconds":42},
+  {"id":"ot-foot_pain_hook","date":"2026-10-20","who":"团队","seconds":null}]}
 ```
 
+`decisions`：每条现在有效的决定（取消掉的不在里面）。
 `decision`：`shoot`（安排拍）/ `new_product`（出新品）/ `ad_keyword`（投广告）/ `skip`（跳过）。
 `reason`：很好 / 看过了 / 不适合我们 / 太难拍 / 没新意 / 不合规。
-文件里还会有 `"views"`：`[{id, date, who, seconds}]`，谁打开过哪条简报。
+`views`：谁打开过哪条简报，一次打开一行；`seconds` = 看了几秒，`null` = 没正常关掉（例如直接关了分页）。
 
 Grok Bot 每天抓之前先读 repo 里的 `decisions.json`（最近 14 天）：`skip` 原因多的方向少抓，`shoot` / `new_product` 多的方向多抓；没人看的 section 在 `note_from_ai` 里提一句。
 
@@ -85,6 +90,10 @@ Grok Bot 每天抓之前先读 repo 里的 `decisions.json`（最近 14 天）�
 | `history` | 可选，`[{date, rank, interest}]` 最近 7 天，有就给（网站也会自己从历史文件算） |
 
 `title` 就放关键字本身，不要加「China Trends:」前缀。
+
+### kind = `note`（需求榜下面的一句说明，可选）
+
+像「MY：foam cleaner 近周兴趣抬升；aircond cleaner 回落」这种趋势观察，不是关键字也不是产品，就用 `kind: "note"`，只要 `title` + `summary`，网站显示成需求榜底下一行灰字。不要把它塞进 product。
 
 ### kind = `product`（trending 产品）额外字段
 

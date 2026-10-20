@@ -83,10 +83,45 @@
     return { tags: out, nested: nested };
   }
 
+  // 数字或数字字符串 → 数字；空字符串 / 转不了 → null
+  function toNum(x) {
+    if (typeof x === "number") return isFinite(x) ? x : null;
+    if (typeof x === "string" && x.trim() !== "") {
+      var n = Number(x.trim());
+      return isFinite(n) ? n : null;
+    }
+    return null;
+  }
+
+  // o[k] 是字符串数字就转成数字，转不了就拿掉（o 是自己的拷贝）
+  function numField(o, k) {
+    if (!has(o, k) || typeof o[k] === "number" && isFinite(o[k])) return;
+    var n = toNum(o[k]);
+    if (n === null) delete o[k];
+    else o[k] = n;
+  }
+
+  // 「google_trends」「Google Trends」「google-trends」都认：不分大小写，去空格 / 下划线 / 连字符
+  function sourceKey(src) {
+    return String(src || "").toLowerCase().replace(/[\s_\-]+/g, "");
+  }
+  function isTrendsSource(src) {
+    return sourceKey(src).indexOf("trends") >= 0;
+  }
+
+  // Trends 来源的关键字至少有一个名次 / 热度信号：rank / interest 字段、「X Trends:」标题、「interest N (up)」
+  function hasRankSignal(it) {
+    return toNum(it.rank) !== null || toNum(it.interest) !== null ||
+      (typeof it.title === "string" && TRENDS_PREFIX.test(it.title)) ||
+      (typeof it.summary === "string" && INTEREST_RE.test(it.summary));
+  }
+
+  // 没写 kind 的旧条目：营销 → angle；产品区里 Trends 来源 → keyword（没名次信号的需求分析说明 → note）；其他 → product
   function inferKind(it) {
     if (it.section === "marketing") return "angle";
     if (it.section === "product") {
-      return String(it.source || "").toLowerCase() === "google_trends" ? "keyword" : "product";
+      if (!isTrendsSource(it.source)) return "product";
+      return hasRankSignal(it) ? "keyword" : "note";
     }
     return "";
   }
@@ -159,11 +194,7 @@
         var yt = youtubeThumb(it.url);
         if (yt) it.thumb = yt;
       }
-      if (has(it, "views") && typeof it.views !== "number") {
-        var v = Number(it.views);
-        if (isFinite(v)) it.views = v;
-        else delete it.views;
-      }
+      numField(it, "views");
     } else if (kind === "keyword") {
       if (typeof it.title === "string" && TRENDS_PREFIX.test(it.title)) {
         it.title = it.title.replace(TRENDS_PREFIX, "").trim();
@@ -183,6 +214,10 @@
         if (it.summary.replace(/relative/i, "").replace(INTEREST_RE, "").trim() === "") it.summary = "";
       }
       if (!has(it, "trend")) it.trend = "flat";
+      // 字符串名次 / 热度 → 数字，转不了就省略（rank 省略后照旧按文件顺序补）
+      numField(it, "rank");
+      numField(it, "prev_rank");
+      numField(it, "interest");
       ctx.rank[it.region] = (ctx.rank[it.region] || 0) + 1;
       if (!has(it, "rank")) it.rank = ctx.rank[it.region];
     } else if (kind === "product") {
@@ -195,15 +230,23 @@
       if (!has(it, "category") && flat.nested) it.category = flat.nested;
       // 旧样本把 Grok 的 demo 产品标在 tags 里（"sample"）
       if (!has(it, "sample") && tags.indexOf("sample") >= 0) it.sample = true;
-      if (has(it, "priceMYR") && typeof it.priceMYR !== "number") {
-        var p = Number(it.priceMYR);
-        if (isFinite(p)) it.priceMYR = p;
-        else delete it.priceMYR;
-      }
+      numField(it, "priceMYR");
     }
 
     // v3 可选字段：格式不对就拿掉，页面当作「Grok 还没提供」
     if (has(it, "history") && !Array.isArray(it.history)) delete it.history;
+    // history 里的字符串名次 / 热度 → 数字（转不了就省略）；有要改的才拷贝，不动传入的对象
+    if (Array.isArray(it.history) && it.history.some(function (h) {
+      return h && ((has(h, "rank") && typeof h.rank !== "number") || (has(h, "interest") && typeof h.interest !== "number"));
+    })) {
+      it.history = it.history.map(function (h) {
+        if (!h || typeof h !== "object") return h;
+        var c = Object.assign({}, h);
+        numField(c, "rank");
+        numField(c, "interest");
+        return c;
+      });
+    }
     if (has(it, "need_keys") && !Array.isArray(it.need_keys)) {
       if (typeof it.need_keys === "string" && it.need_keys) it.need_keys = [it.need_keys];
       else delete it.need_keys;
@@ -311,13 +354,16 @@
 
   // 较昨天：正数 = 名次上升
   function rankDelta(it) {
-    if (typeof it.prev_rank !== "number" || typeof it.rank !== "number") return null;
-    return it.prev_rank - it.rank;
+    var pr = toNum(it.prev_rank), r = toNum(it.rank);
+    if (pr === null || r === null) return null;
+    return pr - r;
   }
 
   return {
     STATUS_ORDER: STATUS_ORDER,
     slug: slug,
+    toNum: toNum,
+    isTrendsSource: isTrendsSource,
     youtubeId: youtubeId,
     youtubeThumb: youtubeThumb,
     normalize: normalize,

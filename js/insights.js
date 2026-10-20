@@ -38,8 +38,14 @@
       .sort().reverse();
   }
 
+  // 数字或数字字符串（Grok 有时写 "3"）→ 数字；空字符串 / 转不了 → null
   function num(x) {
-    return typeof x === "number" && isFinite(x) ? x : null;
+    if (typeof x === "number") return isFinite(x) ? x : null;
+    if (typeof x === "string" && x.trim() !== "") {
+      var n = Number(x.trim());
+      return isFinite(n) ? n : null;
+    }
+    return null;
   }
 
   /**
@@ -86,13 +92,21 @@
     return prev;
   }
 
-  // 较昨天：正数 = 名次上升。prev_rank 字段优先，没有就看历史
+  // 真正的昨天（today 前一天）那个点；昨天没资料就是 null（断档不拿更早的日子顶）
+  function yesterdayPoint(series, today) {
+    var y = addDays(today, -1);
+    var hit = null;
+    (series || []).forEach(function (p) { if (p.date === y) hit = p; });
+    return hit;
+  }
+
+  // 较昨天：正数 = 名次上升。prev_rank 字段（Grok 给的前一天名次）优先，没有就看历史里昨天那个点
   function rankDelta(it, series, today) {
     var r = num(it.rank);
     if (r === null) return null;
     var pr = num(it.prev_rank);
     if (pr === null) {
-      var p = prevPoint(series, today);
+      var p = yesterdayPoint(series, today);
       pr = p ? p.rank : null;
     }
     return pr === null ? null : pr - r;
@@ -104,12 +118,13 @@
     return a.interest !== null && b.interest !== null && b.interest > a.interest;
   }
 
-  // 到 today 为止连续上升几天（今天要有点；中间日期没资料就看相邻两个有资料的点）
+  // 到 today 为止连续上升几天（今天要有点；日期要一天接一天，中间断一天就停在那里）
   function upStreak(series, today) {
     var s = (series || []).filter(function (p) { return p.date <= today; });
     if (!s.length || s[s.length - 1].date !== today) return 0;
     var n = 0;
     for (var i = s.length - 1; i > 0; i--) {
+      if (s[i - 1].date !== addDays(s[i].date, -1)) break;
       if (rose(s[i - 1], s[i])) n++;
       else break;
     }
@@ -241,11 +256,12 @@
     var out = { total: 0, briefs: 0, keywords: 0, products: 0, decided: 0, viewed: 0 };
     var ids = {};
     (items || []).forEach(function (it) {
-      if (!it) return;
+      // 只算能决定的三种；note（需求分析说明）等不算条数
+      if (!it || (it.kind !== "angle" && it.kind !== "keyword" && it.kind !== "product")) return;
       out.total++;
       if (it.kind === "angle") out.briefs++;
       else if (it.kind === "keyword") out.keywords++;
-      else if (it.kind === "product") out.products++;
+      else out.products++;
       ids[it.id] = true;
       var d = decisions && decisions[it.id + "|" + date];
       if (d && Object.keys(d).length) out.decided++;
@@ -284,6 +300,8 @@
     windowDates: windowDates,
     buildHistory: buildHistory,
     prevPoint: prevPoint,
+    yesterdayPoint: yesterdayPoint,
+    num: num,
     rankDelta: rankDelta,
     upStreak: upStreak,
     sparkValues: sparkValues,

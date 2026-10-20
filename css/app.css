@@ -604,3 +604,12 @@ h2.sec small, h3 small, h4 small { font-size: 12px; font-weight: 400; color: var
   .grip span { width: 40px; height: 4px; border-radius: 2px; background: rgba(232, 236, 242, 0.25); }
   .ph-bar { padding-top: 0; touch-action: none; }
 }
+
+/* 存储失败 / 日期不对等一行提示（底部，几秒后消失） */
+.toast {
+  position: fixed; left: 50%; bottom: calc(16px + var(--safe-b)); transform: translateX(-50%); z-index: 60;
+  max-width: calc(100vw - 32px); padding: 8px 14px; border-radius: 8px;
+  background: var(--raise); color: var(--t1); border: 1px solid var(--line); font-size: 13px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
+}
+.kw-note { margin: 6px 2px 0; }
