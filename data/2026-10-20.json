@@ -1,0 +1,716 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Kuala_Lumpur",
+  "built_at_local": "2026-10-20 21:06:36 +0800",
+  "schema_note": "Interim fields. Claude Code may redefine. Required per item: date, section (marketing|product), title, url, source, summary, tags.",
+  "counts": {
+    "marketing": 0,
+    "product": 35,
+    "total": 35
+  },
+  "sources_used": [
+    "/workspace/ff-dashboard/index.html (pcards dated 2026-10-20)",
+    "/workspace/ff-trends-summary-2026-10-20.json"
+  ],
+  "notes": "No new OT/FF marketing weekly today (Tue); marketing empty. Product from Foamfresh radar daily build + Google Trends boards.",
+  "items": [
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "丹羽久 シャワーヘッドのつけ置き除菌洗浄剤 150g/约10次（日本）",
+      "url": "https://www.yiwugo.com/product/detail/975952371.html",
+      "source": "PR",
+      "summary": "PR：2026 年 1–8 月销售额同比约 5.5 倍；厚劳省 NTM 症宣传推高「洗花洒」认知；氧系粉 30 分钟浸泡，场景清晰、适合袋装复购 | idea: FF 可做「花洒浸泡氧系粉」10 次装+量勺/袋装，主打除水垢皂垢+除霉味；定价卡在 RM9.90–14.90；接大扫除与雨季 | price: 官网税込约 RM14.14（¥548）",
+      "tags": [
+        "FF",
+        "product",
+        "浴室",
+        "global",
+        "PR",
+        "niwakyu",
+        "item"
+      ],
+      "brand": "FF",
+      "region": "global",
+      "category": "浴室",
+      "price_note": "官网税込约 RM14.14（¥548）",
+      "platforms": [
+        "PR",
+        "niwakyu",
+        "item"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Scrubbing Bubbles Easy Clean Foaming Toilet Bowl Cleaner 2×粉袋约 100g（SC Johnson，2026 Product of the Year USA）",
+      "url": "https://www.chinagoods.com/store/goodsdetail/2037057257601007617",
+      "source": "PR",
+      "summary": "4 万消费者票选浴室清洁创新奖；「倒粉—泡沫变色—5 分钟」可视化强；宣称较液体厕洁少约 60% 塑料/次；与 The Pink Stuff 同属粉转泡沫赛道 | idea: FF 彩色/变色马桶粉单次袋可对标「好玩+少刷」；定价低于单次 RM9，做 2–3 袋装；TikTok 模板现成 | price: 约 RM18.33 / 2 袋（US$4.49，合每次约 RM9.16）",
+      "tags": [
+        "FF",
+        "product",
+        "浴室",
+        "global",
+        "PR",
+        "Home Depot"
+      ],
+      "brand": "FF",
+      "region": "global",
+      "category": "浴室",
+      "price_note": "约 RM18.33 / 2 袋（US$4.49，合每次约 RM9.16）",
+      "platforms": [
+        "PR",
+        "Home Depot"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "YOKUU Toilet Foam Explosion 新配方 800g/约 8 次（比利时，冷水可起泡）",
+      "url": "https://www.yokuu.co.uk/blogs/yokuu/toilet-foam-explosion-new-formula",
+      "source": "yokuu",
+      "summary": "新配方主打冷水也能涨泡+碳酸钠加强水垢；益生菌叙事「冲后还在分解异味」；堆肥袋减塑——与片剂/粉剂趋势同向 | idea: FF 不必抄欧洲溢价：可出「冷水起泡马桶粉」400g 试用装，益生菌作加分项需能举证；价格锚 Magiclean 单次成本之下 | price: 约 RM105.04 / 袋（€22.95）",
+      "tags": [
+        "FF",
+        "product",
+        "浴室",
+        "global",
+        "yokuu"
+      ],
+      "brand": "FF",
+      "region": "global",
+      "category": "浴室",
+      "price_note": "约 RM105.04 / 袋（€22.95）",
+      "platforms": [
+        "yokuu"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "SEPAWA 2026 家清：多功能+可持续短洗少水（柏林 10/14–16）",
+      "url": "https://www.personalcareinsights.com/news/sepawa-sustainable-home-care.html",
+      "source": "personalcareinsigh",
+      "summary": "Clariant 等推短洗/少水洗碗机表面活性剂、生物基与欧盟杀生剂合规；与 10/19 Solvay 冷水短洗同一供应链叙事 | idea: FF 不做原料；文案可打「少水/冷水也净」；观察本地洗衣液与洗碗是否跟进短洗宣称 | price: B2B 原料展，无零售价",
+      "tags": [
+        "FF",
+        "product",
+        "其他",
+        "global",
+        "personalcareinsigh"
+      ],
+      "brand": "FF",
+      "region": "global",
+      "category": "其他",
+      "price_note": "B2B 原料展，无零售价",
+      "platforms": [
+        "personalcareinsigh"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "MY：foam cleaner / bathroom cleaner 近周兴趣抬升；aircond cleaner 回落",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=today%201-m",
+      "source": "Google Trends",
+      "summary": "foam cleaner 近7日均约 37 vs 前7日约 15；bathroom cleaner 约 34 vs 14；aircond cleaner 近7日均约 0 vs 前7日约 26；shoe foam cleaner 本轮月曲线多为 0 | idea: 本周内容优先浴室/通用泡沫与马桶粉；冷气套装可放缓测投，仍保留 Kleenso RM15 锚作对比 | price: 零售价本轮未逐条抓",
+      "tags": [
+        "FF",
+        "product",
+        "其他",
+        "global",
+        "Google Trends"
+      ],
+      "brand": "FF",
+      "region": "global",
+      "category": "其他",
+      "price_note": "零售价本轮未逐条抓",
+      "platforms": [
+        "Google Trends"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 泡沫清洁剂",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B3%A1%E6%B2%AB%E6%B8%85%E6%B4%81%E5%89%82&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.8 (down); 7d=↓回落; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.8,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 浴室清洁剂",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B5%B4%E5%AE%A4%E6%B8%85%E6%B4%81%E5%89%82&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.6 (flat); 7d=→平稳; 30d=↑起量. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.6,
+      "trend_7d": "→平稳",
+      "trend_30d": "↑起量",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 洗衣液",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B4%97%E8%A1%A3%E6%B6%B2&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.3 (up); 7d=↑起量; 30d=↑起量. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.3,
+      "trend_7d": "↑起量",
+      "trend_30d": "↑起量",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 除霉剂",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E9%99%A4%E9%9C%89%E5%89%82&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.1 (down); 7d=↓回落; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.1,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 地板清洁剂",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E5%9C%B0%E6%9D%BF%E6%B8%85%E6%B4%81%E5%89%82&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.1 (down); 7d=↓回落; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.1,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 洗衣机槽",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B4%97%E8%A1%A3%E6%9C%BA%E6%A7%BD&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.1 (down); 7d=↓回落; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.1,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 清洁剂",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B8%85%E6%B4%81%E5%89%82&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 洗洁精",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B4%97%E6%B4%81%E7%B2%BE&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 消毒液",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B6%88%E6%AF%92%E6%B6%B2&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "China Trends: 油污净",
+      "url": "https://trends.google.com/trends/explore?geo=CN&q=%E6%B2%B9%E6%B1%A1%E5%87%80&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "cn"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: breeze detergent powder",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=breeze%20detergent%20powder&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.3 (down); 7d=↓回落; 30d=→平稳; tag=突破起量; related_value=100. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising",
+        "突破起量"
+      ],
+      "brand": "FF",
+      "heat": 0.3,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: dish detergent",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=dish%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.5 (flat); 7d=→平稳; 30d=↑起量; tag=上升相关; related_value=40. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.5,
+      "trend_7d": "→平稳",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: detergent 意思",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent%20%E6%84%8F%E6%80%9D&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳; tag=上升相关; related_value=60. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: breeze liquid detergent",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=breeze%20liquid%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=↑起量; tag=上升相关; related_value=50. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: disinfectant",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=disinfectant&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 17.1 (n/a); 7d=查不到; 30d=↑起量. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 17.1,
+      "trend_7d": "查不到",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: foam cleaner",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 1.5 (n/a); 7d=查不到; 30d=↑起量. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "seed"
+      ],
+      "brand": "FF",
+      "heat": 1.5,
+      "trend_7d": "查不到",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: orita detergent",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=orita%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 1.2 (flat); 7d=→平稳; 30d=查不到; related_value=17. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 1.2,
+      "trend_7d": "→平稳",
+      "trend_30d": "查不到",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: detergent liquid",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent%20liquid&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.7 (up); 7d=↑起量; 30d=↑起量; related_value=100. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 0.7,
+      "trend_7d": "↑起量",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: laundry detergent",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=laundry%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.6 (flat); 7d=→平稳; 30d=↑起量; related_value=87. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 0.6,
+      "trend_7d": "→平稳",
+      "trend_30d": "↑起量",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Malaysia Trends: baby detergent",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=baby%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.6 (flat); 7d=→平稳; 30d=查不到; related_value=20. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 0.6,
+      "trend_7d": "→平稳",
+      "trend_30d": "查不到",
+      "region": "my"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "US Trends: mixing bleach and dish soap",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=mixing%20bleach%20and%20dish%20soap&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.6 (up); 7d=↑起量; 30d=↑起量; tag=突破起量; related_value=250. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "us",
+        "FF",
+        "rising",
+        "突破起量"
+      ],
+      "brand": "FF",
+      "heat": 0.6,
+      "trend_7d": "↑起量",
+      "trend_30d": "↑起量",
+      "region": "us"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "US Trends: rmr 141 mold remover",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=rmr%20141%20mold%20remover&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.6 (down); 7d=↓回落; 30d=→平稳; tag=突破起量; related_value=190. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "us",
+        "FF",
+        "rising",
+        "突破起量"
+      ],
+      "brand": "FF",
+      "heat": 0.6,
+      "trend_7d": "↓回落",
+      "trend_30d": "→平稳",
+      "region": "us"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "US Trends: nuroclean mold remover gel",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=nuroclean%20mold%20remover%20gel&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (flat); 7d=→平稳; 30d=→平稳; tag=突破起量; related_value=110. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "us",
+        "FF",
+        "rising",
+        "突破起量"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "→平稳",
+      "trend_30d": "→平稳",
+      "region": "us"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "US Trends: bleach and dish soap",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=bleach%20and%20dish%20soap&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 2.8 (flat); 7d=→平稳; 30d=↑起量; tag=上升相关; related_value=60. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "us",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 2.8,
+      "trend_7d": "→平稳",
+      "trend_30d": "↑起量",
+      "region": "us"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "US Trends: does dawn dish soap kill fleas",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=does%20dawn%20dish%20soap%20kill%20fleas&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.9 (down); 7d=↓回落; 30d=↑起量; tag=上升相关; related_value=40. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "us",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.9,
+      "trend_7d": "↓回落",
+      "trend_30d": "↑起量",
+      "region": "us"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Global Trends: can you use bathroom cleaner in the kitchen",
+      "url": "https://trends.google.com/trends/explore?geo=&q=can%20you%20use%20bathroom%20cleaner%20in%20the%20kitchen&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (n/a); 7d=查不到; 30d=→平稳; tag=突破起量; related_value=110. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "突破起量"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "查不到",
+      "trend_30d": "→平稳",
+      "region": "global"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Global Trends: bathroom cleaner with bleach",
+      "url": "https://trends.google.com/trends/explore?geo=&q=bathroom%20cleaner%20with%20bleach&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.5 (n/a); 7d=查不到; 30d=↑起量; tag=上升相关; related_value=40. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.5,
+      "trend_7d": "查不到",
+      "trend_30d": "↑起量",
+      "region": "global"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Global Trends: my rose bathroom cleaner",
+      "url": "https://trends.google.com/trends/explore?geo=&q=my%20rose%20bathroom%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 0.0 (n/a); 7d=查不到; 30d=→平稳; tag=上升相关; related_value=50. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "上升相关"
+      ],
+      "brand": "FF",
+      "heat": 0.0,
+      "trend_7d": "查不到",
+      "trend_30d": "→平稳",
+      "region": "global"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Global Trends: bleach",
+      "url": "https://trends.google.com/trends/explore?geo=&q=bleach&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 82.1 (n/a); 7d=查不到; 30d=→平稳; related_value=36. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 82.1,
+      "trend_7d": "查不到",
+      "trend_30d": "→平稳",
+      "region": "global"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "product",
+      "title": "Global Trends: shower cleaner",
+      "url": "https://trends.google.com/trends/explore?geo=&q=shower%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "summary": "relative interest 57.4 (n/a); 7d=查不到; 30d=↓回落; related_value=46. Note: Google Trends relative index 0–100 within query set; not absolute volume.",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "top"
+      ],
+      "brand": "FF",
+      "heat": 57.4,
+      "trend_7d": "查不到",
+      "trend_30d": "↓回落",
+      "region": "global"
+    }
+  ]
+}
