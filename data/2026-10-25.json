@@ -1,1926 +1,1933 @@
 {
- "date": "2026-10-25",
- "built_at_local": "2026-10-25 21:03:57 +0800",
- "note_from_ai": "暂无 decisions.json，按默认覆盖抓：根据你们上次的反馈（无），这次 OT/FF 内容角度仍无新周报，延续 20 条 KEEP/WATCH；产品端换成周日主题「发泡粉+布类耗材」3 张卡（BULK LIFE 排水口发泡粉、撕取式抹布卷、同行 ChemicalK 活氧粉），关键字新增淘宝清洁泡沫月榜/抖音耗材投放词、MY Mr Muscle/Glo 突破词和美国温和除霉词。",
- "items": [
-  {
-   "id": "ot-supportive_footwear",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "怎么选一双“有支撑”的鞋",
-   "summary": "买鞋只看好看或软，结果走久了累；不知道支撑、鞋跟稳定、鞋头空间怎么判断。",
-   "url": "https://www.youtube.com/watch?v=mycE-mthAq8",
-   "source": "YouTube",
-   "tags": [
-    "comparison",
-    "supportive_footwear"
-   ],
-   "status": "KEEP",
-   "hook": "选鞋 3 个动作测试：扭、压、按。",
-   "hooks": [
-    "选鞋 3 个动作测试：扭、压、按。",
-    "你的鞋，能被轻易扭成麻花吗？",
-    "越软的鞋不一定越舒服。"
-   ],
-   "compliance": "对比“鞋型/结构”而非点名贬低品牌；不承诺功效。",
-   "thumb": "https://i.ytimg.com/vi/mycE-mthAq8/hqdefault.jpg",
-   "why": "样本12条、表现中位P72；views/day中位约176；参考片84,879次观看；样本内 12/164 条通过筛选的视频属于此角度（占 7%）。",
-   "trend_element": "对比测评·清单数字",
-   "pattern": "钩子偏清单数字、提问式、反常识/我错了。格式是对比测评，分屏/并排对比，同条件测试，15–30秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「选鞋 3 个动作测试：扭、压、按。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
+  "date": "2026-10-25",
+  "built_at_local": "2026-10-25 21:03:57 +0800",
+  "note_from_ai": "暂无 decisions.json，按默认覆盖抓：根据你们上次的反馈（无），这次 OT/FF 内容角度仍无新周报，延续 20 条 KEEP/WATCH；产品端换成周日主题「发泡粉+布类耗材」3 张卡（BULK LIFE 排水口发泡粉、撕取式抹布卷、同行 ChemicalK 活氧粉），关键字新增淘宝清洁泡沫月榜/抖音耗材投放词、MY Mr Muscle/Glo 突破词和美国温和除霉词。",
+  "items": [
     {
-     "head": "为什么红",
-     "body": "样本内 12/164 条通过筛选的视频属于此角度（占 7%）。"
+      "id": "ot-supportive_footwear",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "怎么选一双“有支撑”的鞋",
+      "summary": "买鞋只看好看或软，结果走久了累；不知道支撑、鞋跟稳定、鞋头空间怎么判断。",
+      "url": "https://www.youtube.com/watch?v=mycE-mthAq8",
+      "source": "YouTube",
+      "tags": [
+        "comparison",
+        "supportive_footwear"
+      ],
+      "status": "KEEP",
+      "hook": "选鞋 3 个动作测试：扭、压、按。",
+      "hooks": [
+        "选鞋 3 个动作测试：扭、压、按。",
+        "你的鞋，能被轻易扭成麻花吗？",
+        "越软的鞋不一定越舒服。"
+      ],
+      "compliance": "对比“鞋型/结构”而非点名贬低品牌；不承诺功效。",
+      "thumb": "https://i.ytimg.com/vi/mycE-mthAq8/hqdefault.jpg",
+      "why": "样本12条、表现中位P72；views/day中位约176；参考片84,879次观看；样本内 12/164 条通过筛选的视频属于此角度（占 7%）。",
+      "trend_element": "对比测评·清单数字",
+      "pattern": "钩子偏清单数字、提问式、反常识/我错了。格式是对比测评，分屏/并排对比，同条件测试，15–30秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「选鞋 3 个动作测试：扭、压、按。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 12/164 条通过筛选的视频属于此角度（占 7%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "对比测评：分屏/并排对比，同条件测试，15–30秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "选鞋 3 个动作测试：扭、压、按。"
+        }
+      ],
+      "views": 84879,
+      "views_per_day": 176
     },
     {
-     "head": "怎么拍",
-     "body": "对比测评：分屏/并排对比，同条件测试，15–30秒"
+      "id": "ot-myth_education",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "脚与姿势的常见误区",
+      "summary": "网上说法很多，家长和上班族不知道哪些是真的。",
+      "url": "https://www.youtube.com/watch?v=wVZ5DynU_FE",
+      "source": "YouTube",
+      "tags": [
+        "expert_explainer",
+        "myth_education"
+      ],
+      "status": "KEEP",
+      "hook": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
+      "hooks": [
+        "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
+        "鞋垫越硬支撑越好，对吗？",
+        "关于鞋垫的 3 个常见误区。"
+      ],
+      "compliance": "误区内容需有可靠来源；不得以恐吓式说法促销。",
+      "thumb": "https://i.ytimg.com/vi/wVZ5DynU_FE/hqdefault.jpg",
+      "why": "样本26条、表现中位P43；views/day中位约53；参考片491,521次观看；样本内 26/164 条通过筛选的视频属于此角度（占 16%）。",
+      "trend_element": "专业讲解（需有资质者出镜）·反常识/我错",
+      "pattern": "钩子偏反常识/我错了、提问式、清单数字。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 26/164 条通过筛选的视频属于此角度（占 16%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
+        },
+        {
+          "head": "开口钩子",
+          "body": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。"
+        }
+      ],
+      "views": 491521,
+      "views_per_day": 53
     },
     {
-     "head": "开口钩子",
-     "body": "选鞋 3 个动作测试：扭、压、按。"
+      "id": "ot-kids_feet_growth",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "孩子的脚：扁平足 / 足弓的家长科普",
+      "summary": "家长发现孩子走路容易累、鞋子外侧磨得快、常说脚酸，不知道要不要担心、该怎么选鞋和鞋垫。",
+      "url": "https://www.instagram.com/p/DemQ_I8sjqz/",
+      "source": "Instagram",
+      "tags": [
+        "expert_explainer",
+        "kids_feet_growth"
+      ],
+      "status": "KEEP",
+      "hook": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
+      "hooks": [
+        "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
+        "（持证人士出镜）足科/物理治疗师：家长最常问的 3 个问题。",
+        "不是鞋越软越好——孩子的鞋，这个地方要够稳。"
+      ],
+      "compliance": "只做观察与选鞋建议；不说“治好/矫正扁平足”；提醒有疑虑请咨询专业人士；未成年人出镜需家长同意。",
+      "why": "样本24条、表现中位P64；views/day中位约148；参考片82,734次观看；样本内 24/164 条通过筛选的视频属于此角度（占 15%）。",
+      "trend_element": "专业讲解（需有资质者出镜）·提问式",
+      "pattern": "钩子偏提问式、专业背书、反常识/我错了。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 24/164 条通过筛选的视频属于此角度（占 15%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
+        },
+        {
+          "head": "开口钩子",
+          "body": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。"
+        }
+      ],
+      "views": 82734,
+      "views_per_day": 148,
+      "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.82787-15/851837010_18633326593035096_6466753361583419228_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=uMq1--IuO1IQ7kNvwHc-8E4&_nc_oc=AdqkexOi-MWP63GRsiqtbxWNShyMrkHf8TCMXkMbmmH50Lsf2RrkYf1oDnale2Te4TS2KI_7h6VawQSN7iqkLbn2&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&_nc_gid=WuZ6QKwljqziZ9c06Ca1Cg&_nc_ss=7b60f&oh=00_AQPw9WG09a3SAkXp5HthvegPtP2SwtnkgdyeHEjnSqy3Mw&oe=6AE4DD1D"
+    },
+    {
+      "id": "ot-product_review_comparison",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "鞋垫 / 书包 / 姿势产品真实测评",
+      "summary": "市面产品太多，担心买到没用的。",
+      "url": "https://www.youtube.com/watch?v=pdbFJCrkpyI",
+      "source": "YouTube",
+      "tags": [
+        "review",
+        "product_review_comparison"
+      ],
+      "status": "KEEP",
+      "hook": "RM 几十和几百的鞋垫，差在哪里？",
+      "hooks": [
+        "RM 几十和几百的鞋垫，差在哪里？",
+        "我试了 4 种鞋垫，差别在这 3 个地方。",
+        "现成鞋垫 vs 定制鞋垫，穿一周对比。"
+      ],
+      "compliance": "不点名贬低竞品；测评结论只写个人感受；不复刻竞品视频的画面与文案。",
+      "thumb": "https://i.ytimg.com/vi/pdbFJCrkpyI/hqdefault.jpg",
+      "why": "样本14条、表现中位P49；views/day中位约27；参考片148,421次观看；样本内 14/164 条通过筛选的视频属于此角度（占 9%）。",
+      "trend_element": "真实测评·提问式",
+      "pattern": "钩子偏提问式、清单数字、实测挑战。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「RM 几十和几百的鞋垫，差在哪里？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 14/164 条通过筛选的视频属于此角度（占 9%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "RM 几十和几百的鞋垫，差在哪里？"
+        }
+      ],
+      "views": 148421,
+      "views_per_day": 27
+    },
+    {
+      "id": "ot-standing_work_comfort",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "久站 / 久走上班族的脚部舒适",
+      "summary": "护士、柜台、老师、餐饮业整天站着，下班脚底和小腿又酸又累。",
+      "url": "https://www.instagram.com/p/DeAkExgNp4W/",
+      "source": "Instagram",
+      "tags": [
+        "comparison",
+        "standing_work_comfort"
+      ],
+      "status": "KEEP",
+      "hook": "久站族的 3 个小习惯，让脚没那么累。",
+      "hooks": [
+        "久站族的 3 个小习惯，让脚没那么累。",
+        "同一双鞋，加/不加足弓支撑鞋垫，走一天的感受对比。",
+        "一天站 8 小时的人，下班第一件事是不是脱鞋？"
+      ],
+      "compliance": "说“更舒适、分散压力的支撑感”；不说“治疗足底筋膜炎”；疼痛持续请就医。",
+      "why": "样本15条、表现中位P46；views/day中位约35；参考片1,869,634次观看；样本内 15/164 条通过筛选的视频属于此角度（占 9%）。",
+      "trend_element": "对比测评·清单数字",
+      "pattern": "钩子偏清单数字、实测挑战、提问式。格式是对比测评，分屏/并排对比，同条件测试，15–30秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「久站族的 3 个小习惯，让脚没那么累。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 15/164 条通过筛选的视频属于此角度（占 9%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "对比测评：分屏/并排对比，同条件测试，15–30秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "久站族的 3 个小习惯，让脚没那么累。"
+        }
+      ],
+      "views": 1869634,
+      "views_per_day": 35,
+      "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.71878-15/834437376_1300893858737683_4915934040099430237_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0doblLncVpIQ7kNvwERwc9s&_nc_oc=Ado40-bVO0KuYQtm9nVEflfKRlbDXwrZROuXc77P1tXYnDT12_upLHPB6hOABi_mgboWa6Cwmcsxh_bg4neKnqb8&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&_nc_gid=RJY_5HOGnux6xKTH8bkdzg&_nc_ss=7b60f&oh=00_AQO3J5d7SCVHafgaZhs0ZUVK3eYpbfYzqxXTJbB0Jh3fgA&oe=6AE4EDF5"
+    },
+    {
+      "id": "ot-custom_insole_process",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "定制鞋垫是怎么做出来的（扫描→建模→成品）",
+      "summary": "对定制鞋垫好奇但觉得神秘、怕贵、怕是智商税，想知道流程和适不适合自己。",
+      "url": "https://www.youtube.com/watch?v=vbM9BoZKe5A",
+      "source": "YouTube",
+      "tags": [
+        "expert_explainer",
+        "custom_insole_process"
+      ],
+      "status": "KEEP",
+      "hook": "一双鞋垫为什么要先扫描你的脚？",
+      "hooks": [
+        "一双鞋垫为什么要先扫描你的脚？",
+        "做定制鞋垫前，你应该问店家的 3 个问题。",
+        "现成鞋垫和定制鞋垫，差别不在“软硬”，而在这里。"
+      ],
+      "compliance": "展示流程与舒适感；“足弓检测”称评估而非诊断；不承诺矫正效果；价格/活动以实际为准。",
+      "thumb": "https://i.ytimg.com/vi/vbM9BoZKe5A/hqdefault.jpg",
+      "why": "样本22条、表现中位P42；views/day中位约37；参考片92,068次观看；样本内 22/164 条通过筛选的视频属于此角度（占 13%）。",
+      "trend_element": "专业讲解（需有资质者出镜）·提问式",
+      "pattern": "钩子偏提问式、清单数字、反常识/我错了。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「一双鞋垫为什么要先扫描你的脚？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 22/164 条通过筛选的视频属于此角度（占 13%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
+        },
+        {
+          "head": "开口钩子",
+          "body": "一双鞋垫为什么要先扫描你的脚？"
+        }
+      ],
+      "views": 92068,
+      "views_per_day": 37
+    },
+    {
+      "id": "ot-sports_active_support",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "运动 / 跑步时的足部支撑",
+      "summary": "跑步、打球后脚底累或脚踝不稳，想知道鞋垫和鞋能不能帮上忙。",
+      "url": "https://www.youtube.com/watch?v=jbWNtmABda4",
+      "source": "YouTube",
+      "tags": [
+        "expert_explainer",
+        "sports_active_support"
+      ],
+      "status": "KEEP",
+      "hook": "跑完 5 公里，你的脚底还好吗？",
+      "hooks": [
+        "跑完 5 公里，你的脚底还好吗？",
+        "运动族选鞋垫看 3 点。",
+        "运动鞋加上足弓支撑鞋垫，跑一周的感受记录。"
+      ],
+      "compliance": "不宣称提升成绩或预防运动伤害。",
+      "thumb": "https://i.ytimg.com/vi/jbWNtmABda4/hqdefault.jpg",
+      "why": "样本9条、表现中位P47；views/day中位约53；参考片38,017次观看；样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
+      "trend_element": "专业讲解（需有资质者出镜）·提问式",
+      "pattern": "钩子偏提问式、清单数字、实测挑战。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「跑完 5 公里，你的脚底还好吗？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
+        },
+        {
+          "head": "开口钩子",
+          "body": "跑完 5 公里，你的脚底还好吗？"
+        }
+      ],
+      "views": 38017,
+      "views_per_day": 53
+    },
+    {
+      "id": "ot-posture_back_neck",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "姿势小习惯：低头族 / 久坐 / 驼背感",
+      "summary": "长时间低头看手机、久坐办公，肩颈紧、站姿不好看，想改善但不知道从哪开始。",
+      "url": "https://www.youtube.com/watch?v=1sfn9zPkZNU",
+      "source": "YouTube",
+      "tags": [
+        "review",
+        "posture_back_neck"
+      ],
+      "status": "KEEP",
+      "hook": "你现在是不是正在低头看这条视频？",
+      "hooks": [
+        "你现在是不是正在低头看这条视频？",
+        "贴墙站 30 秒小测试：你的后脑、肩、臀能同时贴墙吗？",
+        "办公室 3 个 30 秒姿势提醒。"
+      ],
+      "compliance": "讲习惯与舒适；矫姿带类产品不说“矫正驼背/脊柱”；运动建议保持温和并提示量力而行。",
+      "thumb": "https://i.ytimg.com/vi/1sfn9zPkZNU/hqdefault.jpg",
+      "why": "样本9条、表现中位P66；views/day中位约42；参考片401,837次观看；样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
+      "trend_element": "真实测评·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「你现在是不是正在低头看这条视频？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "你现在是不是正在低头看这条视频？"
+        }
+      ],
+      "views": 401837,
+      "views_per_day": 42
+    },
+    {
+      "id": "ot-school_bag_posture",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "OT",
+      "title": "书包太重？护脊书包与背书包习惯",
+      "summary": "孩子每天背很重的书包，肩膀勒红、身体前倾，家长心疼却不知道书包该怎么选、怎么背。",
+      "url": "https://www.youtube.com/watch?v=HE7DAfUTFUk",
+      "source": "YouTube",
+      "tags": [
+        "review",
+        "school_bag_posture"
+      ],
+      "status": "WATCH",
+      "hook": "你孩子的书包有多重？拿家里的秤称一下。",
+      "hooks": [
+        "你孩子的书包有多重？拿家里的秤称一下。",
+        "护脊书包要看这 4 个细节：肩带、背垫、胸扣、重心。",
+        "开学第一周，我帮孩子换了书包后发现的变化。"
+      ],
+      "compliance": "说“分担负重 / 背得更舒适 / 帮助保持好姿势习惯”；不说“预防/矫正脊柱侧弯、驼背”。",
+      "thumb": "https://i.ytimg.com/vi/HE7DAfUTFUk/hqdefault.jpg",
+      "why": "样本27条、表现中位P26；views/day中位约2；参考片296,548次观看；样本内 27/164 条通过筛选的视频属于此角度（占 16%）。",
+      "trend_element": "真实测评·提问式",
+      "pattern": "钩子偏提问式、清单数字、亲身经历。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "OT可拍：「你孩子的书包有多重？拿家里的秤称一下。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 27/164 条通过筛选的视频属于此角度（占 16%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "你孩子的书包有多重？拿家里的秤称一下。"
+        }
+      ],
+      "views": 296548,
+      "views_per_day": 2
+    },
+    {
+      "id": "ff-satisfying_asmr",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "解压清洁：泡沫 + 前后对比",
+      "summary": "观众爱看“脏→干净”的解压过程，这也是展示泡沫质感最自然的方式。",
+      "url": "https://www.youtube.com/watch?v=SRCOazNKltM",
+      "source": "YouTube",
+      "tags": [
+        "satisfying_demo",
+        "satisfying_asmr"
+      ],
+      "status": "KEEP",
+      "hook": "你能看完这 15 秒不觉得解压吗？",
+      "hooks": [
+        "你能看完这 15 秒不觉得解压吗？",
+        "最脏的一双鞋，看泡沫把它变回来。",
+        "3 个很多人都做错的清洁习惯。"
+      ],
+      "compliance": "真实拍摄、不加速造假、不美颜滤镜；结尾给产品信息即可。",
+      "thumb": "https://i.ytimg.com/vi/SRCOazNKltM/hqdefault.jpg",
+      "why": "样本30条、表现中位P70；views/day中位约4；参考片4,106,635次观看；样本内 30/187 条通过筛选的视频属于此角度（占 16%）。",
+      "trend_element": "解压过程演示·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是解压过程演示，无/少口播，近景收音 + 慢动作关键一刻，10–25秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「你能看完这 15 秒不觉得解压吗？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 30/187 条通过筛选的视频属于此角度（占 16%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "解压过程演示：无/少口播，近景收音 + 慢动作关键一刻，10–25秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "你能看完这 15 秒不觉得解压吗？"
+        }
+      ],
+      "views": 4106635,
+      "views_per_day": 4
+    },
+    {
+      "id": "ff-car_interior",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "车内清洁：座椅 / 脚垫 / 方向盘",
+      "summary": "车里吃东西、孩子弄脏座椅、脚垫泥沙，拿去洗车店又贵。",
+      "url": "https://www.youtube.com/watch?v=7afmCJNTvHk",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "car_interior"
+      ],
+      "status": "KEEP",
+      "hook": "你的车座椅，多久没洗了？",
+      "hooks": [
+        "你的车座椅，多久没洗了？",
+        "座椅一半清洁一半不洗，差别有多大？",
+        "10 分钟车内快速清洁 3 步。"
+      ],
+      "compliance": "注明适用材质（织物/皮革）；不示范危险化学品。",
+      "thumb": "https://i.ytimg.com/vi/7afmCJNTvHk/hqdefault.jpg",
+      "why": "样本2条、表现中位P76；views/day中位约913；参考片1,156,996次观看；样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
+      "trend_element": "教程 / 选购指南·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「你的车座椅，多久没洗了？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "你的车座椅，多久没洗了？"
+        }
+      ],
+      "views": 1156996,
+      "views_per_day": 913
+    },
+    {
+      "id": "ff-kitchen_grease",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "厨房油污：抽油烟机 / 炉台快速清洁",
+      "summary": "马来西亚家庭常爆炒，油烟机和墙面黏腻难清。",
+      "url": "https://www.youtube.com/watch?v=jYGsRupMask",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "kitchen_grease"
+      ],
+      "status": "KEEP",
+      "hook": "你家抽油烟机，上一次清是什么时候？",
+      "hooks": [
+        "你家抽油烟机，上一次清是什么时候？",
+        "喷上去等 1 分钟，一擦就……",
+        "厨房去油 3 个不伤手的小方法。"
+      ],
+      "compliance": "不示范混用不同清洁剂；提示戴手套、通风；按产品标签用途使用。",
+      "thumb": "https://i.ytimg.com/vi/jYGsRupMask/hqdefault.jpg",
+      "why": "样本9条、表现中位P73；views/day中位约2；参考片5,299,284次观看；样本内 9/187 条通过筛选的视频属于此角度（占 5%）。",
+      "trend_element": "教程 / 选购指南·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「你家抽油烟机，上一次清是什么时候？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 9/187 条通过筛选的视频属于此角度（占 5%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "你家抽油烟机，上一次清是什么时候？"
+        }
+      ],
+      "views": 5299284,
+      "views_per_day": 2
+    },
+    {
+      "id": "ff-sneaker_white_shoes",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "小白鞋 / 校鞋 3 分钟免水洗翻新",
+      "summary": "白鞋一穿就黄、校鞋每周都脏，手洗费时又怕洗坏、晒不干。",
+      "url": "https://www.instagram.com/p/DeY3RTuIfTw/",
+      "source": "Instagram",
+      "tags": [
+        "tutorial",
+        "sneaker_white_shoes"
+      ],
+      "status": "KEEP",
+      "hook": "一只洗、一只不洗，3 分钟后对比。",
+      "hooks": [
+        "一只洗、一只不洗，3 分钟后对比。",
+        "小白鞋脏了，你还在用牙刷+洗衣粉泡一晚上？",
+        "洗白鞋 3 个常见错误，最后一个很多人都做过。"
+      ],
+      "compliance": "前后对比真实同一双鞋；不同材质先局部测试；不夸大“永久洁白”。",
+      "why": "样本68条、表现中位P36；views/day中位约320；参考片2,524,934次观看；样本内 68/187 条通过筛选的视频属于此角度（占 36%）。",
+      "trend_element": "教程 / 选购指南·实测挑战",
+      "pattern": "钩子偏实测挑战、提问式、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「一只洗、一只不洗，3 分钟后对比。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 68/187 条通过筛选的视频属于此角度（占 36%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "一只洗、一只不洗，3 分钟后对比。"
+        }
+      ],
+      "views": 2524934,
+      "views_per_day": 320,
+      "thumb": "https://scontent-sin11-2.cdninstagram.com/v/t51.82787-15/843928904_17917230120464602_6285679871094109124_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XcbEs_6yxBMQ7kNvwHg-CXx&_nc_oc=Adr9bOYujXCscmcOTtOz6zoQ-VNoA0pzpIH4xlxdY8yujb0xfLlTlH8aPqQzZiA64VpOITsDIyiISik3ZOmmUjgO&_nc_zt=23&_nc_ht=scontent-sin11-2.cdninstagram.com&_nc_gid=RYehV3icaT4PdbmlbFnpIg&_nc_ss=7b60f&oh=00_AQPsNJeujXwQaiNmrQ-fh1yw3_OgL_KFrSg0gD47Im4Mww&oe=6AE4D274"
+    },
+    {
+      "id": "ff-hacks_routine",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "懒人清洁 routine / 小技巧",
+      "summary": "工作忙没时间大扫除，想要 5–10 分钟就能完成的清洁节奏。",
+      "url": "https://www.instagram.com/p/Del6a4Wpps-/",
+      "source": "Instagram",
+      "tags": [
+        "tutorial",
+        "hacks_routine"
+      ],
+      "status": "KEEP",
+      "hook": "大扫除一次，不如每天做这件小事。",
+      "hooks": [
+        "大扫除一次，不如每天做这件小事。",
+        "每天 10 分钟，让家保持干净的 3 个习惯。",
+        "一半清洁一半不洗，直接对比。"
+      ],
+      "compliance": "“偏方”只用安全、常见做法；绝不混用清洁剂。",
+      "why": "样本23条、表现中位P61；views/day中位约4；参考片288,377次观看；样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
+      "trend_element": "教程 / 选购指南·反常识/我错了",
+      "pattern": "钩子偏反常识/我错了、清单数字、实测挑战。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「大扫除一次，不如每天做这件小事。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "大扫除一次，不如每天做这件小事。"
+        }
+      ],
+      "views": 288377,
+      "views_per_day": 4,
+      "thumb": "https://scontent-sin6-2.cdninstagram.com/v/t51.71878-15/851828975_1478255240813956_8596575443343103364_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=72LYFhcp8xsQ7kNvwFJDFxt&_nc_oc=AdoHB08p8N66Zjgtoc8hkYpwuUs7LT3IeTWt2L0ky35qP-h7DqumwAKL4D80S7vnrXCHXMYksqHSq0QXuKcW-J_f&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_gid=FPjwJBjdNIsUziKR3NJzfQ&_nc_ss=7b60f&oh=00_AQPh4EjVN2PeYOFeF0DvVvdi2iORtM5YxQAftmzm_jWvtQ&oe=6AE4DA48"
+    },
+    {
+      "id": "ff-bathroom_mold",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "浴室霉斑 / 水垢清洁",
+      "summary": "潮湿气候导致瓷砖缝发黑、玻璃水垢，刷了又长。",
+      "url": "https://www.youtube.com/watch?v=ExEDcKK8u4E",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "bathroom_mold"
+      ],
+      "status": "KEEP",
+      "hook": "瓷砖缝发黑，是脏还是霉？",
+      "hooks": [
+        "瓷砖缝发黑，是脏还是霉？",
+        "瓷砖缝左右对比实测。",
+        "浴室不再长霉的 3 个日常习惯。"
+      ],
+      "compliance": "严禁漂白水混醋/洁厕剂的“偏方”；标注通风；不说“杀灭霉菌 99.9%”。",
+      "thumb": "https://i.ytimg.com/vi/ExEDcKK8u4E/hqdefault.jpg",
+      "why": "样本6条、表现中位P60；views/day中位约304；参考片2,106,975次观看；样本内 6/187 条通过筛选的视频属于此角度（占 3%）。",
+      "trend_element": "教程 / 选购指南·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「瓷砖缝发黑，是脏还是霉？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 6/187 条通过筛选的视频属于此角度（占 3%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "瓷砖缝发黑，是脏还是霉？"
+        }
+      ],
+      "views": 2106975,
+      "views_per_day": 304
+    },
+    {
+      "id": "ff-stain_laundry",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "衣物 / 沙发污渍急救",
+      "summary": "咖喱、酱油、口红、奶渍沾上衣服或沙发，不知道先做什么。",
+      "url": "https://www.youtube.com/watch?v=dfJi49umT6U",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "stain_laundry"
+      ],
+      "status": "KEEP",
+      "hook": "咖喱沾到白衣服，第一步千万别做什么？",
+      "hooks": [
+        "咖喱沾到白衣服，第一步千万别做什么？",
+        "3 种常见污渍，同一瓶喷雾实测。",
+        "污渍急救 3 步口诀。"
+      ],
+      "compliance": "先在不显眼处测试；不承诺所有污渍都能去除。",
+      "thumb": "https://i.ytimg.com/vi/dfJi49umT6U/hqdefault.jpg",
+      "why": "样本23条、表现中位P45；views/day中位约1；参考片5,265,059次观看；样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
+      "trend_element": "教程 / 选购指南·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「咖喱沾到白衣服，第一步千万别做什么？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "咖喱沾到白衣服，第一步千万别做什么？"
+        }
+      ],
+      "views": 5265059,
+      "views_per_day": 1
+    },
+    {
+      "id": "ff-product_review_comparison",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "清洁产品真实测评 / 对比",
+      "summary": "网上清洁好物太多，怕买到没用的。",
+      "url": "https://www.youtube.com/watch?v=QetxI5kZ9H4",
+      "source": "YouTube",
+      "tags": [
+        "review",
+        "product_review_comparison"
+      ],
+      "status": "WATCH",
+      "hook": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
+      "hooks": [
+        "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
+        "RM 50 的洗鞋喷雾，值得吗？",
+        "我试了 5 种小白鞋清洁法，排名如下。"
+      ],
+      "compliance": "对比“方法”而非点名贬低品牌；同条件测试；不复刻竞品视频。",
+      "thumb": "https://i.ytimg.com/vi/QetxI5kZ9H4/hqdefault.jpg",
+      "why": "样本5条、表现中位P39；views/day中位约80；参考片976,183次观看；样本内 5/187 条通过筛选的视频属于此角度（占 3%）。",
+      "trend_element": "真实测评·实测挑战",
+      "pattern": "钩子偏实测挑战、提问式、清单数字。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 5/187 条通过筛选的视频属于此角度（占 3%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。"
+        }
+      ],
+      "views": 976183,
+      "views_per_day": 80
+    },
+    {
+      "id": "ff-shoe_protect_leather",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "下雨天的鞋子保护：防水 & 皮革护理",
+      "summary": "马来西亚雨季多，新鞋一踩水就脏、皮鞋发霉起皱。",
+      "url": "https://www.youtube.com/watch?v=9OYGuzpFhVM",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "shoe_protect_leather"
+      ],
+      "status": "WATCH",
+      "hook": "雨季来了，你的鞋准备好了吗？",
+      "hooks": [
+        "雨季来了，你的鞋准备好了吗？",
+        "一只喷防水、一只不喷，直接倒水。",
+        "皮鞋不发霉的 3 个保存习惯。"
+      ],
+      "compliance": "防水效果按实测展示，不承诺“永久防水”；注明适用材质。",
+      "thumb": "https://i.ytimg.com/vi/9OYGuzpFhVM/hqdefault.jpg",
+      "why": "样本7条、表现中位P51；views/day中位约157；参考片206,083次观看；样本内 7/187 条通过筛选的视频属于此角度（占 4%）。",
+      "trend_element": "教程 / 选购指南·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「雨季来了，你的鞋准备好了吗？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 7/187 条通过筛选的视频属于此角度（占 4%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "雨季来了，你的鞋准备好了吗？"
+        }
+      ],
+      "views": 206083,
+      "views_per_day": 157
+    },
+    {
+      "id": "ff-shoe_odor",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "鞋子臭？除臭的正确顺序",
+      "summary": "球鞋、校鞋、工作鞋一脱就尴尬，喷香水只能盖味道。",
+      "url": "https://www.youtube.com/watch?v=gpfnFvSd2X8",
+      "source": "YouTube",
+      "tags": [
+        "tutorial",
+        "shoe_odor"
+      ],
+      "status": "WATCH",
+      "hook": "鞋子除臭 3 步：先干、再洗、后喷。",
+      "hooks": [
+        "鞋子除臭 3 步：先干、再洗、后喷。",
+        "跑步鞋除臭前后，请家人盲闻。",
+        "你家门口那排鞋，是不是一打开鞋柜就有味道？"
+      ],
+      "compliance": "说“去除异味 / 清新”；“抗菌”仅在有报告时使用；不涉及足部疾病。",
+      "thumb": "https://i.ytimg.com/vi/gpfnFvSd2X8/hqdefault.jpg",
+      "why": "样本11条、表现中位P33；views/day中位约67；参考片2,273,410次观看；样本内 11/187 条通过筛选的视频属于此角度（占 6%）。",
+      "trend_element": "教程 / 选购指南·清单数字",
+      "pattern": "钩子偏清单数字、实测挑战、提问式。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「鞋子除臭 3 步：先干、再洗、后喷。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 11/187 条通过筛选的视频属于此角度（占 6%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "鞋子除臭 3 步：先干、再洗、后喷。"
+        }
+      ],
+      "views": 2273410,
+      "views_per_day": 67
+    },
+    {
+      "id": "ff-floor_surfaces",
+      "section": "marketing",
+      "kind": "angle",
+      "brand": "FF",
+      "title": "地板 / 多用途清洁：有孩子和宠物的家",
+      "summary": "孩子在地上爬、宠物满屋跑，想要好闻又放心的日常拖地方案。",
+      "url": "https://www.instagram.com/p/DeMeIGiNGpa/",
+      "source": "Instagram",
+      "tags": [
+        "myth_busting",
+        "floor_surfaces"
+      ],
+      "status": "WATCH",
+      "hook": "宝宝在地上爬，你用什么拖地？",
+      "hooks": [
+        "宝宝在地上爬，你用什么拖地？",
+        "一半清洁一半不洗，直接对比。",
+        "拖地 3 个误区：水越多越干净？"
+      ],
+      "compliance": "“家庭/宠物安全”仅在有检测报告时使用；否则说“成分温和 / 按指示稀释使用”。",
+      "why": "样本2条、表现中位P64；views/day中位约7；参考片120,426次观看；样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
+      "trend_element": "误区破解·提问式",
+      "pattern": "钩子偏提问式、实测挑战、清单数字。格式是误区破解，“你以为…其实…”结构，3个误区连击，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
+      "apply": "FF可拍：「宝宝在地上爬，你用什么拖地？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
+      "key_points": [
+        {
+          "head": "为什么红",
+          "body": "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。"
+        },
+        {
+          "head": "怎么拍",
+          "body": "误区破解：“你以为…其实…”结构，3个误区连击，20–40秒"
+        },
+        {
+          "head": "开口钩子",
+          "body": "宝宝在地上爬，你用什么拖地？"
+        }
+      ],
+      "views": 120426,
+      "views_per_day": 7,
+      "thumb": "https://scontent-sin11-2.cdninstagram.com/v/t51.71878-15/839201185_1890650055695136_6325260604967327339_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MWesIG0BmNkQ7kNvwE3PKqH&_nc_oc=Adph-V8NteHu_IK4lZim9d1fmbyE1ddMJza6LGIGk5r0msmuCDqIHq3COOmkhFnDDLdpH5j_AXpyrEcavOVOZVan&_nc_zt=23&_nc_ht=scontent-sin11-2.cdninstagram.com&_nc_gid=0701IQngkKfSAdI5ttimRg&_nc_ss=7b60f&oh=00_AQN0kHgZ4W3sGMM0T-nrgMrSBUwpeEYVtnd8_W6X9_s7AQ&oe=6AE4F1A0"
+    },
+    {
+      "id": "kw-cn-洗衣粉",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "洗衣粉",
+      "summary": "抖音周榜代表品：公仔牌顽渍净；周销 113,981→98,723 约 -13%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 1,
+      "interest": 100,
+      "trend": "down",
+      "need": "基础洗衣大单品，价格敏感、长销",
+      "prev_rank": 1
+    },
+    {
+      "id": "kw-cn-香氛洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "香氛洗衣液",
+      "summary": "抖音周榜代表品：立白大师香氛；周销 45,323；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "香氛化"
+      ],
+      "region": "cn",
+      "rank": 2,
+      "interest": 46,
+      "trend": "flat",
+      "need": "洗完要香——衣物香氛化",
+      "prev_rank": 2
+    },
+    {
+      "id": "kw-cn-除菌除螨留香洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除菌除螨留香洗衣液",
+      "summary": "抖音周榜代表品：活力28；周销 28,698→38,906 约 +36%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 3,
+      "interest": 39,
+      "trend": "up",
+      "need": "洗衣同时要除螨+留香的多效需求",
+      "prev_rank": 3
+    },
+    {
+      "id": "kw-cn-洗衣机清洗剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "洗衣机清洗剂",
+      "summary": "抖音周榜代表品：老管家爆氧粉；周销 31,047→37,411 约 +20%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 4,
+      "interest": 38,
+      "trend": "up",
+      "need": "洗衣机槽异味/污垢的定期清洁",
+      "prev_rank": 4
+    },
+    {
+      "id": "kw-cn-油烟机清洗剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "油烟机清洗剂",
+      "summary": "今日新列：淘宝 10 月月榜 TOP1 水卫士累计 70万+（¥9.38≈RM5.74），净浮生 50万+、老管家绵密泡沫 40万+；淘宝只给累计销量，热度未折算（填 0）",
+      "url": "https://www.xing73.com/taobao-xl-5Kr5NeY676Y5CmY5XSr5Fir56yp5fO455Kr5.html",
+      "source": "taobao_monthly",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "CNY大扫除",
+        "厨房重油"
+      ],
+      "region": "cn",
+      "rank": 5,
+      "interest": 0,
+      "trend": "up",
+      "need": "厨房油烟机/灶台重油一喷就掉——CNY 大扫除前备货品类",
+      "prev_rank": 5
+    },
+    {
+      "id": "kw-cn-小苏打多功能清洁剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "小苏打多功能清洁剂",
+      "summary": "抖音周榜：厨房家电去黄，新进 Top10，周销 31,083；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 6,
+      "interest": 31,
+      "trend": "up",
+      "need": "厨房家电去黄去油的一瓶多用",
+      "prev_rank": 6
+    },
+    {
+      "id": "kw-cn-免搓香氛洗衣粉",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "免搓香氛洗衣粉",
+      "summary": "抖音周榜代表品：亮妈妈，新进 Top10，周销 30,078；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "香氛化"
+      ],
+      "region": "cn",
+      "rank": 7,
+      "interest": 30,
+      "trend": "up",
+      "need": "懒人免搓+留香",
+      "prev_rank": 7
+    },
+    {
+      "id": "kw-cn-高奢香氛洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "高奢香氛洗衣液",
+      "summary": "抖音 10/22 投放日榜第 7（公仔牌，除菌除螨，29 条创意；当日销量 2,500–5,000）；投放榜非销量榜，热度未折算（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-22.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "香氛化"
+      ],
+      "region": "cn",
+      "rank": 8,
+      "interest": 0,
+      "trend": "up",
+      "need": "洗衣要有「大牌香水味」的高端感",
+      "prev_rank": 8
+    },
+    {
+      "id": "kw-cn-倒置香薰",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "倒置香薰沙漏",
+      "summary": "抖音 10/22 投放日榜第 2（蔬果园 28 条创意）、第 16（沫檬 48 条创意）；新上投放榜，销量仍小（0–500/日）；热度未折算（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-22.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "香氛除味",
+        "新词"
+      ],
+      "region": "cn",
+      "rank": 9,
+      "interest": 0,
+      "trend": "up",
+      "need": "卫生间除异味要好看又持续留香",
+      "prev_rank": 9
+    },
+    {
+      "id": "kw-cn-除霉啫喱",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除霉啫喱",
+      "summary": "抖音周投放榜第 13（沫檬，洗衣机胶圈/冰箱胶条）；双 11 前投放起量；投放榜非销量榜（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/-1/week/20261012-20261018.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 10,
+      "interest": 0,
+      "trend": "up",
+      "need": "胶圈/胶条黑霉的针对性去除",
+      "prev_rank": 10
+    },
+    {
+      "id": "kw-cn-除螨除菌喷雾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除螨除菌喷雾",
+      "summary": "抖音周投放榜第 1（沫檬，免洗晒）；双 11 前投放起量；投放榜非销量榜（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/-1/week/20261012-20261018.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 11,
+      "interest": 0,
+      "trend": "up",
+      "need": "床品沙发免洗除螨",
+      "prev_rank": 11
+    },
+    {
+      "id": "kw-cn-马桶浴室泡沫清洁剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "马桶浴室泡沫清洁剂",
+      "summary": "淘宝 10 月「清洁泡沫」月销榜 TOP1（沫檬，累计 20万+，¥7.9≈RM4.84）；老管家泡沫洁厕也 20万+；月销榜只给累计，不折算（填 0）",
+      "url": "https://www.xing73.com/taobao-xl-rKr5hOr5BSr5Fir5.html",
+      "source": "taobao_rank",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "泡沫",
+        "浴厕"
+      ],
+      "region": "cn",
+      "rank": 12,
+      "interest": 0,
+      "trend": "up",
+      "need": "马桶浴室喷一下起泡、不用刷就干净"
+    },
+    {
+      "id": "kw-cn-马桶魔法泡泡粉",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "马桶魔法泡泡粉",
+      "summary": "淘宝 10 月清洁泡沫榜 TOP8（ONEFULL 美鱼妈妈，累计 8万+，¥29.9≈RM18.30）——「粉加水起泡」单次包形态（填 0）",
+      "url": "https://www.xing73.com/taobao-xl-rKr5hOr5BSr5Fir5.html",
+      "source": "taobao_rank",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "泡沫",
+        "发泡粉"
+      ],
+      "region": "cn",
+      "rank": 13,
+      "interest": 0,
+      "trend": "up",
+      "need": "一包倒进去自己起泡清洁，省力又好复购"
+    },
+    {
+      "id": "kw-cn-鞋袜除臭喷雾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "鞋袜除臭喷雾",
+      "summary": "抖音 10/24 日用百货投放日榜第 6（沫檬银离子，31 条创意，销售额 1万–2.5万）；投放榜非销量榜（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "除味"
+      ],
+      "region": "cn",
+      "rank": 14,
+      "interest": 0,
+      "trend": "up",
+      "need": "鞋柜/袜子去异味，喷一下就好"
+    },
+    {
+      "id": "kw-cn-压缩魔力海绵擦",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "压缩魔力海绵擦",
+      "summary": "抖音 10/24 投放日榜第 7（易蓝净，80 条创意，当日销量 500–1,000）；投放榜非销量榜（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "耗材"
+      ],
+      "region": "cn",
+      "rank": 15,
+      "interest": 0,
+      "trend": "up",
+      "need": "不用清洁剂也能擦掉污渍的耗材"
+    },
+    {
+      "id": "kw-cn-抗菌洗碗巾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "抗菌洗碗巾",
+      "summary": "抖音 10/24 投放日榜第 8（油利除 10A，拍 1 发 6，当日销量 1,000–2,500）；投放榜非销量榜（填 0）",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF",
+        "耗材"
+      ],
+      "region": "cn",
+      "rank": 16,
+      "interest": 0,
+      "trend": "up",
+      "need": "洗碗布不发臭、多片装常换"
+    },
+    {
+      "id": "kw-my-car_wash",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "car wash",
+      "summary": "MY 近7日 vs 前7日：约 +8%；同组相对热度 100（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=car%20wash&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 1,
+      "interest": 100,
+      "trend": "flat",
+      "need": "洗车/车内清洁场景",
+      "prev_rank": 1
+    },
+    {
+      "id": "kw-my-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "detergent",
+      "summary": "MY 近7日 vs 前7日：约 +3%；同组相对热度 30（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 2,
+      "interest": 30,
+      "trend": "flat",
+      "need": "日常洗衣大类入口词",
+      "prev_rank": 2
+    },
+    {
+      "id": "kw-my-disinfectant",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "disinfectant",
+      "summary": "MY 近7日 vs 前7日：约 +3%；同组相对热度 6（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=disinfectant&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 3,
+      "interest": 6,
+      "trend": "flat",
+      "need": "消毒场景（文案合规）",
+      "prev_rank": 3
+    },
+    {
+      "id": "kw-my-air_freshener",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "air freshener",
+      "summary": "MY 近7日 vs 前7日：约 +6%；同组相对热度 5（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=air%20freshener&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 4,
+      "interest": 5,
+      "trend": "flat",
+      "need": "居家空间留香需求",
+      "prev_rank": 4
+    },
+    {
+      "id": "kw-my-floor_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "floor cleaner",
+      "summary": "MY 近7日 vs 前7日：约 -9%（平稳偏降）；同组相对热度 4（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=floor%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 5,
+      "interest": 4,
+      "trend": "flat",
+      "need": "地板清洁+留香",
+      "prev_rank": 5
+    },
+    {
+      "id": "kw-my-laundry_detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "laundry detergent",
+      "summary": "MY 近7日 vs 前7日：约 +7%（前两日 +22%/+14%，升势放缓）；同组相对热度 4（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=laundry%20detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 6,
+      "interest": 4,
+      "trend": "flat",
+      "need": "日常洗衣主需求",
+      "prev_rank": 6
+    },
+    {
+      "id": "kw-my-toilet_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "toilet cleaner",
+      "summary": "MY 近7日 vs 前7日：约 -6%；同组相对热度 3（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 7,
+      "interest": 3,
+      "trend": "flat",
+      "need": "马桶日常清洁",
+      "prev_rank": 7
+    },
+    {
+      "id": "kw-my-dishwashing_liquid",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dishwashing liquid",
+      "summary": "MY 近7日 vs 前7日：约 +10%（平稳偏升）；同组相对热度 2（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 8,
+      "interest": 2,
+      "trend": "flat",
+      "need": "洗碗日常需求",
+      "prev_rank": 9
+    },
+    {
+      "id": "kw-my-washing_machine_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "washing machine cleaner",
+      "summary": "MY 近7日 vs 前7日：约 -2%；同组相对热度 2（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=washing%20machine%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 9,
+      "interest": 2,
+      "trend": "flat",
+      "need": "洗衣机槽清洁",
+      "prev_rank": 8
+    },
+    {
+      "id": "kw-my-fabric_softener",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "fabric softener",
+      "summary": "MY 近7日 vs 前7日：单词曲线近周 +501%，同组可比 0.2→1.0，基数很小（起量信号）；同组相对热度 1（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=fabric%20softener&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 10,
+      "interest": 1,
+      "trend": "up",
+      "need": "衣物柔软+留香，香氛化信号",
+      "prev_rank": 10
+    },
+    {
+      "id": "kw-my-foam_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "foam cleaner",
+      "summary": "MY 近7日 vs 前7日：约 +8%，量小；同组相对热度 1（car wash=100）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 11,
+      "interest": 1,
+      "trend": "flat",
+      "need": "泡沫型清洁剂（FF 核心品类）",
+      "prev_rank": 11
+    },
+    {
+      "id": "kw-my-magiclean",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "magiclean",
+      "summary": "突破/单拉词：品牌词单拉曲线近周约 +247%；「magiclean kitchen cleaner lime」关联词 +3,006,800%，Magiclean 系连续第 4 天突破，原因查不到（推测 11.11 前促销/广告）；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "突破"
+      ],
+      "region": "my",
+      "rank": 12,
+      "interest": 0,
+      "trend": "up",
+      "need": "要便宜好用的本地大牌厨房/地板清洁"
+    },
+    {
+      "id": "kw-my-magiclean_kitchen_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "magiclean kitchen cleaner",
+      "summary": "突破/单拉词：kitchen cleaner 关联词「magiclean kitchen cleaner lime」+3,006,800%（连续第 4 天）；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean%20kitchen%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "突破"
+      ],
+      "region": "my",
+      "rank": 13,
+      "interest": 0,
+      "trend": "up",
+      "need": "厨房去油喷雾——CNY 前厨房重油需求在 MY 起量",
+      "prev_rank": 13
+    },
+    {
+      "id": "kw-my-mr_muscle_bathroom_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "mr muscle bathroom cleaner",
+      "summary": "突破/单拉词：cleaner 关联词 +18,400%，今日新出现，原因查不到（非新品）；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=mr%20muscle%20bathroom%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "突破"
+      ],
+      "region": "my",
+      "rank": 14,
+      "interest": 0,
+      "trend": "up",
+      "need": "浴室清洁认大牌、要快"
+    },
+    {
+      "id": "kw-my-glo_sabun_basuh_pinggan",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "glo sabun basuh pinggan",
+      "summary": "突破/单拉词：sabun 关联词 +12,150%，今日新出现（马来语：Glo 洗碗液）；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=glo%20sabun%20basuh%20pinggan&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "突破"
+      ],
+      "region": "my",
+      "rank": 15,
+      "interest": 0,
+      "trend": "up",
+      "need": "马来语客群找平价洗碗液"
+    },
+    {
+      "id": "kw-my-harpic",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "harpic",
+      "summary": "突破/单拉词：品牌词单拉曲线近周约 +19%；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=harpic&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "突破"
+      ],
+      "region": "my",
+      "rank": 16,
+      "interest": 0,
+      "trend": "up",
+      "need": "马桶清洁认大牌，倒进去就干净"
+    },
+    {
+      "id": "kw-my-pencuci_lantai",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "pencuci lantai",
+      "summary": "突破/单拉词：马来语「地板清洁剂」近周约 -33%（昨日 +22%，波动大）；未进同组可比（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=pencuci%20lantai&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 17,
+      "interest": 0,
+      "trend": "down",
+      "need": "马来语客群找拖地液——FF 包装/listing 需要马来语",
+      "prev_rank": 16
+    },
+    {
+      "id": "kw-global-laundry_detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "laundry detergent",
+      "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 100（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=laundry%20detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 1,
+      "interest": 100,
+      "trend": "flat",
+      "need": "日常洗衣主需求",
+      "prev_rank": 1
+    },
+    {
+      "id": "kw-global-dish_soap",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dish soap",
+      "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 83（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=dish%20soap&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 2,
+      "interest": 83,
+      "trend": "flat",
+      "need": "洗碗日常需求",
+      "prev_rank": 2
+    },
+    {
+      "id": "kw-global-toilet_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "toilet cleaner",
+      "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 26（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=toilet%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 3,
+      "interest": 26,
+      "trend": "flat",
+      "need": "马桶日常清洁",
+      "prev_rank": 3
+    },
+    {
+      "id": "kw-global-washing_machine_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "washing machine cleaner",
+      "summary": "US 近7日 vs 前7日：约 -6%；同组相对热度 18（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=washing%20machine%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 4,
+      "interest": 18,
+      "trend": "flat",
+      "need": "洗衣机槽清洁",
+      "prev_rank": 4
+    },
+    {
+      "id": "kw-global-laundry_sheets",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "laundry sheets",
+      "summary": "US 近7日 vs 前7日：约 -8%；同组相对热度 10（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=laundry%20sheets&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 5,
+      "interest": 10,
+      "trend": "flat",
+      "need": "便携、免称量的洗衣片",
+      "prev_rank": 5
+    },
+    {
+      "id": "kw-global-mold_remover",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "mold remover",
+      "summary": "US 近7日 vs 前7日：约 -9%；但温和除霉关联词继续升（见下）；同组相对热度 10（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=mold%20remover&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 6,
+      "interest": 10,
+      "trend": "flat",
+      "need": "除霉需求",
+      "prev_rank": 6
+    },
+    {
+      "id": "kw-global-foam_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "foam cleaner",
+      "summary": "US 近7日 vs 前7日：30 天约 -27%，继续回落；同组相对热度 8（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=foam%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 7,
+      "interest": 8,
+      "trend": "down",
+      "need": "泡沫型清洁剂（FF 核心品类）",
+      "prev_rank": 7
+    },
+    {
+      "id": "kw-global-mop_soap",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "mop soap",
+      "summary": "US 近7日 vs 前7日：约 +10%，30 天约 +14%；同组相对热度 5（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=mop%20soap&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 8,
+      "interest": 5,
+      "trend": "up",
+      "need": "拖地+香氛，对应 TikTok 爆款",
+      "prev_rank": 8
+    },
+    {
+      "id": "kw-global-pet_odor_eliminator",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "pet odor eliminator",
+      "summary": "US 近7日 vs 前7日：近周约 -8%，30 天约 +24%；同组相对热度 3（laundry detergent=100）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=pet%20odor%20eliminator&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 9,
+      "interest": 3,
+      "trend": "flat",
+      "need": "养宠家庭要去尿味/体味",
+      "prev_rank": 9
+    },
+    {
+      "id": "kw-global-non_toxic_mold_remover",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "non toxic mold remover",
+      "summary": "US mold remover 关联词 +110%（昨日 +70%）；低于可比阈值（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=non%20toxic%20mold%20remover&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us",
+        "突破"
+      ],
+      "region": "global",
+      "rank": 10,
+      "interest": 0,
+      "trend": "up",
+      "need": "除霉要温和、不刺鼻——对应 FF 门封除霉凝胶",
+      "prev_rank": 10
+    },
+    {
+      "id": "kw-global-active_seal_and_grout_mold_stain_remover",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "active seal and grout mold stain remover",
+      "summary": "US mold remover 关联词 +70%，勾缝除霉凝胶；低于可比阈值（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=active%20seal%20and%20grout%20mold%20stain%20remover&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us",
+        "突破"
+      ],
+      "region": "global",
+      "rank": 11,
+      "interest": 0,
+      "trend": "up",
+      "need": "勾缝/门封发霉要挂得住的凝胶"
+    },
+    {
+      "id": "kw-global-crazy_clean_toilet_cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "crazy clean toilet cleaner",
+      "summary": "US toilet cleaner 关联词 +100%（新）；低于可比阈值（interest 填 0）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=crazy%20clean%20toilet%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us",
+        "突破"
+      ],
+      "region": "global",
+      "rank": 12,
+      "interest": 0,
+      "trend": "up",
+      "need": "马桶清洁换新品牌尝鲜"
+    },
+    {
+      "id": "prod-ff-jp-bulklife-pix-drain-foam",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "BULK LIFE ピクス 排水口发泡粉 10 包（日）",
+      "summary": "日本 Amazon 排水管清洁剂榜第 2：粉加水起泡溶排水口黏液、除臭，一包一次＝天然复购；淘宝 ONEFULL 马桶泡泡粉同形态累计 8万+",
+      "url": "https://nlab.itmedia.co.jp/research/articles/4043139/",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "耗材",
+        "CNY大扫除"
+      ],
+      "platform": "Amazon.co.jp",
+      "category": [
+        "排水口",
+        "发泡粉"
+      ],
+      "idea": "做 FF 地漏/排水口泡泡粉 10 包 RM19.90、试用 3 包 RM7.90（估算），优先氧系（过碳酸钠）而非氯系；配 FF 浴室泡沫做 CNY 大扫除套装",
+      "need_keys": [
+        "马桶魔法泡泡粉"
+      ],
+      "priceMYR": 19.92,
+      "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1791262856_pixta_97578289_M.jpg"
+    },
+    {
+      "id": "prod-ff-us-microfiber-tearoff-roll",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "撕取式超细纤维抹布卷（美 TikTok 爆款）",
+      "summary": "美区 TikTok Shop 10/12–10/18 增速榜第 1（+286,233%，周销 8,590 件，10/7 上架）；抖音 10/24 投放榜也满是海绵擦/洗碗巾——「一撕一张」复购耗材",
+      "url": "https://www.fastmoss.com/blog/how-to-find-trending-products-tiktok-shop/",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "耗材",
+        "11.11凑单"
+      ],
+      "platform": "TikTok Shop US",
+      "category": [
+        "工具/耗材",
+        "抹布"
+      ],
+      "idea": "FF 不做独立品牌，做泡沫喷雾加购/赠品「喷一下+撕一张」：单卖 RM9.90/20 片或套装加购 RM5.90（估算）；义乌购 20 片约 RM2.17",
+      "need_keys": [
+        "压缩魔力海绵擦",
+        "抗菌洗碗巾"
+      ],
+      "priceMYR": 36.18,
+      "image": "https://www.fastmoss.com/blog/wp-content/uploads/2026/10/BLOG-图片1-3-x-2-in-3-scaled.png"
+    },
+    {
+      "id": "prod-ff-my-chemicalk-oxy-power",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "ChemicalK OXY POWER 活氧去渍粉 450g（马，同行新品）",
+      "summary": "MY 同行 ChemicalK 官网最新上架：活氧去渍粉 450g RM18，同批还有熨烫助剂和甜品香型空气清新剂（多款售罄）——本地同行在往氧系粉剂+香氛扩品",
+      "url": "https://chemicalkonnection.com/products/oxy-power-450g-950g",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "同行",
+        "氧系"
+      ],
+      "platform": "ChemicalK 官网",
+      "category": [
+        "洗衣",
+        "氧系粉剂"
+      ],
+      "idea": "盯价锚：FF 若做氧系去渍粉/排水口粉，单次包形态和 ChemicalK 大袋 RM18 区隔；香型可借鉴甜品系做年轻化",
+      "need_keys": [
+        "detergent",
+        "air freshener"
+      ],
+      "image": "https://chemicalkonnection.com/cdn/shop/files/Oxy_Powder_450G.png?v=1780111663",
+      "priceMYR": 18.0
+    },
+    {
+      "id": "note-my-2026-10-25",
+      "section": "product",
+      "kind": "note",
+      "brand": "FF",
+      "title": "MY：Magiclean 第 4 天突破，Mr Muscle/Glo 新冒头",
+      "summary": "MY 主词近周都平稳，fabric softener 起量但基数小；Magiclean 品牌词近周约 +247%、kitchen cleaner lime 连续第 4 天突破；mr muscle bathroom cleaner +18,400%、glo sabun basuh pinggan +12,150% 新出现，原因查不到；pencuci lantai 回落约 -33%。美国无主词突破，温和除霉关联词续升。中国 Google Trends 仍为空，中国榜用抖音/淘宝替代，抖音新周榜 10/19–10/25 未出。",
+      "url": "",
+      "source": "google_trends",
+      "tags": [
+        "note",
+        "my",
+        "FF"
+      ]
     }
-   ],
-   "views": 84879,
-   "views_per_day": 176
-  },
-  {
-   "id": "ot-myth_education",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "脚与姿势的常见误区",
-   "summary": "网上说法很多，家长和上班族不知道哪些是真的。",
-   "url": "https://www.youtube.com/watch?v=wVZ5DynU_FE",
-   "source": "YouTube",
-   "tags": [
-    "expert_explainer",
-    "myth_education"
-   ],
-   "status": "KEEP",
-   "hook": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
-   "hooks": [
-    "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。",
-    "鞋垫越硬支撑越好，对吗？",
-    "关于鞋垫的 3 个常见误区。"
-   ],
-   "compliance": "误区内容需有可靠来源；不得以恐吓式说法促销。",
-   "thumb": "https://i.ytimg.com/vi/wVZ5DynU_FE/hqdefault.jpg",
-   "why": "样本26条、表现中位P43；views/day中位约53；参考片491,521次观看；样本内 26/164 条通过筛选的视频属于此角度（占 16%）。",
-   "trend_element": "专业讲解（需有资质者出镜）·反常识/我错",
-   "pattern": "钩子偏反常识/我错了、提问式、清单数字。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 26/164 条通过筛选的视频属于此角度（占 16%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
-    },
-    {
-     "head": "开口钩子",
-     "body": "孩子足弓看起来平平的，先别慌——家长最常见的 3 个误会。"
-    }
-   ],
-   "views": 491521,
-   "views_per_day": 53
-  },
-  {
-   "id": "ot-kids_feet_growth",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "孩子的脚：扁平足 / 足弓的家长科普",
-   "summary": "家长发现孩子走路容易累、鞋子外侧磨得快、常说脚酸，不知道要不要担心、该怎么选鞋和鞋垫。",
-   "url": "https://www.instagram.com/p/DemQ_I8sjqz/",
-   "source": "Instagram",
-   "tags": [
-    "expert_explainer",
-    "kids_feet_growth"
-   ],
-   "status": "KEEP",
-   "hook": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
-   "hooks": [
-    "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。",
-    "（持证人士出镜）足科/物理治疗师：家长最常问的 3 个问题。",
-    "不是鞋越软越好——孩子的鞋，这个地方要够稳。"
-   ],
-   "compliance": "只做观察与选鞋建议；不说“治好/矫正扁平足”；提醒有疑虑请咨询专业人士；未成年人出镜需家长同意。",
-   "why": "样本24条、表现中位P64；views/day中位约148；参考片82,734次观看；样本内 24/164 条通过筛选的视频属于此角度（占 15%）。",
-   "trend_element": "专业讲解（需有资质者出镜）·提问式",
-   "pattern": "钩子偏提问式、专业背书、反常识/我错了。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 24/164 条通过筛选的视频属于此角度（占 15%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
-    },
-    {
-     "head": "开口钩子",
-     "body": "孩子的鞋，你多久没检查过鞋底磨损了？翻过来看一眼。"
-    }
-   ],
-   "views": 82734,
-   "views_per_day": 148
-  },
-  {
-   "id": "ot-product_review_comparison",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "鞋垫 / 书包 / 姿势产品真实测评",
-   "summary": "市面产品太多，担心买到没用的。",
-   "url": "https://www.youtube.com/watch?v=pdbFJCrkpyI",
-   "source": "YouTube",
-   "tags": [
-    "review",
-    "product_review_comparison"
-   ],
-   "status": "KEEP",
-   "hook": "RM 几十和几百的鞋垫，差在哪里？",
-   "hooks": [
-    "RM 几十和几百的鞋垫，差在哪里？",
-    "我试了 4 种鞋垫，差别在这 3 个地方。",
-    "现成鞋垫 vs 定制鞋垫，穿一周对比。"
-   ],
-   "compliance": "不点名贬低竞品；测评结论只写个人感受；不复刻竞品视频的画面与文案。",
-   "thumb": "https://i.ytimg.com/vi/pdbFJCrkpyI/hqdefault.jpg",
-   "why": "样本14条、表现中位P49；views/day中位约27；参考片148,421次观看；样本内 14/164 条通过筛选的视频属于此角度（占 9%）。",
-   "trend_element": "真实测评·提问式",
-   "pattern": "钩子偏提问式、清单数字、实测挑战。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「RM 几十和几百的鞋垫，差在哪里？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 14/164 条通过筛选的视频属于此角度（占 9%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "RM 几十和几百的鞋垫，差在哪里？"
-    }
-   ],
-   "views": 148421,
-   "views_per_day": 27
-  },
-  {
-   "id": "ot-standing_work_comfort",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "久站 / 久走上班族的脚部舒适",
-   "summary": "护士、柜台、老师、餐饮业整天站着，下班脚底和小腿又酸又累。",
-   "url": "https://www.instagram.com/p/DeAkExgNp4W/",
-   "source": "Instagram",
-   "tags": [
-    "comparison",
-    "standing_work_comfort"
-   ],
-   "status": "KEEP",
-   "hook": "久站族的 3 个小习惯，让脚没那么累。",
-   "hooks": [
-    "久站族的 3 个小习惯，让脚没那么累。",
-    "同一双鞋，加/不加足弓支撑鞋垫，走一天的感受对比。",
-    "一天站 8 小时的人，下班第一件事是不是脱鞋？"
-   ],
-   "compliance": "说“更舒适、分散压力的支撑感”；不说“治疗足底筋膜炎”；疼痛持续请就医。",
-   "why": "样本15条、表现中位P46；views/day中位约35；参考片1,869,634次观看；样本内 15/164 条通过筛选的视频属于此角度（占 9%）。",
-   "trend_element": "对比测评·清单数字",
-   "pattern": "钩子偏清单数字、实测挑战、提问式。格式是对比测评，分屏/并排对比，同条件测试，15–30秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「久站族的 3 个小习惯，让脚没那么累。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 15/164 条通过筛选的视频属于此角度（占 9%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "对比测评：分屏/并排对比，同条件测试，15–30秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "久站族的 3 个小习惯，让脚没那么累。"
-    }
-   ],
-   "views": 1869634,
-   "views_per_day": 35
-  },
-  {
-   "id": "ot-custom_insole_process",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "定制鞋垫是怎么做出来的（扫描→建模→成品）",
-   "summary": "对定制鞋垫好奇但觉得神秘、怕贵、怕是智商税，想知道流程和适不适合自己。",
-   "url": "https://www.youtube.com/watch?v=vbM9BoZKe5A",
-   "source": "YouTube",
-   "tags": [
-    "expert_explainer",
-    "custom_insole_process"
-   ],
-   "status": "KEEP",
-   "hook": "一双鞋垫为什么要先扫描你的脚？",
-   "hooks": [
-    "一双鞋垫为什么要先扫描你的脚？",
-    "做定制鞋垫前，你应该问店家的 3 个问题。",
-    "现成鞋垫和定制鞋垫，差别不在“软硬”，而在这里。"
-   ],
-   "compliance": "展示流程与舒适感；“足弓检测”称评估而非诊断；不承诺矫正效果；价格/活动以实际为准。",
-   "thumb": "https://i.ytimg.com/vi/vbM9BoZKe5A/hqdefault.jpg",
-   "why": "样本22条、表现中位P42；views/day中位约37；参考片92,068次观看；样本内 22/164 条通过筛选的视频属于此角度（占 13%）。",
-   "trend_element": "专业讲解（需有资质者出镜）·提问式",
-   "pattern": "钩子偏提问式、清单数字、反常识/我错了。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「一双鞋垫为什么要先扫描你的脚？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 22/164 条通过筛选的视频属于此角度（占 13%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
-    },
-    {
-     "head": "开口钩子",
-     "body": "一双鞋垫为什么要先扫描你的脚？"
-    }
-   ],
-   "views": 92068,
-   "views_per_day": 37
-  },
-  {
-   "id": "ot-sports_active_support",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "运动 / 跑步时的足部支撑",
-   "summary": "跑步、打球后脚底累或脚踝不稳，想知道鞋垫和鞋能不能帮上忙。",
-   "url": "https://www.youtube.com/watch?v=jbWNtmABda4",
-   "source": "YouTube",
-   "tags": [
-    "expert_explainer",
-    "sports_active_support"
-   ],
-   "status": "KEEP",
-   "hook": "跑完 5 公里，你的脚底还好吗？",
-   "hooks": [
-    "跑完 5 公里，你的脚底还好吗？",
-    "运动族选鞋垫看 3 点。",
-    "运动鞋加上足弓支撑鞋垫，跑一周的感受记录。"
-   ],
-   "compliance": "不宣称提升成绩或预防运动伤害。",
-   "thumb": "https://i.ytimg.com/vi/jbWNtmABda4/hqdefault.jpg",
-   "why": "样本9条、表现中位P47；views/day中位约53；参考片38,017次观看；样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
-   "trend_element": "专业讲解（需有资质者出镜）·提问式",
-   "pattern": "钩子偏提问式、清单数字、实测挑战。格式是专业讲解（需有资质者出镜），持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「跑完 5 公里，你的脚底还好吗？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "专业讲解（需有资质者出镜）：持证人士口播 + 图示，30–60秒；无资质则改为“引用公开资料”"
-    },
-    {
-     "head": "开口钩子",
-     "body": "跑完 5 公里，你的脚底还好吗？"
-    }
-   ],
-   "views": 38017,
-   "views_per_day": 53
-  },
-  {
-   "id": "ot-posture_back_neck",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "姿势小习惯：低头族 / 久坐 / 驼背感",
-   "summary": "长时间低头看手机、久坐办公，肩颈紧、站姿不好看，想改善但不知道从哪开始。",
-   "url": "https://www.youtube.com/watch?v=1sfn9zPkZNU",
-   "source": "YouTube",
-   "tags": [
-    "review",
-    "posture_back_neck"
-   ],
-   "status": "KEEP",
-   "hook": "你现在是不是正在低头看这条视频？",
-   "hooks": [
-    "你现在是不是正在低头看这条视频？",
-    "贴墙站 30 秒小测试：你的后脑、肩、臀能同时贴墙吗？",
-    "办公室 3 个 30 秒姿势提醒。"
-   ],
-   "compliance": "讲习惯与舒适；矫姿带类产品不说“矫正驼背/脊柱”；运动建议保持温和并提示量力而行。",
-   "thumb": "https://i.ytimg.com/vi/1sfn9zPkZNU/hqdefault.jpg",
-   "why": "样本9条、表现中位P66；views/day中位约42；参考片401,837次观看；样本内 9/164 条通过筛选的视频属于此角度（占 5%）。",
-   "trend_element": "真实测评·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「你现在是不是正在低头看这条视频？」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 9/164 条通过筛选的视频属于此角度（占 5%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "你现在是不是正在低头看这条视频？"
-    }
-   ],
-   "views": 401837,
-   "views_per_day": 42
-  },
-  {
-   "id": "ot-school_bag_posture",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "OT",
-   "title": "书包太重？护脊书包与背书包习惯",
-   "summary": "孩子每天背很重的书包，肩膀勒红、身体前倾，家长心疼却不知道书包该怎么选、怎么背。",
-   "url": "https://www.youtube.com/watch?v=HE7DAfUTFUk",
-   "source": "YouTube",
-   "tags": [
-    "review",
-    "school_bag_posture"
-   ],
-   "status": "WATCH",
-   "hook": "你孩子的书包有多重？拿家里的秤称一下。",
-   "hooks": [
-    "你孩子的书包有多重？拿家里的秤称一下。",
-    "护脊书包要看这 4 个细节：肩带、背垫、胸扣、重心。",
-    "开学第一周，我帮孩子换了书包后发现的变化。"
-   ],
-   "compliance": "说“分担负重 / 背得更舒适 / 帮助保持好姿势习惯”；不说“预防/矫正脊柱侧弯、驼背”。",
-   "thumb": "https://i.ytimg.com/vi/HE7DAfUTFUk/hqdefault.jpg",
-   "why": "样本27条、表现中位P26；views/day中位约2；参考片296,548次观看；样本内 27/164 条通过筛选的视频属于此角度（占 16%）。",
-   "trend_element": "真实测评·提问式",
-   "pattern": "钩子偏提问式、清单数字、亲身经历。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "OT可拍：「你孩子的书包有多重？拿家里的秤称一下。」——镜头只讲支撑/舒适/分散压力，不说治疗矫正；15–30秒对比或清单。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 27/164 条通过筛选的视频属于此角度（占 16%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "你孩子的书包有多重？拿家里的秤称一下。"
-    }
-   ],
-   "views": 296548,
-   "views_per_day": 2
-  },
-  {
-   "id": "ff-satisfying_asmr",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "解压清洁：泡沫 + 前后对比",
-   "summary": "观众爱看“脏→干净”的解压过程，这也是展示泡沫质感最自然的方式。",
-   "url": "https://www.youtube.com/watch?v=SRCOazNKltM",
-   "source": "YouTube",
-   "tags": [
-    "satisfying_demo",
-    "satisfying_asmr"
-   ],
-   "status": "KEEP",
-   "hook": "你能看完这 15 秒不觉得解压吗？",
-   "hooks": [
-    "你能看完这 15 秒不觉得解压吗？",
-    "最脏的一双鞋，看泡沫把它变回来。",
-    "3 个很多人都做错的清洁习惯。"
-   ],
-   "compliance": "真实拍摄、不加速造假、不美颜滤镜；结尾给产品信息即可。",
-   "thumb": "https://i.ytimg.com/vi/SRCOazNKltM/hqdefault.jpg",
-   "why": "样本30条、表现中位P70；views/day中位约4；参考片4,106,635次观看；样本内 30/187 条通过筛选的视频属于此角度（占 16%）。",
-   "trend_element": "解压过程演示·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是解压过程演示，无/少口播，近景收音 + 慢动作关键一刻，10–25秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「你能看完这 15 秒不觉得解压吗？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 30/187 条通过筛选的视频属于此角度（占 16%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "解压过程演示：无/少口播，近景收音 + 慢动作关键一刻，10–25秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "你能看完这 15 秒不觉得解压吗？"
-    }
-   ],
-   "views": 4106635,
-   "views_per_day": 4
-  },
-  {
-   "id": "ff-car_interior",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "车内清洁：座椅 / 脚垫 / 方向盘",
-   "summary": "车里吃东西、孩子弄脏座椅、脚垫泥沙，拿去洗车店又贵。",
-   "url": "https://www.youtube.com/watch?v=7afmCJNTvHk",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "car_interior"
-   ],
-   "status": "KEEP",
-   "hook": "你的车座椅，多久没洗了？",
-   "hooks": [
-    "你的车座椅，多久没洗了？",
-    "座椅一半清洁一半不洗，差别有多大？",
-    "10 分钟车内快速清洁 3 步。"
-   ],
-   "compliance": "注明适用材质（织物/皮革）；不示范危险化学品。",
-   "thumb": "https://i.ytimg.com/vi/7afmCJNTvHk/hqdefault.jpg",
-   "why": "样本2条、表现中位P76；views/day中位约913；参考片1,156,996次观看；样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
-   "trend_element": "教程 / 选购指南·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「你的车座椅，多久没洗了？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "你的车座椅，多久没洗了？"
-    }
-   ],
-   "views": 1156996,
-   "views_per_day": 913
-  },
-  {
-   "id": "ff-kitchen_grease",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "厨房油污：抽油烟机 / 炉台快速清洁",
-   "summary": "马来西亚家庭常爆炒，油烟机和墙面黏腻难清。",
-   "url": "https://www.youtube.com/watch?v=jYGsRupMask",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "kitchen_grease"
-   ],
-   "status": "KEEP",
-   "hook": "你家抽油烟机，上一次清是什么时候？",
-   "hooks": [
-    "你家抽油烟机，上一次清是什么时候？",
-    "喷上去等 1 分钟，一擦就……",
-    "厨房去油 3 个不伤手的小方法。"
-   ],
-   "compliance": "不示范混用不同清洁剂；提示戴手套、通风；按产品标签用途使用。",
-   "thumb": "https://i.ytimg.com/vi/jYGsRupMask/hqdefault.jpg",
-   "why": "样本9条、表现中位P73；views/day中位约2；参考片5,299,284次观看；样本内 9/187 条通过筛选的视频属于此角度（占 5%）。",
-   "trend_element": "教程 / 选购指南·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「你家抽油烟机，上一次清是什么时候？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 9/187 条通过筛选的视频属于此角度（占 5%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "你家抽油烟机，上一次清是什么时候？"
-    }
-   ],
-   "views": 5299284,
-   "views_per_day": 2
-  },
-  {
-   "id": "ff-sneaker_white_shoes",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "小白鞋 / 校鞋 3 分钟免水洗翻新",
-   "summary": "白鞋一穿就黄、校鞋每周都脏，手洗费时又怕洗坏、晒不干。",
-   "url": "https://www.instagram.com/p/DeY3RTuIfTw/",
-   "source": "Instagram",
-   "tags": [
-    "tutorial",
-    "sneaker_white_shoes"
-   ],
-   "status": "KEEP",
-   "hook": "一只洗、一只不洗，3 分钟后对比。",
-   "hooks": [
-    "一只洗、一只不洗，3 分钟后对比。",
-    "小白鞋脏了，你还在用牙刷+洗衣粉泡一晚上？",
-    "洗白鞋 3 个常见错误，最后一个很多人都做过。"
-   ],
-   "compliance": "前后对比真实同一双鞋；不同材质先局部测试；不夸大“永久洁白”。",
-   "why": "样本68条、表现中位P36；views/day中位约320；参考片2,524,934次观看；样本内 68/187 条通过筛选的视频属于此角度（占 36%）。",
-   "trend_element": "教程 / 选购指南·实测挑战",
-   "pattern": "钩子偏实测挑战、提问式、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「一只洗、一只不洗，3 分钟后对比。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 68/187 条通过筛选的视频属于此角度（占 36%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "一只洗、一只不洗，3 分钟后对比。"
-    }
-   ],
-   "views": 2524934,
-   "views_per_day": 320
-  },
-  {
-   "id": "ff-hacks_routine",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "懒人清洁 routine / 小技巧",
-   "summary": "工作忙没时间大扫除，想要 5–10 分钟就能完成的清洁节奏。",
-   "url": "https://www.instagram.com/p/Del6a4Wpps-/",
-   "source": "Instagram",
-   "tags": [
-    "tutorial",
-    "hacks_routine"
-   ],
-   "status": "KEEP",
-   "hook": "大扫除一次，不如每天做这件小事。",
-   "hooks": [
-    "大扫除一次，不如每天做这件小事。",
-    "每天 10 分钟，让家保持干净的 3 个习惯。",
-    "一半清洁一半不洗，直接对比。"
-   ],
-   "compliance": "“偏方”只用安全、常见做法；绝不混用清洁剂。",
-   "why": "样本23条、表现中位P61；views/day中位约4；参考片288,377次观看；样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
-   "trend_element": "教程 / 选购指南·反常识/我错了",
-   "pattern": "钩子偏反常识/我错了、清单数字、实测挑战。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「大扫除一次，不如每天做这件小事。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "大扫除一次，不如每天做这件小事。"
-    }
-   ],
-   "views": 288377,
-   "views_per_day": 4
-  },
-  {
-   "id": "ff-bathroom_mold",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "浴室霉斑 / 水垢清洁",
-   "summary": "潮湿气候导致瓷砖缝发黑、玻璃水垢，刷了又长。",
-   "url": "https://www.youtube.com/watch?v=ExEDcKK8u4E",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "bathroom_mold"
-   ],
-   "status": "KEEP",
-   "hook": "瓷砖缝发黑，是脏还是霉？",
-   "hooks": [
-    "瓷砖缝发黑，是脏还是霉？",
-    "瓷砖缝左右对比实测。",
-    "浴室不再长霉的 3 个日常习惯。"
-   ],
-   "compliance": "严禁漂白水混醋/洁厕剂的“偏方”；标注通风；不说“杀灭霉菌 99.9%”。",
-   "thumb": "https://i.ytimg.com/vi/ExEDcKK8u4E/hqdefault.jpg",
-   "why": "样本6条、表现中位P60；views/day中位约304；参考片2,106,975次观看；样本内 6/187 条通过筛选的视频属于此角度（占 3%）。",
-   "trend_element": "教程 / 选购指南·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「瓷砖缝发黑，是脏还是霉？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 6/187 条通过筛选的视频属于此角度（占 3%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "瓷砖缝发黑，是脏还是霉？"
-    }
-   ],
-   "views": 2106975,
-   "views_per_day": 304
-  },
-  {
-   "id": "ff-stain_laundry",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "衣物 / 沙发污渍急救",
-   "summary": "咖喱、酱油、口红、奶渍沾上衣服或沙发，不知道先做什么。",
-   "url": "https://www.youtube.com/watch?v=dfJi49umT6U",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "stain_laundry"
-   ],
-   "status": "KEEP",
-   "hook": "咖喱沾到白衣服，第一步千万别做什么？",
-   "hooks": [
-    "咖喱沾到白衣服，第一步千万别做什么？",
-    "3 种常见污渍，同一瓶喷雾实测。",
-    "污渍急救 3 步口诀。"
-   ],
-   "compliance": "先在不显眼处测试；不承诺所有污渍都能去除。",
-   "thumb": "https://i.ytimg.com/vi/dfJi49umT6U/hqdefault.jpg",
-   "why": "样本23条、表现中位P45；views/day中位约1；参考片5,265,059次观看；样本内 23/187 条通过筛选的视频属于此角度（占 12%）。",
-   "trend_element": "教程 / 选购指南·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「咖喱沾到白衣服，第一步千万别做什么？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 23/187 条通过筛选的视频属于此角度（占 12%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "咖喱沾到白衣服，第一步千万别做什么？"
-    }
-   ],
-   "views": 5265059,
-   "views_per_day": 1
-  },
-  {
-   "id": "ff-product_review_comparison",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "清洁产品真实测评 / 对比",
-   "summary": "网上清洁好物太多，怕买到没用的。",
-   "url": "https://www.youtube.com/watch?v=QetxI5kZ9H4",
-   "source": "YouTube",
-   "tags": [
-    "review",
-    "product_review_comparison"
-   ],
-   "status": "WATCH",
-   "hook": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
-   "hooks": [
-    "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。",
-    "RM 50 的洗鞋喷雾，值得吗？",
-    "我试了 5 种小白鞋清洁法，排名如下。"
-   ],
-   "compliance": "对比“方法”而非点名贬低品牌；同条件测试；不复刻竞品视频。",
-   "thumb": "https://i.ytimg.com/vi/QetxI5kZ9H4/hqdefault.jpg",
-   "why": "样本5条、表现中位P39；views/day中位约80；参考片976,183次观看；样本内 5/187 条通过筛选的视频属于此角度（占 3%）。",
-   "trend_element": "真实测评·实测挑战",
-   "pattern": "钩子偏实测挑战、提问式、清单数字。格式是真实测评，一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 5/187 条通过筛选的视频属于此角度（占 3%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "真实测评：一个产品 · 开箱→上手→使用镜头→3个优缺点，20–40秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "3 款洗鞋方式同一双鞋实测：牙刷+洗衣粉 / 湿纸巾 / 泡沫喷雾。"
-    }
-   ],
-   "views": 976183,
-   "views_per_day": 80
-  },
-  {
-   "id": "ff-shoe_protect_leather",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "下雨天的鞋子保护：防水 & 皮革护理",
-   "summary": "马来西亚雨季多，新鞋一踩水就脏、皮鞋发霉起皱。",
-   "url": "https://www.youtube.com/watch?v=9OYGuzpFhVM",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "shoe_protect_leather"
-   ],
-   "status": "WATCH",
-   "hook": "雨季来了，你的鞋准备好了吗？",
-   "hooks": [
-    "雨季来了，你的鞋准备好了吗？",
-    "一只喷防水、一只不喷，直接倒水。",
-    "皮鞋不发霉的 3 个保存习惯。"
-   ],
-   "compliance": "防水效果按实测展示，不承诺“永久防水”；注明适用材质。",
-   "thumb": "https://i.ytimg.com/vi/9OYGuzpFhVM/hqdefault.jpg",
-   "why": "样本7条、表现中位P51；views/day中位约157；参考片206,083次观看；样本内 7/187 条通过筛选的视频属于此角度（占 4%）。",
-   "trend_element": "教程 / 选购指南·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「雨季来了，你的鞋准备好了吗？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 7/187 条通过筛选的视频属于此角度（占 4%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "雨季来了，你的鞋准备好了吗？"
-    }
-   ],
-   "views": 206083,
-   "views_per_day": 157
-  },
-  {
-   "id": "ff-shoe_odor",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "鞋子臭？除臭的正确顺序",
-   "summary": "球鞋、校鞋、工作鞋一脱就尴尬，喷香水只能盖味道。",
-   "url": "https://www.youtube.com/watch?v=gpfnFvSd2X8",
-   "source": "YouTube",
-   "tags": [
-    "tutorial",
-    "shoe_odor"
-   ],
-   "status": "WATCH",
-   "hook": "鞋子除臭 3 步：先干、再洗、后喷。",
-   "hooks": [
-    "鞋子除臭 3 步：先干、再洗、后喷。",
-    "跑步鞋除臭前后，请家人盲闻。",
-    "你家门口那排鞋，是不是一打开鞋柜就有味道？"
-   ],
-   "compliance": "说“去除异味 / 清新”；“抗菌”仅在有报告时使用；不涉及足部疾病。",
-   "thumb": "https://i.ytimg.com/vi/gpfnFvSd2X8/hqdefault.jpg",
-   "why": "样本11条、表现中位P33；views/day中位约67；参考片2,273,410次观看；样本内 11/187 条通过筛选的视频属于此角度（占 6%）。",
-   "trend_element": "教程 / 选购指南·清单数字",
-   "pattern": "钩子偏清单数字、实测挑战、提问式。格式是教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「鞋子除臭 3 步：先干、再洗、后喷。」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 11/187 条通过筛选的视频属于此角度（占 6%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "教程 / 选购指南：步骤式字幕（1-2-3），每步一个画面，30–45秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "鞋子除臭 3 步：先干、再洗、后喷。"
-    }
-   ],
-   "views": 2273410,
-   "views_per_day": 67
-  },
-  {
-   "id": "ff-floor_surfaces",
-   "section": "marketing",
-   "kind": "angle",
-   "brand": "FF",
-   "title": "地板 / 多用途清洁：有孩子和宠物的家",
-   "summary": "孩子在地上爬、宠物满屋跑，想要好闻又放心的日常拖地方案。",
-   "url": "https://www.instagram.com/p/DeMeIGiNGpa/",
-   "source": "Instagram",
-   "tags": [
-    "myth_busting",
-    "floor_surfaces"
-   ],
-   "status": "WATCH",
-   "hook": "宝宝在地上爬，你用什么拖地？",
-   "hooks": [
-    "宝宝在地上爬，你用什么拖地？",
-    "一半清洁一半不洗，直接对比。",
-    "拖地 3 个误区：水越多越干净？"
-   ],
-   "compliance": "“家庭/宠物安全”仅在有检测报告时使用；否则说“成分温和 / 按指示稀释使用”。",
-   "why": "样本2条、表现中位P64；views/day中位约7；参考片120,426次观看；样本内 2/187 条通过筛选的视频属于此角度（占 1%）。",
-   "trend_element": "误区破解·提问式",
-   "pattern": "钩子偏提问式、实测挑战、清单数字。格式是误区破解，“你以为…其实…”结构，3个误区连击，20–40秒。有效点在痛点一眼能懂、动作可复刻。",
-   "apply": "FF可拍：「宝宝在地上爬，你用什么拖地？」——前后对比或15秒解压清洁；不说杀菌百分比、不示范混剂。",
-   "key_points": [
-    {
-     "head": "为什么红",
-     "body": "样本内 2/187 条通过筛选的视频属于此角度（占 1%）。"
-    },
-    {
-     "head": "怎么拍",
-     "body": "误区破解：“你以为…其实…”结构，3个误区连击，20–40秒"
-    },
-    {
-     "head": "开口钩子",
-     "body": "宝宝在地上爬，你用什么拖地？"
-    }
-   ],
-   "views": 120426,
-   "views_per_day": 7
-  },
-  {
-   "id": "kw-cn-洗衣粉",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "洗衣粉",
-   "summary": "抖音周榜代表品：公仔牌顽渍净；周销 113,981→98,723 约 -13%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 1,
-   "interest": 100,
-   "trend": "down",
-   "need": "基础洗衣大单品，价格敏感、长销",
-   "prev_rank": 1
-  },
-  {
-   "id": "kw-cn-香氛洗衣液",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "香氛洗衣液",
-   "summary": "抖音周榜代表品：立白大师香氛；周销 45,323；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "香氛化"
-   ],
-   "region": "cn",
-   "rank": 2,
-   "interest": 46,
-   "trend": "flat",
-   "need": "洗完要香——衣物香氛化",
-   "prev_rank": 2
-  },
-  {
-   "id": "kw-cn-除菌除螨留香洗衣液",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "除菌除螨留香洗衣液",
-   "summary": "抖音周榜代表品：活力28；周销 28,698→38,906 约 +36%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 3,
-   "interest": 39,
-   "trend": "up",
-   "need": "洗衣同时要除螨+留香的多效需求",
-   "prev_rank": 3
-  },
-  {
-   "id": "kw-cn-洗衣机清洗剂",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "洗衣机清洗剂",
-   "summary": "抖音周榜代表品：老管家爆氧粉；周销 31,047→37,411 约 +20%；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 4,
-   "interest": 38,
-   "trend": "up",
-   "need": "洗衣机槽异味/污垢的定期清洁",
-   "prev_rank": 4
-  },
-  {
-   "id": "kw-cn-油烟机清洗剂",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "油烟机清洗剂",
-   "summary": "今日新列：淘宝 10 月月榜 TOP1 水卫士累计 70万+（¥9.38≈RM5.74），净浮生 50万+、老管家绵密泡沫 40万+；淘宝只给累计销量，热度未折算（填 0）",
-   "url": "https://www.xing73.com/taobao-xl-5Kr5NeY676Y5CmY5XSr5Fir56yp5fO455Kr5.html",
-   "source": "taobao_monthly",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "CNY大扫除",
-    "厨房重油"
-   ],
-   "region": "cn",
-   "rank": 5,
-   "interest": 0,
-   "trend": "up",
-   "need": "厨房油烟机/灶台重油一喷就掉——CNY 大扫除前备货品类",
-   "prev_rank": 5
-  },
-  {
-   "id": "kw-cn-小苏打多功能清洁剂",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "小苏打多功能清洁剂",
-   "summary": "抖音周榜：厨房家电去黄，新进 Top10，周销 31,083；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 6,
-   "interest": 31,
-   "trend": "up",
-   "need": "厨房家电去黄去油的一瓶多用",
-   "prev_rank": 6
-  },
-  {
-   "id": "kw-cn-免搓香氛洗衣粉",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "免搓香氛洗衣粉",
-   "summary": "抖音周榜代表品：亮妈妈，新进 Top10，周销 30,078；热度为周销量折算（榜首=100），非搜索热度；新一周榜 10/19–10/25 未出，沿用 10/12–10/18",
-   "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "香氛化"
-   ],
-   "region": "cn",
-   "rank": 7,
-   "interest": 30,
-   "trend": "up",
-   "need": "懒人免搓+留香",
-   "prev_rank": 7
-  },
-  {
-   "id": "kw-cn-高奢香氛洗衣液",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "高奢香氛洗衣液",
-   "summary": "抖音 10/22 投放日榜第 7（公仔牌，除菌除螨，29 条创意；当日销量 2,500–5,000）；投放榜非销量榜，热度未折算（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-22.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "香氛化"
-   ],
-   "region": "cn",
-   "rank": 8,
-   "interest": 0,
-   "trend": "up",
-   "need": "洗衣要有「大牌香水味」的高端感",
-   "prev_rank": 8
-  },
-  {
-   "id": "kw-cn-倒置香薰",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "倒置香薰沙漏",
-   "summary": "抖音 10/22 投放日榜第 2（蔬果园 28 条创意）、第 16（沫檬 48 条创意）；新上投放榜，销量仍小（0–500/日）；热度未折算（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-22.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "香氛除味",
-    "新词"
-   ],
-   "region": "cn",
-   "rank": 9,
-   "interest": 0,
-   "trend": "up",
-   "need": "卫生间除异味要好看又持续留香",
-   "prev_rank": 9
-  },
-  {
-   "id": "kw-cn-除霉啫喱",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "除霉啫喱",
-   "summary": "抖音周投放榜第 13（沫檬，洗衣机胶圈/冰箱胶条）；双 11 前投放起量；投放榜非销量榜（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/-1/week/20261012-20261018.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 10,
-   "interest": 0,
-   "trend": "up",
-   "need": "胶圈/胶条黑霉的针对性去除",
-   "prev_rank": 10
-  },
-  {
-   "id": "kw-cn-除螨除菌喷雾",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "除螨除菌喷雾",
-   "summary": "抖音周投放榜第 1（沫檬，免洗晒）；双 11 前投放起量；投放榜非销量榜（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/-1/week/20261012-20261018.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF"
-   ],
-   "region": "cn",
-   "rank": 11,
-   "interest": 0,
-   "trend": "up",
-   "need": "床品沙发免洗除螨",
-   "prev_rank": 11
-  },
-  {
-   "id": "kw-cn-马桶浴室泡沫清洁剂",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "马桶浴室泡沫清洁剂",
-   "summary": "淘宝 10 月「清洁泡沫」月销榜 TOP1（沫檬，累计 20万+，¥7.9≈RM4.84）；老管家泡沫洁厕也 20万+；月销榜只给累计，不折算（填 0）",
-   "url": "https://www.xing73.com/taobao-xl-rKr5hOr5BSr5Fir5.html",
-   "source": "taobao_rank",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "泡沫",
-    "浴厕"
-   ],
-   "region": "cn",
-   "rank": 12,
-   "interest": 0,
-   "trend": "up",
-   "need": "马桶浴室喷一下起泡、不用刷就干净"
-  },
-  {
-   "id": "kw-cn-马桶魔法泡泡粉",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "马桶魔法泡泡粉",
-   "summary": "淘宝 10 月清洁泡沫榜 TOP8（ONEFULL 美鱼妈妈，累计 8万+，¥29.9≈RM18.30）——「粉加水起泡」单次包形态（填 0）",
-   "url": "https://www.xing73.com/taobao-xl-rKr5hOr5BSr5Fir5.html",
-   "source": "taobao_rank",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "泡沫",
-    "发泡粉"
-   ],
-   "region": "cn",
-   "rank": 13,
-   "interest": 0,
-   "trend": "up",
-   "need": "一包倒进去自己起泡清洁，省力又好复购"
-  },
-  {
-   "id": "kw-cn-鞋袜除臭喷雾",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "鞋袜除臭喷雾",
-   "summary": "抖音 10/24 日用百货投放日榜第 6（沫檬银离子，31 条创意，销售额 1万–2.5万）；投放榜非销量榜（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "除味"
-   ],
-   "region": "cn",
-   "rank": 14,
-   "interest": 0,
-   "trend": "up",
-   "need": "鞋柜/袜子去异味，喷一下就好"
-  },
-  {
-   "id": "kw-cn-压缩魔力海绵擦",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "压缩魔力海绵擦",
-   "summary": "抖音 10/24 投放日榜第 7（易蓝净，80 条创意，当日销量 500–1,000）；投放榜非销量榜（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "耗材"
-   ],
-   "region": "cn",
-   "rank": 15,
-   "interest": 0,
-   "trend": "up",
-   "need": "不用清洁剂也能擦掉污渍的耗材"
-  },
-  {
-   "id": "kw-cn-抗菌洗碗巾",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "抗菌洗碗巾",
-   "summary": "抖音 10/24 投放日榜第 8（油利除 10A，拍 1 发 6，当日销量 1,000–2,500）；投放榜非销量榜（填 0）",
-   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-10-24.html",
-   "source": "chanmama_douyin",
-   "tags": [
-    "trends",
-    "cn",
-    "FF",
-    "耗材"
-   ],
-   "region": "cn",
-   "rank": 16,
-   "interest": 0,
-   "trend": "up",
-   "need": "洗碗布不发臭、多片装常换"
-  },
-  {
-   "id": "kw-my-car_wash",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "car wash",
-   "summary": "MY 近7日 vs 前7日：约 +8%；同组相对热度 100（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=car%20wash&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 1,
-   "interest": 100,
-   "trend": "flat",
-   "need": "洗车/车内清洁场景",
-   "prev_rank": 1
-  },
-  {
-   "id": "kw-my-detergent",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "detergent",
-   "summary": "MY 近7日 vs 前7日：约 +3%；同组相对热度 30（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 2,
-   "interest": 30,
-   "trend": "flat",
-   "need": "日常洗衣大类入口词",
-   "prev_rank": 2
-  },
-  {
-   "id": "kw-my-disinfectant",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "disinfectant",
-   "summary": "MY 近7日 vs 前7日：约 +3%；同组相对热度 6（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=disinfectant&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 3,
-   "interest": 6,
-   "trend": "flat",
-   "need": "消毒场景（文案合规）",
-   "prev_rank": 3
-  },
-  {
-   "id": "kw-my-air_freshener",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "air freshener",
-   "summary": "MY 近7日 vs 前7日：约 +6%；同组相对热度 5（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=air%20freshener&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 4,
-   "interest": 5,
-   "trend": "flat",
-   "need": "居家空间留香需求",
-   "prev_rank": 4
-  },
-  {
-   "id": "kw-my-floor_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "floor cleaner",
-   "summary": "MY 近7日 vs 前7日：约 -9%（平稳偏降）；同组相对热度 4（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=floor%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 5,
-   "interest": 4,
-   "trend": "flat",
-   "need": "地板清洁+留香",
-   "prev_rank": 5
-  },
-  {
-   "id": "kw-my-laundry_detergent",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "laundry detergent",
-   "summary": "MY 近7日 vs 前7日：约 +7%（前两日 +22%/+14%，升势放缓）；同组相对热度 4（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=laundry%20detergent&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 6,
-   "interest": 4,
-   "trend": "flat",
-   "need": "日常洗衣主需求",
-   "prev_rank": 6
-  },
-  {
-   "id": "kw-my-toilet_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "toilet cleaner",
-   "summary": "MY 近7日 vs 前7日：约 -6%；同组相对热度 3（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 7,
-   "interest": 3,
-   "trend": "flat",
-   "need": "马桶日常清洁",
-   "prev_rank": 7
-  },
-  {
-   "id": "kw-my-dishwashing_liquid",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "dishwashing liquid",
-   "summary": "MY 近7日 vs 前7日：约 +10%（平稳偏升）；同组相对热度 2（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 8,
-   "interest": 2,
-   "trend": "flat",
-   "need": "洗碗日常需求",
-   "prev_rank": 9
-  },
-  {
-   "id": "kw-my-washing_machine_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "washing machine cleaner",
-   "summary": "MY 近7日 vs 前7日：约 -2%；同组相对热度 2（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=washing%20machine%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 9,
-   "interest": 2,
-   "trend": "flat",
-   "need": "洗衣机槽清洁",
-   "prev_rank": 8
-  },
-  {
-   "id": "kw-my-fabric_softener",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "fabric softener",
-   "summary": "MY 近7日 vs 前7日：单词曲线近周 +501%，同组可比 0.2→1.0，基数很小（起量信号）；同组相对热度 1（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=fabric%20softener&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 10,
-   "interest": 1,
-   "trend": "up",
-   "need": "衣物柔软+留香，香氛化信号",
-   "prev_rank": 10
-  },
-  {
-   "id": "kw-my-foam_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "foam cleaner",
-   "summary": "MY 近7日 vs 前7日：约 +8%，量小；同组相对热度 1（car wash=100）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 11,
-   "interest": 1,
-   "trend": "flat",
-   "need": "泡沫型清洁剂（FF 核心品类）",
-   "prev_rank": 11
-  },
-  {
-   "id": "kw-my-magiclean",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "magiclean",
-   "summary": "突破/单拉词：品牌词单拉曲线近周约 +247%；「magiclean kitchen cleaner lime」关联词 +3,006,800%，Magiclean 系连续第 4 天突破，原因查不到（推测 11.11 前促销/广告）；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF",
-    "突破"
-   ],
-   "region": "my",
-   "rank": 12,
-   "interest": 0,
-   "trend": "up",
-   "need": "要便宜好用的本地大牌厨房/地板清洁"
-  },
-  {
-   "id": "kw-my-magiclean_kitchen_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "magiclean kitchen cleaner",
-   "summary": "突破/单拉词：kitchen cleaner 关联词「magiclean kitchen cleaner lime」+3,006,800%（连续第 4 天）；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean%20kitchen%20cleaner&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF",
-    "突破"
-   ],
-   "region": "my",
-   "rank": 13,
-   "interest": 0,
-   "trend": "up",
-   "need": "厨房去油喷雾——CNY 前厨房重油需求在 MY 起量",
-   "prev_rank": 13
-  },
-  {
-   "id": "kw-my-mr_muscle_bathroom_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "mr muscle bathroom cleaner",
-   "summary": "突破/单拉词：cleaner 关联词 +18,400%，今日新出现，原因查不到（非新品）；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=mr%20muscle%20bathroom%20cleaner&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF",
-    "突破"
-   ],
-   "region": "my",
-   "rank": 14,
-   "interest": 0,
-   "trend": "up",
-   "need": "浴室清洁认大牌、要快"
-  },
-  {
-   "id": "kw-my-glo_sabun_basuh_pinggan",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "glo sabun basuh pinggan",
-   "summary": "突破/单拉词：sabun 关联词 +12,150%，今日新出现（马来语：Glo 洗碗液）；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=glo%20sabun%20basuh%20pinggan&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF",
-    "突破"
-   ],
-   "region": "my",
-   "rank": 15,
-   "interest": 0,
-   "trend": "up",
-   "need": "马来语客群找平价洗碗液"
-  },
-  {
-   "id": "kw-my-harpic",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "harpic",
-   "summary": "突破/单拉词：品牌词单拉曲线近周约 +19%；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=harpic&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF",
-    "突破"
-   ],
-   "region": "my",
-   "rank": 16,
-   "interest": 0,
-   "trend": "up",
-   "need": "马桶清洁认大牌，倒进去就干净"
-  },
-  {
-   "id": "kw-my-pencuci_lantai",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "pencuci lantai",
-   "summary": "突破/单拉词：马来语「地板清洁剂」近周约 -33%（昨日 +22%，波动大）；未进同组可比（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=MY&q=pencuci%20lantai&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "my",
-    "FF"
-   ],
-   "region": "my",
-   "rank": 17,
-   "interest": 0,
-   "trend": "down",
-   "need": "马来语客群找拖地液——FF 包装/listing 需要马来语",
-   "prev_rank": 16
-  },
-  {
-   "id": "kw-global-laundry_detergent",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "laundry detergent",
-   "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 100（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=laundry%20detergent&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 1,
-   "interest": 100,
-   "trend": "flat",
-   "need": "日常洗衣主需求",
-   "prev_rank": 1
-  },
-  {
-   "id": "kw-global-dish_soap",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "dish soap",
-   "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 83（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=dish%20soap&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 2,
-   "interest": 83,
-   "trend": "flat",
-   "need": "洗碗日常需求",
-   "prev_rank": 2
-  },
-  {
-   "id": "kw-global-toilet_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "toilet cleaner",
-   "summary": "US 近7日 vs 前7日：约 -3%；同组相对热度 26（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=toilet%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 3,
-   "interest": 26,
-   "trend": "flat",
-   "need": "马桶日常清洁",
-   "prev_rank": 3
-  },
-  {
-   "id": "kw-global-washing_machine_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "washing machine cleaner",
-   "summary": "US 近7日 vs 前7日：约 -6%；同组相对热度 18（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=washing%20machine%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 4,
-   "interest": 18,
-   "trend": "flat",
-   "need": "洗衣机槽清洁",
-   "prev_rank": 4
-  },
-  {
-   "id": "kw-global-laundry_sheets",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "laundry sheets",
-   "summary": "US 近7日 vs 前7日：约 -8%；同组相对热度 10（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=laundry%20sheets&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 5,
-   "interest": 10,
-   "trend": "flat",
-   "need": "便携、免称量的洗衣片",
-   "prev_rank": 5
-  },
-  {
-   "id": "kw-global-mold_remover",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "mold remover",
-   "summary": "US 近7日 vs 前7日：约 -9%；但温和除霉关联词继续升（见下）；同组相对热度 10（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=mold%20remover&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 6,
-   "interest": 10,
-   "trend": "flat",
-   "need": "除霉需求",
-   "prev_rank": 6
-  },
-  {
-   "id": "kw-global-foam_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "foam cleaner",
-   "summary": "US 近7日 vs 前7日：30 天约 -27%，继续回落；同组相对热度 8（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=foam%20cleaner&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 7,
-   "interest": 8,
-   "trend": "down",
-   "need": "泡沫型清洁剂（FF 核心品类）",
-   "prev_rank": 7
-  },
-  {
-   "id": "kw-global-mop_soap",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "mop soap",
-   "summary": "US 近7日 vs 前7日：约 +10%，30 天约 +14%；同组相对热度 5（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=mop%20soap&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 8,
-   "interest": 5,
-   "trend": "up",
-   "need": "拖地+香氛，对应 TikTok 爆款",
-   "prev_rank": 8
-  },
-  {
-   "id": "kw-global-pet_odor_eliminator",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "pet odor eliminator",
-   "summary": "US 近7日 vs 前7日：近周约 -8%，30 天约 +24%；同组相对热度 3（laundry detergent=100）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=pet%20odor%20eliminator&date=today%201-m",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us"
-   ],
-   "region": "global",
-   "rank": 9,
-   "interest": 3,
-   "trend": "flat",
-   "need": "养宠家庭要去尿味/体味",
-   "prev_rank": 9
-  },
-  {
-   "id": "kw-global-non_toxic_mold_remover",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "non toxic mold remover",
-   "summary": "US mold remover 关联词 +110%（昨日 +70%）；低于可比阈值（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=non%20toxic%20mold%20remover&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us",
-    "突破"
-   ],
-   "region": "global",
-   "rank": 10,
-   "interest": 0,
-   "trend": "up",
-   "need": "除霉要温和、不刺鼻——对应 FF 门封除霉凝胶",
-   "prev_rank": 10
-  },
-  {
-   "id": "kw-global-active_seal_and_grout_mold_stain_remover",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "active seal and grout mold stain remover",
-   "summary": "US mold remover 关联词 +70%，勾缝除霉凝胶；低于可比阈值（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=active%20seal%20and%20grout%20mold%20stain%20remover&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us",
-    "突破"
-   ],
-   "region": "global",
-   "rank": 11,
-   "interest": 0,
-   "trend": "up",
-   "need": "勾缝/门封发霉要挂得住的凝胶"
-  },
-  {
-   "id": "kw-global-crazy_clean_toilet_cleaner",
-   "section": "product",
-   "kind": "keyword",
-   "brand": "FF",
-   "title": "crazy clean toilet cleaner",
-   "summary": "US toilet cleaner 关联词 +100%（新）；低于可比阈值（interest 填 0）",
-   "url": "https://trends.google.com/trends/explore?geo=US&q=crazy%20clean%20toilet%20cleaner&date=now%207-d",
-   "source": "google_trends",
-   "tags": [
-    "trends",
-    "global",
-    "FF",
-    "us",
-    "突破"
-   ],
-   "region": "global",
-   "rank": 12,
-   "interest": 0,
-   "trend": "up",
-   "need": "马桶清洁换新品牌尝鲜"
-  },
-  {
-   "id": "prod-ff-jp-bulklife-pix-drain-foam",
-   "section": "product",
-   "kind": "product",
-   "brand": "FF",
-   "title": "BULK LIFE ピクス 排水口发泡粉 10 包（日）",
-   "summary": "日本 Amazon 排水管清洁剂榜第 2：粉加水起泡溶排水口黏液、除臭，一包一次＝天然复购；淘宝 ONEFULL 马桶泡泡粉同形态累计 8万+",
-   "url": "https://nlab.itmedia.co.jp/research/articles/4043139/",
-   "source": "Foamfresh 雷达",
-   "tags": [
-    "FF",
-    "product",
-    "耗材",
-    "CNY大扫除"
-   ],
-   "platform": "Amazon.co.jp",
-   "category": [
-    "排水口",
-    "发泡粉"
-   ],
-   "idea": "做 FF 地漏/排水口泡泡粉 10 包 RM19.90、试用 3 包 RM7.90（估算），优先氧系（过碳酸钠）而非氯系；配 FF 浴室泡沫做 CNY 大扫除套装",
-   "need_keys": [
-    "马桶魔法泡泡粉"
-   ],
-   "priceMYR": 19.92
-  },
-  {
-   "id": "prod-ff-us-microfiber-tearoff-roll",
-   "section": "product",
-   "kind": "product",
-   "brand": "FF",
-   "title": "撕取式超细纤维抹布卷（美 TikTok 爆款）",
-   "summary": "美区 TikTok Shop 10/12–10/18 增速榜第 1（+286,233%，周销 8,590 件，10/7 上架）；抖音 10/24 投放榜也满是海绵擦/洗碗巾——「一撕一张」复购耗材",
-   "url": "https://www.fastmoss.com/blog/how-to-find-trending-products-tiktok-shop/",
-   "source": "Foamfresh 雷达",
-   "tags": [
-    "FF",
-    "product",
-    "耗材",
-    "11.11凑单"
-   ],
-   "platform": "TikTok Shop US",
-   "category": [
-    "工具/耗材",
-    "抹布"
-   ],
-   "idea": "FF 不做独立品牌，做泡沫喷雾加购/赠品「喷一下+撕一张」：单卖 RM9.90/20 片或套装加购 RM5.90（估算）；义乌购 20 片约 RM2.17",
-   "need_keys": [
-    "压缩魔力海绵擦",
-    "抗菌洗碗巾"
-   ],
-   "priceMYR": 36.18
-  },
-  {
-   "id": "prod-ff-my-chemicalk-oxy-power",
-   "section": "product",
-   "kind": "product",
-   "brand": "FF",
-   "title": "ChemicalK OXY POWER 活氧去渍粉 450g（马，同行新品）",
-   "summary": "MY 同行 ChemicalK 官网最新上架：活氧去渍粉 450g RM18，同批还有熨烫助剂和甜品香型空气清新剂（多款售罄）——本地同行在往氧系粉剂+香氛扩品",
-   "url": "https://chemicalkonnection.com/products/oxy-power-450g-950g",
-   "source": "Foamfresh 雷达",
-   "tags": [
-    "FF",
-    "product",
-    "同行",
-    "氧系"
-   ],
-   "platform": "ChemicalK 官网",
-   "category": [
-    "洗衣",
-    "氧系粉剂"
-   ],
-   "idea": "盯价锚：FF 若做氧系去渍粉/排水口粉，单次包形态和 ChemicalK 大袋 RM18 区隔；香型可借鉴甜品系做年轻化",
-   "need_keys": [
-    "detergent",
-    "air freshener"
-   ],
-   "image": "https://chemicalkonnection.com/cdn/shop/files/Oxy_Powder_450G.png?v=1780111663",
-   "priceMYR": 18.0
-  },
-  {
-   "id": "note-my-2026-10-25",
-   "section": "product",
-   "kind": "note",
-   "brand": "FF",
-   "title": "MY：Magiclean 第 4 天突破，Mr Muscle/Glo 新冒头",
-   "summary": "MY 主词近周都平稳，fabric softener 起量但基数小；Magiclean 品牌词近周约 +247%、kitchen cleaner lime 连续第 4 天突破；mr muscle bathroom cleaner +18,400%、glo sabun basuh pinggan +12,150% 新出现，原因查不到；pencuci lantai 回落约 -33%。美国无主词突破，温和除霉关联词续升。中国 Google Trends 仍为空，中国榜用抖音/淘宝替代，抖音新周榜 10/19–10/25 未出。",
-   "url": "",
-   "source": "google_trends",
-   "tags": [
-    "note",
-    "my",
-    "FF"
-   ]
-  }
- ]
+  ]
 }
