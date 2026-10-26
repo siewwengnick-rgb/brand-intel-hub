@@ -274,6 +274,134 @@
     return out;
   }
 
+  // 以 today 为止，manifest 里最近 n 个有资料的日期（新的在前）。中间断档也算，不要求日历连续。
+  function recentDates(today, dates, n) {
+    var limit = n || WINDOW_DAYS;
+    return (dates || []).filter(function (d) { return d && d <= today; })
+      .sort().reverse().slice(0, limit);
+  }
+
+  // interest=0 在这套资料里是占位（未折算 / 填 0 / 热度记 0 / 低于阈值），不是「榜首=100」刻度上的 0 分。不把它画成指数。
+  function placeholderInterest(it, interest) {
+    return interest === 0;
+  }
+
+  /**
+   * 关键字上的 interest 到底是什么。
+   * 蝉妈妈/抖音周销折算 → 「抖音周销量折算指数 · 约7天 · 榜首=100」
+   * Google Trends → 同组相对热度，不是搜索次数
+   * 淘宝月榜把 interest 填 0 当占位 → value=null，不发明一个指数
+   * 没有数字就不给 value。
+   */
+  function indexMeta(it) {
+    var src = String(it && it.source || "").toLowerCase();
+    var sum = String(it && it.summary || "");
+    var url = String(it && it.url || "").toLowerCase();
+    var interest = num(it && it.interest);
+    var google = /google/.test(src) || url.indexOf("trends.google") >= 0;
+    var weeklySales = /周销折算|蝉妈妈|榜首\s*=\s*100|非搜索热度|销量热度/.test(sum);
+    var chanmama = /chanmama|douyin|抖音/.test(src + " " + url);
+    var taobao = (/taobao|淘宝/.test(src) || /淘宝/.test(sum)) && !chanmama && !weeklySales;
+    var douyin = weeklySales || chanmama;
+    var value = placeholderInterest(it, interest) ? null : interest;
+    if (google && !douyin) {
+      return {
+        family: "gtrends",
+        value: value,
+        label: value === null
+          ? "Google Trends 相对热度 · 近7日同组 · 低于可比阈值，没有指数 · 不是搜索次数"
+          : "Google Trends 相对热度 · 近7日同组 · 0–100 · 不是搜索次数"
+      };
+    }
+    if (douyin) {
+      return {
+        family: "douyin_week",
+        value: value,
+        label: value === null
+          ? "抖音周销 · 约7天 · 这条没有折算指数（不是搜索量，不补数字）"
+          : "抖音周销量折算指数 · 约7天 · 榜首=100"
+      };
+    }
+    if (taobao) {
+      return {
+        family: "taobao",
+        value: null,
+        label: "淘宝月榜/累计 · 没有周销折算指数 · 不是搜索量"
+      };
+    }
+    if (value !== null) {
+      return {
+        family: "relative",
+        value: value,
+        label: "相对指数 · 来源没写清窗口 · 不是搜索次数"
+      };
+    }
+    return {
+      family: "none",
+      value: null,
+      label: "资料里没有周销指数，也没有搜索量"
+    };
+  }
+
+  /**
+   * 产品卡上只放一个数字，并写清它是什么。
+   * 优先：need_keys 对上的抖音周销折算（有真实 interest 才用）。
+   * 否则：priceMYR，标成参考价，不是销量。
+   * 两个都没有：不发明数字。
+   */
+  function productMetric(product, keywords) {
+    var keys = {};
+    (Array.isArray(product && product.need_keys) ? product.need_keys : []).forEach(function (k) {
+      keys[norm(k)] = true;
+    });
+    var best = null;
+    (keywords || []).forEach(function (kw) {
+      if (!kw || !keys[norm(kw.title)]) return;
+      var meta = indexMeta(kw);
+      if (meta.family !== "douyin_week" || meta.value === null) return;
+      if (!best || meta.value > best.value) best = { value: meta.value, title: kw.title, label: meta.label };
+    });
+    if (best) {
+      return {
+        kind: "douyin_week",
+        value: String(best.value),
+        label: best.label,
+        note: "挂在关键字「" + best.title + "」· 不是这件商品的搜索量"
+      };
+    }
+    var price = num(product && product.priceMYR);
+    if (price !== null) {
+      return {
+        kind: "price",
+        value: "RM " + price.toFixed(2),
+        label: "参考价 · 马币标价 · 不是销量",
+        note: "资料里没有抖音周销折算指数"
+      };
+    }
+    return {
+      kind: "none",
+      value: "—",
+      label: "没有可显示的数字",
+      note: "资料里没有周销指数，也没有标价"
+    };
+  }
+
+  // 同一 id 留先出现的那条（调用方把新的日期放前面）
+  function dedupeNewest(items) {
+    var seen = {};
+    var out = [];
+    (items || []).forEach(function (it) {
+      if (!it || seen[it.id]) return;
+      seen[it.id] = true;
+      out.push(it);
+    });
+    return out;
+  }
+
+  function hasImage(it) {
+    return /^https?:\/\//i.test(String(it && (it.image || it.thumb) || ""));
+  }
+
   // 需求榜前 n 个（跨 region）：热度高的在前，热度一样看名次
   function topKeywords(list, n) {
     return (list || [])
@@ -306,6 +434,11 @@
     upStreak: upStreak,
     sparkValues: sparkValues,
     changeSummary: changeSummary,
-    matchProducts: matchProducts
+    matchProducts: matchProducts,
+    recentDates: recentDates,
+    indexMeta: indexMeta,
+    productMetric: productMetric,
+    dedupeNewest: dedupeNewest,
+    hasImage: hasImage
   };
 });

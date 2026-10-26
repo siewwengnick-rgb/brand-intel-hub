@@ -20,6 +20,12 @@
     hist: {},
     brand: "ALL",
     q: "",
+    span: "week",       // week = 最近 7 个有资料的日期；day = 日期选择器那一天
+    platform: "ALL",    // 拍摄简报平台筛选，来自资料里的 source
+    showCn: false,      // 中国抖音周销关键字，默认收起
+    showOther: false,   // 其他地区关键字，默认收起
+    showNoImg: false,   // 没有产品图的条目，默认收起
+    viewsByDate: {},
     route: "today",
     booted: false,  // manifest 读完
     ready: false,   // 第一天读完（之前显示「读取中…」）
@@ -234,15 +240,25 @@
     state.views = [];
     hideSheet();
     var win = I.windowDates(date, state.dates);
-    if (win.indexOf(date) < 0) win.unshift(date);
-    return Promise.all(win.map(fetchDay).concat([loadViews(date)])).then(function () {
+    var recent = I.recentDates(date, state.dates, I.WINDOW_DAYS);
+    var need = {};
+    win.concat(recent).concat([date]).forEach(function (d) { if (d) need[d] = true; });
+    var list = Object.keys(need);
+    return Promise.all(list.map(fetchDay).concat(list.map(function (d) {
+      return store.listViews(d).then(function (rows) {
+        state.viewsByDate[d] = rows || [];
+        if (state.date === date && d === date) state.views = rows || [];
+      }).catch(function () {
+        if (!state.viewsByDate[d]) state.viewsByDate[d] = [];
+      });
+    }))).then(function () {
       if (state.date !== date) return;
       var days = {};
       win.forEach(function (d) { if (cache[d] && !cache[d].missing) days[d] = cache[d].items; });
-      var day = cache[date];
-      state.items = day.items;
+      var day = cache[date] || { items: [], missing: true, note: "" };
+      state.items = day.items || [];
       state.note = day.note || "";
-      state.missing = day.missing || day.items.length === 0;
+      state.missing = !!(day.missing || state.items.length === 0);
       state.hist = I.buildHistory(days, date);
       state.ready = true;
       render();
@@ -275,21 +291,54 @@
     });
   }
 
-  function viewedIds() {
-    var seen = {};
-    state.views.forEach(function (v) { if (v && v.date === state.date) seen[v.item_id] = true; });
-    return seen;
+  // 近7天 = 截止日期往前数，manifest 里最近 7 个有资料的日期（新的在前）
+  function scopeDates() {
+    if (!state.date) return [];
+    if (state.span === "day") return [state.date];
+    var list = I.recentDates(state.date, state.dates, I.WINDOW_DAYS);
+    if (list.indexOf(state.date) < 0) list.unshift(state.date);
+    return list;
   }
 
-  // 左栏红色数字 = 这天还没决定的（不跟筛选走）
+  function itemDate(it) { return (it && it._date) || state.date; }
+
+  // useFilter=false：左栏数字不跟品牌/搜索走
+  function collect(kind, useFilter) {
+    var out = [];
+    scopeDates().forEach(function (d) {
+      var day = cache[d];
+      if (!day || day.missing) return;
+      day.items.forEach(function (it) {
+        if (!it || it.kind !== kind) return;
+        if (useFilter && (!D.matchBrand(it.brand, state.brand) || !D.matchQuery(it, state.q))) return;
+        out.push(Object.assign({}, it, { _date: d }));
+      });
+    });
+    return I.dedupeNewest(out);
+  }
+
+  function keywordsOn(date) {
+    var day = cache[date];
+    if (!day || !day.items) return [];
+    return day.items.filter(function (it) { return it.kind === "keyword"; });
+  }
+
+  function seenOn(id, date) {
+    var rows = state.viewsByDate[date] || [];
+    for (var i = 0; i < rows.length; i++) if (rows[i] && rows[i].item_id === id) return true;
+    return false;
+  }
+
+  // 左栏红数字 = 当前时间范围里还没决定的产品 / 简报。关键字不算（关键字榜不是主入口）
   function pendingCounts() {
-    var d = state.date;
     var c = { products: 0, briefs: 0 };
-    if (state.missing) return c;
-    state.items.forEach(function (it) {
-      if (decided(it.id, d)) return;
-      if (it.kind === "keyword" || it.kind === "product") c.products++;
-      else if (it.kind === "angle") c.briefs++;
+    if (!state.ready) return c;
+    collect("product", false).forEach(function (it) {
+      if (!I.hasImage(it)) return;
+      if (!decided(it.id, itemDate(it))) c.products++;
+    });
+    collect("angle", false).forEach(function (it) {
+      if (!decided(it.id, itemDate(it))) c.briefs++;
     });
     return c;
   }
@@ -305,9 +354,9 @@
   }
 
   var PAGE = {
-    today: { sub: "每天先看这页：要决定的、要拍的、今天变了什么。", filters: "all" },
-    products: { sub: "需求多的关键字 → 能出什么新品、要不要投广告。点关键字看相关产品。", filters: "all" },
-    briefs: { sub: "给 content creator：为什么推荐、怎么拍、怎么用到我们 brand。", filters: "all" },
+    today: { sub: "先看有图的产品，再看这几天各平台的拍摄简报。关键字榜收在最下面。", filters: "all" },
+    products: { sub: "有图的产品在最上面。中国抖音周销关键字默认收起，那个数字是约 7 天的销量折算，不是搜索量。", filters: "all" },
+    briefs: { sub: "默认近 7 个有资料的日期。YouTube 和 Instagram 放在一起，用平台筛选，不必一天一天翻。", filters: "all" },
     todo: { sub: "按过「出新品 / 投广告 / 安排拍」的，全部日期。", filters: "nodate" },
     history: { sub: "每天抓了多少、决定了多少、看了多少。点一行看那天的总览。", filters: "none" },
     data: { sub: "Grok 推送、反馈导出、团队名单。", filters: "none" }
@@ -354,9 +403,12 @@
     }
     document.title = r.label + " · 品牌情报台";
     $("pg-title").textContent = r.label;
+    var scope = scopeDates();
+    var weekOn = state.span !== "day" && (state.route === "today" || state.route === "products" || state.route === "briefs");
     var chip = state.route === "todo" ? "全部日期" :
       state.route === "history" ? (state.dates.length ? state.dates.length + " 天" : "") :
-        state.date ? R.dateLabel(state.date) : "";
+        weekOn && scope.length > 1 ? (scope[scope.length - 1] + " – " + scope[0] + " · " + scope.length + " 天") :
+          state.date ? R.dateLabel(state.date) : "";
     $("pg-date").textContent = chip;
     $("pg-date").hidden = !chip;
     $("pg-sub").textContent = PAGE[r.id].sub;
@@ -374,17 +426,51 @@
       b.classList.toggle("on", on);
       b.setAttribute("aria-pressed", on);
     });
+    var showSpan = state.route === "today" || state.route === "products" || state.route === "briefs";
+    var spanEl = $("span");
+    spanEl.hidden = !showSpan;
+    Array.prototype.forEach.call(spanEl.querySelectorAll("[data-span]"), function (b) {
+      var on = b.getAttribute("data-span") === (state.span === "day" ? "day" : "week");
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on);
+    });
+    var plats = $("plats");
+    var showPlats = state.route === "briefs" && state.ready;
+    plats.hidden = !showPlats;
+    if (showPlats) {
+      var names = [];
+      collect("angle", true).forEach(function (it) {
+        var p = platformOf(it);
+        if (names.indexOf(p) < 0) names.push(p);
+      });
+      names.sort(function (a, b) {
+        function rank(p) { return p === "YouTube" ? 0 : p === "Instagram" ? 1 : 2; }
+        return rank(a) - rank(b) || (a < b ? -1 : a > b ? 1 : 0);
+      });
+      if (state.platform !== "ALL" && names.indexOf(state.platform) < 0) state.platform = "ALL";
+      plats.innerHTML = '<button type="button" class="chip' + (state.platform === "ALL" ? " on" : "") +
+        '" data-plat="ALL" aria-pressed="' + (state.platform === "ALL") + '">全部平台</button>' +
+        names.map(function (p) {
+          var on = state.platform === p;
+          return '<button type="button" class="chip' + (on ? " on" : "") + '" data-plat="' + esc(p) +
+            '" aria-pressed="' + on + '">' + esc(p) + "</button>";
+        }).join("");
+    }
+  }
+
+  function platformOf(it) {
+    return platformName(it && it.source) || "其他";
   }
 
   // 页面最上面：AI 的话 + 团队今天看了几条
   function topStrip() {
     var html = "";
     if (state.note) html += '<div class="ai-note"><b>AI</b><span>' + esc(state.note) + "</span></div>";
-    if (!state.missing) {
-      var angles = state.items.filter(function (it) { return it.kind === "angle"; });
-      var seen = viewedIds();
-      var n = angles.filter(function (it) { return seen[it.id]; }).length;
-      html += '<div class="team-bar"><span>团队今天看了 <b>' + n + "</b> / " + angles.length + " 条简报</span>" +
+    if (state.span !== "day" || !state.missing) {
+      var angles = state.ready ? collect("angle", false) : state.items.filter(function (it) { return it.kind === "angle"; });
+      var n = angles.filter(function (it) { return seenOn(it.id, itemDate(it)); }).length;
+      var word = state.span === "day" ? "团队今天看了" : "这台机看过";
+      html += '<div class="team-bar"><span>' + word + ' <b>' + n + "</b> / " + angles.length + " 条简报</span>" +
         '<span class="sync">记录只存在这台机</span>' +
         (state.syncError ? '<span class="warn">' + esc(state.syncError) + "</span>" : "") + "</div>";
     }
@@ -437,19 +523,33 @@
     return '<span class="flat">=</span>';
   }
 
+  function metricHtml(m) {
+    return '<div class="metric"><b>' + esc(m.value) + "</b><span>" + esc(m.label) + "</span>" +
+      (m.note ? "<small>" + esc(m.note) + "</small>" : "") + "</div>";
+  }
+
+  function keywordMetricHtml(it) {
+    var meta = I.indexMeta(it);
+    var series = state.hist[I.keywordKey(it)] || [];
+    var spark = sparkline(series);
+    var delta = deltaHtml(I.rankDelta(it, series, state.date));
+    var extra = "";
+    if (delta || spark) {
+      extra = "<small>" + (delta ? "名次较昨天 " + delta + (spark ? " · " : "") : "") + (spark ? "近几天走势 " + spark : "") + "</small>";
+    }
+    var numHtml = meta.value === null ? "" : "<b>" + esc(meta.value) + "</b>";
+    return '<div class="metric kw-metric">' + numHtml + "<span>" + esc(meta.label) + "</span>" + extra + "</div>";
+  }
+
   function keywordRow(it, prods) {
     var d = state.date;
-    var series = state.hist[I.keywordKey(it)] || [];
-    var interest = typeof it.interest === "number" ? Math.max(0, Math.min(100, it.interest)) : 0;
     var open = !!state.open[it.id];
     var html = '<li class="kw-item' + (decided(it.id, d) ? " decided" : "") + (open ? " open" : "") + '" data-row="' + esc(it.id) + '">' +
       '<div class="kw-row">' +
       '<span class="rk' + (typeof it.rank === "number" && it.rank <= 3 ? " hi" : "") + '">' + esc(it.rank) + "</span>" +
       '<button type="button" class="kw-t" data-expand="' + esc(it.id) + '" aria-expanded="' + open + '">' +
       "<span>" + esc(it.title) + '</span><i aria-hidden="true">' + (open ? "▾" : "▸") + "</i></button>" +
-      '<span class="bar"><span style="width:' + interest + '%"></span><b>' + esc(typeof it.interest === "number" ? it.interest : "") + "</b></span>" +
-      '<span class="sp">' + sparkline(series) + "</span>" +
-      '<span class="dl">' + deltaHtml(I.rankDelta(it, series, d)) + "</span>" +
+      keywordMetricHtml(it) +
       '<span class="need">' + (it.need ? esc(it.need) : miss()) + "</span>" +
       decBtns(it.id, d, ["new_product", "ad_keyword", "skip"], "main") +
       "</div>" +
@@ -474,19 +574,21 @@
 
   function productCover(it) {
     return '<div class="cover r43">' + coverInner(it.image, it.brand, it.platform || it.source) +
-      '<div class="tl">' + (it.platform ? '<span class="pill">' + esc(it.platform) + "</span>" : "") + "</div>" +
+      '<div class="tl">' + brandPill(it.brand) + (it.platform ? '<span class="pill">' + esc(it.platform) + "</span>" : "") + "</div>" +
       (it.sample ? '<span class="sample">示例</span>' : "") +
       "</div>";
   }
 
-  // 全部产品卡片墙：出新品 / 跳过
+  // 产品卡：图、短标题、品牌、一个写清含义的数字
   function productCard(it) {
-    var d = state.date;
+    var d = itemDate(it);
+    var m = I.productMetric(it, keywordsOn(d));
     return '<article class="card' + (decided(it.id, d) ? " decided" : "") + '">' +
       productCover(it) +
       '<div class="body">' +
       '<h3 class="t">' + esc(it.title) + "</h3>" +
-      '<div class="price">' + esc(fmtPrice(it.priceMYR)) + "</div>" +
+      '<div class="src">' + esc(d) + (it.platform ? " · " + esc(it.platform) : "") + "</div>" +
+      metricHtml(m) +
       '<div class="sum one">' + esc(it.summary) + "</div>" +
       "</div>" +
       hitBtn(it.id, d, it.title) +
@@ -517,74 +619,147 @@
     return '<details class="folded"><summary>已决定 ' + n + " 条</summary>" + inner + "</details>";
   }
 
-  function renderDecide() {
-    if (state.missing) return line("这天没有资料");
+  function splitFold(list) {
+    return {
+      act: list.filter(function (it) { return !folded(it.id, itemDate(it)); }),
+      old: list.filter(function (it) { return folded(it.id, itemDate(it)); })
+    };
+  }
+
+  function rangeLabel() {
+    var n = scopeDates().length;
+    return state.span === "day" ? "这一天" : "近 " + n + " 天";
+  }
+
+  // 全部平台时交错排，第一屏就能同时看到 Instagram 和 YouTube
+  function mixByPlatform(list) {
+    var groups = {};
+    var order = [];
+    list.forEach(function (it) {
+      var p = platformOf(it);
+      if (!groups[p]) { groups[p] = []; order.push(p); }
+      groups[p].push(it);
+    });
+    order.sort(function (a, b) {
+      function rank(p) { return p === "Instagram" ? 0 : p === "YouTube" ? 1 : 2; }
+      return rank(a) - rank(b) || (a < b ? -1 : a > b ? 1 : 0);
+    });
+    order.forEach(function (p) { groups[p] = D.sortAngles(groups[p]); });
+    var out = [];
+    var i = 0;
+    var guard = list.length + 2;
+    while (out.length < list.length && guard--) {
+      var added = false;
+      for (var g = 0; g < order.length; g++) {
+        var row = groups[order[g]][i];
+        if (row) { out.push(row); added = true; }
+      }
+      if (!added) break;
+      i++;
+    }
+    return out;
+  }
+
+  function kwToggle(flag, label, count, when) {
+    var open = !!state[flag];
+    return '<button type="button" class="bury" data-fold="' + flag + '" aria-expanded="' + open + '">' +
+      "<i aria-hidden=\"true\">" + (open ? "▾" : "▸") + "</i><b>" + esc(label) + "</b><small>" + count + " 条 · " + esc(when || state.date) + " · 点开才看</small></button>";
+  }
+
+  function keywordListHtml(list) {
     var d = state.date;
-    var kws = filtered("keyword");
-    var prods = filtered("product");
     var allProds = state.items.filter(function (it) { return it.kind === "product"; });
-    // Grok 的需求分析说明（Trends 来源、没有名次）：需求榜底下一行灰字，不当产品
-    var notes = filtered("note").map(function (it) {
+    var act = list.filter(function (it) { return !folded(it.id, d); });
+    var old = list.filter(function (it) { return folded(it.id, d); });
+    var html = '<p class="note">每一行的数字下面写了它是什么、哪一段时间。没有折算指数的不显示数字，也不当成搜索量。</p>' + changeStrip(list);
+    var groups = D.groupKeywords(act);
+    html += groups.length ? '<div class="kwwrap">' + groups.map(function (g) { return keywordBlock(g, allProds); }).join("") + "</div>"
+      : line("这些关键字都决定好了");
+    if (old.length) {
+      html += foldedBlock(old.length, '<div class="kwwrap">' + D.groupKeywords(old).map(function (g) { return keywordBlock(g, allProds); }).join("") + "</div>");
+    }
+    return html;
+  }
+
+  // 关键字榜默认收起。中国区单独标成抖音周销；其他地区标成各自的来源。
+  function renderKeywordFolds(kws) {
+    var cn = kws.filter(function (it) { return it.region === "cn"; });
+    var other = kws.filter(function (it) { return it.region !== "cn"; });
+    var html = kwToggle("showCn", "中国抖音周销关键字 · 蝉妈妈 · 约7天 · 榜首=100 · 不是搜索量 · 不是终身（淘宝月榜在行内另标）", cn.length);
+    if (state.showCn) html += cn.length ? keywordListHtml(cn) : line("这天没有中国关键字");
+    html += kwToggle("showOther", "其他地区关键字 · Google Trends 相对热度 · 不是搜索次数", other.length);
+    if (state.showOther) html += other.length ? keywordListHtml(other) : line("这天没有其他地区关键字");
+    return html;
+  }
+
+  function renderDecide() {
+    var prods = collect("product", true);
+    var kws = state.missing ? [] : filtered("keyword");
+    var notes = state.missing ? [] : filtered("note");
+    if (!prods.length && !kws.length && !notes.length) {
+      return state.span === "day" && state.missing ? line("这天没有资料") : line("没有符合筛选的内容");
+    }
+    var photos = splitFold(prods.filter(function (it) { return I.hasImage(it); }));
+    var noimg = splitFold(prods.filter(function (it) { return !I.hasImage(it); }));
+    var html = '<h2 class="sec">有图产品 <small>' + rangeLabel() + " · " + photos.act.length + " 张待看</small></h2>";
+    html += photos.act.length ? '<div class="grid">' + photos.act.map(productCard).join("") + "</div>"
+      : line(photos.old.length ? "这些有图产品都决定好了" : "这几天没有带图的产品");
+    var noimgAll = noimg.act.concat(noimg.old);
+    if (noimgAll.length) {
+      html += kwToggle("showNoImg", "没有产品图的条目", noimgAll.length, rangeLabel());
+      if (state.showNoImg) {
+        html += noimg.act.length ? '<div class="grid">' + noimg.act.map(productCard).join("") + "</div>" : line("这些没图的产品都决定好了");
+        if (noimg.old.length) html += foldedBlock(noimg.old.length, '<div class="grid">' + noimg.old.map(productCard).join("") + "</div>");
+      }
+    }
+    html += notes.map(function (it) {
       return '<p class="note kw-note"' + (it.summary ? ' title="' + esc(it.summary) + '"' : "") + ">" + esc(it.title || it.summary) + "</p>";
     }).join("");
-    if (!kws.length && !prods.length) return notes ? notes : line("没有符合筛选的内容");
-    var kwAct = kws.filter(function (it) { return !folded(it.id, d); });
-    var kwOld = kws.filter(function (it) { return folded(it.id, d); });
-    var pAct = prods.filter(function (it) { return !folded(it.id, d); });
-    var pOld = prods.filter(function (it) { return folded(it.id, d); });
-    var html = changeStrip(kws);
-    if (kws.length) {
-      html += '<h2 class="sec">需求榜 <small>' + kwAct.length + " 个待决定</small></h2>";
-      var groups = D.groupKeywords(kwAct);
-      html += groups.length ? '<div class="kwwrap">' + groups.map(function (g) { return keywordBlock(g, allProds); }).join("") + "</div>"
-        : line("今天的关键字都决定好了");
-    }
-    html += notes;
-    if (prods.length) {
-      html += '<div class="gap"></div><h2 class="sec">全部 trending 产品 <small>' + pAct.length + "</small></h2>";
-      html += pAct.length ? '<div class="grid">' + pAct.map(productCard).join("") + "</div>" : line("今天的产品都决定好了");
-    }
-    var oldInner = "";
-    if (kwOld.length) oldInner += '<div class="kwwrap">' + D.groupKeywords(kwOld).map(function (g) { return keywordBlock(g, allProds); }).join("") + "</div>";
-    if (pOld.length) oldInner += '<div class="grid">' + pOld.map(productCard).join("") + "</div>";
-    html += foldedBlock(kwOld.length + pOld.length, oldInner);
+    html += renderKeywordFolds(kws);
+    var old = photos.old;
+    if (old.length) html += foldedBlock(old.length, '<div class="grid">' + old.map(productCard).join("") + "</div>");
     return html;
   }
 
   // ===== 页 2 拍摄简报 =====
 
-  function angleCard(it, seen) {
-    var d = state.date;
+  function angleCard(it) {
+    var d = itemDate(it);
     var views = fmtViews(it.views);
     var dec = decOf(it.id, d);
     var badges = (dec.shoot ? '<span class="badge on">✓ 安排拍</span>' : dec.skip ? '<span class="badge">跳过</span>' : "") +
-      (seen[it.id] ? '<span class="badge seen">已看 ✓</span>' : "");
+      (seenOn(it.id, d) ? '<span class="badge seen">已看 ✓</span>' : "");
     return '<article class="card' + (decided(it.id, d) ? " decided" : "") + '">' +
-      '<div class="cover">' + coverInner(it.thumb, it.brand, platformName(it.source)) +
+      '<div class="cover">' + coverInner(it.thumb, it.brand, platformOf(it)) +
       '<div class="tl">' + brandPill(it.brand) + statusTag(it.status) + "</div>" +
       (badges ? '<div class="tr-badges">' + badges + "</div>" : "") +
-      (views ? '<span class="views">' + esc(views) + "</span>" : "") +
+      (views ? '<span class="views">' + esc(views) + " 播放</span>" : "") +
       "</div>" +
       '<div class="body">' +
       '<h3 class="t">' + esc(it.title) + "</h3>" +
       '<div class="why two"><i>为什么推荐</i>' + (it.why ? esc(it.why) : miss()) + "</div>" +
-      '<div class="src one">' + esc(it.source) + (it.trend_element ? " · " + esc(it.trend_element) : "") + "</div>" +
+      '<div class="src one">' + esc(d) + " · " + esc(platformOf(it)) + (it.trend_element ? " · " + esc(it.trend_element) : "") + "</div>" +
       "</div>" +
       hitBtn(it.id, d, it.title) +
       "</article>";
   }
 
   function renderBrief() {
-    if (state.missing) return line("这天没有资料");
-    var d = state.date;
-    var list = D.sortAngles(filtered("angle"));
-    if (!list.length) return line("没有符合筛选的内容");
-    var seen = viewedIds();
-    var card = function (it) { return angleCard(it, seen); };
-    var act = list.filter(function (it) { return !folded(it.id, d); });
-    var old = list.filter(function (it) { return folded(it.id, d); });
-    return (act.length ? '<div class="grid">' + act.map(card).join("") + "</div>" : line("今天的简报都决定好了")) +
-      foldedBlock(old.length, '<div class="grid">' + old.map(card).join("") + "</div>");
+    var all = collect("angle", true);
+    if (!all.length) return state.span === "day" && state.missing ? line("这天没有资料") : line("没有符合筛选的内容");
+    var list = state.platform === "ALL" ? all : all.filter(function (it) { return platformOf(it) === state.platform; });
+    var shown = state.platform === "ALL" ? mixByPlatform(list) : D.sortAngles(list);
+    var parts = splitFold(shown);
+    var counts = {};
+    all.forEach(function (it) {
+      var p = platformOf(it);
+      counts[p] = (counts[p] || 0) + 1;
+    });
+    var legend = Object.keys(counts).map(function (p) { return p + " " + counts[p]; }).join(" · ");
+    var head = '<p class="note">' + esc(rangeLabel()) + " · " + esc(legend) + " · 封面用资料里的 thumb；YouTube 没给图时用影片封面。</p>";
+    return head +
+      (parts.act.length ? '<div class="grid">' + parts.act.map(angleCard).join("") + "</div>" : line("这些简报都决定好了")) +
+      foldedBlock(parts.old.length, '<div class="grid">' + parts.old.map(angleCard).join("") + "</div>");
   }
 
   // ===== 今日总览（新页）=====
@@ -596,65 +771,37 @@
       '<b class="v">' + v + '</b><span class="d">' + esc(d) + "</span></a>";
   }
 
-  // 7 天 / 较昨天：整栏都没资料就不放（只有一天资料时）
-  function topKeywordTable(list) {
-    var d = state.date;
-    var rows = list.map(function (it) {
-      var series = state.hist[I.keywordKey(it)] || [];
-      return { it: it, spark: sparkline(series), delta: I.rankDelta(it, series, d) };
-    });
-    var hasSpark = rows.some(function (r) { return r.spark; });
-    var hasDelta = rows.some(function (r) { return r.delta !== null; });
-    return '<div class="tbl-wrap"><table class="tbl click">' +
-      "<thead><tr><th>名次</th><th>关键字</th><th>地区</th><th>热度</th>" + (hasSpark ? "<th>7 天</th>" : "") + (hasDelta ? "<th>较昨天</th>" : "") + "<th>需求</th></tr></thead><tbody>" +
-      rows.map(function (r) {
-        var it = r.it;
-        return '<tr data-goto-kw="' + esc(it.id) + '" tabindex="0">' +
-          '<td class="num">' + esc(it.rank) + "</td>" +
-          '<td class="strong">' + esc(it.title) + "</td>" +
-          "<td>" + esc(REGION_LABEL[it.region] || it.region) + "</td>" +
-          '<td class="num">' + esc(typeof it.interest === "number" ? it.interest : "") + "</td>" +
-          (hasSpark ? "<td>" + r.spark + "</td>" : "") +
-          (hasDelta ? '<td class="num">' + deltaHtml(r.delta) + "</td>" : "") +
-          '<td class="need-cell">' + (it.need ? esc(it.need) : miss()) + "</td></tr>";
-      }).join("") + "</tbody></table></div>";
-  }
-
   function renderToday() {
-    if (state.missing) return emptyBox("这天没有资料");
-    var d = state.date;
-    var kws = filtered("keyword");
-    var prods = filtered("product");
-    var angles = filtered("angle");
-    var undecided = function (it) { return !decided(it.id, d); };
-    var seen = viewedIds();
-    var nSeen = angles.filter(function (it) { return seen[it.id]; }).length;
-    var s = I.changeSummary(kws, state.hist, d);
-    var hasBase = s.newCount !== null || !!(s.topRise || s.topDrop || s.streak);
-    var dp = dateParam(d);
-
+    var prods = collect("product", true).filter(function (it) { return I.hasImage(it); });
+    var angles = collect("angle", true);
+    var kws = state.missing ? [] : filtered("keyword");
+    if (!prods.length && !angles.length && !kws.length && state.span === "day" && state.missing) return emptyBox("这天没有资料");
+    var openP = prods.filter(function (it) { return !decided(it.id, itemDate(it)); });
+    var openA = angles.filter(function (it) { return !decided(it.id, itemDate(it)); });
+    var nSeen = angles.filter(function (it) { return seenOn(it.id, itemDate(it)); }).length;
+    var platCount = {};
+    angles.forEach(function (it) {
+      var p = platformOf(it);
+      platCount[p] = (platCount[p] || 0) + 1;
+    });
+    var platText = Object.keys(platCount).map(function (p) { return p + " " + platCount[p]; }).join(" · ");
+    var dp = dateParam(state.date);
     var html = state.note ? '<div class="ai-note"><b>AI</b><span>' + esc(state.note) + "</span></div>" : "";
     html += '<div class="kpis">' +
-      kpi(R.href("products", dp), "待决定需求", String(kws.filter(undecided).length), "关键字还没按出新品 / 投广告 / 跳过") +
-      kpi(R.href("briefs", dp), "待看简报", String(angles.filter(undecided).length), "简报还没按安排拍 / 跳过") +
-      kpi(R.href("briefs", dp), "团队今天看了", nSeen + "<small> / " + angles.length + "</small>", "打开过的简报（只算这台机）") +
-      (hasBase ? kpi(R.href("products", dp), "新进榜", String(s.newCount || 0), "前几天没有、今天上榜的关键字")
-        : kpi(R.href("products", dp), "新进榜", "—", "要有前一天的资料才算", true)) +
+      kpi(R.href("products", dp), "待看产品", String(openP.length), rangeLabel() + " · 有图，还没按出新品 / 跳过") +
+      kpi(R.href("briefs", dp), "待看简报", String(openA.length), rangeLabel() + " · 还没按安排拍 / 跳过") +
+      kpi(R.href("briefs", dp), "这台机看过", nSeen + "<small> / " + angles.length + "</small>", "打开过的简报") +
+      kpi(R.href("briefs", dp), "平台", String(Object.keys(platCount).length || "—"), platText || "这几天没有简报") +
       "</div>";
-
-    html += '<h2 class="sec">今天变了什么</h2>' + changeStrip(kws, true);
-
-    // 今天先看这 5 条
-    var briefs = D.sortAngles(angles.filter(undecided)).slice(0, 5);
-    var topKw = I.topKeywords(kws.filter(undecided), 5);
-    html += '<div class="sec-head"><h2 class="sec">今天先看这 ' + (briefs.length || 5) + ' 条 <small>简报</small></h2>' +
+    var wall = openP.slice(0, 8);
+    html += '<div class="sec-head"><h2 class="sec">有图产品 <small>' + esc(rangeLabel()) + "</small></h2>" +
+      '<a class="more" href="' + R.href("products", dp) + '">全部产品 →</a></div>' +
+      (wall.length ? '<div class="grid">' + wall.map(productCard).join("") + "</div>" : emptyBox("这几天没有还没决定的带图产品"));
+    var briefs = mixByPlatform(openA).slice(0, 8);
+    html += '<div class="sec-head"><h2 class="sec">拍摄简报 <small>' + esc(rangeLabel()) + " · 各平台</small></h2>" +
       '<a class="more" href="' + R.href("briefs", dp) + '">全部简报 →</a></div>' +
-      (briefs.length ? '<div class="grid five">' + briefs.map(function (it) { return angleCard(it, seen); }).join("") + "</div>"
-        : emptyBox(angles.length ? "今天的简报都决定好了" : "没有符合筛选的简报"));
-    html += '<div class="sec-head"><h2 class="sec">需求榜前 5 <small>按热度</small></h2>' +
-      '<a class="more" href="' + R.href("products", dp) + '">全部需求 →</a></div>' +
-      (topKw.length ? topKeywordTable(topKw) : emptyBox(kws.length ? "今天的关键字都决定好了" : "没有符合筛选的关键字"));
-    if (!kws.length && !angles.length && prods.length) html += line("今天只有产品，去「新品决策」看。");
+      (briefs.length ? '<div class="grid">' + briefs.map(angleCard).join("") + "</div>" : emptyBox("没有符合筛选的简报"));
+    html += renderKeywordFolds(kws);
     return html;
   }
 
@@ -723,7 +870,7 @@
         '<td class="num">' + st.viewed + ' <small class="muted">/ ' + st.briefs + "</small></td></tr>";
     }).join("");
     return '<div class="tbl-wrap"><table class="tbl click">' +
-      "<thead><tr><th>日期</th><th>简报</th><th>需求</th><th>产品</th><th>已决定</th><th>看了</th></tr></thead>" +
+      "<thead><tr><th>日期</th><th>简报</th><th>关键字</th><th>产品</th><th>已决定</th><th>看了</th></tr></thead>" +
       "<tbody>" + rows + "</tbody></table></div>" +
       '<p class="note">已决定 = 按过任何决定（含跳过）/ 那天总条数；看了 = 打开过的简报 / 那天简报数（只算这台机）。</p>';
   }
@@ -1005,7 +1152,7 @@
         '<div class="d-meta">' + (it.platform ? '<span class="pill">' + esc(it.platform) + "</span>" : "") +
         (it.sample ? '<span class="st">示例</span>' : "") + "</div>" +
         '<h2 class="d-title" id="sheet-title">' + esc(it.title) + "</h2>" +
-        (typeof it.priceMYR === "number" ? '<div class="d-price">' + esc(fmtPrice(it.priceMYR)) + "</div>" : "") +
+        metricHtml(I.productMetric(it, keywordsOn(date))) +
         sec("摘要", para(it.summary)) +
         sec("可以怎么做", para(it.idea)) +
         sec("分类", Array.isArray(it.category) && it.category.length ? tagList(it.category) : "") +
@@ -1052,7 +1199,10 @@
     viewing = { item_id: id, date: date, t0: Date.now() };
     var me = viewing;
     store.addView({ item_id: id, date: date, who: who() }).then(function (v) {
-      if (date === state.date) { state.views = state.views.concat([v]); render(); }
+      if (!state.viewsByDate[date]) state.viewsByDate[date] = [];
+      state.viewsByDate[date] = state.viewsByDate[date].concat([v]);
+      if (date === state.date) state.views = state.views.concat([v]);
+      render();
     }).catch(function () {
       // 没记到：不显示「已看」，关掉时也不补秒数
       if (viewing === me) viewing = null;
@@ -1066,7 +1216,11 @@
     var v = viewing;
     viewing = null;
     store.addView({ item_id: v.item_id, date: v.date, who: who(), seconds: (Date.now() - v.t0) / 1000 })
-      .then(function (row) { if (v.date === state.date) state.views = state.views.concat([row]); })
+      .then(function (row) {
+        if (!state.viewsByDate[v.date]) state.viewsByDate[v.date] = [];
+        state.viewsByDate[v.date] = state.viewsByDate[v.date].concat([row]);
+        if (v.date === state.date) state.views = state.views.concat([row]);
+      })
       .catch(function () { toast("看了几秒没记到"); });
   }
 
@@ -1202,6 +1356,9 @@
 
   // 今日总览 / 今天变了什么 → 新品决策，展开那个关键字并滚到它
   function gotoKeyword(id) {
+    var it = findItem(id, state.date);
+    if (it && it.region && it.region !== "cn") state.showOther = true;
+    else state.showCn = true;
     state.open[id] = true;
     state.scrollKw = id;
     var h = R.href("products", dateParam(state.date));
@@ -1217,6 +1374,12 @@
     if (e.target.closest("summary")) return;
     var rowLink = !t && e.target.closest("[data-href]");
     if (rowLink) { location.hash = rowLink.getAttribute("data-href"); return; }
+    if (t && t.hasAttribute("data-fold")) {
+      var flag = t.getAttribute("data-fold");
+      if (flag === "showCn" || flag === "showOther" || flag === "showNoImg") state[flag] = !state[flag];
+      render();
+      return;
+    }
     if (t && t.hasAttribute("data-dec")) {
       pressDecision(t.getAttribute("data-id"), t.getAttribute("data-date"), t.getAttribute("data-dec"), "main");
     } else if (t && (t.hasAttribute("data-reason") || t.hasAttribute("data-reason-act"))) {
@@ -1256,6 +1419,20 @@
     e.preventDefault();
     if (e.target.hasAttribute("data-goto-kw")) gotoKeyword(e.target.getAttribute("data-goto-kw"));
     else location.hash = e.target.getAttribute("data-href");
+  });
+
+  $("filters").addEventListener("click", function (e) {
+    var spanBtn = e.target.closest("[data-span]");
+    if (spanBtn && spanBtn.closest("#span")) {
+      state.span = spanBtn.getAttribute("data-span") === "day" ? "day" : "week";
+      render();
+      return;
+    }
+    var platBtn = e.target.closest("[data-plat]");
+    if (platBtn && platBtn.closest("#plats")) {
+      state.platform = platBtn.getAttribute("data-plat") || "ALL";
+      render();
+    }
   });
 
   $("brand").addEventListener("click", function (e) {

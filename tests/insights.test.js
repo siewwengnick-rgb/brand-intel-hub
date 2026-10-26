@@ -190,6 +190,96 @@ test("字符串名次 / 热度（没 normalize 过的 history）也当数字；�
   assert.equal(I.rankDelta(kw("戊", "1", "90"), h["cn|戊"], TODAY), 2);
 });
 
+test("recentDates：最近 n 个有资料的日期，新的在前，断档也算", () => {
+  assert.deepEqual(
+    I.recentDates("2026-10-23", ["2026-10-26", "2026-10-23", "2026-10-20", "2026-09-01"], 2),
+    ["2026-10-23", "2026-10-20"]
+  );
+  assert.deepEqual(I.recentDates("2026-10-23", ["2026-10-23"], 7), ["2026-10-23"]);
+  assert.deepEqual(I.recentDates("2026-10-23", null, 7), []);
+});
+
+test("indexMeta：抖音周销折算写清窗口；Google Trends 不当成搜索次数；占位 0 不给数字", () => {
+  const douyin = I.indexMeta({
+    source: "chanmama_douyin", region: "cn", interest: 46,
+    summary: "热度为周销量折算（榜首=100），非搜索热度"
+  });
+  assert.equal(douyin.family, "douyin_week");
+  assert.equal(douyin.value, 46);
+  assert.equal(douyin.label, "抖音周销量折算指数 · 约7天 · 榜首=100");
+  assert.equal(/搜索次数|需求指数|终身/.test(douyin.label), false);
+
+  const trends = I.indexMeta({
+    source: "google_trends", interest: 10,
+    summary: "US 近7日：→平稳；同组相对热度 10",
+    url: "https://trends.google.com/trends/explore?date=today%201-m"
+  });
+  assert.equal(trends.family, "gtrends");
+  assert.equal(trends.value, 10);
+  assert.match(trends.label, /Google Trends/);
+  assert.match(trends.label, /不是搜索次数/);
+  assert.equal(/抖音周销/.test(trends.label), false);
+
+  const taobao = I.indexMeta({
+    source: "taobao_monthly", interest: 0, region: "cn",
+    summary: "淘宝只给累计销量，热度未折算（填 0）"
+  });
+  assert.equal(taobao.family, "taobao");
+  assert.equal(taobao.value, null);
+  assert.match(taobao.label, /不是搜索量/);
+
+  const adRank = I.indexMeta({
+    source: "chanmama_douyin", interest: 0,
+    summary: "投放榜第13，非销量榜，热度记 0"
+  });
+  assert.equal(adRank.value, null);
+  assert.match(adRank.label, /没有折算指数/);
+
+  const empty = I.indexMeta({ source: "chanmama_douyin", summary: "蝉妈妈周榜，这条没给折算" });
+  assert.equal(empty.value, null);
+  assert.match(empty.label, /没有折算指数/);
+});
+
+test("productMetric：只放一个写清来源的数字；没有周销指数就用标价，都不发明", () => {
+  const keywords = [
+    { title: "香氛洗衣液", source: "chanmama_douyin", interest: 46, summary: "周销折算（榜首=100），非搜索热度" },
+    { title: "油烟机清洗剂", source: "taobao_monthly", interest: 0, summary: "热度未折算（填 0）" },
+    { title: "laundry detergent", source: "google_trends", interest: 100, summary: "同组相对热度" }
+  ];
+  const linked = I.productMetric({
+    title: "香氛拖地液", need_keys: ["香氛洗衣液", "laundry detergent"], priceMYR: 19.9
+  }, keywords);
+  assert.equal(linked.kind, "douyin_week");
+  assert.equal(linked.value, "46");
+  assert.equal(linked.label, "抖音周销量折算指数 · 约7天 · 榜首=100");
+  assert.match(linked.note, /香氛洗衣液/);
+  assert.equal(/需求指数/.test(linked.label + linked.note), false);
+
+  const priced = I.productMetric({
+    title: "无指数产品",
+    need_keys: ["油烟机清洗剂", "除霉啫喱"],
+    priceMYR: 5.74
+  }, keywords.concat([{ title: "除霉啫喱", source: "chanmama_douyin", interest: 0, summary: "热度记 0" }]));
+  assert.equal(priced.kind, "price");
+  assert.equal(priced.value, "RM 5.74");
+  assert.match(priced.label, /参考价/);
+  assert.match(priced.label, /不是销量/);
+
+  const bare = I.productMetric({ title: "空", need_keys: [] }, keywords);
+  assert.equal(bare.kind, "none");
+  assert.equal(bare.value, "—");
+});
+
+test("dedupeNewest：同一 id 留先出现的那条", () => {
+  const rows = I.dedupeNewest([
+    { id: "a", title: "new" },
+    { id: "a", title: "old" },
+    { id: "b", title: "b" },
+    null
+  ]);
+  assert.deepEqual(rows.map((r) => r.title), ["new", "b"]);
+});
+
 test("dayStats：note（需求分析说明）不算条数", () => {
   const items = [{ id: "k1", kind: "keyword" }, { id: "n1", kind: "note" }, { id: "x", kind: "" }];
   assert.deepEqual(I.dayStats(items, {}, [], TODAY), { total: 1, briefs: 0, keywords: 1, products: 0, decided: 0, viewed: 0 });
