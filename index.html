@@ -34,12 +34,17 @@
         <select id="date" aria-label="日期"></select>
         <button type="button" id="next" class="nav" title="后一天" aria-label="后一天">▶</button>
       </div>
+      <div class="chips" id="span" role="group" aria-label="时间范围">
+        <button type="button" data-span="week" class="chip on" aria-pressed="true">近7天</button>
+        <button type="button" data-span="day" class="chip" aria-pressed="false">这一天</button>
+      </div>
       <div class="chips" id="brand" role="group" aria-label="品牌">
         <button type="button" data-brand="ALL" class="chip on">全部</button>
         <button type="button" data-brand="OT" class="chip c-ot">OT</button>
         <button type="button" data-brand="FF" class="chip c-ff">FF</button>
       </div>
-      <input type="search" id="q" placeholder="搜索 关键字 / 需求 / 标题 / 钩子" autocomplete="off" aria-label="搜索">
+      <div class="chips" id="plats" role="group" aria-label="平台" hidden></div>
+      <input type="search" id="q" placeholder="搜索 产品 / 简报 / 标题" autocomplete="off" aria-label="搜索">
     </div>
     <div id="main"></div>
   </main>
