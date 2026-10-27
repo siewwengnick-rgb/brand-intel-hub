@@ -1,7 +1,8 @@
 /*
  * v5 左栏菜单 + hash 路由（纯函数，可测）。
- *   #/today  #/products  #/briefs  #/todo  #/history  #/data
+ *   #/today  #/products  #/briefs  #/shipment  #/todo  #/history  #/data
  *   可带日期：#/today?d=2026-10-19（不带 = 最新一天）
+ * 集运只是情报台里的入口，货柜资料仍在 shipment-tracker Pages。
  * 浏览器里挂到 window.BIHRouter；Node（测试）里用 require。
  */
 (function (root, factory) {
@@ -11,11 +12,15 @@
 })(typeof self !== "undefined" ? self : this, function () {
   "use strict";
 
-  // 左栏从上到下（验收单 v5「模块」）
+  // 集运追踪的线上页。Hub 只嵌这一页，不复制 shipments.json / evidence/。
+  var SHIPMENT_URL = "https://siewwengnick-rgb.github.io/shipment-tracker/";
+
+  // 左栏从上到下（验收单 v5「模块」+ 集运）
   var ROUTES = [
     { id: "today", label: "今日总览", icon: "🏠", group: "每天" },
     { id: "products", label: "新品决策", icon: "📈", group: "每天" },
     { id: "briefs", label: "拍摄简报", icon: "🎬", group: "每天" },
+    { id: "shipment", label: "集运", icon: "📦", group: "运营", external: SHIPMENT_URL },
     { id: "todo", label: "待办", icon: "✅", group: "结果" },
     { id: "history", label: "历史", icon: "🗂", group: "结果" },
     { id: "data", label: "资料与反馈", icon: "🔗", group: "设置" }
@@ -71,7 +76,7 @@
   }
 
   return {
-    ROUTES: ROUTES, DEFAULT: DEFAULT,
+    ROUTES: ROUTES, DEFAULT: DEFAULT, SHIPMENT_URL: SHIPMENT_URL,
     find: find, parse: parse, href: href, canonical: canonical,
     validDate: validDate, dateLabel: dateLabel
   };
