@@ -355,7 +355,7 @@
 
   var PAGE = {
     today: { sub: "先看有图的产品，再看这几天各平台的拍摄简报。关键字榜收在最下面。", filters: "all" },
-    products: { sub: "有图的产品在最上面。中国抖音周销关键字默认收起，那个数字是约 7 天的销量折算，不是搜索量。", filters: "all" },
+    products: { sub: "有图的产品在最上面。马来西亚 Google Trends 上升关键字单独一块：数字是近 7 日同组相对兴趣（0–100），不是搜索量。中国抖音周销关键字默认收起。", filters: "all" },
     briefs: { sub: "默认近 7 个有资料的日期。YouTube 和 Instagram 放在一起，用平台筛选，不必一天一天翻。", filters: "all" },
     todo: { sub: "按过「出新品 / 投广告 / 安排拍」的，全部日期。", filters: "nodate" },
     history: { sub: "每天抓了多少、决定了多少、看了多少。点一行看那天的总览。", filters: "none" },
@@ -528,6 +528,22 @@
       (m.note ? "<small>" + esc(m.note) + "</small>" : "") + "</div>";
   }
 
+  // 马来西亚 Google Trends（region my）。蝉妈妈 / 淘宝即使误标 my 也不算进来。
+  function isMyGoogleTrends(it) {
+    if (!it || String(it.region || "").toLowerCase() !== "my") return false;
+    var meta = I.indexMeta(it);
+    if (meta.family === "douyin_week" || meta.family === "taobao") return false;
+    return meta.family === "gtrends" || D.isTrendsSource(it.source);
+  }
+
+  // 数字是 interest（同组相对兴趣）。没有指数就不显示数字，也不编一个搜索量。
+  function myTrendsLabel(meta) {
+    if (!meta || meta.value === null) {
+      return "Google Trends 相对兴趣 · 近7日同组 · 没有可比指数 · 不是搜索量";
+    }
+    return "Google Trends 相对兴趣 · 近7日同组内 0–100 · 不是搜索量";
+  }
+
   function keywordMetricHtml(it) {
     var meta = I.indexMeta(it);
     var series = state.hist[I.keywordKey(it)] || [];
@@ -537,8 +553,9 @@
     if (delta || spark) {
       extra = "<small>" + (delta ? "名次较昨天 " + delta + (spark ? " · " : "") : "") + (spark ? "近几天走势 " + spark : "") + "</small>";
     }
+    var label = isMyGoogleTrends(it) ? myTrendsLabel(meta) : meta.label;
     var numHtml = meta.value === null ? "" : "<b>" + esc(meta.value) + "</b>";
-    return '<div class="metric kw-metric">' + numHtml + "<span>" + esc(meta.label) + "</span>" + extra + "</div>";
+    return '<div class="metric kw-metric">' + numHtml + "<span>" + esc(label) + "</span>" + extra + "</div>";
   }
 
   function keywordRow(it, prods) {
@@ -548,7 +565,9 @@
       '<div class="kw-row">' +
       '<span class="rk' + (typeof it.rank === "number" && it.rank <= 3 ? " hi" : "") + '">' + esc(it.rank) + "</span>" +
       '<button type="button" class="kw-t" data-expand="' + esc(it.id) + '" aria-expanded="' + open + '">' +
-      "<span>" + esc(it.title) + '</span><i aria-hidden="true">' + (open ? "▾" : "▸") + "</i></button>" +
+      "<span>" + esc(it.title) + "</span>" +
+      (isMyGoogleTrends(it) && it.trend === "up" ? '<em class="rise">上升</em>' : "") +
+      '<i aria-hidden="true">' + (open ? "▾" : "▸") + "</i></button>" +
       keywordMetricHtml(it) +
       '<span class="need">' + (it.need ? esc(it.need) : miss()) + "</span>" +
       decBtns(it.id, d, ["new_product", "ad_keyword", "skip"], "main") +
@@ -681,13 +700,52 @@
     return html;
   }
 
-  // 关键字榜默认收起。中国区单独标成抖音周销；其他地区标成各自的来源。
-  function renderKeywordFolds(kws) {
+  function myTrendsOf(kws) {
+    return I.sortKeywordsRising((kws || []).filter(isMyGoogleTrends));
+  }
+
+  // 新品决策页单独一块，不收进「其他地区」。没有这天的马来西亚 Trends 也留着这块，写一句空状态。
+  function renderMyTrends(list) {
+    var sorted = myTrendsOf(list);
+    var d = state.date;
+    var allProds = state.items.filter(function (it) { return it.kind === "product"; });
+    var act = sorted.filter(function (it) { return !folded(it.id, d); });
+    var old = sorted.filter(function (it) { return folded(it.id, d); });
+    var dayHas = !state.missing && state.items.some(isMyGoogleTrends);
+    var html = '<section class="my-trends" id="my-trends" aria-label="马来西亚 Google Trends 上升关键字">';
+    html += '<h2 class="sec">马来西亚 Google Trends 上升关键字 <small>' +
+      esc(state.date || "") + " · region my · " + sorted.length + " 条</small></h2>";
+    html += '<p class="note">数字是 Google Trends 相对兴趣（同组内 0–100，近 7 日），不是搜索量。上升的排在前面。</p>';
+    if (!sorted.length) {
+      html += '<p class="msg my-empty">' +
+        (dayHas ? "没有符合当前筛选的马来西亚 Google Trends 关键字。" : "这天没有马来西亚 Google Trends 关键字。") +
+        "</p></section>";
+      return html;
+    }
+    html += changeStrip(sorted);
+    html += act.length
+      ? '<ol class="kw">' + act.map(function (it) { return keywordRow(it, allProds); }).join("") + "</ol>"
+      : line("这些马来西亚关键字都决定好了");
+    if (old.length) {
+      html += foldedBlock(old.length, '<ol class="kw">' + old.map(function (it) { return keywordRow(it, allProds); }).join("") + "</ol>");
+    }
+    return html + "</section>";
+  }
+
+  // 关键字榜默认收起。中国区单独标成抖音周销。
+  // omitMyTrends：新品决策页的马来西亚 Google Trends 已经在上面单独展开，这里不要再收进去。
+  function renderKeywordFolds(kws, opts) {
+    var omitMy = opts && opts.omitMyTrends;
     var cn = kws.filter(function (it) { return it.region === "cn"; });
-    var other = kws.filter(function (it) { return it.region !== "cn"; });
+    var other = kws.filter(function (it) {
+      return it.region !== "cn" && !(omitMy && isMyGoogleTrends(it));
+    });
     var html = kwToggle("showCn", "中国抖音周销关键字 · 蝉妈妈 · 约7天 · 榜首=100 · 不是搜索量 · 不是终身（淘宝月榜在行内另标）", cn.length);
     if (state.showCn) html += cn.length ? keywordListHtml(cn) : line("这天没有中国关键字");
-    html += kwToggle("showOther", "其他地区关键字 · Google Trends 相对热度 · 不是搜索次数", other.length);
+    var otherLabel = omitMy
+      ? "其他地区关键字 · 全球 / 美国等 · Google Trends 相对热度 · 不是搜索次数"
+      : "其他地区关键字 · Google Trends 相对热度 · 不是搜索次数";
+    html += kwToggle("showOther", otherLabel, other.length);
     if (state.showOther) html += other.length ? keywordListHtml(other) : line("这天没有其他地区关键字");
     return html;
   }
@@ -697,7 +755,9 @@
     var kws = state.missing ? [] : filtered("keyword");
     var notes = state.missing ? [] : filtered("note");
     if (!prods.length && !kws.length && !notes.length) {
-      return state.span === "day" && state.missing ? line("这天没有资料") : line("没有符合筛选的内容");
+      var msg = state.span === "day" && state.missing ? line("这天没有资料") : line("没有符合筛选的内容");
+      if (state.span === "day" && state.missing) return msg;
+      return msg + renderMyTrends(kws);
     }
     var photos = splitFold(prods.filter(function (it) { return I.hasImage(it); }));
     var noimg = splitFold(prods.filter(function (it) { return !I.hasImage(it); }));
@@ -712,10 +772,11 @@
         if (noimg.old.length) html += foldedBlock(noimg.old.length, '<div class="grid">' + noimg.old.map(productCard).join("") + "</div>");
       }
     }
+    html += renderMyTrends(kws);
     html += notes.map(function (it) {
       return '<p class="note kw-note"' + (it.summary ? ' title="' + esc(it.summary) + '"' : "") + ">" + esc(it.title || it.summary) + "</p>";
     }).join("");
-    html += renderKeywordFolds(kws);
+    html += renderKeywordFolds(kws, { omitMyTrends: true });
     var old = photos.old;
     if (old.length) html += foldedBlock(old.length, '<div class="grid">' + old.map(productCard).join("") + "</div>");
     return html;
@@ -1357,8 +1418,11 @@
   // 今日总览 / 今天变了什么 → 新品决策，展开那个关键字并滚到它
   function gotoKeyword(id) {
     var it = findItem(id, state.date);
-    if (it && it.region && it.region !== "cn") state.showOther = true;
-    else state.showCn = true;
+    // 马来西亚 Trends 在新品决策页一直展开，不用打开「其他地区」
+    if (!(it && isMyGoogleTrends(it))) {
+      if (it && it.region && it.region !== "cn") state.showOther = true;
+      else state.showCn = true;
+    }
     state.open[id] = true;
     state.scrollKw = id;
     var h = R.href("products", dateParam(state.date));
