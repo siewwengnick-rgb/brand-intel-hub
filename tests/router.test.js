@@ -3,10 +3,22 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const R = require("../js/router.js");
 
-test("ROUTES：6 个模块，左栏顺序和分组照 v5", () => {
-  assert.deepEqual(R.ROUTES.map((r) => r.id), ["today", "products", "briefs", "todo", "history", "data"]);
-  assert.deepEqual([...new Set(R.ROUTES.map((r) => r.group))], ["每天", "结果", "设置"]);
+test("ROUTES：情报模块顺序照 v5，集运插在拍摄简报和待办之间", () => {
+  assert.deepEqual(R.ROUTES.map((r) => r.id), ["today", "products", "briefs", "shipment", "todo", "history", "data"]);
+  assert.deepEqual([...new Set(R.ROUTES.map((r) => r.group))], ["每天", "运营", "结果", "设置"]);
   assert.equal(R.DEFAULT, "today");
+  const ship = R.find("shipment");
+  assert.equal(ship.label, "集运");
+  assert.equal(ship.external, "https://siewwengnick-rgb.github.io/shipment-tracker/");
+  assert.equal(R.SHIPMENT_URL, ship.external);
+});
+
+test("集运是普通 hash 页，刷新留在情报台，不把日期丢掉", () => {
+  assert.deepEqual(R.parse("#/shipment"), { route: "shipment", date: "" });
+  assert.deepEqual(R.parse("#/shipment?d=2026-10-27"), { route: "shipment", date: "2026-10-27" });
+  assert.equal(R.href("shipment"), "#/shipment");
+  assert.equal(R.href("shipment", "2026-10-27"), "#/shipment?d=2026-10-27");
+  assert.equal(R.canonical("#/SHIPMENT"), "#/shipment");
 });
 
 test("parse：hash → 页 + 日期；不认得的页回今日总览", () => {

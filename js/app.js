@@ -1,4 +1,4 @@
-/* 品牌情报台 v5：左栏 6 个模块 + hash 路由；内容沿用 v3 + v4（新品决策 / 拍摄简报 / 待办 + 反馈回路）。纯静态，无框架 */
+/* 品牌情报台 v5：左栏模块 + hash 路由；内容沿用 v3 + v4（新品决策 / 拍摄简报 / 待办 + 反馈回路）。集运嵌 live shipment-tracker，不复制货柜资料。纯静态，无框架 */
 (function () {
   "use strict";
 
@@ -359,7 +359,8 @@
     briefs: { sub: "默认近 7 个有资料的日期。YouTube 和 Instagram 放在一起，用平台筛选，不必一天一天翻。", filters: "all" },
     todo: { sub: "按过「出新品 / 投广告 / 安排拍」的，全部日期。", filters: "nodate" },
     history: { sub: "每天抓了多少、决定了多少、看了多少。点一行看那天的总览。", filters: "none" },
-    data: { sub: "Grok 推送、反馈导出、团队名单。", filters: "none" }
+    data: { sub: "Grok 推送、反馈导出、团队名单。", filters: "none" },
+    shipment: { sub: "货柜和空运直接开在这一页。照片、明细都在下面；资料仍在 Shipment Tracker，情报台不另存一份。", filters: "none" }
   };
 
   // 左栏（只建一次）
@@ -405,7 +406,8 @@
     $("pg-title").textContent = r.label;
     var scope = scopeDates();
     var weekOn = state.span !== "day" && (state.route === "today" || state.route === "products" || state.route === "briefs");
-    var chip = state.route === "todo" ? "全部日期" :
+    var chip = state.route === "shipment" ? "" :
+      state.route === "todo" ? "全部日期" :
       state.route === "history" ? (state.dates.length ? state.dates.length + " 天" : "") :
         weekOn && scope.length > 1 ? (scope[scope.length - 1] + " – " + scope[0] + " · " + scope.length + " 天") :
           state.date ? R.dateLabel(state.date) : "";
@@ -832,11 +834,20 @@
       '<b class="v">' + v + '</b><span class="d">' + esc(d) + "</span></a>";
   }
 
+  function shipHomeLink() {
+    return '<a class="ship-link" href="' + R.href("shipment", dateParam(state.date)) + '">' +
+      '<span class="ic" aria-hidden="true">📦</span>' +
+      '<span class="tx"><b>集运</b><small>货柜 / 空运追踪，不用另开书签</small></span>' +
+      '<span class="go">打开 →</span></a>';
+  }
+
   function renderToday() {
     var prods = collect("product", true).filter(function (it) { return I.hasImage(it); });
     var angles = collect("angle", true);
     var kws = state.missing ? [] : filtered("keyword");
-    if (!prods.length && !angles.length && !kws.length && state.span === "day" && state.missing) return emptyBox("这天没有资料");
+    if (!prods.length && !angles.length && !kws.length && state.span === "day" && state.missing) {
+      return shipHomeLink() + emptyBox("这天没有资料");
+    }
     var openP = prods.filter(function (it) { return !decided(it.id, itemDate(it)); });
     var openA = angles.filter(function (it) { return !decided(it.id, itemDate(it)); });
     var nSeen = angles.filter(function (it) { return seenOn(it.id, itemDate(it)); }).length;
@@ -853,7 +864,7 @@
       kpi(R.href("briefs", dp), "待看简报", String(openA.length), rangeLabel() + " · 还没按安排拍 / 跳过") +
       kpi(R.href("briefs", dp), "这台机看过", nSeen + "<small> / " + angles.length + "</small>", "打开过的简报") +
       kpi(R.href("briefs", dp), "平台", String(Object.keys(platCount).length || "—"), platText || "这几天没有简报") +
-      "</div>";
+      "</div>" + shipHomeLink();
     var wall = openP.slice(0, 8);
     html += '<div class="sec-head"><h2 class="sec">有图产品 <small>' + esc(rangeLabel()) + "</small></h2>" +
       '<a class="more" href="' + R.href("products", dp) + '">全部产品 →</a></div>' +
@@ -985,9 +996,39 @@
     return window.CSS && CSS.escape ? CSS.escape(s) : String(s).replace(/["\\]/g, "\\$&");
   }
 
+  // 集运：嵌 live Pages。已嵌上就别重画，免得筛选/存储刷新把 iframe 拆掉重载。
+  function renderShipment() {
+    var src = R.SHIPMENT_URL;
+    return '<div class="ship-embed">' +
+      '<div class="ship-bar"><span>货柜、包裹和照片都从 Shipment Tracker 读，这里不另存一份。</span>' +
+      '<a href="' + esc(src) + '" target="_blank" rel="noopener noreferrer">打开完整集运页 ↗</a></div>' +
+      '<div class="ship-stage">' +
+      '<p class="ship-wait">正在打开集运追踪…</p>' +
+      '<iframe class="ship-frame" title="集运追踪" src="' + esc(src) + '" referrerpolicy="no-referrer"></iframe>' +
+      "</div></div>";
+  }
+
+  function mountShipment() {
+    var frame = main.querySelector(".ship-frame");
+    if (!frame || frame.getAttribute("data-bound")) return;
+    frame.setAttribute("data-bound", "1");
+    frame.addEventListener("load", function () {
+      var w = main.querySelector(".ship-wait");
+      if (w) w.hidden = true;
+    });
+  }
+
   function render() {
     renderShell();
     var r = state.route;
+    document.body.classList.toggle("ship-on", r === "shipment");
+    if (r === "shipment") {
+      if (!main.querySelector(".ship-frame")) {
+        main.innerHTML = renderShipment();
+        mountShipment();
+      }
+      return;
+    }
     var needsDay = r === "today" || r === "products" || r === "briefs" || r === "history";
     var top = storageWarnings().map(function (w) { return '<p class="note warn store-warn">' + esc(w) + "</p>"; }).join("") +
       (state.syncError ? '<p class="note warn">' + esc(state.syncError) + "</p>" : "");
@@ -1563,8 +1604,10 @@
       try { history.replaceState(history.state, "", R.href(p.route, d)); } catch (e) { /* file:// 等环境 */ }
       toast("没有 " + p.date + " 的资料，显示最新一天");
     }
+    // 集运不靠当天情报文件，先画出来；换日期的读取结束后再 render 一次（iframe 已在就不重载）
+    if (state.route === "shipment") render();
     if (d && d !== state.date) loadDay(d);
-    else render();
+    else if (state.route !== "shipment") render();
   }
 
   window.addEventListener("hashchange", onHash);

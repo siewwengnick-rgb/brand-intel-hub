@@ -1,4 +1,4 @@
-/* 品牌情报台 v5 — 深色；左栏 6 个模块（外壳分法照 CRM，颜色字号沿用 v3/v4）（UI Core 2026-08-31-v2 / Analytics Dashboard；可按的东西最小 44×44） */
+/* 品牌情报台 v5 — 深色；左栏模块（外壳分法照 CRM，颜色字号沿用 v3/v4）（UI Core 2026-08-31-v2 / Analytics Dashboard；可按的东西最小 44×44） */
 :root {
   --bg: #0b0f17;
   --card: #141a25;
@@ -106,6 +106,46 @@ p.empty { padding: 12px; }
 .kpi .d { font-size: 11.5px; color: var(--t2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .kpi.na { border-left-color: var(--line); }
 .kpi.na .v { color: var(--t2); }
+.ship-link {
+  display: flex; align-items: center; gap: 10px; margin: 0 0 16px; padding: 8px 14px; min-height: 44px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px; text-decoration: none;
+}
+.ship-link:hover { border-color: rgba(232, 236, 242, 0.2); }
+.ship-link .ic { font-size: 18px; flex: none; }
+.ship-link .tx { display: flex; flex-direction: column; min-width: 0; }
+.ship-link .tx b { font-size: 14px; line-height: 1.3; }
+.ship-link .tx small { color: var(--t2); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ship-link .go { margin-left: auto; color: var(--ot); font-size: 12.5px; white-space: nowrap; }
+
+/* 集运：整页嵌 live shipment-tracker，外层不跟内层一起滚 */
+body.ship-on { overflow: hidden; }
+body.ship-on .app { height: 100vh; height: 100dvh; overflow: hidden; }
+body.ship-on .side { height: 100%; }
+body.ship-on .main {
+  display: flex; flex-direction: column; height: 100%; min-height: 0; overflow: hidden; padding-bottom: 12px;
+}
+body.ship-on #main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+.ship-embed {
+  flex: 1; min-height: 0; display: flex; flex-direction: column;
+  border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #0a0d14;
+}
+.ship-bar {
+  flex: none; display: flex; align-items: center; gap: 10px; padding: 0 12px;
+  min-height: 44px; background: var(--card); border-bottom: 1px solid var(--line);
+  color: var(--t2); font-size: 12.5px;
+}
+.ship-bar span { min-width: 0; }
+.ship-bar a {
+  margin-left: auto; color: var(--ot); text-decoration: none; white-space: nowrap;
+  min-height: 44px; display: inline-flex; align-items: center; padding: 0 4px;
+}
+.ship-bar a:hover { text-decoration: underline; }
+.ship-stage { position: relative; flex: 1; min-height: 240px; display: flex; }
+.ship-frame { flex: 1; width: 100%; height: 100%; border: 0; background: #0a0d14; }
+.ship-wait {
+  position: absolute; inset: 0; margin: 0; display: grid; place-items: center;
+  color: var(--t2); background: #0a0d14; pointer-events: none;
+}
 a.chg { text-decoration: none; }
 a.chg:hover { border-color: rgba(232, 236, 242, 0.2); }
 .sec-head { display: flex; align-items: baseline; gap: 10px; margin-top: 18px; }
@@ -597,6 +637,10 @@ h2.sec small, h3 small, h4 small { font-size: 12px; font-weight: 400; color: var
   .side-foot { margin: 0 0 0 4px; padding: 0 0 0 8px; border-top: 0; border-left: 1px solid var(--line); flex: none; display: flex; align-items: center; gap: 6px; }
   .side-who-l { display: none; }
   .side-foot .who { width: auto; max-width: 110px; padding: 0 6px; }
+  body.ship-on .side { height: auto; }
+  body.ship-on .main { height: auto; flex: 1; min-height: 0; padding-bottom: 10px; }
+  .ship-bar { align-items: flex-start; flex-wrap: wrap; padding: 4px 10px; }
+  .ship-bar a { margin-left: 0; }
   .main { padding: 10px 14px 32px; }
   .filters { margin: 0 -14px 10px; padding: 6px 14px; }
 }
