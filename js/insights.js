@@ -402,6 +402,21 @@
     return /^https?:\/\//i.test(String(it && (it.image || it.thumb) || ""));
   }
 
+  // 上升（trend=up）在前，然后按 interest 从高到低。同档保持原顺序。没有热度的排到同档最后。
+  function sortKeywordsRising(list) {
+    return (list || [])
+      .map(function (it, i) { return { it: it, i: i }; })
+      .sort(function (a, b) {
+        var ra = a.it && a.it.trend === "up" ? 0 : 1;
+        var rb = b.it && b.it.trend === "up" ? 0 : 1;
+        if (ra !== rb) return ra - rb;
+        var ia = num(a.it && a.it.interest), ib = num(b.it && b.it.interest);
+        if (ia !== ib) return (ib === null ? -Infinity : ib) - (ia === null ? -Infinity : ia);
+        return a.i - b.i;
+      })
+      .map(function (x) { return x.it; });
+  }
+
   // 需求榜前 n 个（跨 region）：热度高的在前，热度一样看名次
   function topKeywords(list, n) {
     return (list || [])
@@ -421,6 +436,7 @@
     WINDOW_DAYS: WINDOW_DAYS,
     dayStats: dayStats,
     topKeywords: topKeywords,
+    sortKeywordsRising: sortKeywordsRising,
     firstSentence: firstSentence,
     briefPoints: briefPoints,
     keywordKey: keywordKey,

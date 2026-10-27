@@ -232,6 +232,28 @@ h2.sec small, h3 small, h4 small { font-size: 12px; font-weight: 400; color: var
 .chg span { display: block; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .chg b { font-weight: 700; font-variant-numeric: tabular-nums; }
 
+/* ---------- 页 1：马来西亚 Google Trends（一直展开，跟产品卡分开） ---------- */
+.my-trends {
+  margin: 22px 0 18px;
+  padding: 12px 14px 8px;
+  border: 1px solid rgba(79, 156, 249, 0.45);
+  border-radius: 14px;
+  background: rgba(79, 156, 249, 0.07);
+}
+.my-trends > h2.sec { margin-top: 0; }
+.my-trends .my-empty { margin: 2px 0 10px; }
+.kw-t .rise {
+  flex: none;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--up);
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 2px 6px;
+}
+
 /* ---------- 页 1：需求榜 ---------- */
 .kwwrap { display: grid; gap: 14px; }
 .kw-block { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 2px 14px 4px; min-width: 0; }

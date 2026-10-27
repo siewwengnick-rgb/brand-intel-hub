@@ -190,6 +190,19 @@ test("字符串名次 / 热度（没 normalize 过的 history）也当数字；�
   assert.equal(I.rankDelta(kw("戊", "1", "90"), h["cn|戊"], TODAY), 2);
 });
 
+test("sortKeywordsRising：上升在前，然后按热度；热度一样保持原来的顺序", () => {
+  const list = [
+    kw("甲", 1, 100, { trend: "flat" }),
+    kw("乙", 2, 4, { trend: "up" }),
+    kw("丙", 3, 1, { trend: "up" }),
+    kw("丁", 4, 32, { trend: "down" }),
+    kw("戊", 5, 4, { trend: "up" }),
+    kw("己", 6, null, { trend: "flat" })
+  ];
+  assert.deepEqual(I.sortKeywordsRising(list).map((k) => k.title), ["乙", "戊", "丙", "甲", "丁", "己"]);
+  assert.deepEqual(I.sortKeywordsRising(null), []);
+});
+
 test("recentDates：最近 n 个有资料的日期，新的在前，断档也算", () => {
   assert.deepEqual(
     I.recentDates("2026-10-23", ["2026-10-26", "2026-10-23", "2026-10-20", "2026-09-01"], 2),
