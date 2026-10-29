@@ -1,0 +1,539 @@
+{
+  "date": "2026-10-26",
+  "brand": "FF",
+  "source": "Foamfresh 雷达",
+  "built_at_local": "2026-10-26 16:38:57 +0800",
+  "note_from_ai": "中国 Google Trends 仍空，CN 关键字用蝉妈妈/淘宝销量热度；product 三张图已放到 raw.githubusercontent.com/ff-radar-/images（Pages CDN 可能稍后才生效）。",
+  "items": [
+    {
+      "id": "kw-cn-洗衣粉",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "洗衣粉",
+      "summary": "蝉妈妈周销折算榜首公仔顽渍净（沿用10/12–18）；10/19–25销量周榜未出；中国Google Trends无数据，此为销量热度非搜索热度",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 1,
+      "trend": "down",
+      "need": "基础洗衣大单品，价格敏感、长销",
+      "interest": 100
+    },
+    {
+      "id": "kw-cn-除螨除菌喷雾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除螨除菌喷雾",
+      "summary": "沫檬260ml抖音投放周榜第4、淘宝除螨喷雾榜TOP1 10万+；周销1万–2.5万——今日中国上升最快信号",
+      "url": "https://cy.chanmama.com/open/productRank/19/week/20261019-20261025.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 2,
+      "trend": "up",
+      "need": "过敏/鼻炎家庭要免水洗床垫去螨净味，双11在加投"
+    },
+    {
+      "id": "kw-cn-内衣洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "内衣洗衣液",
+      "summary": "淘宝10月内裤洗衣液榜：植护100万+、立白/奥妙/蓝月亮/威露士各50万+",
+      "url": "https://www.xing73.com/taobao-xl-yar5jGK6XSr5kOK6FaY5.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 3,
+      "trend": "flat",
+      "need": "女性贴身衣物冷水去血渍、除菌去味；MY几乎只有药房/白牌"
+    },
+    {
+      "id": "kw-cn-香氛洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "香氛洗衣液",
+      "summary": "立白大师香氛周销折算46（沿用上周）",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 4,
+      "trend": "flat",
+      "need": "香氛化洗衣，愿为留香付溢价",
+      "interest": 46
+    },
+    {
+      "id": "kw-cn-除螨洗衣液",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除螨洗衣液",
+      "summary": "活力28周销折算39（沿用上周）",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 5,
+      "trend": "flat",
+      "need": "除菌除螨留香一体的洗衣液需求",
+      "interest": 39
+    },
+    {
+      "id": "kw-cn-洗衣机清洗剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "洗衣机清洗剂",
+      "summary": "老管家爆氧粉周销折算38（沿用上周）",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 6,
+      "trend": "flat",
+      "need": "洗槽除垢除霉的耗材复购",
+      "interest": 38
+    },
+    {
+      "id": "kw-cn-锅底黑垢清洁",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "锅底黑垢清洁",
+      "summary": "淘宝10/26锅底黑垢榜：老管家清洁膜20万+、沫檬/水卫士各10万+",
+      "url": "https://www.xing73.com/taobao-xl-Rub6Vqb5FSZ6BSr5Fir5.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 7,
+      "trend": "flat",
+      "need": "CNY前洗大锅、不锈钢锅底碳化黑垢"
+    },
+    {
+      "id": "kw-cn-留香珠",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "留香珠",
+      "summary": "当妮12周留香30万+；抖音投放周榜可见香氛留香珠",
+      "url": "https://www.chanmama.com/yunyingquan/article/2672.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 8,
+      "trend": "flat",
+      "need": "洗衣加香附加，香氛化延伸"
+    },
+    {
+      "id": "kw-cn-洁厕香氛块",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "洁厕香氛块",
+      "summary": "蓝泡泡类抖音投放周榜周销5,000–1万",
+      "url": "https://cy.chanmama.com/open/productRank/19/week/20261019-20261025.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 9,
+      "trend": "flat",
+      "need": "马桶挂香耗材"
+    },
+    {
+      "id": "kw-cn-香氛地面清洁剂",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "香氛地面清洁剂",
+      "summary": "沫檬香氛地面清洁剂抖音投放周榜第2",
+      "url": "https://cy.chanmama.com/open/productRank/19/week/20261019-20261025.html",
+      "source": "chanmama_taobao_sales",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 10,
+      "trend": "flat",
+      "need": "拖地也要香，地板香氛化"
+    },
+    {
+      "id": "kw-my-car-wash",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "car wash",
+      "summary": "同组可比热度=100，近7日约+4%平稳",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=car%20wash&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 1,
+      "interest": 100,
+      "trend": "flat",
+      "need": "洗车后护理与车内清洁的连带需求"
+    },
+    {
+      "id": "kw-my-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "detergent",
+      "summary": "同组可比热度32，近7日约+5%平稳",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 2,
+      "interest": 32,
+      "trend": "flat",
+      "need": "家庭日用洗涤基础需求"
+    },
+    {
+      "id": "kw-my-disinfectant",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "disinfectant",
+      "summary": "同组可比热度6，近7日平稳；30天走势因9/24–10/8缺口查不到",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=disinfectant&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 3,
+      "interest": 6,
+      "trend": "flat",
+      "need": "消毒杀菌日常防护"
+    },
+    {
+      "id": "kw-my-air-freshener",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "air freshener",
+      "summary": "同组可比热度5，近7日约+4%",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=air%20freshener&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 4,
+      "interest": 5,
+      "trend": "flat",
+      "need": "家居香氛/除味"
+    },
+    {
+      "id": "kw-my-laundry-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "laundry detergent",
+      "summary": "同组可比热度4，近7日约+17%起量",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=laundry%20detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 5,
+      "interest": 4,
+      "trend": "up",
+      "need": "洗衣液升级与品牌搜索"
+    },
+    {
+      "id": "kw-my-floor-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "floor cleaner",
+      "summary": "同组可比热度4，近7日约-7%平稳偏降",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=floor%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 6,
+      "interest": 4,
+      "trend": "flat",
+      "need": "地板清洁日常"
+    },
+    {
+      "id": "kw-my-toilet-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "toilet cleaner",
+      "summary": "主词平稳；关联词 toilet cleaner liquid +508,000%、mr muscle toilet bowl cleaner +7,250%（新出现）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner%20liquid&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 7,
+      "interest": 3,
+      "trend": "flat",
+      "need": "马桶清洁；关联词今日强突破"
+    },
+    {
+      "id": "kw-my-dishwashing-liquid",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dishwashing liquid",
+      "summary": "同组可比热度2，近7日约-12%；Glo sabun basuh pinggan 关联 +15,750%（第2天）",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 8,
+      "interest": 2,
+      "trend": "down",
+      "need": "洗碗洗洁精"
+    },
+    {
+      "id": "kw-my-washing-machine-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "washing machine cleaner",
+      "summary": "同组可比热度2，近7日约+7%",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=washing%20machine%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 9,
+      "interest": 2,
+      "trend": "flat",
+      "need": "洗衣机槽清洁，MY在打价格战"
+    },
+    {
+      "id": "kw-my-fabric-softener",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "fabric softener",
+      "summary": "同组可比热度1（0.9），近7日约+86%，连续第2天上升",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=fabric%20softener&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 10,
+      "interest": 1,
+      "trend": "up",
+      "need": "衣物柔顺/留香，基数很小但连续两天升"
+    },
+    {
+      "id": "kw-global-non-toxic-mold-remover",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "non toxic mold remover",
+      "summary": "美国 related rising +130%（连续3天：70%→110%→130%）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=non%20toxic%20mold%20remover&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "us",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 1,
+      "trend": "up",
+      "need": "温和除霉，避开强腐蚀配方"
+    },
+    {
+      "id": "kw-global-foam-cleaner-multi-purpose",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "foam cleaner multi purpose",
+      "summary": "美国 related rising +130%（新）",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=foam%20cleaner%20multi%20purpose&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "us",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 2,
+      "trend": "up",
+      "need": "多用途泡沫清洁"
+    },
+    {
+      "id": "note-ff-2026-10-26",
+      "section": "product",
+      "kind": "note",
+      "brand": "FF",
+      "title": "MY：马桶液与 Magiclean 厨房仍在突破；中国销量榜贴身/除螨/锅底升温",
+      "summary": "toilet cleaner liquid +508,000% 与 Mr Muscle 马桶词新出现；magiclean kitchen cleaner lime 连续第5天。中国 Google Trends 仍空，主榜用蝉妈妈/淘宝销量。HomePro Mr Muscle 地板/马桶在打折（起止日查不到）。汇率按 BNM 10/23：¥1=RM0.6122。",
+      "url": "",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "note",
+        "FF"
+      ]
+    },
+    {
+      "id": "prod-ff-cn-underwear-detergent",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "内衣/内裤专用除菌洗衣液（中）",
+      "summary": "淘宝10月内裤洗衣液榜植护100万+、立白等50万+；MY Alpro UYIKU 475ml RM16.90（Sold 24）——中国成熟大类、MY几乎空位",
+      "url": "https://alpropharmacy.com.my/products/uyiku-natural-lemon-enzyme-underwear-cleaning-liquid-475ml-effective-stain-removal",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "贴身",
+        "双11"
+      ],
+      "platform": "Taobao / Alpro",
+      "priceMYR": 16.9,
+      "image": "https://alpropharmacy.com.my/cdn/shop/files/100540830_OCT2026_OConly_uyiku_c154d421-aa5b-4c96-9b16-7381ed984dec.jpg?v=1790790775",
+      "category": [
+        "洗衣",
+        "贴身衣物"
+      ],
+      "idea": "FF 300ml 冷水酵素除菌去血渍洗液 RM15.90（2瓶 RM28.90）；淡香/无香+清真；估算成本约RM5、毛利约57%",
+      "need_keys": [
+        "内衣洗衣液",
+        "laundry detergent"
+      ]
+    },
+    {
+      "id": "prod-ff-cn-momoeng-mite-spray",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "沫檬除菌除螨净化喷雾 260ml【双11】",
+      "summary": "抖音投放周榜第4、淘宝除螨喷雾榜TOP1 10万+；周销1万–2.5万、销售额¥50万–100万——双11清洁类最猛单品之一",
+      "url": "https://cy.chanmama.com/open/productRank/19/week/20261019-20261025.html",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "除螨",
+        "双11"
+      ],
+      "platform": "Douyin / Taobao",
+      "priceMYR": 18.3,
+      "image": "https://raw.githubusercontent.com/siewwengnick-rgb/ff-radar-/main/images/dust-mite-spray-cn.jpg",
+      "category": [
+        "布艺",
+        "除螨"
+      ],
+      "idea": "FF 按压瓶250ml布艺床垫去螨净味 RM19.90（不做气雾罐）；文案避「杀螨」改「去螨过敏原/驱螨/净味」；估算成本RM5.7–6.5、毛利49–53%",
+      "need_keys": [
+        "除螨除菌喷雾",
+        "mold remover"
+      ]
+    },
+    {
+      "id": "prod-ff-cn-pot-bottom-cleaner",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "锅底黑垢清洁膜/膏（CNY 应季）",
+      "summary": "淘宝10/26锅底黑垢榜老管家清洁膜20万+、沫檬啫喱/水卫士各10万+；贴膜「贴10分钟一刮就亮」视觉强",
+      "url": "https://www.xing73.com/taobao-xl-Rub6Vqb5FSZ6BSr5Fir5.html",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "FF",
+        "product",
+        "厨房",
+        "CNY大扫除"
+      ],
+      "platform": "Taobao",
+      "priceMYR": 16.41,
+      "image": "https://raw.githubusercontent.com/siewwengnick-rgb/ff-radar-/main/images/pot-bottom-cleaner-cn.jpg",
+      "category": [
+        "厨房",
+        "锅底"
+      ],
+      "idea": "FF「3贴+铲+手套」套装RM12.90做厨房重油泡沫加购；强碱须标不可用于铝/不粘锅；估算毛利约39%偏薄",
+      "need_keys": [
+        "锅底黑垢清洁",
+        "magiclean kitchen cleaner lime"
+      ]
+    }
+  ]
+}
