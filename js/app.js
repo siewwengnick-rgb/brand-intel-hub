@@ -40,7 +40,9 @@
     syncError: "",  // 存不进去时的提示
     pending: null,  // 正在选原因：{id, date, decision, reason, note, where}
     confirmClear: false,
-    sheet: null     // {id, date}
+    sheet: null,    // {id, date}
+    ship: null,     // shipment-tracker 的 shipments.json（只读，今日总览摘要用）
+    shipErr: false
   };
   var cache = {}; // date -> {items, missing, note}
 
@@ -354,13 +356,13 @@
   }
 
   var PAGE = {
-    today: { sub: "先看有图的产品，再看这几天各平台的拍摄简报。关键字榜收在最下面。", filters: "all" },
+    today: { sub: "今天先看：待决定的产品、简报和集运。", filters: "all" },
     products: { sub: "有图的产品在最上面。马来西亚 Google Trends 上升关键字单独一块：数字是近 7 日同组相对兴趣（0–100），不是搜索量。中国抖音周销关键字默认收起。", filters: "all" },
     briefs: { sub: "默认近 7 个有资料的日期。YouTube 和 Instagram 放在一起，用平台筛选，不必一天一天翻。", filters: "all" },
     todo: { sub: "按过「出新品 / 投广告 / 安排拍」的，全部日期。", filters: "nodate" },
     history: { sub: "每天抓了多少、决定了多少、看了多少。点一行看那天的总览。", filters: "none" },
     data: { sub: "Grok 推送、反馈导出、团队名单。", filters: "none" },
-    shipment: { sub: "货柜和空运直接开在这一页。照片、明细都在下面；资料仍在 Shipment Tracker，情报台不另存一份。", filters: "none" }
+    shipment: { sub: "货柜和空运，照片、明细都在下面。", filters: "none" }
   };
 
   // 左栏（只建一次）
@@ -465,9 +467,15 @@
   }
 
   // 页面最上面：AI 的话 + 团队今天看了几条
+  // AI 的话：先给一句，其余折起来（手机上一大段太长）
+  function aiNote(note) {
+    if (!note) return "";
+    return '<details class="ai-note"><summary><b>AI</b><span>今天的抓取说明<i class="more-tx">展开</i></span></summary>' +
+      "<p>" + esc(String(note).trim()) + "</p></details>";
+  }
+
   function topStrip() {
-    var html = "";
-    if (state.note) html += '<div class="ai-note"><b>AI</b><span>' + esc(state.note) + "</span></div>";
+    var html = aiNote(state.note);
     if (state.span !== "day" || !state.missing) {
       var angles = state.ready ? collect("angle", false) : state.items.filter(function (it) { return it.kind === "angle"; });
       var n = angles.filter(function (it) { return seenOn(it.id, itemDate(it)); }).length;
@@ -526,7 +534,7 @@
   }
 
   function metricHtml(m) {
-    return '<div class="metric"><b>' + esc(m.value) + "</b><span>" + esc(m.label) + "</span>" +
+    return '<div class="metric k-' + esc(m.kind || "none") + '"><b>' + esc(m.value) + "</b><span>" + esc(m.label) + "</span>" +
       (m.note ? "<small>" + esc(m.note) + "</small>" : "") + "</div>";
   }
 
@@ -608,7 +616,7 @@
       productCover(it) +
       '<div class="body">' +
       '<h3 class="t">' + esc(it.title) + "</h3>" +
-      '<div class="src">' + esc(d) + (it.platform ? " · " + esc(it.platform) : "") + "</div>" +
+      '<div class="src">' + esc(d) + "</div>" +
       metricHtml(m) +
       '<div class="sum one">' + esc(it.summary) + "</div>" +
       "</div>" +
@@ -829,16 +837,88 @@
 
   function emptyBox(msg) { return '<div class="empty">' + esc(msg) + "</div>"; }
 
-  function kpi(href, k, v, d, na) {
-    return '<a class="kpi' + (na ? " na" : "") + '" href="' + href + '"><span class="k">' + esc(k) + "</span>" +
-      '<b class="v">' + v + '</b><span class="d">' + esc(d) + "</span></a>";
+
+
+  // ===== 集运摘要：读 shipment-tracker 的 shipments.json（只读；读不到就退回一行入口）=====
+  var SHIP_STAGE = { transit: "运往马来西亚", arrived: "已到马", warehouse: "已入仓" };
+
+  function shipItemName(c) {
+    var t = String(c.item || c.mark || c.id || "").split(/[（(]/)[0].trim();
+    return t || String(c.id || "");
   }
 
-  function shipHomeLink() {
-    return '<a class="ship-link" href="' + R.href("shipment", dateParam(state.date)) + '">' +
-      '<span class="ic" aria-hidden="true">📦</span>' +
-      '<span class="tx"><b>集运</b><small>货柜 / 空运追踪，不用另开书签</small></span>' +
-      '<span class="go">打开 →</span></a>';
+  // 一行能看懂的时间：优先「预计几号到」，没有就用最后一条轨迹的日期
+  function shipWhen(c) {
+    var src = String(c.last_event || "") + " " + String(c.eta || "");
+    var m = src.match(/预计\s*(\d{1,2})[-/](\d{1,2})\s*到港/);
+    if (m) return "预计 " + (+m[1]) + "/" + (+m[2]) + " 到港";
+    var t = String(c.last_event || "").match(/^\d{4}-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2}))?\S*\s*(.*)$/);
+    if (!t) return String(c.last_event || "");
+    var day = (+t[1]) + "/" + (+t[2]);
+    if (/预计航班到达/.test(t[5])) return "预计 " + day + (t[3] ? " " + t[3] + ":" + t[4] : "") + " 落地";
+    return day + " " + t[5];
+  }
+
+  // 同一批货拆成几票（「第1票」「第2票」）合成一行
+  function shipGroups(list) {
+    var out = [];
+    var idx = {};
+    list.forEach(function (c) {
+      var name = shipItemName(c);
+      var base = name.replace(/\s*第\s*\d+\s*票$/, "");
+      var k = (c.mode || "") + "|" + base + "|" + shipWhen(c).replace(/\s\d{2}:\d{2}/, "");
+      if (idx[k] !== undefined) { out[idx[k]].n += 1; return; }
+      idx[k] = out.length;
+      out.push({ c: c, name: base, n: 1 });
+    });
+    return out;
+  }
+
+  function loadShip() {
+    if (state.ship || state.shipLoading) return;
+    state.shipLoading = true;
+    fetch(R.SHIPMENT_URL + "shipments.json", { cache: "no-cache" }).then(function (r) {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json();
+    }).then(function (j) {
+      state.ship = j && Array.isArray(j.consolidations) ? j : null;
+      state.shipErr = !state.ship;
+    }).catch(function () { state.shipErr = true; }).then(function () {
+      state.shipLoading = false;
+      if (state.route === "today") render();
+    });
+  }
+
+  function shipCard() {
+    var href = R.href("shipment", dateParam(state.date));
+    var data = state.ship;
+    if (!data) {
+      if (!state.shipErr) loadShip();
+      return '<a class="ship-link" href="' + href + '">' +
+        '<span class="tx"><b>集运</b><small>' + (state.shipErr ? "摘要读不到，点开看完整集运页" : "正在读货柜状态…") + "</small></span>" +
+        '<span class="go">打开</span></a>';
+    }
+    var list = data.consolidations;
+    var by = function (st) { return list.filter(function (c) { return c.stage === st; }); };
+    var transit = by(SHIP_STAGE.transit);
+    var arrived = by(SHIP_STAGE.arrived);
+    var wh = by(SHIP_STAGE.warehouse);
+    var groups = shipGroups(transit);
+    var rows = groups.slice(0, 3).map(function (g) {
+      return '<li><span class="m">' + (g.c.mode === "air" ? "空运" : "海运") + "</span>" +
+        '<span class="n">' + esc(g.name) + (g.n > 1 ? " <small>×" + g.n + " 票</small>" : "") + "</span>" +
+        '<span class="w">' + esc(shipWhen(g.c)) + "</span></li>";
+    }).join("");
+    return '<a class="ship-card" href="' + href + '">' +
+      '<div class="ship-h"><b>集运</b><small>' + (data.updated ? "更新 " + esc(String(data.updated).replace(/^\d{4}-/, "").replace("-", "/")) : "") + "</small>" +
+      '<span class="go">全部</span></div>' +
+      '<div class="ship-nums">' +
+      '<span><b>' + transit.length + "</b>运输中</span>" +
+      '<span><b>' + arrived.length + "</b>已到马</span>" +
+      '<span class="dim"><b>' + wh.length + "</b>仓库待发</span>" +
+      "</div>" +
+      (rows ? '<ul class="ship-rows">' + rows + (groups.length > 3 ? '<li class="more-row">还有 ' + (groups.length - 3) + " 批运输中</li>" : "") + "</ul>" : "") +
+      "</a>";
   }
 
   function renderToday() {
@@ -846,7 +926,7 @@
     var angles = collect("angle", true);
     var kws = state.missing ? [] : filtered("keyword");
     if (!prods.length && !angles.length && !kws.length && state.span === "day" && state.missing) {
-      return shipHomeLink() + emptyBox("这天没有资料");
+      return shipCard() + emptyBox("这天没有资料");
     }
     var openP = prods.filter(function (it) { return !decided(it.id, itemDate(it)); });
     var openA = angles.filter(function (it) { return !decided(it.id, itemDate(it)); });
@@ -858,15 +938,15 @@
     });
     var platText = Object.keys(platCount).map(function (p) { return p + " " + platCount[p]; }).join(" · ");
     var dp = dateParam(state.date);
-    var html = state.note ? '<div class="ai-note"><b>AI</b><span>' + esc(state.note) + "</span></div>" : "";
-    html += '<div class="kpis">' +
-      kpi(R.href("products", dp), "待看产品", String(openP.length), rangeLabel() + " · 有图，还没按出新品 / 跳过") +
-      kpi(R.href("briefs", dp), "待看简报", String(openA.length), rangeLabel() + " · 还没按安排拍 / 跳过") +
-      kpi(R.href("briefs", dp), "这台机看过", nSeen + "<small> / " + angles.length + "</small>", "打开过的简报") +
-      kpi(R.href("briefs", dp), "平台", String(Object.keys(platCount).length || "—"), platText || "这几天没有简报") +
-      "</div>" + shipHomeLink();
+    var html = '<div class="focus">' +
+      '<a class="focus-n" href="' + R.href("products", dp) + '"><b>' + openP.length + '</b><span>产品待决定</span></a>' +
+      '<a class="focus-n" href="' + R.href("briefs", dp) + '"><b>' + openA.length + '</b><span>简报待看</span></a>' +
+      '<span class="focus-meta">' + esc(rangeLabel()) + (platText ? " · " + esc(platText) : "") + "</span>" +
+      "</div>";
+    html += shipCard();
+    html += aiNote(state.note);
     var wall = openP.slice(0, 8);
-    html += '<div class="sec-head"><h2 class="sec">有图产品 <small>' + esc(rangeLabel()) + "</small></h2>" +
+    html += '<div class="sec-head"><h2 class="sec">今日亮点 <small>有图产品 · ' + openP.length + " 个待决定</small></h2>" +
       '<a class="more" href="' + R.href("products", dp) + '">全部产品 →</a></div>' +
       (wall.length ? '<div class="grid">' + wall.map(productCard).join("") + "</div>" : emptyBox("这几天没有还没决定的带图产品"));
     var briefs = mixByPlatform(openA).slice(0, 8);
@@ -1000,7 +1080,7 @@
   function renderShipment() {
     var src = R.SHIPMENT_URL;
     return '<div class="ship-embed">' +
-      '<div class="ship-bar"><span>货柜、包裹和照片都从 Shipment Tracker 读，这里不另存一份。</span>' +
+      '<div class="ship-bar"><span>资料来自 Shipment Tracker</span>' +
       '<a href="' + esc(src) + '" target="_blank" rel="noopener noreferrer">打开完整集运页 ↗</a></div>' +
       '<div class="ship-stage">' +
       '<p class="ship-wait">正在打开集运追踪…</p>' +
@@ -1022,6 +1102,7 @@
     renderShell();
     var r = state.route;
     document.body.classList.toggle("ship-on", r === "shipment");
+    document.body.classList.toggle("r-today", r === "today");
     if (r === "shipment") {
       if (!main.querySelector(".ship-frame")) {
         main.innerHTML = renderShipment();
