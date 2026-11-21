@@ -3,3 +3,5 @@ config.js
 *.log
 node_modules/
 .tmp/
+.vercel
+.env*
