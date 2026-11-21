@@ -1,8 +1,396 @@
 {
   "date": "2026-11-21",
-  "built_at_local": "2026-11-21 20:57:04 +0800",
-  "note_from_ai": "根据你们上次的反馈，这次…暂无 decisions.json，按默认覆盖抓：今天没有 FF 雷达交接和新角度片段，改用今早 Google Trends 自抓 19 个关键字（MY 泡沫清洁 +85%、洗碗精续升；全球除霉凝胶、自动马桶清洁片上升）＋1 个新产品（ORITA 小苏打洗衣液）；20 个角度沿用 11/20 标 KEEP/WATCH。",
+  "built_at_local": "2026-11-21 20:57:28 +0800",
+  "note_from_ai": "根据你们上次的反馈，这次…暂无 decisions.json，按默认覆盖抓：并入今天 11/21 FF 雷达（20 关键字＋2 产品＋1 说明：韩国 LG 草莓香泡沫洗脚喷雾、MR DIY 新上 Dettol 茶+柑橘植物基消毒液），再用今早 Google Trends 补 9 个关键字（MY 泡沫清洁 +85%、洗碗精续升）和 1 个产品（ORITA 小苏打洗衣液，MY 关联搜索连续飙升）；今天没有新角度片段，20 个角度沿用 11/20 标 KEEP/WATCH。",
   "items": [
+    {
+      "id": "kw-cn-长柄无死角马桶刷",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "长柄无死角马桶刷",
+      "summary": "蝉妈妈抖音日用百货投放日榜(11/20)#1：83条素材，但成交仅¥0–250，刚开始猛投。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-20.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 1,
+      "trend": "up",
+      "need": "马桶边缘和蹲坑死角刷不到，又不想手靠近。"
+    },
+    {
+      "id": "kw-cn-擦鞋湿巾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "擦鞋湿巾",
+      "summary": "蝉妈妈投放日榜(11/20)#5：答菲「张杰同款」小白鞋免水洗湿巾，85条素材，¥1w–2.5w / 1000–2500件，当天清洁类成交最好。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-20.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 2,
+      "trend": "up",
+      "need": "小白鞋随手擦干净，不想刷洗晾干。"
+    },
+    {
+      "id": "kw-cn-马桶浴室清洁泡泡",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "马桶浴室清洁泡泡",
+      "summary": "蝉妈妈投放日榜(11/20)#17：沫檬浴室马桶清洁泡泡，52条素材，¥5000–1w。泡沫型洁厕继续投放。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-20.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 3,
+      "trend": "flat",
+      "need": "喷一下泡沫挂壁、不用刷就去尿垢水垢。"
+    },
+    {
+      "id": "kw-cn-太阳花珊瑚绒拖把",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "太阳花珊瑚绒拖把",
+      "summary": "蝉妈妈投放日榜(11/20)#20：工厂直发向日葵造型珊瑚绒拖把，82条素材，¥1w–2.5w / 1000–2500件。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-20.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 4,
+      "trend": "up",
+      "need": "便宜好看、吸水的除尘拖把。"
+    },
+    {
+      "id": "kw-cn-除醛喷雾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "除醛喷雾",
+      "summary": "蝉妈妈投放日榜(11/20)#3：沫檬「99.9%除醛率」甲醛喷雾，50条素材，成交≈0，刚开投。非Google数据，功效宣称需核实。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-20.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 5,
+      "trend": "up",
+      "need": "新房、新家具急住，担心甲醛和异味。"
+    },
+    {
+      "id": "kw-my-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "detergent",
+      "summary": "MY 相对热度 29.8（car wash=100，近7天对前7天 -7%）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=detergent",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 1,
+      "interest": 29.8,
+      "trend": "flat",
+      "need": "日常洗衣刚需，最大搜索盘。"
+    },
+    {
+      "id": "kw-my-dettol",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dettol",
+      "summary": "MY 12.0，近7天 -21%；MR DIY 新上架 Dettol 茶+柑橘植物基消毒液。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=dettol",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 2,
+      "interest": 12,
+      "trend": "down",
+      "need": "家里消毒、洗衣除菌，认大牌。"
+    },
+    {
+      "id": "kw-my-disinfectant",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "disinfectant",
+      "summary": "MY 4.5，持平。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=disinfectant",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 3,
+      "interest": 4.5,
+      "trend": "flat",
+      "need": "地板、厕所、衣物除菌。"
+    },
+    {
+      "id": "kw-my-floor-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "floor cleaner",
+      "summary": "MY 3.7，近7天 -30%；关联词 bio home floor cleaner 再次突破（+245,700%）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=floor%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 4,
+      "interest": 3.7,
+      "trend": "down",
+      "need": "拖地要香、要除菌，认识的牌子。"
+    },
+    {
+      "id": "kw-my-dishwashing-liquid",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dishwashing liquid",
+      "summary": "MY 2.9，近7天 +22%，连续第4天上升。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=dishwashing%20liquid",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 5,
+      "interest": 2.9,
+      "trend": "up",
+      "need": "年底聚餐多，洗碗去油刚需。"
+    },
+    {
+      "id": "kw-my-toilet-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "toilet cleaner",
+      "summary": "MY 2.6，持平。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=toilet%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 6,
+      "interest": 2.6,
+      "trend": "flat",
+      "need": "马桶黄渍、异味。"
+    },
+    {
+      "id": "kw-my-foam-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "foam cleaner",
+      "summary": "MY 1.1，近7天 +100%（基数很低，0.29→0.57）。FF 核心词，小幅回升。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=foam%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 7,
+      "interest": 1.1,
+      "trend": "up",
+      "need": "喷上去挂住、不流、省力的泡沫清洁。"
+    },
+    {
+      "id": "kw-my-bathroom-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "bathroom cleaner",
+      "summary": "MY 0.5，+100%（低基数）；关联新词 seaways bathroom cleaner +80%。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=bathroom%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 8,
+      "interest": 0.5,
+      "trend": "up",
+      "need": "浴室水垢、霉点，CNY 前大扫除。"
+    },
+    {
+      "id": "kw-my-bio-home-floor-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "bio home floor cleaner",
+      "summary": "MY floor cleaner 关联上升 +245,700%（突破，连续出现）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=bio%20home%20floor%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 9,
+      "trend": "up",
+      "need": "找天然／植物基、对小孩宠物安全的地板清洁。"
+    },
+    {
+      "id": "kw-my-low-sud-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "low sud detergent",
+      "summary": "MY detergent 关联上升 +180%（昨日 +120%，继续升）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=low%20sud%20detergent",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 10,
+      "trend": "up",
+      "need": "前置滚筒洗衣机要低泡洗衣液。"
+    },
+    {
+      "id": "kw-my-seaways-bathroom-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "seaways bathroom cleaner",
+      "summary": "MY bathroom cleaner 关联上升 +80%（新出现）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&date=today%201-m&q=seaways%20bathroom%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 11,
+      "trend": "up",
+      "need": "本地平价浴室清洁剂品牌被搜。"
+    },
+    {
+      "id": "kw-global-vacplus-toilet-tablets",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "vacplus automatic toilet bowl cleaner tablets",
+      "summary": "US toilet cleaner 关联上升 +7,100%（新词，突破）。",
+      "url": "https://trends.google.com/trends/explore?geo=US&date=today%201-m&q=vacplus%20automatic%20toilet%20bowl%20cleaner%20tablets",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 1,
+      "trend": "up",
+      "need": "丢一片进水箱，马桶自动保持干净。"
+    },
+    {
+      "id": "kw-global-magic-mold-remover-gel",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "magic mold remover gel",
+      "summary": "全球 mold remover 关联上升 +170%；凝胶型除霉词持续占满上升榜（active/clr/nuroclean）。",
+      "url": "https://trends.google.com/trends/explore?date=today%201-m&q=magic%20mold%20remover%20gel",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 2,
+      "trend": "up",
+      "need": "硅胶缝、门封发黑，要挂得住的凝胶。"
+    },
+    {
+      "id": "kw-global-comet-foam-bath-cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "comet foam bath cleaner",
+      "summary": "US foam cleaner 关联上升 +60%、全球 +90%（新词）；同组 zep foam wall cleaner +60%（新）。",
+      "url": "https://trends.google.com/trends/explore?geo=US&date=today%201-m&q=comet%20foam%20bath%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 3,
+      "trend": "up",
+      "need": "浴室／墙面用泡沫喷，挂壁不流。"
+    },
+    {
+      "id": "kw-global-woolite-foam",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "woolite carpet & upholstery foam cleaner",
+      "summary": "US foam cleaner 关联上升 +300%（昨日 +60%）。",
+      "url": "https://trends.google.com/trends/explore?geo=US&date=today%201-m&q=woolite%20carpet%20%26%20upholstery%20foam%20cleaner",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF"
+      ],
+      "region": "global",
+      "rank": 4,
+      "trend": "up",
+      "need": "沙发、地毯局部污渍，泡沫干洗不用水洗。"
+    },
     {
       "id": "kw-my-pencuci lantai",
       "section": "product",
@@ -18,7 +406,7 @@
         "FF"
       ],
       "region": "my",
-      "rank": 1,
+      "rank": 12,
       "interest": 100,
       "trend": "flat",
       "need": "拖地液比价、找香味持久款。"
@@ -38,90 +426,10 @@
         "FF"
       ],
       "region": "my",
-      "rank": 2,
+      "rank": 13,
       "interest": 83,
       "trend": "down",
       "need": "日常洗衣比价、找促销装。"
-    },
-    {
-      "id": "kw-my-dishwashing liquid",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "dishwashing liquid",
-      "summary": "Google Trends MY 近7天 vs 前7天 +24%（相对指数，car wash=100 时为 77）。",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
-      "source": "google_trends",
-      "tags": [
-        "trends",
-        "my",
-        "FF"
-      ],
-      "region": "my",
-      "rank": 3,
-      "interest": 77,
-      "trend": "up",
-      "need": "年底聚餐多，洗碗精囤货（连续多天升）。"
-    },
-    {
-      "id": "kw-my-dettol",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "dettol",
-      "summary": "Google Trends MY 近7天 vs 前7天 -22%（相对指数，car wash=100 时为 75）。",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=dettol&date=today%201-m",
-      "source": "google_trends",
-      "tags": [
-        "trends",
-        "my",
-        "FF"
-      ],
-      "region": "my",
-      "rank": 4,
-      "interest": 75,
-      "trend": "down",
-      "need": "消毒液促销兑换。"
-    },
-    {
-      "id": "kw-my-toilet cleaner",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "toilet cleaner",
-      "summary": "Google Trends MY 近7天 vs 前7天 +0%（相对指数，car wash=100 时为 71）。",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner&date=today%201-m",
-      "source": "google_trends",
-      "tags": [
-        "trends",
-        "my",
-        "FF"
-      ],
-      "region": "my",
-      "rank": 5,
-      "interest": 71,
-      "trend": "flat",
-      "need": "马桶日常清洁、找免刷款。"
-    },
-    {
-      "id": "kw-my-foam cleaner",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "foam cleaner",
-      "summary": "Google Trends MY 近7天 vs 前7天 +85%（相对指数，car wash=100 时为 51）。",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=today%201-m",
-      "source": "google_trends",
-      "tags": [
-        "trends",
-        "my",
-        "FF"
-      ],
-      "region": "my",
-      "rank": 6,
-      "interest": 51,
-      "trend": "up",
-      "need": "找喷了就起泡、免刷的多用途泡沫清洁。"
     },
     {
       "id": "kw-my-washing machine cleaner",
@@ -138,7 +446,7 @@
         "FF"
       ],
       "region": "my",
-      "rank": 7,
+      "rank": 14,
       "interest": 38,
       "trend": "down",
       "need": "洗衣机槽去味去霉。"
@@ -158,30 +466,10 @@
         "FF"
       ],
       "region": "my",
-      "rank": 8,
+      "rank": 15,
       "interest": 32,
       "trend": "up",
       "need": "衣物留香、柔顺，雨季晾不干怕臭。"
-    },
-    {
-      "id": "kw-my-bathroom cleaner",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "bathroom cleaner",
-      "summary": "Google Trends MY 近7天 vs 前7天 +56%（相对指数，car wash=100 时为 26）。",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=bathroom%20cleaner&date=today%201-m",
-      "source": "google_trends",
-      "tags": [
-        "trends",
-        "my",
-        "FF"
-      ],
-      "region": "my",
-      "rank": 9,
-      "interest": 26,
-      "trend": "up",
-      "need": "浴室水垢、霉斑一喷就干净。"
     },
     {
       "id": "kw-my-kitchen cleaner",
@@ -198,7 +486,7 @@
         "FF"
       ],
       "region": "my",
-      "rank": 10,
+      "rank": 16,
       "interest": 26,
       "trend": "down",
       "need": "厨房去油。"
@@ -218,7 +506,7 @@
         "FF"
       ],
       "region": "my",
-      "rank": 11,
+      "rank": 17,
       "interest": 7,
       "trend": "down",
       "need": "Magiclean 泡沫和促销。"
@@ -238,30 +526,10 @@
         "FF"
       ],
       "region": "my",
-      "rank": 12,
+      "rank": 18,
       "interest": 5,
       "trend": "down",
       "need": "雨季墙面、门封去霉斑。"
-    },
-    {
-      "id": "kw-my-low sud detergent",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "low sud detergent",
-      "summary": "前装/滚筒洗衣机用低泡洗衣液，MY detergent 关联搜索 +180%。（Google Trends 关联上升值，非绝对量）",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=low%20sud%20detergent&date=today%201-m",
-      "source": "google_trends_rising",
-      "tags": [
-        "trends",
-        "my",
-        "FF",
-        "rising"
-      ],
-      "region": "my",
-      "rank": 1,
-      "trend": "up",
-      "need": "滚筒机怕泡多，找低泡洗衣液。"
     },
     {
       "id": "kw-my-orita baking soda laundry detergent",
@@ -279,49 +547,9 @@
         "rising"
       ],
       "region": "my",
-      "rank": 2,
+      "rank": 19,
       "trend": "up",
       "need": "小苏打去味去渍、成分温和。"
-    },
-    {
-      "id": "kw-my-bio home floor cleaner",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "bio home floor cleaner",
-      "summary": "MY floor cleaner 关联搜索爆量突破（Breakout），环保植物配方拖地液。（Google Trends 关联上升值，非绝对量）",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=bio%20home%20floor%20cleaner&date=today%201-m",
-      "source": "google_trends_rising",
-      "tags": [
-        "trends",
-        "my",
-        "FF",
-        "rising"
-      ],
-      "region": "my",
-      "rank": 3,
-      "trend": "up",
-      "need": "找天然、对孩子宠物安全的拖地液。"
-    },
-    {
-      "id": "kw-my-seaways bathroom cleaner",
-      "section": "product",
-      "kind": "keyword",
-      "brand": "FF",
-      "title": "seaways bathroom cleaner",
-      "summary": "本地品牌 Seaways 浴室清洁剂 MY 关联搜索 +80%，与 bathroom cleaner +56% 同步。（Google Trends 关联上升值，非绝对量）",
-      "url": "https://trends.google.com/trends/explore?geo=MY&q=seaways%20bathroom%20cleaner&date=today%201-m",
-      "source": "google_trends_rising",
-      "tags": [
-        "trends",
-        "my",
-        "FF",
-        "rising"
-      ],
-      "region": "my",
-      "rank": 4,
-      "trend": "up",
-      "need": "平价本地浴室清洁剂。"
     },
     {
       "id": "kw-global-active mold stain remover gel",
@@ -345,46 +573,62 @@
       "need": "硅胶缝、门封黑霉，挤上去等着就白。"
     },
     {
-      "id": "kw-global-woolite carpet & upholstery foam cleaner",
+      "id": "prod-ff-lg-foot-foam-strawberry",
       "section": "product",
-      "kind": "keyword",
+      "kind": "product",
       "brand": "FF",
-      "title": "woolite carpet & upholstery foam cleaner",
-      "summary": "美区 foam cleaner 关联搜索 +300%，地毯/布沙发泡沫清洁。（Google Trends 关联上升值，非绝对量）",
-      "url": "https://trends.google.com/trends/explore?geo=US&q=woolite%20carpet%20%26%20upholstery%20foam%20cleaner&date=today%201-m",
-      "source": "google_trends_rising",
-      "tags": [
-        "trends",
-        "global",
-        "FF",
-        "rising",
-        "us"
+      "title": "LG「발을씻자」草莓香泡沫洗脚喷雾 510ml（韩）",
+      "summary": "LG生活健康 On The Body「발을씻자」累计卖出3000万瓶，11/20 出冬季限定草莓香：喷枪直接喷泡沫到脚上，微泡比旧款多1.5倍，宣称99.9%去除脚臭菌。韩建议价₩8000多（≈RM24.7+），Naver 3瓶 ₩14,060≈RM43.45。泡沫喷枪+限定香型是长销打法。",
+      "url": "https://www.diarypoint.com/news/articleView.html?idxno=7461",
+      "source": "Yonhap / 다이어리포인트",
+      "platform": "Naver 购物（韩）",
+      "priceMYR": 43.45,
+      "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120053500030_01_i_P4.jpg",
+      "category": [
+        "个人护理",
+        "脚部清洁",
+        "泡沫喷雾"
       ],
-      "region": "global",
-      "rank": 6,
-      "trend": "up",
-      "need": "沙发、地毯局部污渍免水洗。"
+      "idea": "FF 可试做「泡沫喷枪洗脚/洗鞋垫」：一瓶两用（脚+鞋垫），可和 Orthotech 鞋垫交叉卖；本地热带香型（如芒果、椰子）做限定，建议 RM15.90/500ml。合规上走化妆品通报，不写医疗功效。",
+      "need_keys": [
+        "foam cleaner"
+      ],
+      "tags": [
+        "韩国",
+        "泡沫喷雾",
+        "限定香型",
+        "交叉销售"
+      ]
     },
     {
-      "id": "kw-global-vacplus automatic toilet bowl cleaner tablets",
+      "id": "prod-ff-dettol-tea-citrus-1l",
       "section": "product",
-      "kind": "keyword",
+      "kind": "product",
       "brand": "FF",
-      "title": "vacplus automatic toilet bowl cleaner tablets",
-      "summary": "美区 toilet cleaner 关联搜索 +7,100%：自动马桶清洁片（扔进水箱）。（Google Trends 关联上升值，非绝对量）",
-      "url": "https://trends.google.com/trends/explore?geo=US&q=vacplus%20automatic%20toilet%20bowl%20cleaner%20tablets&date=today%201-m",
-      "source": "google_trends_rising",
-      "tags": [
-        "trends",
-        "global",
-        "FF",
-        "rising",
-        "us"
+      "title": "Dettol 茶+柑橘植物基消毒液 1L（MR DIY 新品）",
+      "summary": "MY 同行动态：MR DIY 新品页上架 Dettol 植物基 Tea & Fresh Citrus 消毒液 1L，RM58.90 特价 RM48.90（库存79），宣称杀99.999%细菌、24小时留香、7天抑菌，可用于地板、洗衣、排水口。Reckitt 把「植物基+精油香」推到大众渠道。",
+      "url": "https://mrdiy.com.my/products/dettol-disinfectant-liquid-tea-fresh-citrus-1l",
+      "source": "MR DIY",
+      "platform": "MR DIY 官网",
+      "priceMYR": 48.9,
+      "image": "https://cdn.shopify.com/s/files/1/0667/2885/3680/files/9768378-A.webp?v=1794369498",
+      "category": [
+        "消毒液",
+        "地板/洗衣",
+        "MY同行"
       ],
-      "region": "global",
-      "rank": 7,
-      "trend": "up",
-      "need": "懒人马桶清洁，放一片管几周。"
+      "idea": "FF 不和 Dettol 拼价格：做「植物基+茶香」泡沫消毒喷 500ml RM16.90，主打马上能喷、不用兑水；卖点对标 Dettol 每升 RM48.90。",
+      "need_keys": [
+        "dettol",
+        "disinfectant",
+        "bio home floor cleaner"
+      ],
+      "tags": [
+        "MY同行",
+        "competitor",
+        "植物基",
+        "香型"
+      ]
     },
     {
       "id": "prod-ff-orita-baking-soda-laundry",
@@ -416,13 +660,13 @@
       "section": "product",
       "kind": "note",
       "brand": "FF",
-      "title": "今日观察：MY 泡沫清洁 +85%，洗碗精继续升",
-      "summary": "MY foam cleaner 近7天 +85%、bathroom cleaner +56%、fabric softener +40%、dishwashing liquid +24%（连续升）；洗衣剂和 Dettol 回落。全球除霉凝胶和自动马桶清洁片关联搜索仍在跳。今天没有新的 FF 雷达交接和角度片段。",
-      "url": "",
-      "source": "Google Trends（相对指数）",
+      "title": "趋势观察",
+      "summary": "MY 洗碗液连续4天升、foam/bathroom cleaner 低位翻倍；美国泡沫浴室/墙面词（Comet、Zep）新起量；全球除霉仍是凝胶天下。韩国芬兰品牌 SINI 11/20 带 5 款溶水片剂补充装进韩（价未公布），日本 R-Stage「レスキューPro」4 款污渍专用剂 11/20 众筹开卖（霉粉需现配成凝胶，价未公布）。BIG+ FreshJoy 抹茶凝胶已上 Watsons RM20.90。中国 Google Trends 仍无数据，CN 用蝉妈妈。",
+      "url": "https://siminilbo.co.kr/news/newsview.php?ncode=1160289488563474",
+      "source": "note",
       "tags": [
-        "note",
-        "trend"
+        "trend",
+        "FF"
       ]
     },
     {
