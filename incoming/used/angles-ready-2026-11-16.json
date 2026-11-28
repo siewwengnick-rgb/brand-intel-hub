@@ -1,0 +1,137 @@
+{
+ "date": "2026-11-16",
+ "note": "angles fragment only（仅 YouTube；Apify 月额度用尽至 11/25 08:00 MYT，IG/TikTok 等跳过）",
+ "items": [
+  {
+   "id": "ff-satisfying_asmr",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "FF",
+   "title": "解压清洁：泡沫＋前后对比（无口播）",
+   "summary": "无口播、近景收音的“脏→干净”过程片本周在清洁类明显走强，最能展示泡沫质感。",
+   "url": "https://www.youtube.com/watch?v=W77Bt69Mjks",
+   "source": "YouTube",
+   "tags": [
+    "satisfying_demo",
+    "satisfying_asmr",
+    "ASMR"
+   ],
+   "status": "RISING",
+   "hook": "今天不说话，只让泡沫干活。",
+   "hooks": [
+    "今天不说话，只让泡沫干活。",
+    "最脏的一双鞋，看泡沫把它变回来。",
+    "你能看完这 15 秒不觉得解压吗？"
+   ],
+   "compliance": "真实拍摄、不加速造假、不美颜；不说抗菌/99.9%；不示范混用清洁剂。",
+   "thumb": "https://i.ytimg.com/vi/W77Bt69Mjks/hqdefault.jpg",
+   "why": "YouTube 清洁类内表现百分位 P68→P80，前25%占比 33%→80%（n=5）；参考片 42.8 万播放、日均约 2,079。",
+   "trend_element": "无口播 ASMR·前后对比",
+   "views": 428274,
+   "views_per_day": 2079,
+   "pattern": "开头直接上最脏的近景，不讲话；中段泡沫特写＋刷洗收音；结尾慢动作揭晓干净面。10–25 秒，靠声音和对比留人。",
+   "apply": "FF 可拍：「今天不说话，只让泡沫干活。」——一双马来西亚雨季泥鞋，近景收音，泡沫→刷→擦，最后半边对比定格。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "前25%占比从 33% 升到 80%，ASMR 过程片本周最稳。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "手机贴近收音，零口播，慢动作只留一刻。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "今天不说话，只让泡沫干活。"
+    }
+   ]
+  },
+  {
+   "id": "ff-hacks_routine",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "FF",
+   "title": "“保持干净”比“大扫除”更红：浴室日常维持",
+   "summary": "11/14 新发的“怎么让浴室一直保持干净”两天 4.5 万播放，维持型懒人清洁正在冒头。",
+   "url": "https://www.youtube.com/watch?v=OKIX1ebWhgE",
+   "source": "YouTube",
+   "tags": [
+    "tutorial",
+    "hacks_routine",
+    "bathroom"
+   ],
+   "status": "NEW",
+   "hook": "不想周末大扫除？每天 2 分钟就够。",
+   "hooks": [
+    "不想周末大扫除？每天 2 分钟就够。",
+    "洗完澡顺手做这一步，浴室一周不用刷。",
+    "每天 10 分钟，让家保持干净的 3 个习惯。"
+   ],
+   "compliance": "只用安全常见做法；绝不混用清洁剂；不说抗菌/除霉 100%。",
+   "thumb": "https://i.ytimg.com/vi/OKIX1ebWhgE/hqdefault.jpg",
+   "why": "11/14 发布，2 天约 4.5 万播放、日均约 2.25 万，本周 FF 样本 views/day 第一（P99）；角度样本 n=3，偏早期信号。",
+   "trend_element": "维持型 routine·步骤清单",
+   "views": 45052,
+   "views_per_day": 22526,
+   "pattern": "提问式开头戳“懒得大扫除”，接 1-2-3 步骤字幕，每步一个顺手动作；卖点是省时间而不是洗得多干净。30–45 秒。",
+   "apply": "FF 可拍：「洗完澡顺手做这一步，浴室一周不用刷。」——洗澡后喷泡沫、刷 30 秒、冲水，字幕倒计时 1-2-3。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "新片 2 天 4.5 万播放，日均第一，‘维持’主题刚起量。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "步骤字幕 1-2-3，每步一个顺手动作，突出省时。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "不想周末大扫除？每天 2 分钟就够。"
+    }
+   ]
+  },
+  {
+   "id": "ot-product_review_comparison",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "OT",
+   "title": "“网上爆款鞋垫，值得信吗？”真实测评",
+   "summary": "“试了网上最火/最软的鞋垫”这类测评本周上升，观众怕买错，测评结构可借来讲支撑与舒适差别。",
+   "url": "https://www.youtube.com/watch?v=sLV05z5Fx_c",
+   "source": "YouTube",
+   "tags": [
+    "review",
+    "product_review_comparison"
+   ],
+   "status": "RISING",
+   "hook": "最软的鞋垫，就是最舒服的吗？",
+   "hooks": [
+    "最软的鞋垫，就是最舒服的吗？",
+    "RM 几十和几百的鞋垫，差在哪里？",
+    "现成鞋垫 vs 定制鞋垫，穿一周对比。"
+   ],
+   "compliance": "只谈支撑/舒适/更稳；不点名贬低竞品；结论写个人感受；禁止治疗/矫正/医疗承诺。",
+   "thumb": "https://i.ytimg.com/vi/sLV05z5Fx_c/hqdefault.jpg",
+   "why": "YouTube 内表现百分位 P43→P54，前25%占比 8%→29%（n=14）；新上榜参考片 6.6 万播放、日均约 247。",
+   "trend_element": "质疑式测评·软 vs 稳",
+   "views": 66129,
+   "views_per_day": 247,
+   "pattern": "标题用质疑（值得信吗/我试了最软的）开头，开箱→上脚→按压/弯折测试→3 个优缺点。20–40 秒，悬念在结论。",
+   "apply": "OT 可拍：「最软的鞋垫，就是最舒服的吗？」——同一双鞋换两种鞋垫，按压回弹＋站一天前后感受，只说支撑与舒适感。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "前25%占比 8%→29%，‘爆款值不值’测评回温。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "同鞋换垫对比，按压、弯折、久站感受三段。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "最软的鞋垫，就是最舒服的吗？"
+    }
+   ]
+  }
+ ]
+}

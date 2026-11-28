@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-24",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-24 09:50:00 +0800",
+ "items": [
+  {
+   "id": "kw-cn-小苏打清洁粉",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "小苏打清洁粉",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/23)#3：蜡象小苏打粉，38条素材，¥1w–2.5w / 500–1000件，当天清洁剂里成交最好。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-23.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 1,
+   "trend": "up",
+   "need": "一包粉搞定去油、去黄、刷鞋，便宜又觉得安全。"
+  },
+  {
+   "id": "kw-cn-除螨除菌喷雾",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "除螨除菌喷雾",
+   "summary": "投放日榜(11/23)#2：沫檬 4瓶装，133条素材（当天素材第2多），¥5000–1w。11/18、11/20 已上榜，持续加投。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-23.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 2,
+   "trend": "up",
+   "need": "床垫、沙发、宠物窝不能水洗，喷一喷去螨留香。"
+  },
+  {
+   "id": "kw-cn-香氛除味净化剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "香氛除味净化剂",
+   "summary": "投放日榜(11/23)#7：网易严选除烟味异味净化剂，78条素材，¥1w–2.5w / 500–1000件，主打母婴可用。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-23.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 3,
+   "trend": "up",
+   "need": "家里烟味、宠物味、密闭房间异味，要温和又持久的除味。"
+  },
+  {
+   "id": "kw-cn-集成灶吸油棉",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "集成灶吸油棉",
+   "summary": "投放日榜(11/23)#4：集成灶专用加厚吸油棉，45条素材，¥2500–5000 / 250–500件。年底厨房防油耗材。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-23.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 4,
+   "trend": "up",
+   "need": "不想年底大扫除刷油烟机，先用耗材挡油。"
+  },
+  {
+   "id": "kw-cn-花香防霉香包",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "花香防霉香包",
+   "summary": "投放日榜(11/23)#18：网易严选樟脑丸花香衣柜防霉香包，47条素材，¥2500–5000。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-23.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 5,
+   "trend": "up",
+   "need": "衣柜潮、发霉、有樟脑味，要防霉又香。"
+  },
+  {
+   "id": "kw-my-detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "detergent",
+   "summary": "Google Trends MY 近7天均值，相对指数 27.7（car wash=100，非人数），较前7天 -9%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 1,
+   "trend": "down",
+   "need": "洗衣液仍是马来西亚清洁搜索最大类。",
+   "interest": 28
+  },
+  {
+   "id": "kw-my-dettol",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dettol",
+   "summary": "相对指数 12.2，-15%；关联词「dettol disinfectant spray」+40%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=dettol&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 2,
+   "trend": "down",
+   "need": "消毒品牌词，喷雾形态在升。",
+   "interest": 12
+  },
+  {
+   "id": "kw-my-orita baking soda laundry detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "orita baking soda laundry detergent",
+   "summary": "MY 上升关联词 +177,500%（突破），连续多天上榜（11/19 起）。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=orita%20baking%20soda%20laundry%20detergent&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 3,
+   "trend": "up",
+   "need": "小苏打洗衣液：要去味、温和、性价比。"
+  },
+  {
+   "id": "kw-my-mold remover spray",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "mold remover spray",
+   "summary": "MY 上升关联词 +40%；但 mold remover 主词近周 -28%，量小。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=mold%20remover%20spray&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 4,
+   "trend": "up",
+   "need": "雨季浴室发霉，要喷了就走的除霉。"
+  },
+  {
+   "id": "kw-my-toilet cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "toilet cleaner",
+   "summary": "相对指数 2.9，-8%；dishwashing liquid 连升6天后今日 -25%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 5,
+   "trend": "flat",
+   "need": "马桶清洁稳定刚需。",
+   "interest": 3
+  },
+  {
+   "id": "kw-global-fizz clean toilet cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "fizz clean toilet cleaner",
+   "summary": "US toilet cleaner 上升关联词 +130%（新出现）。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=fizz%20clean%20toilet%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 1,
+   "trend": "up",
+   "need": "丢一颗冒泡的马桶清洁，不用刷。"
+  },
+  {
+   "id": "kw-global-sugelary mold remover gel",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "sugelary mold remover gel",
+   "summary": "US mold remover 上升关联词 +90%（新出现）；active mold stain remover gel +80%。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=sugelary%20mold%20remover%20gel&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 2,
+   "trend": "up",
+   "need": "硅胶缝发黑，涂一条凝胶等着就白。"
+  },
+  {
+   "id": "kw-global-non toxic mold remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "non toxic mold remover",
+   "summary": "全球 +180%、US +60%，除霉关联词持续第二个月。",
+   "url": "https://trends.google.com/trends/explore?geo=&q=non%20toxic%20mold%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 3,
+   "trend": "up",
+   "need": "家里有小孩宠物，要不刺鼻的除霉。"
+  },
+  {
+   "id": "kw-global-active mold stain remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "active mold stain remover",
+   "summary": "US +160%，连续多日上升。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=active%20mold%20stain%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 4,
+   "trend": "up",
+   "need": "去霉斑的强效凝胶爆品。"
+  },
+  {
+   "id": "prod-ff-fabulosa-cosy-winter-angel",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "Fabulosa Cosy 冬季限定香多用途抗菌喷 750ml（英）",
+   "summary": "英国平价品牌把冬季/圣诞香（Winter Angel、Iced Gingerbread 等4款）做成清洁喷雾+布艺室内香氛，折扣店约£1，官网£1.89≈RM10.18（GBP1=RM5.3887）；11月英媒集中测评「清洁顺便让家有圣诞味」。",
+   "url": "https://myfabulosa.co.uk/products/fabulosa-multi-purpose-antibacterial-disinfectant-spray-winter-angel-750ml",
+   "source": "Fabulosa",
+   "platform": "Brand site (UK)",
+   "priceMYR": 10.18,
+   "image": "https://cdn.shopify.com/s/files/1/0614/8076/3585/files/Fabulosa_Multi-Purpose_Antibacterial_Disinfectant_Spray_Winter_Angel_750ml.jpg?v=1791900533",
+   "category": "多用途清洁",
+   "idea": "FF CNY 限定香泡沫清洁（柑橘年味香/新年花香）500ml RM12.90，大扫除季上架；卖点「打扫完家里就有过年味」",
+   "need_keys": [
+    "seasonal scent",
+    "CNY cleaning",
+    "multi purpose"
+   ],
+   "tags": [
+    "scent",
+    "seasonal",
+    "Christmas",
+    "UK",
+    "limited"
+   ]
+  },
+  {
+   "id": "prod-ff-doiila-limpio-290",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "DoiiLA Limpio 马桶酒精清洁喷 290ml（日）",
+   "summary": "原本是 50mL 随身便座清洁喷，顾客要求家用装后推 290mL（约5.8倍）：中性乙醇+消臭，喷便座或喷空间除味，无香/有香两款；¥2,000≈RM51.83（JPY1=RM0.025915），11/17 发稿。随身装→家用装的延伸思路。",
+   "url": "https://prtimes.jp/main/html/rd/p/000000019.000163444.html",
+   "source": "PR TIMES",
+   "platform": "Rakuten (Japan)",
+   "priceMYR": 51.83,
+   "image": "https://prcdn.freetls.fastly.net/release_image/163444/19/163444-19-8119a7ef3001d60282e108bf65888ec8-1980x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "马桶/便座",
+   "idea": "FF 便座清洁喷 30–50ml 随身装 RM6.90 + 300ml 家用装 RM14.90；卖点「公厕坐之前喷一喷」，适合 Shopee 加购小件；含乙醇，清真/合规先确认",
+   "need_keys": [
+    "toilet seat sanitizer",
+    "portable",
+    "odor"
+   ],
+   "tags": [
+    "toilet",
+    "alcohol",
+    "portable",
+    "Japan"
+   ]
+  },
+  {
+   "id": "note-ff-2026-11-24",
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "title": "今日观察：香型与随身装",
+   "summary": "Lysol 宣布 2027 初推 Fabric Sanitizer（4 种香，杀 99.9% 致臭菌，对标 Febreze）；中国抖音除螨喷雾、除味净化剂持续加投——「织物除味+留香」是明年大牌方向。MY 同行今日无新品；Watsons Deepavali 买一送一至 11/25。",
+   "url": "https://www.happi.com/exclusives/reckitt-to-expand-lysol-into-fabric-sanitizer-category/",
+   "source": "Happi",
+   "tags": [
+    "note",
+    "fabric",
+    "scent",
+    "MY"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "date": "2026-11-16",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-16 09:40:00 +0800",
+ "items": [
+  {
+   "id": "kw-cn-香氛浴室清洁剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "香氛浴室清洁剂",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/15)第4：沫檬【刘涛同款】香氛浴室清洁剂，81条素材，销售额¥5000–1w、销量250–500，当天清洁类成交最高。非Google数据（CN Google Trends 仍空）。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 1,
+   "trend": "up",
+   "need": "刷浴室要去水垢、黄渍、霉味，同时要留香，不要漂白水味。"
+  },
+  {
+   "id": "kw-cn-内衣洗衣液",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "内衣洗衣液",
+   "summary": "日榜(11/15)第6：好爸爸内衣洗衣液（去渍除菌除螨，KOC 投放），73条素材，¥5000–1w、250–500件。11/7、11/12 已上过榜，今天回到前列。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 2,
+   "trend": "up",
+   "need": "内衣内裤要单独洗、去血渍、除菌，温和不伤手。"
+  },
+  {
+   "id": "kw-cn-静电除尘纸",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "静电除尘纸",
+   "summary": "日榜(11/15)第8：有乐家居一次性静电除尘纸（加厚免洗），44条素材，¥2500–5000、250–500件。首次上榜，属于大扫除工具类。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 3,
+   "trend": "up",
+   "need": "不想洗拖把，地板灰尘、头发一擦就丢。"
+  },
+  {
+   "id": "kw-cn-香氛洁厕剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "香氛洁厕剂",
+   "summary": "日榜(11/15)第20：沫檬玫瑰香氛洁厕剂106条素材（连续多日加投），¥2500–5000，比 11/14 的¥1000–2500 略好。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 4,
+   "trend": "flat",
+   "need": "刷完马桶要香，不要刺鼻漂白水味。",
+   "prev_rank": 3
+  },
+  {
+   "id": "kw-cn-管道疏通粉",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "管道疏通粉",
+   "summary": "日榜(11/15)第5：康思嘉管道疏通粉（分解油污、地漏除臭去飞虫），58条素材，成交¥250–500，素材多、成交小。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 5,
+   "trend": "flat",
+   "need": "厨房下水道油堵、地漏臭、有小飞虫。"
+  },
+  {
+   "id": "kw-my-detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "detergent",
+   "summary": "MY Google Trends 近7天：以 car wash=100 换算 28.5，比前7天-4%，仍是 MY 清洁词最高。相对指数非绝对人数。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=detergent",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 1,
+   "trend": "flat",
+   "need": "日常洗衣液比价、补货。",
+   "interest": 28,
+   "prev_rank": 1
+  },
+  {
+   "id": "kw-my-magic clean floor cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "magic clean floor cleaner",
+   "summary": "MY「floor cleaner」关联上升词：+221,200%（突破性起量）。Magiclean 地板清洁系列被搜索放大；量基数很小。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=magic%20clean%20floor%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 2,
+   "trend": "up",
+   "need": "找好用的品牌拖地液，CNY 前地板大扫除。"
+  },
+  {
+   "id": "kw-my-fabuloso floor cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "fabuloso floor cleaner",
+   "summary": "MY「floor cleaner」关联上升词：+394,600%（连续第二天突破）。美国香型拖地液在 MY 被搜，香味型拖地液有需求。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=fabuloso%20floor%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 3,
+   "trend": "up",
+   "need": "拖完地整屋要香很久。"
+  },
+  {
+   "id": "kw-my-dozee detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dozee detergent",
+   "summary": "MY「detergent」关联上升词：+350%（11/15 为 +200%，继续升）。本地清真洗衣液 Do'zee 被搜索放大。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=dozee%20detergent",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 4,
+   "trend": "up",
+   "need": "找本地清真、香味持久的洗衣液。"
+  },
+  {
+   "id": "kw-my-dishwashing liquid",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dishwashing liquid",
+   "summary": "MY 近7天 2.2（car wash=100），比前7天+25%；量小，涨跌可能是噪声。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=dishwashing%20liquid",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 5,
+   "trend": "up",
+   "need": "洗碗液补货、比价。",
+   "interest": 2
+  },
+  {
+   "id": "kw-my-toilet cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "toilet cleaner",
+   "summary": "MY 近7天 2.8（car wash=100），+8%；关联上升「clorox toilet bowl cleaner」+110%。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=toilet%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 6,
+   "trend": "up",
+   "need": "马桶黄渍、尿垢，想要方便的洁厕产品。",
+   "interest": 3
+  },
+  {
+   "id": "kw-my-foam cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "foam cleaner",
+   "summary": "MY 近7天 0.9（car wash=100），比前7天+100%，但基数极小，只作观察。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=foam%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 7,
+   "trend": "up",
+   "need": "找喷了不用刷的泡沫清洁剂。",
+   "interest": 1
+  },
+  {
+   "id": "kw-global-hg mold remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "hg mold remover",
+   "summary": "全球「mold remover」关联上升词 +46,550%（美国 +43,500%），连续多日突破。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=&q=hg%20mold%20remover",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 1,
+   "trend": "up",
+   "need": "墙面、硅胶缝发霉，想要喷了就白的除霉剂。"
+  },
+  {
+   "id": "kw-global-glass guard mold remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "glass guard mold remover",
+   "summary": "全球「mold remover」关联上升词 +16,200%（美国 +300%）。除霉仍是全球最热清洁需求之一。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=&q=glass%20guard%20mold%20remover",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 2,
+   "trend": "up",
+   "need": "浴室玻璃、门封发霉去不掉。"
+  },
+  {
+   "id": "kw-global-mop soap",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "mop soap",
+   "summary": "美国近7天 5.3（laundry detergent=100），+19%；TikTok Shop 酵素拖地液 BOTARE 累计卖 74,324 件（HashIQ 11/7）。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=mop%20soap",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 3,
+   "trend": "up",
+   "need": "拖地不留痕、香味持久、宠物小孩安全。",
+   "interest": 5
+  },
+  {
+   "id": "kw-global-tuff stuff foam cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "tuff stuff foam cleaner",
+   "summary": "美国「foam cleaner」关联上升：tuff stuff multi purpose foam cleaner +180%，lysol bathroom foam cleaner +50%。泡沫多用途清洁剂持续被搜。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=tuff%20stuff%20foam%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 4,
+   "trend": "up",
+   "need": "沙发、车内、地毯一喷一擦的多用途泡沫。"
+  },
+  {
+   "id": "prod-ff-momeng-fragrance-bathroom-cleaner",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "沫檬香氛浴室清洁剂 480g（刘涛代言）",
+   "summary": "抖音日用百货投放日榜11/15第4、当天清洁类成交最高（¥5000–1w，81条素材）；京东线报 480g×2 ¥19.9≈RM12.11（≈RM6.05/瓶）。卖点：去水垢皂垢、黄渍、霉味，除菌99.9%，香氛。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-15.html",
+   "source": "chanmama_douyin",
+   "platform": "Douyin",
+   "priceMYR": 12.11,
+   "image": "https://img14.360buyimg.com/pop/jfs/t1/547385/2/1194/366456/6ace0033Ff6016571/00835a05a052c337.jpg",
+   "category": [
+    "浴室",
+    "香氛",
+    "除垢"
+   ],
+   "idea": "FF 浴室泡沫可加「香氛款」：保留泡沫挂壁去皂垢，加一个持久香型（避开 Magiclean Light Floral 的花香），500ml 定价 RM13.90–14.90；中国同类 2 瓶 RM12 说明成本空间大。汇率 1 CNY≈RM0.6085（11/16）。",
+   "need_keys": [
+    "香氛浴室清洁剂",
+    "香氛洁厕剂"
+   ],
+   "tags": [
+    "bathroom",
+    "fragrance",
+    "douyin",
+    "明星代言"
+   ]
+  },
+  {
+   "id": "prod-ff-cloudmades-soda-can-toilet",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "CloudMades 汽水罐造型马桶自动清洁瓶",
+   "summary": "TikTok Shop 美国：累计卖 20,190 件、每天约 18 件，带货视频 1.6M 播放（HashIQ 11/9）。外观像汽水罐，撕开放进水箱，每次冲水释放清洁剂+香味+蓝水；官网单罐 US$16.99≈RM69.45，3罐 US$29.99≈RM122.59。",
+   "url": "https://www.cloudmadescleaner.com/products/beverage-can-toilet-bowl-cleaner-septic-toilet-bowl-tablets-in-bottles-automatic-long-lasting-toilet-cleaner-bottle-powerfully-cleans-and-prevent-stain-build-up-ocean-jasmine-and-peach-scent",
+   "source": "TikTok Shop",
+   "platform": "TikTok",
+   "priceMYR": 122.59,
+   "image": "https://cdn.shopify.com/s/files/1/0937/3371/6252/files/1.jpg?v=1757735679",
+   "category": [
+    "马桶",
+    "水箱自动清洁",
+    "包装创意"
+   ],
+   "idea": "爆点是包装（「老公以为是饮料」钩子），不是配方。FF 可做本地化「汽水罐」水箱清洁瓶（Sirap/Lychee/Ocean 三色），单罐 RM12.90、3罐 RM29.90；包装要醒目标「非饮料、勿入口」，防儿童误食。汇率 1 USD≈RM4.088（11/16）。官网/Amazon 标约 90 天，TikTok 标题写 9 个月，口径不一。",
+   "need_keys": [
+    "toilet cleaner",
+    "香氛洁厕剂"
+   ],
+   "tags": [
+    "toilet",
+    "packaging",
+    "tiktok",
+    "novelty"
+   ]
+  },
+  {
+   "id": "note-ff-2026-11-16",
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "title": "趋势观察 11/16",
+   "summary": "CN：卫生间「香氛化」继续（沫檬浴室+洁厕同日上榜）；昨天#1 羊毛缩水蓬松剂今天跌出前20。MY：地板清洁（Magiclean / Fabuloso）搜索突破，Do'zee 继续升；同行无新品公告，Shopee 小品牌 LOGESKI 浴室泡沫清洁剂在做联盟推广（未见价格）。US/全球：除霉词（HG、Glass Guard）仍是最大起量。相对指数非绝对人数。",
+   "url": "",
+   "source": "Foamfresh 雷达",
+   "tags": [
+    "note"
+   ]
+  }
+ ]
+}

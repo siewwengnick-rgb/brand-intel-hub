@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-14",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-14 09:20:00 +0800",
+ "items": [
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-去渍笔",
+   "title": "去渍笔",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/13)第5，非Google数据（CN Google Trends 仍空）。芝芝象便携去渍笔12ml，49条广告素材，但当日销售额/销量显示0——投放在起、成交未起，先当新形态信号，不当爆款。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-13.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 1,
+   "interest": null,
+   "trend": "up",
+   "need": "吃饭溅到油、咖啡，出门在外想马上擦掉，不用整件洗"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-香氛洁厕剂",
+   "title": "香氛洁厕剂",
+   "summary": "蝉妈妈日榜(11/13)第7：沫檬玫瑰香氛洁厕剂131条素材，当天清洁类素材最多；10/29已报过，今日只作11.11后继续加投的验证。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-13.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 2,
+   "interest": null,
+   "trend": "flat",
+   "need": "马桶刷完还想有香味，不要刺鼻漂白水味"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-浴室除垢清洁剂",
+   "title": "浴室除垢清洁剂",
+   "summary": "蝉妈妈日榜(11/13)第20：水卫士浴室清洁剂（玻璃/水龙头/瓷砖水垢，王一博同款），销售额¥1w–2.5w、销量500–1000，是今天清洁类成交最实的一条。电商常见价 480g×3瓶 ¥17.9≈RM10.89（约RM3.6/瓶），中国低价锚点。汇率 CNY1=RM0.6085、JPY1=RM0.02557、TWD1=RM0.1242、USD1=RM4.086（open.er-api.com 2026-11-14 00:02 UTC，非BNM）。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-13.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 3,
+   "interest": null,
+   "trend": "up",
+   "need": "花洒、玻璃门白色水垢刷不掉"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-锅底黑除垢啫喱",
+   "title": "锅底黑除垢啫喱",
+   "summary": "蝉妈妈日榜(11/13)第18：沫檬锅底黑除垢啫喱55条素材，销售额¥1000–2500。10/26已报过锅底黑主线，今日是CNY前厨房深洁续投信号。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-13.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 4,
+   "interest": null,
+   "trend": "flat",
+   "need": "锅底烧焦发黑，过年前想刷回亮"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-washing_machine_cleaner",
+   "title": "washing machine cleaner",
+   "summary": "马来西亚 Google Trends 近7天（以 car wash=100 换算）16.2，比前7天+32%，自身连续第4天升；同组 detergent 27.5(+6%)，其余 laundry detergent/dishwashing/floor/bathroom 多数回落。相对指数非绝对人数。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=washing%20machine%20cleaner",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 1,
+   "interest": 16,
+   "trend": "up",
+   "need": "洗衣机有霉味、衣服洗完有黑渣"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-mold_remover",
+   "title": "mold remover",
+   "summary": "MY 近7天 6.8（car wash=100），比前7天+50%，量小但在升；与美国 mold remover 同向。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=mold%20remover",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 2,
+   "interest": 7,
+   "trend": "up",
+   "need": "雨季浴室胶边、墙角发霉"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-low_sud_detergent",
+   "title": "low sud detergent",
+   "summary": "MY detergent 相关上升词：low sud detergent +150%、low suds detergent +70%，同时 dishwasher detergent +130%。滚筒洗衣机/洗碗机用户在找低泡洗剂——新出现的需求词，量未知（相关词只给涨幅）。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=low%20sud%20detergent",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 3,
+   "interest": null,
+   "trend": "up",
+   "need": "滚筒洗衣机要低泡洗衣液，泡太多会出问题"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-ajax_floor_cleaner",
+   "title": "ajax floor cleaner",
+   "summary": "MY floor cleaner 相关上升词：ajax floor cleaner +539,750%、magic clean floor cleaner +196,700%（突破性起量，前值可能接近0），bio home floor cleaner +180%。ajax 11/5 已报过，今日是再次突破；可能是促销/上架带动，非品类大盘。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=ajax%20floor%20cleaner",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 4,
+   "interest": null,
+   "trend": "up",
+   "need": "找大牌平价地板清洁液"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "us",
+    "FF"
+   ],
+   "id": "kw-us-glass_guard_mold_remover",
+   "title": "glass guard mold remover",
+   "summary": "美国 mold remover 相关上升 +24,500%（突破性），全球 +450%；美国 mold remover 主词以 laundry detergent=100 换算 92.7（+5%）。hg mold remover 美国+300%/全球+400%，wall mold remover spray +300%，no scrub mold remover +40%——免刷/墙面除霉是持续热点。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=glass%20guard%20mold%20remover",
+   "source": "google_trends",
+   "region": "us",
+   "rank": 1,
+   "interest": 93,
+   "trend": "up",
+   "need": "墙面、胶边发霉，想喷完不刷"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "us",
+    "FF"
+   ],
+   "id": "kw-us-shoe_foam_cleaner",
+   "title": "shoe foam cleaner",
+   "summary": "美国 foam cleaner 相关上升 +70%（foam cleaner 主词 64.6，-10%）。鞋子泡沫清洁是 foam cleaner 里今天唯一的上升长尾词，与FF泡沫路线对口。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=shoe%20foam%20cleaner",
+   "source": "google_trends",
+   "region": "us",
+   "rank": 2,
+   "interest": null,
+   "trend": "up",
+   "need": "白鞋脏了不想整双洗"
+  },
+  {
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "id": "prod-ff-cn-zhizhixiang-stain-pen",
+   "title": "芝芝象双头便携去渍笔 12ml（中）",
+   "summary": "抖音日用百货投放日榜(11/13)第5、49条素材。口红大小，一头滚珠出液、一头刷头揉，宣称维C+植萃酵素、无漂白，针对火锅油、咖啡、口红渍，多巴胺四色+挂绳当包挂。台湾经销单支NT$199≈RM24.71，淘宝同款页显示¥21.9≈RM13.33起（规格含4支组合，单价以页面为准）。当日抖音成交仍显示0，只是起投信号。汇率 CNY1=RM0.6085、JPY1=RM0.02557、TWD1=RM0.1242、USD1=RM4.086（open.er-api.com 2026-11-14 00:02 UTC，非BNM）。",
+   "url": "https://www.googoo.tw/zh-TW/products/instant-stain-remover",
+   "platform": "抖音/淘宝/台湾电商",
+   "source": "chanmama_douyin",
+   "image": "https://cdn.cybassets.com/media/W1siZiIsIjI3MTMyL3Byb2R1Y3RzLzY2OTcyOTczLzE3NzY0MTg5NDNfNWIxMmNmYTljYzYxMzdiNjhlMmYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=9b360b2b931b058e",
+   "priceMYR": 24.71,
+   "category": "衣物去渍",
+   "idea": "FF 迷你去渍笔 12ml，RM9.90 单支 / RM29.90 四色装；做洗衣液、衣物泡沫的加购和 12.12/CNY 袜子礼包。1688 找『去渍笔/应急去污笔 OEM』笔管灌装厂；估算成本约 RM2–3/支（按淘宝零售推，未核实，需采购负责人询价）。卖点：mamak 吃饭溅到咖喱也能马上擦。",
+   "need_keys": [
+    "衣物去渍",
+    "便携",
+    "应急"
+   ],
+   "tags": [
+    "FF",
+    "去渍",
+    "便携",
+    "抖音",
+    "新形态"
+   ]
+  },
+  {
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "id": "prod-ff-jp-eezym-enzyme-dish-foam",
+   "title": "eezym 酵素食器用泡沫喷雾 500ml（比利时/日）",
+   "summary": "比利时 Realco 的酵素清洁品牌 eezym 11/11 宣布在日本全国铺货（Loft 等），主打『ホームデトックス』：酵素分解蛋/奶/米饭面条残留，泡沫喷雾能喷到水壶盖、便当盒胶圈等海绵够不到的地方，中性、天然来源成分标示97–99%。官方价¥1,650≈RM42.19/500ml。这个SKU 2025-10 已上市，新闻点在全国铺开和『酵素+泡沫喷雾』形态，不算全新品。汇率 CNY1=RM0.6085、JPY1=RM0.02557、TWD1=RM0.1242、USD1=RM4.086（open.er-api.com 2026-11-14 00:02 UTC，非BNM）。",
+   "url": "https://www.ecomfort.jp/category/EEZYM/EZ030001.html",
+   "platform": "日本官网/Loft",
+   "source": "prenew.jp",
+   "image": "https://www.ecomfort.jp/client_info/ECOMFORTHOUSE/itemimage/EZ030001/EZ030001_4589740415085_01.jpg",
+   "priceMYR": 42.19,
+   "category": "厨房/餐具",
+   "idea": "FF 酵素奶瓶/水壶胶圈泡沫喷雾 500ml RM15.90：对准妈妈群和带水壶上学的家庭，卖点『喷在胶圈缝里，蛋白奶垢自己分解』。1688 找含蛋白酶/淀粉酶的中性泡沫洗洁精代工厂，需确认酵素稳定性与清真。",
+   "need_keys": [
+    "奶垢",
+    "水壶胶圈",
+    "酵素"
+   ],
+   "tags": [
+    "FF",
+    "酵素",
+    "泡沫喷雾",
+    "餐具",
+    "日本"
+   ]
+  },
+  {
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "id": "note-ff-trends-obs-2026-11-14",
+   "title": "热度观察",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=washing%20machine%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "note",
+    "trends",
+    "FF"
+   ],
+   "summary": "MY 大盘多数回落（11.11 后），只有 washing machine cleaner(+32%)、mold remover(+50%)、kitchen cleaner(+33%，量很小) 在升；新需求词是 low sud detergent/dishwasher detergent。CN 抖音日榜清洁类以已报品类续投为主，新形态只有去渍笔。美国除霉长尾继续突破。相对指数非绝对人数。"
+  },
+  {
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "id": "note-ff-kr-kekomi-drain-2026-11-14",
+   "title": "韩国 KEKOMI 碳酸泡排水口清洁剂+防臭地漏",
+   "url": "https://www.seoul.co.kr/news/economy/2026/11/13/20261113500097",
+   "source": "서울신문",
+   "tags": [
+    "note",
+    "排水口",
+    "泡沫",
+    "韩国"
+   ],
+   "summary": "韩国 CARE1 旗下 KEKOMI 11/13 出两款：碳酸泡沫+氧系排水口清洁剂，和自动开合防虫防臭地漏，走 Kakao 礼物/29CM 设计感渠道；价格未公开，所以不开产品卡。和 11/13 日本 WOWASH 泡沫喷射同一方向：排水口清洁在往『泡沫+设计感+配套硬件』走，FF 可考虑泡沫管道清洁+地漏防臭塞套装。"
+  }
+ ]
+}

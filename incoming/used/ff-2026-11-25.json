@@ -1,0 +1,375 @@
+{
+ "date": "2026-11-25",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-25 09:55:00 +0800",
+ "items": [
+  {
+   "id": "kw-cn-实木柄锅刷",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "实木柄锅刷",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/24)#12：宜珞实木柄锅刷，207条素材（当天全榜最多），¥2500–5000 / 500–1000件。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-24.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 1,
+   "trend": "up",
+   "need": "年底刷锅去油，要长柄不烫手、不伤锅。"
+  },
+  {
+   "id": "kw-cn-喷水硅胶刮玻璃器",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "喷水硅胶刮玻璃器",
+   "summary": "投放日榜(11/24)#5：一体式喷水硅胶刮玻璃器（喷雾+刮条），50条素材，¥1000–2500。11/22–23 硅胶刮水器连续上榜。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-24.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 2,
+   "trend": "up",
+   "need": "擦窗/淋浴玻璃一步到位，不留水痕。"
+  },
+  {
+   "id": "kw-cn-免手洗平板拖把",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "免手洗平板拖把",
+   "summary": "投放日榜(11/24)#6：免手洗干湿两用平板拖把，34条素材，¥5000–1w。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-24.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 3,
+   "trend": "up",
+   "need": "拖地不想用手拧布，大扫除省力。"
+  },
+  {
+   "id": "kw-cn-衣物除菌消毒液",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "衣物除菌消毒液",
+   "summary": "投放日榜(11/24)#13：水卫士多用途消毒液（衣物混洗、全屋除菌除螨留香），52条素材，¥5000–1w；同日立白内衣除菌洗衣液#15。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-24.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 4,
+   "trend": "up",
+   "need": "洗衣顺便除菌除螨，还要留香。"
+  },
+  {
+   "id": "kw-cn-羽绒服免水洗清洁剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "羽绒服免水洗清洁剂",
+   "summary": "投放日榜(11/24)#14：康思嘉羽绒服免水洗去污清洁剂，41条素材（当日销售额0，刚开始投）。冬季季节品。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-24.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 5,
+   "trend": "up",
+   "need": "羽绒服局部油渍，不想整件送洗。"
+  },
+  {
+   "id": "kw-my-detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "detergent",
+   "summary": "Google Trends MY 近7天均值，相对指数 29.8（car wash=100，非人数），较前7天 -4%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 1,
+   "trend": "flat",
+   "need": "洗衣液仍是马来西亚清洁搜索最大类。",
+   "interest": 30
+  },
+  {
+   "id": "kw-my-dettol",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dettol",
+   "summary": "相对指数 12.9，-11%；关联上升「dettol spray disinfectant」+50%、「disinfectant spray」+50%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=dettol&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 2,
+   "trend": "down",
+   "need": "消毒品牌词，喷雾形态持续上升。",
+   "interest": 13
+  },
+  {
+   "id": "kw-my-orita baking soda laundry detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "orita baking soda laundry detergent",
+   "summary": "MY 上升关联词 +26,500%（突破），11/19 起连续上榜。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=orita%20baking%20soda%20laundry%20detergent&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 3,
+   "trend": "up",
+   "need": "小苏打洗衣液：去味、温和、性价比。"
+  },
+  {
+   "id": "kw-my-magiclean floor cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "magiclean floor cleaner",
+   "summary": "MY floor cleaner 上升关联词 +200%；但 magiclean 品牌词本周 -43%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean%20floor%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 4,
+   "trend": "up",
+   "need": "地板清洁找大牌，香味+杀菌。"
+  },
+  {
+   "id": "kw-my-mold remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "mold remover",
+   "summary": "相对指数 1.4（量小），+20%，今天少数上升的主词；关联「mold remover spray」+80%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=mold%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 5,
+   "trend": "up",
+   "need": "雨季浴室发霉，要喷了就走。",
+   "interest": 1
+  },
+  {
+   "id": "kw-global-tuff stuff multi purpose foam cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "tuff stuff multi purpose foam cleaner",
+   "summary": "US foam cleaner 上升关联词 +110%（新出现）；zep foam wall cleaner +60%。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=tuff%20stuff%20multi%20purpose%20foam%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 1,
+   "trend": "up",
+   "need": "一罐泡沫什么都能擦（布艺、车内、墙面）。"
+  },
+  {
+   "id": "kw-global-clorox tilex mold & mildew remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "clorox tilex mold & mildew remover",
+   "summary": "全球 +150%、US +90%；30 seconds mold and mildew stain remover +90%。除霉连续第二个月上升。",
+   "url": "https://trends.google.com/trends/explore?geo=&q=clorox%20tilex%20mold%20%26%20mildew%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 2,
+   "trend": "up",
+   "need": "浴室霉斑，喷了就白。"
+  },
+  {
+   "id": "kw-global-woolite carpet & upholstery foam cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "woolite carpet & upholstery foam cleaner",
+   "summary": "全球 foam cleaner 上升关联词 +90%；dry foam carpet cleaner +40%。",
+   "url": "https://trends.google.com/trends/explore?geo=&q=woolite%20carpet%20%26%20upholstery%20foam%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 3,
+   "trend": "up",
+   "need": "地毯沙发不能水洗，用干泡沫局部清洁。"
+  },
+  {
+   "id": "kw-global-fizz clean toilet cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "fizz clean toilet cleaner",
+   "summary": "US toilet cleaner 上升关联词 +80%（连续第二天）。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=fizz%20clean%20toilet%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 4,
+   "trend": "up",
+   "need": "丢一颗冒泡的马桶清洁，不用刷。"
+  },
+  {
+   "id": "prod-ff-pril-airfryer-kraftspray",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "Pril Airfryer Kraftspray 空气炸锅去油喷 500ml（奥/德）",
+   "summary": "Henkel 旗下 Pril 推空气炸锅专用去油喷，不伤不粘涂层，奥地利 PRODUKT 11 月号列为新品；BIPA €4.49≈RM20.24，Billa Plus 促销 €3.49≈RM15.73（EUR1=RM4.507）。11/18 已报 Meliconi 同类，今天大牌也进场，品类得到验证。",
+   "url": "https://www.bipa.at/p/pril-airfryer-kraftspray/B3-774148",
+   "source": "BIPA",
+   "platform": "BIPA (Austria)",
+   "priceMYR": 20.24,
+   "image": "https://www.bipa.at/on/demandware.static/-/Sites-catalog/de_AT/v1795511143560/original/774148.png",
+   "category": [
+    "厨房",
+    "去油",
+    "家电清洁"
+   ],
+   "idea": "推进点子库「FF 空气炸锅去油泡沫 500ml RM14.90」：卖点写不伤涂层、冷喷免预热；MY 目前少见空气炸锅专用款（搜到 HG 250ml 要 RM159.95，属异常高价）。",
+   "need_keys": [],
+   "tags": [
+    "airfryer",
+    "kitchen",
+    "degreaser",
+    "Henkel",
+    "new"
+   ]
+  },
+  {
+   "id": "prod-ff-needlabo-auto-cleaner",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "니드라보 马桶 Auto Cleaner 免刷泡沫包（韩）",
+   "summary": "一包丢进马桶，柠檬酸+碳酸反应起泡，标称泡沫维持 2–3 小时，主打不用马桶刷、不用洗刷子；4 包 ₩24,800≈RM75.89（每包≈RM18.97，KRW1000=RM3.06），11/20 新闻稿称最高 40% 折扣，已多次补货。",
+   "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1073160",
+   "source": "경상일보",
+   "platform": "Brand store (Korea)",
+   "priceMYR": 75.89,
+   "image": "https://cdn.ksilbo.co.kr/news/photo/202611/1073160_650921_615.jpg",
+   "category": [
+    "马桶",
+    "泡沫",
+    "免刷"
+   ],
+   "idea": "和点子库「FF 马桶爬升泡沫粉袋」同方向，再次验证；MY 可定价每包 RM6.90–9.90，主打『不用碰马桶刷』。",
+   "need_keys": [
+    "fizz clean toilet cleaner"
+   ],
+   "tags": [
+    "toilet",
+    "foam",
+    "fizz",
+    "no-brush",
+    "Korea"
+   ]
+  },
+  {
+   "id": "prod-ff-joon-loo-loo-drops",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "JOON LOO-LOO 马桶香氛滴液 50ml（印度）",
+   "summary": "固体香水品牌跨界做马桶香氛：每次滴几滴进马桶，桉树+苔藓+海洋香，无喷雾罐、符合 IFRA，11/13 发布；Rs.1,800≈RM79.74（INR1=RM0.0443）。把马桶除味从『遮臭』做成『签名香』，定位高价。",
+   "url": "https://www.thejoonshop.com/products/loo-loo-drops",
+   "source": "JOON",
+   "platform": "Brand site (India)",
+   "priceMYR": 79.74,
+   "image": "https://cdn.shopify.com/s/files/1/0659/1584/6856/files/1.png?v=1789369810",
+   "category": [
+    "马桶",
+    "香氛",
+    "除味"
+   ],
+   "idea": "FF 可做 15–20ml 平价马桶香氛滴液，搭泡沫马桶清洁卖套装；见今日新品点子。",
+   "need_keys": [],
+   "tags": [
+    "toilet",
+    "fragrance",
+    "drops",
+    "India",
+    "new"
+   ]
+  },
+  {
+   "id": "note-ff-2026-11-25",
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "title": "今日观察：MY 清洁搜索整体回落",
+   "summary": "MY 大部分清洁词本周下跌（foam cleaner -57%、dishwashing liquid -56%），只有 mold remover +20% 和 kitchen cleaner 从零起量；美国泡沫清洁关联词升向『多用途泡沫/布艺干泡沫』。MY 同行今日搜索没发现新品，无重大变化。",
+   "url": "",
+   "source": "google_trends",
+   "tags": [
+    "note",
+    "MY",
+    "trends"
+   ]
+  }
+ ]
+}

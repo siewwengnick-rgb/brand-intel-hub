@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-23",
+ "built_at_local": "2026-11-23 09:45:00 +0800",
+ "note": "angles fragment only（仅 YouTube；Apify 月额度已超至约 11/25 08:00 MYT，IG/TikTok 等跳过）；本周 1 条 NEW，上周已报的 FF 保持干净/ASMR、OT 鞋垫测评继续走强但未重报。",
+ "items": [
+  {
+   "id": "ot-yearend_most_comfortable",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "OT",
+   "title": "年终「今年最舒服的鞋」：久走久站一双搞定？",
+   "summary": "11/12 新发的「今年走路/跑步/久站最舒服的鞋」单鞋测评 11 天 49 万播放，年终盘点＋舒适诉求正热。",
+   "url": "https://www.youtube.com/watch?v=PApuaPIG9lM",
+   "source": "YouTube",
+   "tags": [
+    "review",
+    "supportive_footwear",
+    "comfort",
+    "year-end",
+    "standing all day"
+   ],
+   "status": "NEW",
+   "hook": "今年穿过最舒服的一双，不是最软的那双。",
+   "hooks": [
+    "今年穿过最舒服的一双，不是最软的那双。",
+    "站一整天下班还想走路？我只换了这一样。",
+    "年底换鞋前，先做这 3 个动作测试。"
+   ],
+   "compliance": "只谈支撑/舒适/穿着感受；不说治疗、矫正、预防疼痛或任何医疗承诺；不点名贬低其他品牌。",
+   "thumb": "https://i.ytimg.com/vi/PApuaPIG9lM/hqdefault.jpg",
+   "why": "11/12 发布，11 天 49 万播放、日均约 4.45 万，是本周 OT 第二名（日均约 4,200）的 10 倍；同类「软鞋≠舒服」参考片 84 万播放佐证。",
+   "trend_element": "年终盘点·今年最舒服",
+   "views": 489522,
+   "views_per_day": 44502,
+   "pattern": "专家/资深穿着者口吻＋「今年最舒服」的结论式标题，一双鞋覆盖走、跑、站三种场景；长测评靠逐项拆结构（鞋底、足弓、后跟）留人。年终和 12.12 前，观众正在找「这一双就够」的答案。",
+   "apply": "OT 可拍：「今年穿过最舒服的一双，不是最软的那双。」——门市同事穿 OPARO/配 Orthotech 鞋垫走一整天，分早上/中午/下班三段讲脚的感受，穿插扭、压、按 3 个测试，30–45 秒竖屏。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "11 天 49 万播放，日均 4.45 万，本周 OT 断层第一。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "一天三段真实穿着＋3 个动作测试，年终盘点口吻。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "今年穿过最舒服的一双，不是最软的那双。"
+    }
+   ]
+  }
+ ]
+}

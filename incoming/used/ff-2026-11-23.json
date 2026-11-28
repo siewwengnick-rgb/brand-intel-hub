@@ -1,0 +1,367 @@
+{
+ "date": "2026-11-23",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-23 09:55:00 +0800",
+ "fx_note": "汇率：INR1=RM0.04436、KRW1=RM0.00306、GBP1=RM5.38886、CNY1=RM0.61384（open.er-api.com 2026-11-23 00:02 UTC = 08:02 马来西亚时间，非 BNM）",
+ "items": [
+  {
+   "id": "kw-cn-马桶免刷清洁剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "马桶免刷清洁剂",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/22)#5：洁柔旗下洁仕嘉 500g×3瓶，67条素材但当天成交仅¥500–1000，大牌刚开投，先观察。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-22.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 1,
+   "trend": "up",
+   "need": "倒进去等一会儿就冲，不用拿刷子刷马桶。"
+  },
+  {
+   "id": "kw-cn-硅胶魔术刮水器",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "硅胶魔术刮水器",
+   "summary": "投放日榜(11/22)#17：宝时洁硅胶地刮，118条素材，¥1w–2.5w / 1000–2500件，当天清洁工具里卖得最好。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-22.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 2,
+   "trend": "up",
+   "need": "浴室地面积水一刮就干，防滑防霉。"
+  },
+  {
+   "id": "kw-cn-静电除尘掸子",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "静电除尘掸子",
+   "summary": "投放日榜(11/22)#9：苏力达可伸缩静电掸，65条素材，¥1w–2.5w / 1000–2500件。年底大扫除高处除尘。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-22.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 3,
+   "trend": "up",
+   "need": "大扫除够得到柜顶、风扇，灰不乱飞。"
+  },
+  {
+   "id": "kw-cn-防串色吸色片",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "防串色吸色片",
+   "summary": "投放日榜(11/22)#2：泉立方吸色片，103条素材，¥1w–2.5w / 250–500件（十周年活动）。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-22.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 4,
+   "trend": "up",
+   "need": "深浅衣服混洗不怕染色，省得分开洗。"
+  },
+  {
+   "id": "kw-cn-香氛固色柔顺剂",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "香氛固色柔顺剂",
+   "summary": "投放日榜(11/22)#13：金纺「上新」120天留香精油型固色柔顺剂，105条素材，¥1w–2.5w。大牌主推香氛+护色。非Google数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-22.html",
+   "source": "chanmama_douyin",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "region": "cn",
+   "rank": 5,
+   "trend": "up",
+   "need": "衣服留香久、不褪色、不皱。"
+  },
+  {
+   "id": "kw-my-detergent",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "detergent",
+   "summary": "MY Google Trends 近7天均值，car wash=100 锚点换算 29.1，环比 -9%。相对指数非人数。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 1,
+   "interest": 29,
+   "trend": "down",
+   "need": "日常洗衣基本盘，搜索主词。"
+  },
+  {
+   "id": "kw-my-dettol",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dettol",
+   "summary": "锚点换算 14.3，环比 -7%。品牌词稳居第二。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=dettol&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 2,
+   "interest": 14,
+   "trend": "down",
+   "need": "找信得过的消毒品牌。"
+  },
+  {
+   "id": "kw-my-dishwashing-liquid",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "dishwashing liquid",
+   "summary": "锚点换算 3.0，环比 +8%，连续第6天上升（低基数）。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 3,
+   "interest": 3,
+   "trend": "up",
+   "need": "年底聚餐多、洗碗量大，想要更省力去油。"
+  },
+  {
+   "id": "kw-my-mold-remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "mold remover",
+   "summary": "锚点换算 1.4，环比 +20%；magiclean 同样 +20%。雨季霉斑需求回升。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=mold%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 4,
+   "interest": 1,
+   "trend": "up",
+   "need": "雨季浴室、墙角发霉，要免刷去霉。"
+  },
+  {
+   "id": "kw-my-toilet-floor-cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "toilet floor cleaner",
+   "summary": "floor cleaner 相关上升词 +60%（近7天）；同期 orita baking soda laundry detergent +140–160%。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20floor%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "region": "my",
+   "rank": 5,
+   "trend": "up",
+   "need": "厕所地面黄渍、尿味，一瓶搞定马桶和地面。"
+  },
+  {
+   "id": "kw-global-active-mold-stain-remover",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "active mold stain remover",
+   "summary": "US/全球 mold remover 上升相关 +150%，gel 版 +70%，连续多日在榜；non toxic mold remover +70%。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=active%20mold%20stain%20remover&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 1,
+   "trend": "up",
+   "need": "硅胶缝发黑，要贴得住、不含氯的去霉产品。"
+  },
+  {
+   "id": "kw-global-clorox-automatic-toilet-bowl-cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "clorox automatic toilet bowl cleaner",
+   "summary": "US toilet cleaner 上升相关 +130%（新）；自动投放型洁厕片/块起量。",
+   "url": "https://trends.google.com/trends/explore?geo=US&q=clorox%20automatic%20toilet%20bowl%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 2,
+   "trend": "up",
+   "need": "不想天天刷马桶，放一块自动清洁。"
+  },
+  {
+   "id": "kw-global-blyss-floor-cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "blyss floor cleaner",
+   "summary": "全球 cleaner 上升相关 +110%（新）。",
+   "url": "https://trends.google.com/trends/explore?geo=&q=blyss%20floor%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 3,
+   "trend": "up",
+   "need": "找新的地板清洁剂品牌。"
+  },
+  {
+   "id": "kw-global-zep-wall-foam-cleaner",
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "title": "zep wall foam cleaner",
+   "summary": "全球 foam cleaner 上升相关 +60%，连续第3次出现；woolite 地毯泡沫 +50%。",
+   "url": "https://trends.google.com/trends/explore?geo=&q=zep%20wall%20foam%20cleaner&date=today%201-m",
+   "source": "google_trends",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "region": "global",
+   "rank": 4,
+   "trend": "up",
+   "need": "墙面、布艺用泡沫局部清洁，不滴水。"
+  },
+  {
+   "id": "prod-ff-dettol-original-foaming-handwash-in",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "Dettol Original 泡沫洗手液 250ml（印度新品）",
+   "summary": "Reckitt 11/13 在印度把招牌 Original 改成泡沫按压瓶，主打儿童搓不够久、泡沫铺满全手；试用价 ₹109≈RM4.84（INR1=RM0.04436）。大牌把泡沫当成升级卖点。",
+   "url": "https://indiantelevision.com/mam/dettol-launches-original-foaming-handwash-promises-10x-better-germ-protection/",
+   "source": "indiantelevision",
+   "platform": "Retail (India)",
+   "priceMYR": 4.84,
+   "image": "https://indiantelevision.com/wp-content/uploads/2026/11/Dettol-1-1000x600.jpg",
+   "category": "洗手",
+   "idea": "FF 儿童泡沫洗手液按压瓶 250ml RM9.90，羊吉祥物瓶身；卖点「一压就是一团泡，小孩自己会洗」",
+   "need_keys": [
+    "foam hand wash",
+    "kids hygiene"
+   ],
+   "tags": [
+    "foam",
+    "handwash",
+    "Dettol",
+    "India",
+    "new"
+   ]
+  },
+  {
+   "id": "prod-ff-yuhan-zero-clear-bath-foam",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "유한락스 Zero&Clear 无氯浴室泡沫喷 750ml（韩）",
+   "summary": "유한클로락스 11/11 推出不含氯的高密度泡沫浴室清洁喷，360°倒喷喷头、柑橘香，与丹麦 Vikan 刷子在 emart 独家组套；750ml 单瓶约 ₩7,100≈RM21.73（KRW1=RM0.00306，比价站价）。",
+   "url": "https://www.newsmap.co.kr/news/articleView.html?idxno=5062",
+   "source": "newsmap",
+   "platform": "emart / Kurly",
+   "priceMYR": 21.73,
+   "image": "https://cdn.newsmap.co.kr/news/photo/202611/5062_7736_5451.jpg",
+   "category": "浴室",
+   "idea": "做 FF 无氯浴室泡沫+缝隙刷组套，卖点「没漂白水味、倒着也能喷」；比 Magiclean 含氯款更适合有小孩/宠物家庭",
+   "need_keys": [
+    "mold remover",
+    "bathroom cleaner",
+    "foam cleaner"
+   ],
+   "tags": [
+    "foam",
+    "bathroom",
+    "chlorine-free",
+    "360 nozzle",
+    "Korea",
+    "bundle"
+   ]
+  },
+  {
+   "id": "prod-ff-domestos-power-foam-aurora-winter",
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "title": "Domestos Power Foam Aurora Blooms Winter 650ml（英季节香）",
+   "summary": "Domestos 浴室泡沫出冬季限定花香版，Tesco 第三方卖家 6 瓶 £38.99，约 £6.50/瓶≈RM35.02（GBP1=RM5.38886）。说明大牌也在用「季节限定香」给泡沫清洁剂换新。",
+   "url": "https://www.tesco.com/shop/en-GB/products/380532432",
+   "source": "Tesco",
+   "platform": "Tesco Marketplace",
+   "priceMYR": 35.02,
+   "image": "https://digitalcontent.api.tesco.com/v2/media/marketplace/c9f67c53-566d-44c1-b7e7-be4c9c3c332a/b50c2d5d5900488b81d05219bbb3ef62_589900338.jpeg",
+   "category": "浴室",
+   "idea": "FF 浴室泡沫出 CNY 限定香（柑橘/年花），同瓶换贴纸，大扫除季冲量",
+   "need_keys": [
+    "bathroom cleaner",
+    "foam cleaner"
+   ],
+   "tags": [
+    "foam",
+    "bathroom",
+    "limited scent",
+    "seasonal",
+    "UK"
+   ]
+  },
+  {
+   "id": "note-ff-2026-11-23",
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "title": "泡沫化扩散到洗碗和洗手",
+   "summary": "Azul K（哥伦比亚）11月推泡沫洗碗液、Dettol 印度推泡沫洗手液；MY dishwashing liquid 搜索连涨6天、mold remover +20%。CN 中国 Google Trends 仍无数据，CN 榜单用蝉妈妈。"
+  }
+ ]
+}

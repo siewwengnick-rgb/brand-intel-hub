@@ -1,0 +1,502 @@
+{
+  "date": "2026-11-19",
+  "brand": "FF",
+  "source": "Foamfresh 雷达",
+  "built_at_local": "2026-11-19 09:50:00 +0800",
+  "items": [
+    {
+      "id": "kw-cn-羽绒服清洁湿巾",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "羽绒服清洁湿巾",
+      "summary": "蝉妈妈抖音日用百货销量周榜(11/9–15)：德佑#2 66,803件/¥84.8万、答菲#3 49,936件，30天转化率30%+。10/30只作关键词，本周实质放量（入冬节点）。非Google数据。",
+      "url": "https://www.chanmama.com/yunyingquan/article/2862.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 1,
+      "trend": "up",
+      "need": "羽绒服/外套局部脏了不想送洗，一擦就干净不留印。"
+    },
+    {
+      "id": "kw-cn-马桶洁厕棒",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "马桶洁厕棒",
+      "summary": "蝉妈妈销量周榜(11/9–15)#4：定制款马桶洁厕棒「拍10发15」41,039件，佣金仅5%但转化30%+。首次出现。非Google数据。",
+      "url": "https://www.chanmama.com/yunyingquan/article/2862.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 2,
+      "trend": "up",
+      "need": "便宜囤货、放进去就长效除垢去味，不用天天刷。"
+    },
+    {
+      "id": "kw-cn-懒人手撕抹布",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "懒人手撕抹布",
+      "summary": "蝉妈妈销量周榜(11/9–15)#5：竹节绒撕拉式抹布 35,810件（55%高佣分销）。可做泡沫喷雾的低价加购品。非Google数据。",
+      "url": "https://www.chanmama.com/yunyingquan/article/2862.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 3,
+      "trend": "up",
+      "need": "大扫除用完就扔，吸水吸油、不用洗抹布。"
+    },
+    {
+      "id": "kw-cn-植物纤维周抛抹布",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "植物纤维周抛抹布",
+      "summary": "蝉妈妈投放日榜(11/17)#13：巴巴爸爸周抛抹布 84条素材，¥5w–10w / 2500–5000件，当天清洁相关成交最高。10/31已作关键词，续热。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-17.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 4,
+      "trend": "up",
+      "need": "厨房抹布一周一换，抑菌不发臭。"
+    },
+    {
+      "id": "kw-cn-母婴香氛泡洗粉",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "母婴香氛泡洗粉",
+      "summary": "蝉妈妈投放日榜(11/18)#12：10斤大桶母婴通用香氛三合一泡洗粉，72条素材，¥1000–2500。11/06已报关键词，续投。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-18.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 5,
+      "trend": "flat",
+      "need": "宝宝衣物泡一泡就干净，温和留香，大桶囤货。"
+    },
+    {
+      "id": "kw-cn-吸油棉条/防油贴纸",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "吸油棉条/防油贴纸",
+      "summary": "蝉妈妈投放日榜(11/18)#8：抽油烟机吸油棉条+防油贴纸，54条素材，¥1w–2.5w / 1000–2500件；11/18已报，连续上榜。非Google数据。",
+      "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-18.html",
+      "source": "chanmama_douyin",
+      "tags": [
+        "trends",
+        "cn",
+        "FF"
+      ],
+      "region": "cn",
+      "rank": 6,
+      "trend": "flat",
+      "need": "年底前先把油烟机、灶台防油做好，省得大扫除。"
+    },
+    {
+      "id": "kw-my-detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "detergent",
+      "summary": "MY Google Trends 近7天 vs 前7天 -10%；相对热度 31.8（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=detergent&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 1,
+      "trend": "down",
+      "need": "日常洗衣剂比价、找促销装。",
+      "interest": 32
+    },
+    {
+      "id": "kw-my-dettol",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dettol",
+      "summary": "MY 近7天 -24%；相对热度 13.1（car wash=100，同批带锚点换算）。相对指数，不是人数。 MR DIY Dettol 1L 买一送 RM8 TnG（至12/14）。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=dettol&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 2,
+      "trend": "down",
+      "need": "找消毒液/促销兑换。",
+      "interest": 13
+    },
+    {
+      "id": "kw-my-dishwashing liquid",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "dishwashing liquid",
+      "summary": "MY 近7天 +40%（连续第2天升，昨+22%）；相对热度 3.5（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=dishwashing%20liquid&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 3,
+      "trend": "up",
+      "need": "年底聚餐多，洗碗精囤货比价。",
+      "interest": 4
+    },
+    {
+      "id": "kw-my-toilet cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "toilet cleaner",
+      "summary": "MY 近7天 +8%；相对热度 3.2（car wash=100，同批带锚点换算）。相对指数，不是人数。 关联 fuugu toilet cleaner +150%。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=toilet%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 4,
+      "trend": "up",
+      "need": "想马桶无黄渍、少刷。",
+      "interest": 3
+    },
+    {
+      "id": "kw-my-pencuci lantai",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "pencuci lantai",
+      "summary": "MY 近7天 +20%；相对热度 1.5（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=pencuci%20lantai&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 5,
+      "trend": "up",
+      "need": "马来语找拖地液，年底/开斋前大扫除。",
+      "interest": 2
+    },
+    {
+      "id": "kw-my-foam cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "foam cleaner",
+      "summary": "MY 近7天 +67%（基数很小）；相对热度 1.2（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=foam%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 6,
+      "trend": "up",
+      "need": "找泡沫型清洁剂（布艺/浴室/车内）。",
+      "interest": 1
+    },
+    {
+      "id": "kw-my-magiclean",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "magiclean",
+      "summary": "MY 近7天 +67%；相对热度 1.2（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=magiclean&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 7,
+      "trend": "up",
+      "need": "搜本地龙头浴室/厨房泡沫品牌。",
+      "interest": 1
+    },
+    {
+      "id": "kw-my-bathroom cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "bathroom cleaner",
+      "summary": "MY 近7天 +200%（基数极小，近7天仅少数日非0）；相对热度 0.7（car wash=100，同批带锚点换算）。相对指数，不是人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=bathroom%20cleaner&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF"
+      ],
+      "region": "my",
+      "rank": 8,
+      "trend": "up",
+      "need": "浴室水垢、黑霉清洁。",
+      "interest": 1
+    },
+    {
+      "id": "kw-my-clorox mold and mildew remover",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "clorox mold and mildew remover",
+      "summary": "MY mold remover 关联上升 +677,100%（首次出现，突破性起量，前值可能接近0）。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=clorox%20mold%20and%20mildew%20remover&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising"
+      ],
+      "region": "my",
+      "rank": 9,
+      "trend": "up",
+      "need": "雨季墙角/浴室发霉，找强效除霉喷雾。"
+    },
+    {
+      "id": "kw-my-orita baking soda laundry detergent",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "orita baking soda laundry detergent",
+      "summary": "MY detergent 关联上升 +18,750%（11/18 仅 +60%，今天实质跳升）；ORITA 小苏打洗衣液 Watsons 1500g RM20.90。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=orita%20baking%20soda%20laundry%20detergent&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising"
+      ],
+      "region": "my",
+      "rank": 10,
+      "trend": "up",
+      "need": "想要去味去渍、无磷温和的平价洗衣液。"
+    },
+    {
+      "id": "kw-my-fuugu toilet cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "fuugu toilet cleaner",
+      "summary": "MY toilet cleaner 关联上升 +150%（11/18 +70%，持续）。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=MY&q=fuugu%20toilet%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "my",
+        "FF",
+        "rising"
+      ],
+      "region": "my",
+      "rank": 11,
+      "trend": "up",
+      "need": "找网红马桶清洁剂、看评价。"
+    },
+    {
+      "id": "kw-global-better life toilet bowl cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "better life toilet bowl cleaner",
+      "summary": "US toilet cleaner 关联上升 +18,200%（首次出现）；Better Life 植物基马桶凝胶，Consumer Reports 2026 马桶清洁剂排名有提及。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=better%20life%20toilet%20bowl%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "us"
+      ],
+      "region": "global",
+      "rank": 1,
+      "trend": "up",
+      "need": "想要无毒/植物基、化粪池安全的马桶清洁。"
+    },
+    {
+      "id": "kw-global-tuff stuff multi purpose foam cleaner",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "tuff stuff multi purpose foam cleaner",
+      "summary": "US foam cleaner 关联 +34,550%、全球 +600%（11/17 曾报 +140%，今天再跳）。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=tuff%20stuff%20multi%20purpose%20foam%20cleaner&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "us",
+        "foam"
+      ],
+      "region": "global",
+      "rank": 2,
+      "trend": "up",
+      "need": "一罐泡沫搞定车内/布艺/厨房的平价多用途泡沫。"
+    },
+    {
+      "id": "kw-global-active mold stain remover gel",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "active mold stain remover gel",
+      "summary": "US mold remover 关联 +150%（active mold stain remover）、凝胶款 +90%，全球 +140%；sugelary 除霉凝胶 +150%。除霉凝胶热度持续。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=active%20mold%20stain%20remover%20gel&date=now%207-d",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "rising",
+        "us",
+        "mold"
+      ],
+      "region": "global",
+      "rank": 3,
+      "trend": "up",
+      "need": "门封、硅胶缝黑霉，涂上就褪不用刷。"
+    },
+    {
+      "id": "kw-global-mop soap",
+      "section": "product",
+      "kind": "keyword",
+      "brand": "FF",
+      "title": "mop soap",
+      "summary": "US 近7天 +15%；相对热度 5.5（laundry detergent=100，同批锚点）。相对指数非人数。",
+      "url": "https://trends.google.com/trends/explore?geo=US&q=mop%20soap&date=today%201-m",
+      "source": "google_trends",
+      "tags": [
+        "trends",
+        "global",
+        "FF",
+        "us"
+      ],
+      "region": "global",
+      "rank": 4,
+      "trend": "up",
+      "need": "找香型拖地液。",
+      "interest": 6
+    },
+    {
+      "id": "prod-ff-needlab-autocleaner",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "NEEDLAB 오토클리너 碳酸泡马桶清洁包 4包（韩）",
+      "summary": "韩国生活品牌 NEEDLAB：1包丢进马桶，柠檬酸+碳酸遇水起泡，泡沫停留2–3小时浸软内壁和圈底水垢，无氯无刷。11/18 补货再卖，4包₩24,800≈RM76.61（KRW1=RM0.003089），约RM19.15/包。主要人群：怕漂白水味、懒得刷马桶的上班族/租房族。和11/18 Splash Foam、US better life +18,200% 同一「免刷马桶」方向。销量/评价未查到。",
+      "url": "https://www.gosiweek.com/article/1065592473756965",
+      "source": "P&P News（韩）",
+      "tags": [
+        "toilet",
+        "foam",
+        "effervescent",
+        "sachet",
+        "korea"
+      ],
+      "platform": "韩国新闻/品牌自营",
+      "priceMYR": 76.61,
+      "image": "https://www.gosiweek.com/news/data/2026/11/18/p1065592473756965_395_thum.jpg",
+      "category": [
+        "马桶",
+        "泡沫",
+        "粉包"
+      ],
+      "idea": "FF 版「马桶碳酸泡泡包」4包 RM12.90（单包约RM3.2，远低于韩版）。成本估算：义乌购/1688 同类马桶发泡粉 100g 约¥0.55–1.8≈RM0.34–1.10/份（搜索摘要，未核实），连盒约RM3–4，毛利约70%。本地竞争：Magiclean 泡泡喷雾 RM19.90/300ml，单次包少见。季节：年底/CNY前大扫除。合规：柠檬酸/小苏打配方容易做清真，KKM/标签自查。1688：发泡清洁粉 OEM，小袋包装起订一般几千袋，打样不难。TikTok：丢一包→泡沫涨满马桶的延时画面。风险：起泡不足就差评（Splash Foam 已有前例），一定先测泡量和挂壁时间。",
+      "need_keys": [
+        "toilet cleaner",
+        "better life toilet bowl cleaner",
+        "马桶洁厕棒"
+      ]
+    },
+    {
+      "id": "prod-ff-deyo-downjacket-wipes",
+      "section": "product",
+      "kind": "product",
+      "brand": "FF",
+      "title": "德佑羽绒服免洗清洁湿巾 8片×10包（中）",
+      "summary": "抖音日用百货销量周榜(11/9–15)#2：周销66,803件、¥84.8万，30天转化30%+（答菲同款#3 49,936件）。免水洗局部去污，不伤羽绒、不留印。京东 11/19 线报 10包¥23.8≈RM14.55（CNY1=RM0.6113），约RM1.46/包。主要人群：冬季穿羽绒服的人；包装称全网累计超1.7亿包。",
+      "url": "https://www.chanmama.com/yunyingquan/article/2862.html",
+      "source": "蝉妈妈",
+      "tags": [
+        "laundry",
+        "wipes",
+        "stain",
+        "china",
+        "douyin"
+      ],
+      "platform": "Douyin / 京东",
+      "priceMYR": 14.55,
+      "image": "https://img14.360buyimg.com/pop/jfs/t1/587584/26/444/773830/6af3feedFd48fbe22/0083320320d6b202.png",
+      "category": [
+        "衣物",
+        "去渍",
+        "湿巾"
+      ],
+      "idea": "MY 用不上羽绒服，可改成「衣领/白鞋/包包免洗去污湿巾」8片×10包 RM12.90，同时打 12 月日韩旅游带的冬衣。成本估算：1688 同类去污湿巾8片小包约¥0.5–0.9≈RM0.31–0.55/包（估算，未查），毛利约60%。本地竞争：Shopee 白鞋湿巾很多但多是杂牌，衣物去污湿巾少。合规：一般清洁湿巾，清真/KKM 自查。1688：湿巾 OEM 厂起订一般几万片，打样容易。TikTok：咖啡洒到衣领，一擦就掉。风险：门槛低、价格战，不是泡沫主线。",
+      "need_keys": [
+        "羽绒服清洁湿巾",
+        "懒人手撕抹布"
+      ]
+    },
+    {
+      "id": "note-ff-2026-11-19",
+      "section": "product",
+      "kind": "note",
+      "brand": "FF",
+      "title": "趋势观察 11/19",
+      "summary": "CN：蝉妈妈 11/18 投放日榜清洁类都是已报品类续投（防油贴、鞋袜除臭、母婴泡洗粉、洗碗巾）；11/9–15 销量周榜是入冬清洁：公仔洗衣粉#1 91,863件、羽绒服湿巾#2/#3、马桶洁厕棒#4、手撕抹布#5、老管家洗衣机爆氧粉#8。11/10–16 投放周榜仍无数据，CN Google Trends 仍空。MY：dishwashing liquid +40%、pencuci lantai +20%、foam cleaner/magiclean +67%（量小）；clorox mold and mildew remover 关联突破、ORITA 小苏打洗衣液关联 +18,750%。同行：MR DIY 买 Dettol 多用途消毒液 1L 送 RM8 TnG（10/15–12/14），Kao MY/ChemicalK/APGO 无新清洁 SKU，ChemicalK 浴室泡沫仍 RM13.90。国外：越南 HASO Power FX 有机酸泡沫浴室清洁剂（11/17，价未查到）、英国 Nothing Fancy 香氛浓缩补充装（11/18，£24.99≈RM135.32/3×20ml+玻璃瓶）——香氛+浓缩补充仍是主线。US 问句「can i use toilet bowl cleaner to clean my shower」+70%，说明马桶+浴室通用有需求。新品点子：FF 衣领/白鞋免洗去污湿巾 8片×10包 RM12.90；马桶碳酸泡泡包 4包 RM12.90 加强。相对指数非人数。",
+      "url": "",
+      "source": "Foamfresh 雷达",
+      "tags": [
+        "note"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-09",
+ "note": "angles fragment only (YouTube only; Apify 月额度用尽，无 IG/TikTok)",
+ "items": [
+  {
+   "id": "ot-supportive_footwear",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "OT",
+   "title": "怎么选一双“有支撑”的鞋",
+   "summary": "买鞋只看好看或软，结果走久了累；不知道支撑、鞋跟稳定、鞋头空间怎么判断。",
+   "url": "https://www.youtube.com/watch?v=5QH5iuVbzrk",
+   "source": "YouTube",
+   "tags": [
+    "comparison",
+    "supportive_footwear"
+   ],
+   "status": "RISING",
+   "hook": "选鞋 3 个动作测试：扭、压、按。",
+   "hooks": [
+    "选鞋 3 个动作测试：扭、压、按。",
+    "越软的鞋不一定越舒服。",
+    "你的鞋，能被轻易扭成麻花吗？"
+   ],
+   "compliance": "只比较鞋的结构和支撑感，不承诺功效；不说治疗矫正。",
+   "thumb": "https://i.ytimg.com/vi/5QH5iuVbzrk/hqdefault.jpg",
+   "why": "YouTube内表现百分位P77→P93，前25%占比53%→100%（n=7）。 参考片播放991958。",
+   "trend_element": "对比测评·清单数字",
+   "pattern": "钩子类型：清单数字、反常识/我错了、提问式。格式：对比测评，分屏/并排对比，同条件测试，15–30秒。",
+   "apply": "OT可拍：「选鞋3个动作：扭、压、按。」——分屏并排对比15–30秒，只比较鞋的结构和支撑感。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "YouTube内表现百分位P77→P93，前25%占比53%→100%（n=7）。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "分屏对比同条件测试，扭/压/按三动作。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "选鞋 3 个动作测试：扭、压、按。"
+    }
+   ],
+   "views": 991958,
+   "views_per_day": 1610
+  },
+  {
+   "id": "ff-kitchen_grease",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "FF",
+   "title": "厨房油污：抽油烟机 / 炉台快速清洁",
+   "summary": "马来西亚家庭常爆炒，油烟机和墙面黏腻难清。",
+   "url": "https://www.youtube.com/watch?v=IEwmXfohjXE",
+   "source": "YouTube",
+   "tags": [
+    "tutorial",
+    "kitchen_grease"
+   ],
+   "status": "RISING",
+   "hook": "你家抽油烟机，上一次清是什么时候？",
+   "hooks": [
+    "你家抽油烟机，上一次清是什么时候？",
+    "厨房去油 3 个不伤手的小方法。",
+    "喷上去等 1 分钟，一擦就……"
+   ],
+   "compliance": "不示范混用不同清洁剂；提示戴手套、通风；按产品标签用途使用。",
+   "thumb": "https://i.ytimg.com/vi/IEwmXfohjXE/hqdefault.jpg",
+   "why": "YouTube内表现P49→P85，前25%占比29%→57%（n=7）。 参考片播放1556530。",
+   "trend_element": "教程·提问式",
+   "pattern": "钩子类型：提问式、清单数字、实测挑战。格式：教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。",
+   "apply": "FF可拍：「你家抽油烟机，上一次清是什么时候？」——步骤字幕30–45秒，单一产品按标签使用。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "YouTube内表现P49→P85，前25%占比29%→57%（n=7）。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "1-2-3步骤字幕，每步一个画面，前后对比收尾。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "你家抽油烟机，上一次清是什么时候？"
+    }
+   ],
+   "views": 1556530,
+   "views_per_day": 2309
+  },
+  {
+   "id": "ff-stain_laundry",
+   "section": "marketing",
+   "kind": "angle",
+   "brand": "FF",
+   "title": "衣物 / 沙发污渍急救",
+   "summary": "咖喱、酱油、口红、奶渍沾上衣服或沙发，不知道先做什么。",
+   "url": "https://www.youtube.com/watch?v=dfJi49umT6U",
+   "source": "YouTube",
+   "tags": [
+    "tutorial",
+    "stain_laundry"
+   ],
+   "status": "RISING",
+   "hook": "污渍急救 3 步口诀。",
+   "hooks": [
+    "污渍急救 3 步口诀。",
+    "咖喱沾到白衣服，第一步千万别做什么？",
+    "3 种常见污渍，同一瓶喷雾实测。"
+   ],
+   "compliance": "先在不显眼处测试；不承诺所有污渍都能去除；不示范混剂。",
+   "thumb": "https://i.ytimg.com/vi/dfJi49umT6U/hqdefault.jpg",
+   "why": "YouTube内表现P70→P84，前25%占比46%→57%（n=7）。 参考片播放5300122。",
+   "trend_element": "教程·污渍急救",
+   "pattern": "钩子类型：清单数字、提问式、实测挑战。格式：教程 / 选购指南，步骤式字幕（1-2-3），每步一个画面，30–45秒。",
+   "apply": "FF可拍：「咖喱沾到白衣服，第一步千万别做什么？」——步骤字幕30–45秒，先小范围测试。",
+   "key_points": [
+    {
+     "head": "为什么红",
+     "body": "YouTube内表现P70→P84，前25%占比46%→57%（n=7）。"
+    },
+    {
+     "head": "怎么拍",
+     "body": "步骤式字幕，污渍→第一步→结果。"
+    },
+    {
+     "head": "开口钩子",
+     "body": "咖喱沾到白衣服，第一步千万别做什么？"
+    }
+   ],
+   "views": 5300122,
+   "views_per_day": 1686
+  }
+ ]
+}

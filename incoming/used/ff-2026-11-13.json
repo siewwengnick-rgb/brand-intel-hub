@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-13",
+ "brand": "FF",
+ "source": "Foamfresh 雷达",
+ "built_at_local": "2026-11-13 09:08:19 +0800",
+ "items": [
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-除霉啫喱",
+   "title": "除霉啫喱",
+   "summary": "蝉妈妈抖音日用百货投放日榜(11/12)，非Google数据（中国 Google Trends 今日仍为空）。第18：沫檬除霉啫喱（厨房/浴室/冰箱胶条，全屋去霉点），44条素材；当日销售额与销量均记为0，更像是投放仍在、成交数据未記入或未起量，不能当成爆款。这是10/22起跟进的门封除霉主线在11.11后的续投信号，不重复作为新品。周榜11/5–11与11/4–10页面仍显示暂无数据。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-12.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 1,
+   "interest": null,
+   "trend": "flat",
+   "need": "浴室门封、冰箱胶圈上的霉斑要涂上去、少流淌，不想反复刷"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-鞋袜除臭喷雾",
+   "title": "鞋袜除臭喷雾",
+   "summary": "蝉妈妈日榜(11/12)，非Google数据。第10：沫檬鞋袜除臭喷雾（银离子，除臭速干），94条素材，是当天清洁相关条目里创意数最高的；销售额¥1w–2.5w，销量250–500件，标价¥29.90≈RM18.24。11/6已作为新品报过（当时可见约¥19.91≈RM12.07），今日只作11.11后仍在投的验证，不重复开产品卡。汇率JPY1=RM0.025525、CNY1=RM0.610129（open.er-api.com 2026-11-13 00:02 UTC，非BNM）。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-12.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 2,
+   "interest": null,
+   "trend": "up",
+   "need": "鞋和袜子容易臭，想喷一下快干、不要弄湿鞋面"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "cn",
+    "FF"
+   ],
+   "id": "kw-cn-香氛清洁泡泡",
+   "title": "香氛清洁泡泡",
+   "summary": "蝉妈妈日榜(11/12)，非Google数据。第20：倩苡香氛清洁泡泡（浴室/玻璃/马桶），37条素材，销售额¥1w–2.5w，销量500–1000件，标价¥19.90≈RM12.14。11/1已报过抖音10月月榜#15（当时约¥13.8≈RM8.38），今日只作续投验证，不重复开产品卡。同榜还有果蔬餐具净#4、吸油棉条#5、溢水孔塞#17、油利除洗碗巾#19，均为已报品类。汇率JPY1=RM0.025525、CNY1=RM0.610129（open.er-api.com 2026-11-13 00:02 UTC，非BNM）。",
+   "url": "https://cy.chanmama.com/open/productRank/19/day/2026-11-12.html",
+   "source": "chanmama_douyin",
+   "region": "cn",
+   "rank": 3,
+   "interest": null,
+   "trend": "flat",
+   "need": "浴室和马桶想喷一层带香的泡沫，看起来好清洁、留下香味"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-detergent",
+   "title": "detergent",
+   "summary": "Google Trends MY，与锚点 car wash 同一组比较才有效（car wash=100，相对指数不是人数）。近7天相对热度27.7，较前7天+7%。同组 disinfectant 3.9(-9%)、air freshener 3.5(-18%)、floor cleaner 3.5(-10%)。相关上升：downy detergent +100%、softlan / dynamo liquid detergent +80%、baby laundry detergent +70%、front load detergent +60%、fab detergent +50%、persil / walch detergent +40%；另有公司名 united detergent industries sdn bhd +44,850%（突破性起量，更像企业名搜索，不作产品信号）。多数其他词曲线末日为0，可能含当天未出全数据。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=detergent",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 1,
+   "interest": 27.7,
+   "trend": "up",
+   "prev_rank": 1,
+   "need": "家庭日常洗衣，大牌液洗和柔顺剂仍是搜索主力"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-kitchen-cleaner",
+   "title": "kitchen cleaner",
+   "summary": "Google Trends MY 自身近7天 vs 前7天 +264%（不与 car wash=100 比，因为不在同一组）。量很小且是稀疏脉冲：近一个月多数为0，近7天只有2天非0（点值52、72），前7天只有1天非0（34），末日为0。这样的百分比不能当成已经很大的需求盘，只说明厨房清洁搜索又出现脉冲，和 CNY 厨房重油主线同向。相关 rising 今日为空。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=kitchen%20cleaner",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 2,
+   "interest": null,
+   "trend": "up",
+   "need": "过年大扫除前，想把油烟机和炉灶的重油清掉"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-foam-cleaner",
+   "title": "foam cleaner",
+   "summary": "Google Trends MY 自身近7天 vs 前7天 +72%（不与 car wash=100 比）。曲线仍然稀疏、量小：近7天4天非0（点值61、54、44、30），前7天2天非0，末日为0。比厨房清洁词更连一些，但不是已经很大的盘。相关 rising 今日为空。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=foam%20cleaner",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 3,
+   "interest": null,
+   "trend": "up",
+   "need": "想用泡沫喷上去挂得住，少刷少溅"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-washing-machine-cleaner",
+   "title": "washing machine cleaner",
+   "summary": "Google Trends MY 自身近7天 vs 前7天 +17%（不与 car wash=100 比）。11/11 自身+39%、11/12 +15%，今天是连续第3天上升，近7天有6天非0，比厨房/泡沫词更稳定。末日为0，可能含当天未出全数据。中国端11/12日榜水卫士洗衣机槽爆氧粉未再出现在前20，但品类需求两边都还在。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=washing%20machine%20cleaner",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 4,
+   "interest": null,
+   "trend": "up",
+   "prev_rank": 3,
+   "need": "洗衣机槽发霉发臭，想定期洗槽"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "my",
+    "FF"
+   ],
+   "id": "kw-my-fabuloso-floor-cleaner",
+   "title": "fabuloso floor cleaner",
+   "summary": "Google Trends MY，floor cleaner 近7天相关上升查询 +444,150%。如此大的百分比通常表示前一期基数接近0，是突破性起量而非已有大盘，相对指数不是人数。Fabuloso 是 Colgate-Palmolive 的浓香彩色地板清洁剂，在菲律宾/拉美更常见。昨天的 pet friendly / bio home floor cleaner 今日相关 rising 未再出现，不重复报；这条说明本地地板清洁搜索仍在动，方向偏香型和色水，不是新品牌公告。",
+   "url": "https://trends.google.com/trends/explore?geo=MY&q=fabuloso%20floor%20cleaner&date=now%207-d",
+   "source": "google_trends",
+   "region": "my",
+   "rank": 5,
+   "interest": null,
+   "trend": "up",
+   "need": "拖地时想要明显的香味和看得见的清洁液颜色"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "id": "kw-global-hg-mold-remover",
+   "title": "hg mold remover",
+   "summary": "Google Trends：美国 mold remover 相关 +900%，全球 +250%。昨天已作为产品卡报过荷兰 HG 除霉泡沫喷雾（含次氯酸钠）；今天搜索热度继续加快，只作为延续信号，不重复开产品卡。美国 mold remover 主词自身近7天+15%，是连续第4天上升（11/11 +14%、11/12 +13%），该词与 laundry detergent 不在同一组，不能按洗衣剂=100 换算。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=now%207-d&geo=US&q=hg%20mold%20remover",
+   "source": "google_trends",
+   "region": "global",
+   "rank": 1,
+   "interest": null,
+   "trend": "up",
+   "need": "垂直墙缝/硅胶条上的黑霉，要喷上去挂得住、少溅少刺鼻"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "id": "kw-global-wall-mold-remover-spray",
+   "title": "wall mold remover spray",
+   "summary": "Google Trends：美国 mold remover 相关 +250%，全球 +250%。昨天全球曾到 +650%，今天仍在上升名单里，但不再是那种接近0基数的超级爆发。同期还有 glass guard mold remover 美国/全球 +200%–250%、alien power +50%、全球 natural mold remover +60%。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=now%207-d&q=wall%20mold%20remover%20spray",
+   "source": "google_trends",
+   "region": "global",
+   "rank": 2,
+   "interest": null,
+   "trend": "up",
+   "need": "墙上和缝里的霉要用喷雾处理，不想打磨或刷很久"
+  },
+  {
+   "section": "product",
+   "kind": "keyword",
+   "brand": "FF",
+   "tags": [
+    "trends",
+    "global",
+    "FF"
+   ],
+   "id": "kw-global-iflo-drain-cleaner",
+   "title": "iflo drain cleaner",
+   "summary": "Google Trends 全球 cleaner 相关 +60%（11/10、11/11 也曾出现 +70%–+110%）。iFLO 是管道/地漏疏通清洁剂方向的搜索，和今天日本新上市的按压喷射管道泡沫、以及进博会茉汰双舱管道泡立通同一需求：不想伸手刷看不见的管道。今日只作搜索信号，未找到可核价且带产品图的新零售页，不开产品卡。相对指数不是人数。",
+   "url": "https://trends.google.com/trends/explore?date=now%207-d&q=iflo%20drain%20cleaner",
+   "source": "google_trends",
+   "region": "global",
+   "rank": 3,
+   "interest": null,
+   "trend": "up",
+   "need": "地漏和管道堵了或有味道，想倒进去等一会儿就通，不要伸手去掏"
+  },
+  {
+   "section": "product",
+   "kind": "product",
+   "brand": "FF",
+   "id": "prod-ff-jp-wowash-drain-foam-jet",
+   "title": "WOWASH 厨房排水管泡喷射流 160ml（日）",
+   "summary": "日本アイメディア（Aimedia）11月上市的 WOWASH「厨房排水管泡喷射流」160ml（约4次用量），PR Times 稿发于2026-11-12 09:00。把罐顶海绵头对准已拆滤网的排水口，垂直按下约1–2秒，碱泡喷进管道，放置约30分钟再冲水。宣称厨房/洗面台/浴室排水管都能用，开口须小于约5cm且盖子可拆。官方店标价¥880≈RM22.46。配方是碱性表面活性剂泡沫，推进剂为LPG气雾剂（可燃，40℃以上有破裂风险），不要和其他清洁剂混用。这是按压喷射的新形态，不是以前报过的疏通粉/啫喱。汇率JPY1=RM0.025525、CNY1=RM0.610129（open.er-api.com 2026-11-13 00:02 UTC，非BNM）。",
+   "url": "https://shop.aimedia.co.jp/shopdetail/000000001148/",
+   "source": "Aimedia / PR Times",
+   "tags": [
+    "FF",
+    "管道",
+    "泡沫",
+    "日本",
+    "气雾剂"
+   ],
+   "platform": "Aimedia 官方店",
+   "priceMYR": 22.46,
+   "image": "https://makeshop-multi-images.akamaized.net/aimedia/itemimages/000000001148_SihC5Bl.jpg",
+   "category": [
+    "管道",
+    "泡沫"
+   ],
+   "need_keys": [
+    "kitchen cleaner",
+    "foam cleaner",
+    "iflo drain cleaner"
+   ],
+   "idea": "今天主点子：FF 做「对准地漏按一下」的管道泡沫，优先泵头/按压慕斯，不要先做 LPG 气雾罐（空运和货架都不友好）。160–200ml 约4次装目标 RM14.90，或 500ml 泵头慕斯 RM16.90。对标 Watsons 可见 Mr Muscle Sink & Drain Declogger 500ml RM16.90（含次氯酸钠/强碱，腐蚀性），以及日本这支官方价¥880≈RM22.46。1688/义乌购可见的是普通管道泡泡慕斯，不是同一套海绵头：Segasan 500ml ¥3.4≈RM2.07、起订240罐（https://www.yiwugo.com/product/detail/987238704.html，页更2026-10-28）；chinagoods 茂协 500ml ¥4.60≈RM2.81、起订240。出厂价不是落地成本，开模喷头和运费关税待采购核算。不要宣称除菌。可与已有小袋疏通粉组成「堵了用粉、日常养护用泡沫」。"
+  },
+  {
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "id": "note-ff-trends-obs-2026-11-13",
+   "title": "热度观察",
+   "url": "https://trends.google.com/trends/explore?date=today%201-m&geo=MY&q=kitchen%20cleaner",
+   "source": "google_trends",
+   "tags": [
+    "note",
+    "trends",
+    "FF"
+   ],
+   "summary": "CN Google Trends 仍空，主榜用蝉妈妈11/12日榜；除霉啫喱、鞋袜除臭喷雾、香氛清洁泡泡都是已报品类的续投，不是新品。MY 与 car wash 同组只有 detergent 27.7(+7%) 微升，disinfectant / air freshener / floor cleaner 小幅回落。kitchen cleaner 自身+264%、foam cleaner 自身+72%，但都是稀疏脉冲、量小，不能当成大盘。washing machine cleaner 自身连续第3天升（+17%）。美国 mold remover 主词自身连续第4天升（+15%），hg mold remover 相关+900%。相对指数不是人数。"
+  },
+  {
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "id": "note-ff-my-competitors-2026-11-13",
+   "title": "马来西亚同行动态",
+   "url": "https://www.watsons.com.my/c/shop-promo-promotion-5",
+   "source": "Watsons / ChemicalK",
+   "tags": [
+    "note",
+    "competitors",
+    "FF"
+   ],
+   "summary": "MY 同行今日无重大新品公告。Lazada 11.11 今天（11/13）结束，Shopee 已于11/12结束。Watsons 11月活动页「Nov'26 - The Season of Giving」仍在，可见 Magiclean 洁厕漂白水柠檬 500ml RM6.93、浴室清洁剂柠檬 500ml 页面价 RM10.07（另标 RM8.61）、Dettol 消毒喷雾 450ml RM24.68、Sunlight 洗洁精 800ml RM7.43、Softlan 补充装 1.6L RM7.19、Glo 洗洁精 800ml RM6.98。ChemicalK 浴室泡沫 500ml 官网页仍显示售罄，标价 RM13.90。Breeze AEON BiG 买大包装送 700g 此前说到11/30，今日未再核到变更。"
+  },
+  {
+   "section": "product",
+   "kind": "note",
+   "brand": "FF",
+   "id": "note-ff-idea-2026-11-13",
+   "title": "新品点子：FF 按压喷射管道泡沫（非气雾剂优先）",
+   "url": "https://prtimes.jp/main/html/rd/p/000000161.000119226.html",
+   "source": "Foamfresh 雷达",
+   "tags": [
+    "note",
+    "idea",
+    "FF"
+   ],
+   "summary": "对标今天核到的日本 WOWASH 厨房排水管泡喷射流（官方店¥880≈RM22.46，海绵头对准地漏按下去，约4次用量），做 FF 管道泡沫：优先泵头或按压慕斯，不要先做 LPG 气雾罐。160–200ml 约4次装目标 RM14.90，或 500ml 泵头慕斯 RM16.90。卖点是不用伸手刷管道，喷/按一下等30分钟再冲水。对标 Watsons Mr Muscle 管道疏通液 500ml RM16.90（腐蚀性含氯/强碱路线，FF 不跟）。成本：义乌购可见管道泡泡慕斯 500ml ¥3.4≈RM2.07、起订240（https://www.yiwugo.com/product/detail/987238704.html，2026-10-28更新），chinagoods 可见 ¥4.60≈RM2.81、起订240——都是普通慕斯罐，不是海绵头气雾剂，出厂价不是落地成本。旁注：茉汰进博会首发双舱管道泡立通+荷衣凝胶「养护2.0」，混合5秒起泡、降低碱浓度，但尚未查到零售价和可打开的产品图，只作配方方向观察，不开产品卡。越南 Hygiene 雨季洗衣套装与昨天 Fineline Indoor Shine 同向，FF 仍不必做大瓶洗衣液。不要宣称除菌。交给采购负责人/找厂研究员。"
+  }
+ ]
+}
